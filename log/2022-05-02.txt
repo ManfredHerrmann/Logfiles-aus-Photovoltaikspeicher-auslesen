@@ -1,0 +1,1473 @@
+2022-05-02 00:00:01 [I|SYS] Serial: S39977261194348553540356920 MCU firmware version: 1990, GUI version 0959
+2022-05-02 00:00:01 [I|SYS] Factory Settings: System type: Home V3 hybrid duo, battery type: Lithium-ion (BMZ) parallel, country: Germany | Settings: battery inverter: SENEC.Inverter V3 LV, power meter: ABB B2x
+2022-05-02 00:00:01 [I|SYS] Inverter Firmware Info: HMI: 3.16.20 PU: 4.3.10 BDC: 5.4.6
+2022-05-02 00:00:01 [I|SYS] BMS Firmware Info: Not available
+2022-05-02 00:00:01 [I|Statistics] Created statistics file 2022-05-02
+2022-05-02 00:01:09 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 2.64 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 00:01:09 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 2.43 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 00:01:09 [I|PV Interface] Inverter INV_LV: AC Voltage = 232.31 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-05-02 00:01:09 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 1.89 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 00:01:09 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 2.18 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 00:01:09 [I|PV Interface] Inverter INV_HV: AC Voltage = 231.38 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-05-02 00:01:28 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-02 00:11:39 [I|SYS|Selftest] Requesting re-test after failed selftest, delay: 120 minutes
+2022-05-02 00:11:39 [I|SYS|Selftest] Initialized
+2022-05-02 00:11:39 [I|SYS|Selftest] display message: Starte Test-Modus (1/6)
+2022-05-02 00:11:39 [I|SYS|Selftest] Enforcing passive mode before switching AC coil
+2022-05-02 00:11:39 [I|Energy Management|State:Off] temporary leave to run selftest
+2022-05-02 00:11:39 OFF: Waking up BMS
+2022-05-02 00:11:39 [I|KILLSWITCH|BMZ] disabled output IO
+2022-05-02 00:11:39 [I|BAT_MODULE_ENABLE_BMZ|BMZ] enabled output IO
+2022-05-02 00:11:39 [I|Energy Management] State: Fernabschaltung -> Selbsttest
+2022-05-02 00:11:44 [I|SYS|Selftest] Forced passive mode entered
+2022-05-02 00:11:44 [I|SYS|Selftest] display message: Batterie- sicherheit (2/6)
+2022-05-02 00:11:44 [I|SYS|Selftest] Checking if BMZ faultline test is running
+2022-05-02 00:11:44 [I|SYS|Selftest] BMZ faultline test running
+2022-05-02 00:11:53 [I|SYS|Selftest] BMZ faultline test finished
+2022-05-02 00:11:53 [I|SYS|Selftest] BMZ wait to get ready
+2022-05-02 00:11:53 [I|BMZ] Faultline resumed normal mode.
+2022-05-02 00:12:00 [I|BMZ] Module #A module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 00:12:00 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3439] [ ][3437] [ ][3437] [ ][3434] [ ][3437] [ ][3438] [ ][3438] [ ][3438] [ ][3439] [ ][3439] [ ][3439] [ ][3440] [ ][3439] [ ][3442] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 26-26C Voltage: 48.136V 
+2022-05-02 00:12:00 [I|BMZ] Module #A [Temp]: [26][26][26][26][26][26]
+2022-05-02 00:12:03 [I|BMZ] Module #B module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 00:12:05 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3438] [ ][3439] [ ][3435] [ ][3434] [ ][3438] [ ][3438] [ ][3438] [ ][3438] [ ][3439] [ ][3439] [ ][3439] [ ][3439] [ ][3439] [ ][3439] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 25-26C Voltage: 48.132V 
+2022-05-02 00:12:05 [I|BMZ] Module #B [Temp]: [25][25][25][25][26][25]
+2022-05-02 00:12:06 [I|BMZ] Module #C module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 00:12:06 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3440] [ ][3439] [ ][3439] [ ][3438] [ ][3440] [ ][3438] [ ][3439] [ ][3433] [ ][3437] [ ][3438] [ ][3438] [ ][3438] [ ][3440] [ ][3439] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 24-25C Voltage: 48.136V 
+2022-05-02 00:12:06 [I|BMZ] Module #C [Temp]: [24][25][24][25][25][25]
+2022-05-02 00:12:09 [I|BMZ] 4 modules working as expected
+2022-05-02 00:12:09 [I|BMZ] Module #D module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 00:12:09 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3438] [ ][3437] [ ][3438] [ ][3439] [ ][3439] [ ][3439] [ ][3439] [ ][3436] [ ][3440] [ ][3440] [ ][3440] [ ][3439] [ ][3439] [ ][3439] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 25-25C Voltage: 48.142V 
+2022-05-02 00:12:09 [I|BMZ] Module #D [Temp]: [25][25][25][25][25][25]
+2022-05-02 00:12:09 [I|BMZ] Faultline test started.
+2022-05-02 00:12:10 [I|BMZ] Module #A faultline state change:  [Faultline pulled]
+2022-05-02 00:12:11 [I|BMZ] Module #A faultline state change:  inactive
+2022-05-02 00:12:12 [I|BMZ] Module #A module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 00:12:13 [I|BMZ] Module #B faultline state change:  [Faultline pulled]
+2022-05-02 00:12:14 [I|BMZ] Module #B faultline state change:  inactive
+2022-05-02 00:12:15 [I|BMZ] Module #B module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 00:12:16 [I|BMZ] Module #C faultline state change:  [Faultline pulled]
+2022-05-02 00:12:16 [I|BMZ] Module #C faultline state change:  inactive
+2022-05-02 00:12:18 [I|BMZ] Module #C module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 00:12:18 [I|BMZ] Module #D faultline state change:  [Faultline pulled]
+2022-05-02 00:12:19 [I|BMZ] Module #D faultline state change:  inactive
+2022-05-02 00:12:19 [I|BMZ|Ready] Communication initialization complete.
+2022-05-02 00:12:19 [I|BMZ] Module #A Serial: 43006224 FW: 30134 Type: 30012
+2022-05-02 00:12:19 [I|BMZ] Module #B Serial: 43006208 FW: 30134 Type: 30012
+2022-05-02 00:12:19 [I|BMZ] Module #C Serial: 40006774 FW: 30134 Type: 30012
+2022-05-02 00:12:19 [I|BMZ] Module #D Serial: 43010127 FW: 30134 Type: 30012
+2022-05-02 00:12:19 [I|SYS|Selftest] BMS ready for operation
+2022-05-02 00:12:19 [I|SYS|Selftest] display message: BWR Kommuni-kation (4/6)
+2022-05-02 00:12:19 [I|SYS|Selftest] Inverter: Check inverter communication
+2022-05-02 00:12:19 [I|SYS|Selftest] Inverter: Communication check successful
+2022-05-02 00:12:19 [I|SYS|Selftest] Start dc coil tests.
+2022-05-02 00:12:19 [I|SYS|Selftest] display message: Test DC-Schuetz (5/6)
+2022-05-02 00:12:20 [I|INV_LV] Reset triggered
+2022-05-02 00:12:21 [I|BMZ] Module #D module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 00:12:21 [I|BMZ] Faultline test passed by all modules.
+2022-05-02 00:12:25 [I|INV_LV] Reset time for state change logging
+2022-05-02 00:12:27 [I|INV_LV] date and time updated
+2022-05-02 00:12:28 [I|INV_LV] Gridcode correct (4901)
+2022-05-02 00:12:34 [I|INV_LV] Serial is 767272GF008074270001
+2022-05-02 00:12:35 [I|INV_LV] Nominal Power: 4600W
+2022-05-02 00:12:35 [I|INV_LV] DC measurements taken
+2022-05-02 00:12:38 [I|INV_LV] Event Disappeared: HWprotect_OV_HV1
+2022-05-02 00:12:39 OFF: Switching on inverter
+2022-05-02 00:12:39 [I|INV_LV] Enabled Batteries and reset DC measurements
+2022-05-02 00:12:39 [I|INV_LV] Disabled Batteries and reset DC measurements
+2022-05-02 00:12:39 [I|INV_LV] State change logging enabled.
+2022-05-02 00:12:39 [I|INV_LV] Energysource transferred: Battery: 0 PV: 1 Island: 0
+2022-05-02 00:12:41 [I|INV_LV] DC measurements taken
+2022-05-02 00:21:21 [I|BAT Interface] Battery temp: 24.00 to 26.00 °C, case temp: 26.80 °C
+2022-05-02 00:21:21 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-02 00:27:29 [I|INV_LV] State change logging disabled.
+2022-05-02 00:41:39 [W|Energy Management|State:Selftest] Leaving selftest because of timeout in state off.
+2022-05-02 00:41:39 [I|Energy Management] State: Selbsttest -> Fernabschaltung
+2022-05-02 00:41:39 OFF: Sending passive request
+2022-05-02 00:41:49 OFF: Switching off Inverter
+2022-05-02 00:41:54 OFF: Sending BMS shutdown command
+2022-05-02 00:41:54 [I|BMZ] Shutdown started.
+2022-05-02 00:41:54 [I|Remanent Data] Last BMS disable saved: 2022-05-02 00:41:54 
+2022-05-02 00:41:54 [I|KILLSWITCH|BMZ] enabled output IO
+2022-05-02 00:41:54 [I|BAT_MODULE_ENABLE_BMZ|BMZ] disabled output IO
+2022-05-02 00:51:22 [I|BAT Interface] Battery temp not available, Case temp: 26.99 °C
+2022-05-02 00:51:22 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-02 01:21:22 [I|BAT Interface] Battery temp not available, Case temp: 26.65 °C
+2022-05-02 01:21:22 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-02 01:51:22 [I|BAT Interface] Battery temp not available, Case temp: 26.51 °C
+2022-05-02 01:51:22 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-02 02:01:10 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 3.68 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 02:01:10 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 3.09 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 02:01:10 [I|PV Interface] Inverter INV_LV: AC Voltage = 231.77 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-05-02 02:01:10 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 2.70 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 02:01:10 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 2.38 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 02:01:10 [I|PV Interface] Inverter INV_HV: AC Voltage = 230.88 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-05-02 02:01:30 [I|BAT Interface] Inverter INV_LV: Battery Voltage = -0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-02 02:21:22 [I|BAT Interface] Battery temp not available, Case temp: 26.56 °C
+2022-05-02 02:21:22 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-02 02:22:20 [I|SYS|Selftest] display message: Fehler DC-Schuetz
+2022-05-02 02:22:20 [W|SYS|Selftest] DC coil error (timeout)
+2022-05-02 02:51:22 [I|BAT Interface] Battery temp not available, Case temp: 26.39 °C
+2022-05-02 02:51:22 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-02 03:21:23 [I|BAT Interface] Battery temp not available, Case temp: 26.37 °C
+2022-05-02 03:21:23 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-02 03:22:20 [I|SYS|Selftest] Requesting re-test after failed selftest, delay: 60 minutes
+2022-05-02 03:22:20 [I|SYS|Selftest] Initialized
+2022-05-02 03:22:20 [I|SYS|Selftest] display message: Starte Test-Modus (1/6)
+2022-05-02 03:22:20 [I|SYS|Selftest] Enforcing passive mode before switching AC coil
+2022-05-02 03:22:20 [I|Energy Management|State:Off] temporary leave to run selftest
+2022-05-02 03:22:20 OFF: Waking up BMS
+2022-05-02 03:22:20 [I|KILLSWITCH|BMZ] disabled output IO
+2022-05-02 03:22:20 [I|BAT_MODULE_ENABLE_BMZ|BMZ] enabled output IO
+2022-05-02 03:22:20 [I|Energy Management] State: Fernabschaltung -> Selbsttest
+2022-05-02 03:22:25 [I|SYS|Selftest] Forced passive mode entered
+2022-05-02 03:22:25 [I|SYS|Selftest] display message: Batterie- sicherheit (2/6)
+2022-05-02 03:22:25 [I|SYS|Selftest] Checking if BMZ faultline test is running
+2022-05-02 03:22:25 [I|SYS|Selftest] BMZ faultline test running
+2022-05-02 03:22:34 [I|SYS|Selftest] BMZ faultline test finished
+2022-05-02 03:22:34 [I|SYS|Selftest] BMZ wait to get ready
+2022-05-02 03:22:34 [I|BMZ] Faultline resumed normal mode.
+2022-05-02 03:22:41 [I|BMZ] Module #A module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 03:22:43 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3439] [ ][3436] [ ][3437] [ ][3434] [ ][3437] [ ][3437] [ ][3438] [ ][3437] [ ][3439] [ ][3439] [ ][3439] [ ][3440] [ ][3438] [ ][3442] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 25-26C Voltage: 48.132V 
+2022-05-02 03:22:43 [I|BMZ] Module #A [Temp]: [25][25][25][25][26][25]
+2022-05-02 03:22:44 [I|BMZ] Module #B module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 03:22:44 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3437] [ ][3438] [ ][3435] [ ][3434] [ ][3437] [ ][3438] [ ][3437] [ ][3437] [ ][3438] [ ][3439] [ ][3439] [ ][3439] [ ][3438] [ ][3438] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 25-25C Voltage: 48.124V 
+2022-05-02 03:22:44 [I|BMZ] Module #B [Temp]: [25][25][25][25][25][25]
+2022-05-02 03:22:47 [I|BMZ] Module #C module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 03:22:47 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3440] [ ][3438] [ ][3439] [ ][3437] [ ][3439] [ ][3438] [ ][3439] [ ][3433] [ ][3437] [ ][3438] [ ][3438] [ ][3438] [ ][3439] [ ][3439] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 24-24C Voltage: 48.132V 
+2022-05-02 03:22:47 [I|BMZ] Module #C [Temp]: [24][24][24][24][24][24]
+2022-05-02 03:22:50 [I|BMZ] 4 modules working as expected
+2022-05-02 03:22:50 [I|BMZ] Module #D module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 03:22:50 [I|BMZ] Faultline test started.
+2022-05-02 03:22:50 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3438] [ ][3437] [ ][3438] [ ][3438] [ ][3439] [ ][3438] [ ][3438] [ ][3436] [ ][3439] [ ][3439] [ ][3440] [ ][3439] [ ][3438] [ ][3440] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 25-25C Voltage: 48.137V 
+2022-05-02 03:22:50 [I|BMZ] Module #D [Temp]: [25][25][25][25][25][25]
+2022-05-02 03:22:51 [I|BMZ] Module #A faultline state change:  [Faultline pulled]
+2022-05-02 03:22:52 [I|BMZ] Module #A faultline state change:  inactive
+2022-05-02 03:22:53 [I|BMZ] Module #A module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 03:22:54 [I|BMZ] Module #B faultline state change:  [Faultline pulled]
+2022-05-02 03:22:55 [I|BMZ] Module #B faultline state change:  inactive
+2022-05-02 03:22:56 [I|BMZ] Module #B module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 03:22:57 [I|BMZ] Module #C faultline state change:  [Faultline pulled]
+2022-05-02 03:22:57 [I|BMZ] Module #C faultline state change:  inactive
+2022-05-02 03:22:59 [I|BMZ] Module #C module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 03:23:00 [I|BMZ] Module #D faultline state change:  [Faultline pulled]
+2022-05-02 03:23:00 [I|BMZ] Module #D faultline state change:  inactive
+2022-05-02 03:23:00 [I|BMZ|Ready] Communication initialization complete.
+2022-05-02 03:23:00 [I|BMZ] Module #A Serial: 43006224 FW: 30134 Type: 30012
+2022-05-02 03:23:00 [I|BMZ] Module #B Serial: 43006208 FW: 30134 Type: 30012
+2022-05-02 03:23:00 [I|BMZ] Module #C Serial: 40006774 FW: 30134 Type: 30012
+2022-05-02 03:23:00 [I|BMZ] Module #D Serial: 43010127 FW: 30134 Type: 30012
+2022-05-02 03:23:00 [I|SYS|Selftest] BMS ready for operation
+2022-05-02 03:23:00 [I|SYS|Selftest] display message: BWR Kommuni-kation (4/6)
+2022-05-02 03:23:00 [I|SYS|Selftest] Inverter: Check inverter communication
+2022-05-02 03:23:00 [I|SYS|Selftest] Inverter: Communication check successful
+2022-05-02 03:23:00 [I|SYS|Selftest] Start dc coil tests.
+2022-05-02 03:23:00 [I|SYS|Selftest] display message: Test DC-Schuetz (5/6)
+2022-05-02 03:23:02 [I|BMZ] Module #D module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 03:23:02 [I|BMZ] Faultline test passed by all modules.
+2022-05-02 03:23:02 [I|INV_LV] Reset triggered
+2022-05-02 03:23:07 [I|INV_LV] Reset time for state change logging
+2022-05-02 03:23:11 [I|INV_LV] date and time updated
+2022-05-02 03:23:11 [I|INV_LV] Gridcode correct (4901)
+2022-05-02 03:23:17 [I|INV_LV] Serial is 767272GF008074270001
+2022-05-02 03:23:17 [I|INV_LV] Nominal Power: 4600W
+2022-05-02 03:23:18 [I|INV_LV] DC measurements taken
+2022-05-02 03:23:18 [I|INV_LV] State change logging enabled.
+2022-05-02 03:23:20 OFF: Switching on inverter
+2022-05-02 03:23:20 [I|INV_LV] Enabled Batteries and reset DC measurements
+2022-05-02 03:23:20 [I|INV_LV] Disabled Batteries and reset DC measurements
+2022-05-02 03:23:21 [I|INV_LV] Energysource transferred: Battery: 0 PV: 1 Island: 0
+2022-05-02 03:23:21 [I|INV_LV] DC measurements taken
+2022-05-02 03:25:36 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:25:36 [I|INV_LV] BDC Event #0: Time: 2022-05-02 00:12:35 Event: StillNotStartedNoError, BDC_is_not_Running, HWprotect_DISABLE_1, I_bat_discharge_max_too_low_for_Startup, Standby_0W, 
+2022-05-02 03:25:36 [I|INV_LV] Eventcode: 80008000 00000100 01800000
+2022-05-02 03:25:36 [I|INV_LV] Startupstate Sleep  -> StartHighSidePwm  
+2022-05-02 03:25:43 [I|INV_LV] Startupstate StartHighSidePwm  -> GetAcOffset  
+2022-05-02 03:25:51 [I|INV_LV] Startupstate GetAcOffset  -> CheckStrings  
+2022-05-02 03:25:58 [I|INV_LV] Startupstate CheckStrings  -> EstablishLink  
+2022-05-02 03:26:27 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:26:27 [I|INV_LV] Startupstate EstablishLink  -> Sleep  
+2022-05-02 03:26:42 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:26:42 [I|INV_LV] Startupstate Sleep  -> GetAcOffset  
+2022-05-02 03:26:49 [I|INV_LV] Startupstate GetAcOffset  -> CheckStrings  
+2022-05-02 03:26:56 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:26:56 [I|INV_LV] Startupstate CheckStrings  -> Sleep  
+2022-05-02 03:27:11 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:27:11 [I|INV_LV] Startupstate Sleep  -> GetAcOffset  
+2022-05-02 03:27:18 [I|INV_LV] Startupstate GetAcOffset  -> CheckStrings  
+2022-05-02 03:27:25 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:27:25 [I|INV_LV] Startupstate CheckStrings  -> Sleep  
+2022-05-02 03:27:33 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:27:33 [I|INV_LV] Startupstate Sleep  -> CheckIslanding  
+2022-05-02 03:27:40 [I|INV_LV] Startupstate CheckIslanding  -> TestRcd  
+2022-05-02 03:27:47 [I|INV_LV] Startupstate TestRcd  -> CheckStrings  
+2022-05-02 03:27:55 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:27:55 [I|INV_LV] Startupstate CheckStrings  -> Sleep  
+2022-05-02 03:28:02 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:28:02 [I|INV_LV] Startupstate Sleep  -> GetAcOffset  
+2022-05-02 03:28:09 [I|INV_LV] Startupstate GetAcOffset  -> CheckStrings  
+2022-05-02 03:28:16 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:28:16 [I|INV_LV] Startupstate CheckStrings  -> Sleep  
+2022-05-02 03:28:32 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:28:32 [I|INV_LV] Startupstate Sleep  -> GetAcOffset  
+2022-05-02 03:28:39 [I|INV_LV] Startupstate GetAcOffset  -> CheckStrings  
+2022-05-02 03:28:53 [I|INV_LV] Startupstate CheckStrings  -> EstablishLink  
+2022-05-02 03:29:22 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:29:22 [I|INV_LV] Startupstate EstablishLink  -> Sleep  
+2022-05-02 03:29:29 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:29:29 [I|INV_LV] Startupstate Sleep  -> CheckIslanding  
+2022-05-02 03:29:37 [I|INV_LV] Startupstate CheckIslanding  -> TestRcd  
+2022-05-02 03:29:44 [I|INV_LV] Startupstate TestRcd  -> CheckStrings  
+2022-05-02 03:29:52 [I|INV_LV] Startupstate CheckStrings  -> EstablishLink  
+2022-05-02 03:30:21 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:30:21 [I|INV_LV] Startupstate EstablishLink  -> Sleep  
+2022-05-02 03:30:36 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:30:36 [I|INV_LV] Startupstate Sleep  -> GetAcOffset  
+2022-05-02 03:30:43 [I|INV_LV] Startupstate GetAcOffset  -> CheckStrings  
+2022-05-02 03:30:58 [I|INV_LV] Startupstate CheckStrings  -> EstablishLink  
+2022-05-02 03:31:27 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:31:27 [I|INV_LV] Startupstate EstablishLink  -> Sleep  
+2022-05-02 03:31:34 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:31:34 [I|INV_LV] Startupstate Sleep  -> GetAcOffset  
+2022-05-02 03:31:48 [I|INV_LV] Startupstate GetAcOffset  -> CheckStrings  
+2022-05-02 03:31:55 [I|INV_LV] Startupstate CheckStrings  -> EstablishLink  
+2022-05-02 03:32:24 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:32:24 [I|INV_LV] Startupstate EstablishLink  -> Sleep  
+2022-05-02 03:32:39 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:32:39 [I|INV_LV] Startupstate Sleep  -> GetAcOffset  
+2022-05-02 03:32:46 [I|INV_LV] Startupstate GetAcOffset  -> CheckStrings  
+2022-05-02 03:33:01 [I|INV_LV] Startupstate CheckStrings  -> EstablishLink  
+2022-05-02 03:33:30 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:33:30 [I|INV_LV] Startupstate EstablishLink  -> Sleep  
+2022-05-02 03:33:37 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:33:37 [I|INV_LV] Startupstate Sleep  -> DegaussRCD  
+2022-05-02 03:33:44 [I|INV_LV] Startupstate DegaussRCD  -> SwitchOnDcRelais  
+2022-05-02 03:33:52 [I|INV_LV] Startupstate SwitchOnDcRelais  -> CheckStrings  
+2022-05-02 03:34:06 [I|INV_LV] Startupstate CheckStrings  -> EstablishLink  
+2022-05-02 03:34:36 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:34:36 [I|INV_LV] Startupstate EstablishLink  -> Sleep  
+2022-05-02 03:34:43 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:34:43 [I|INV_LV] Startupstate Sleep  -> CheckIslanding  
+2022-05-02 03:34:50 [I|INV_LV] Startupstate CheckIslanding  -> TestRcd  
+2022-05-02 03:34:58 [I|INV_LV] Startupstate TestRcd  -> CheckStrings  
+2022-05-02 03:35:12 [I|INV_LV] Startupstate CheckStrings  -> EstablishLink  
+2022-05-02 03:35:41 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:35:41 [I|INV_LV] Startupstate EstablishLink  -> Sleep  
+2022-05-02 03:35:49 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:35:49 [I|INV_LV] Startupstate Sleep  -> StartHighSidePwm  
+2022-05-02 03:36:04 [I|INV_LV] Startupstate StartHighSidePwm  -> CheckStrings  
+2022-05-02 03:36:18 [I|INV_LV] Startupstate CheckStrings  -> EstablishLink  
+2022-05-02 03:36:48 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:36:48 [I|INV_LV] Startupstate EstablishLink  -> Sleep  
+2022-05-02 03:37:02 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:37:02 [I|INV_LV] Startupstate Sleep  -> GetAcOffset  
+2022-05-02 03:37:09 [I|INV_LV] Startupstate GetAcOffset  -> CheckStrings  
+2022-05-02 03:37:25 [I|INV_LV] Startupstate CheckStrings  -> EstablishLink  
+2022-05-02 03:37:54 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:37:54 [I|INV_LV] Startupstate EstablishLink  -> Sleep  
+2022-05-02 03:38:09 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:38:09 [I|INV_LV] State change logging disabled.
+2022-05-02 03:39:07 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:39:15 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:40:13 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:40:20 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:41:18 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:41:25 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:42:23 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:42:38 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:43:36 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:43:43 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:44:42 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:44:49 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:45:48 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:46:03 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:46:54 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:47:09 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:48:08 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:48:15 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:49:13 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:49:21 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:50:21 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:50:27 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:51:23 [I|BAT Interface] Battery temp: 24.00 to 26.00 °C, case temp: 27.25 °C
+2022-05-02 03:51:23 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-02 03:51:26 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:51:40 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:52:20 [W|Energy Management|State:Selftest] Leaving selftest because of timeout in state off.
+2022-05-02 03:52:21 [I|Energy Management] State: Selbsttest -> Fernabschaltung
+2022-05-02 03:52:21 OFF: Sending passive request
+2022-05-02 03:52:31 OFF: Switching off Inverter
+2022-05-02 03:52:36 OFF: Sending BMS shutdown command
+2022-05-02 03:52:36 [I|BMZ] Shutdown started.
+2022-05-02 03:52:36 [I|Remanent Data] Last BMS disable saved: 2022-05-02 03:52:36 
+2022-05-02 03:52:36 [I|KILLSWITCH|BMZ] enabled output IO
+2022-05-02 03:52:36 [I|BAT_MODULE_ENABLE_BMZ|BMZ] disabled output IO
+2022-05-02 03:52:39 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:52:47 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:53:45 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:53:52 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:54:50 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:55:04 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:55:55 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:56:09 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:57:07 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:57:14 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:58:12 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:58:26 [I|INV_LV] Gridconnection state: startup
+2022-05-02 03:59:25 [I|INV_LV] Gridconnection state: standby
+2022-05-02 03:59:32 [I|INV_LV] Gridconnection state: startup
+2022-05-02 04:00:28 [I|INV_LV] Gridconnection state: standby
+2022-05-02 04:00:36 [I|INV_LV] Gridconnection state: startup
+2022-05-02 04:01:10 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 537.60 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 04:01:10 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 260.72 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 04:01:10 [I|PV Interface] Inverter INV_LV: AC Voltage = 225.30 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-05-02 04:01:10 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 427.68 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 04:01:10 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 82.70 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 04:01:10 [I|PV Interface] Inverter INV_HV: AC Voltage = 226.34 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-05-02 04:01:30 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-02 04:01:34 [I|INV_LV] Gridconnection state: standby
+2022-05-02 04:01:48 [I|INV_LV] Gridconnection state: startup
+2022-05-02 04:02:46 [I|INV_LV] Gridconnection state: standby
+2022-05-02 04:02:53 [I|INV_LV] Gridconnection state: startup
+2022-05-02 04:03:50 [I|INV_HV] Insulation resistance: 0 Ohm.
+2022-05-02 04:05:16 [I|INV_LV] Insulation resistance: 10000000 Ohm.
+2022-05-02 04:05:18 [I|INV_HV] Insulation resistance: 10000000 Ohm.
+2022-05-02 04:06:55 [I|INV_LV] Gridconnection state: connected
+2022-05-02 04:06:55 [I|INV_LV] Inverter is connected to grid.
+2022-05-02 04:07:35 [I|INV_HV] Inverter is connected to grid.
+2022-05-02 04:21:23 [I|BAT Interface] Battery temp not available, Case temp: 28.67 °C
+2022-05-02 04:21:23 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[73.2W] INV_HV:[67.6W] Total production: 140.8W current feed-in limit: 100.00 %
+2022-05-02 04:28:02 Logfile: Upload to server...
+2022-05-02 04:51:23 [I|BAT Interface] Battery temp not available, Case temp: 31.35 °C
+2022-05-02 04:51:23 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[112.9W] INV_HV:[101.4W] Total production: 214.3W current feed-in limit: 100.00 %
+2022-05-02 05:21:23 [I|BAT Interface] Battery temp not available, Case temp: 33.03 °C
+2022-05-02 05:21:23 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[309.5W] INV_HV:[232.5W] Total production: 542.0W current feed-in limit: 100.00 %
+2022-05-02 05:33:01 [I|SYS|Selftest] display message: Fehler DC-Schuetz
+2022-05-02 05:33:01 [W|SYS|Selftest] DC coil error (timeout)
+2022-05-02 05:51:23 [I|BAT Interface] Battery temp not available, Case temp: 33.91 °C
+2022-05-02 05:51:23 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[2214.7W] INV_HV:[250.6W] Total production: 2465.3W current feed-in limit: 100.00 %
+2022-05-02 06:01:11 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 519.18 V, PV Current = 5.06 A, PV Power = 2626.49 W
+2022-05-02 06:01:11 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 253.99 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 06:01:11 [I|PV Interface] Inverter INV_LV: AC Voltage = 232.07 V, AC Current = 11.08 A, AC Power = 2576.50 W, AC Apparent Power = 2575.28 VA, AC Reactive Power = 0.00 var
+2022-05-02 06:01:11 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 410.42 V, PV Current = 0.65 A, PV Power = 266.59 W
+2022-05-02 06:01:11 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 202.98 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 06:01:11 [I|PV Interface] Inverter INV_HV: AC Voltage = 227.43 V, AC Current = 1.15 A, AC Power = 245.84 W, AC Apparent Power = 250.29 VA, AC Reactive Power = 46.98 var
+2022-05-02 06:01:32 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-02 06:21:24 [I|BAT Interface] Battery temp not available, Case temp: 30.64 °C
+2022-05-02 06:21:24 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[2956.7W] INV_HV:[300.2W] Total production: 3256.9W current feed-in limit: 100.00 %
+2022-05-02 06:51:24 [I|BAT Interface] Battery temp not available, Case temp: 31.20 °C
+2022-05-02 06:51:24 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[3304.4W] INV_HV:[345.3W] Total production: 3649.6W current feed-in limit: 100.00 %
+2022-05-02 07:21:24 [I|BAT Interface] Battery temp not available, Case temp: 34.38 °C
+2022-05-02 07:21:24 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[1650.7W] INV_HV:[619.6W] Total production: 2270.4W current feed-in limit: 100.00 %
+2022-05-02 07:33:01 [I|SYS|Selftest] Requesting re-test after failed selftest, delay: 120 minutes
+2022-05-02 07:33:01 [I|SYS|Selftest] Initialized
+2022-05-02 07:33:01 [I|SYS|Selftest] display message: Starte Test-Modus (1/6)
+2022-05-02 07:33:01 [I|SYS|Selftest] Enforcing passive mode before switching AC coil
+2022-05-02 07:33:01 [I|Energy Management|State:Off] temporary leave to run selftest
+2022-05-02 07:33:01 OFF: Waking up BMS
+2022-05-02 07:33:01 [I|KILLSWITCH|BMZ] disabled output IO
+2022-05-02 07:33:02 [I|BAT_MODULE_ENABLE_BMZ|BMZ] enabled output IO
+2022-05-02 07:33:02 [I|Energy Management] State: Fernabschaltung -> Selbsttest
+2022-05-02 07:33:07 [I|SYS|Selftest] Forced passive mode entered
+2022-05-02 07:33:07 [I|SYS|Selftest] display message: Batterie- sicherheit (2/6)
+2022-05-02 07:33:07 [I|SYS|Selftest] Checking if BMZ faultline test is running
+2022-05-02 07:33:07 [I|SYS|Selftest] BMZ faultline test running
+2022-05-02 07:33:16 [I|SYS|Selftest] BMZ faultline test finished
+2022-05-02 07:33:16 [I|SYS|Selftest] BMZ wait to get ready
+2022-05-02 07:33:16 [I|BMZ] Faultline resumed normal mode.
+2022-05-02 07:33:23 [I|BMZ] Module #A module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 07:33:23 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3438] [ ][3436] [ ][3436] [ ][3434] [ ][3437] [ ][3437] [ ][3437] [ ][3437] [ ][3438] [ ][3438] [ ][3438] [ ][3439] [ ][3438] [ ][3441] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 27-28C Voltage: 48.124V 
+2022-05-02 07:33:23 [I|BMZ] Module #A [Temp]: [28][27][27][28][28][27]
+2022-05-02 07:33:25 [I|BMZ] Module #B module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 07:33:26 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3437] [ ][3438] [ ][3435] [ ][3433] [ ][3437] [ ][3438] [ ][3437] [ ][3437] [ ][3438] [ ][3438] [ ][3438] [ ][3438] [ ][3438] [ ][3438] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 26-27C Voltage: 48.120V 
+2022-05-02 07:33:26 [I|BMZ] Module #B [Temp]: [27][26][27][27][27][27]
+2022-05-02 07:33:28 [I|BMZ] Module #C module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 07:33:30 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3439] [ ][3438] [ ][3439] [ ][3437] [ ][3439] [ ][3437] [ ][3438] [ ][3432] [ ][3436] [ ][3437] [ ][3437] [ ][3437] [ ][3439] [ ][3438] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 25-26C Voltage: 48.123V 
+2022-05-02 07:33:30 [I|BMZ] Module #C [Temp]: [26][26][25][26][26][26]
+2022-05-02 07:33:32 [I|BMZ] 4 modules working as expected
+2022-05-02 07:33:32 [I|BMZ] Module #D module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 07:33:32 [I|BMZ] Faultline test started.
+2022-05-02 07:33:33 [I|BMZ] Module #A faultline state change:  [Faultline pulled]
+2022-05-02 07:33:33 [I|BMZ] Module #A faultline state change:  inactive
+2022-05-02 07:33:34 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3437] [ ][3436] [ ][3437] [ ][3438] [ ][3438] [ ][3438] [ ][3438] [ ][3435] [ ][3439] [ ][3439] [ ][3439] [ ][3438] [ ][3438] [ ][3439] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 26-27C Voltage: 48.129V 
+2022-05-02 07:33:34 [I|BMZ] Module #D [Temp]: [26][26][26][26][26][27]
+2022-05-02 07:33:35 [I|BMZ] Module #A module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 07:33:36 [I|BMZ] Module #B faultline state change:  [Faultline pulled]
+2022-05-02 07:33:36 [I|BMZ] Module #B faultline state change:  inactive
+2022-05-02 07:33:37 [I|BMZ] Module #B module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 07:33:38 [I|BMZ] Module #C faultline state change:  [Faultline pulled]
+2022-05-02 07:33:39 [I|BMZ] Module #C faultline state change:  inactive
+2022-05-02 07:33:40 [I|BMZ] Module #C module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 07:33:41 [I|BMZ] Module #D faultline state change:  [Faultline pulled]
+2022-05-02 07:33:42 [I|BMZ] Module #D faultline state change:  inactive
+2022-05-02 07:33:42 [I|BMZ|Ready] Communication initialization complete.
+2022-05-02 07:33:42 [I|BMZ] Module #A Serial: 43006224 FW: 30134 Type: 30012
+2022-05-02 07:33:42 [I|BMZ] Module #B Serial: 43006208 FW: 30134 Type: 30012
+2022-05-02 07:33:42 [I|BMZ] Module #C Serial: 40006774 FW: 30134 Type: 30012
+2022-05-02 07:33:42 [I|BMZ] Module #D Serial: 43010127 FW: 30134 Type: 30012
+2022-05-02 07:33:42 [I|SYS|Selftest] BMS ready for operation
+2022-05-02 07:33:42 [I|SYS|Selftest] display message: BWR Kommuni-kation (4/6)
+2022-05-02 07:33:42 [I|SYS|Selftest] Inverter: Check inverter communication
+2022-05-02 07:33:42 [I|SYS|Selftest] Inverter: Communication check successful
+2022-05-02 07:33:42 [I|SYS|Selftest] Start dc coil tests.
+2022-05-02 07:33:42 [I|SYS|Selftest] display message: Test DC-Schuetz (5/6)
+2022-05-02 07:33:43 [I|INV_LV] Reset triggered
+2022-05-02 07:33:44 [I|BMZ] Module #D module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 07:33:44 [I|BMZ] Faultline test passed by all modules.
+2022-05-02 07:33:48 [I|INV_LV] Reset time for state change logging
+2022-05-02 07:33:51 [I|INV_LV] date and time updated
+2022-05-02 07:33:51 [I|INV_LV] Gridcode correct (4901)
+2022-05-02 07:33:51 [I|INV_LV] Serial is 767272GF008074270001
+2022-05-02 07:33:51 [I|INV_LV] Nominal Power: 4600W
+2022-05-02 07:33:51 [I|INV_LV] DC measurements taken
+2022-05-02 07:33:56 [I|INV_LV] Gridconnection state: standby
+2022-05-02 07:33:56 [I|INV_LV] Inverter is disconnected from grid
+2022-05-02 07:33:56 [I|INV_LV] State change logging enabled.
+2022-05-02 07:33:56 [I|INV_LV] Startupstate RunGrid  -> Sleep  
+2022-05-02 07:34:02 OFF: Switching on inverter
+2022-05-02 07:34:02 [I|INV_LV] Enabled Batteries and reset DC measurements
+2022-05-02 07:34:02 [I|INV_LV] Disabled Batteries and reset DC measurements
+2022-05-02 07:34:02 [I|INV_LV] Energysource transferred: Battery: 0 PV: 1 Island: 0
+2022-05-02 07:34:03 [I|INV_LV] DC measurements taken
+2022-05-02 07:34:03 [I|INV_LV] Gridconnection state: startup
+2022-05-02 07:34:03 [I|INV_LV] Startupstate Sleep  -> StartMonitoring  
+2022-05-02 07:34:10 [I|INV_LV] Startupstate StartMonitoring  -> TestRcd  
+2022-05-02 07:34:18 [I|INV_LV] Startupstate TestRcd  -> CheckStrings  
+2022-05-02 07:34:33 [I|INV_LV] Startupstate CheckStrings  -> TestAcRelais  
+2022-05-02 07:34:41 [I|INV_LV] Startupstate TestAcRelais  -> IsolationCheck 1
+2022-05-02 07:35:36 [I|INV_LV] Insulation resistance: 10000000 Ohm.
+2022-05-02 07:35:40 [I|INV_LV] Startupstate IsolationCheck 1-> IsolationCheck 2
+2022-05-02 07:36:11 [I|INV_LV] Startupstate IsolationCheck 2-> IsolationCheck 3
+2022-05-02 07:36:48 [I|INV_LV] Startupstate IsolationCheck 3-> EstablishAcVoltage  
+2022-05-02 07:36:55 [I|INV_LV] Gridconnection state: connected
+2022-05-02 07:36:55 [I|INV_LV] Inverter is connected to grid.
+2022-05-02 07:36:55 [I|INV_LV] Startupstate EstablishAcVoltage  -> RunGrid  
+2022-05-02 07:48:53 [I|INV_LV] State change logging disabled.
+2022-05-02 07:51:24 [I|BAT Interface] Battery temp: 26.00 to 28.00 °C, case temp: 31.85 °C
+2022-05-02 07:51:24 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[2540.1W] INV_HV:[749.6W] Total production: 3289.6W current feed-in limit: 100.00 %
+2022-05-02 08:01:11 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 506.05 V, PV Current = 4.26 A, PV Power = 2141.90 W
+2022-05-02 08:01:11 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 249.57 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 08:01:11 [I|PV Interface] Inverter INV_LV: AC Voltage = 232.83 V, AC Current = 9.53 A, AC Power = 2212.78 W, AC Apparent Power = 2215.29 VA, AC Reactive Power = 105.43 var
+2022-05-02 08:01:11 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 412.92 V, PV Current = 2.31 A, PV Power = 949.54 W
+2022-05-02 08:01:11 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 205.16 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 08:01:11 [I|PV Interface] Inverter INV_HV: AC Voltage = 231.92 V, AC Current = 3.97 A, AC Power = 916.12 W, AC Apparent Power = 917.37 VA, AC Reactive Power = 47.82 var
+2022-05-02 08:01:33 [I|BAT Interface] Inverter INV_LV: Battery Voltage = -0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-02 08:03:02 [W|Energy Management|State:Selftest] Leaving selftest because of timeout in state off.
+2022-05-02 08:03:02 [I|Energy Management] State: Selbsttest -> Fernabschaltung
+2022-05-02 08:03:02 OFF: Sending passive request
+2022-05-02 08:03:12 OFF: Switching off Inverter
+2022-05-02 08:03:17 OFF: Sending BMS shutdown command
+2022-05-02 08:03:17 [I|BMZ] Shutdown started.
+2022-05-02 08:03:17 [I|Remanent Data] Last BMS disable saved: 2022-05-02 08:03:17 
+2022-05-02 08:03:17 [I|KILLSWITCH|BMZ] enabled output IO
+2022-05-02 08:03:17 [I|BAT_MODULE_ENABLE_BMZ|BMZ] disabled output IO
+2022-05-02 08:21:24 [I|BAT Interface] Battery temp not available, Case temp: 31.16 °C
+2022-05-02 08:21:24 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[2618.4W] INV_HV:[888.0W] Total production: 3506.5W current feed-in limit: 100.00 %
+2022-05-02 08:51:21 [I|BAT Interface] Battery temp not available, Case temp: 31.69 °C
+2022-05-02 08:51:21 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[2780.1W] INV_HV:[1022.1W] Total production: 3802.1W current feed-in limit: 100.00 %
+2022-05-02 09:21:22 [I|BAT Interface] Battery temp not available, Case temp: 32.98 °C
+2022-05-02 09:21:22 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[3498.4W] INV_HV:[771.4W] Total production: 4269.8W current feed-in limit: 100.00 %
+2022-05-02 09:43:39 [I|SYS|Selftest] display message: Fehler DC-Schuetz
+2022-05-02 09:43:39 [W|SYS|Selftest] DC coil error (timeout)
+2022-05-02 09:51:22 [I|BAT Interface] Battery temp not available, Case temp: 33.86 °C
+2022-05-02 09:51:22 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[4549.1W] INV_HV:[1039.8W] Total production: 5588.9W current feed-in limit: 100.00 %
+2022-05-02 10:01:09 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 481.34 V, PV Current = 9.49 A, PV Power = 4535.24 W
+2022-05-02 10:01:09 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 233.71 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 10:01:09 [I|PV Interface] Inverter INV_LV: AC Voltage = 236.80 V, AC Current = 19.15 A, AC Power = 4536.51 W, AC Apparent Power = 4528.32 VA, AC Reactive Power = 0.00 var
+2022-05-02 10:01:09 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 407.06 V, PV Current = 3.01 A, PV Power = 1218.91 W
+2022-05-02 10:01:09 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 203.48 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 10:01:09 [I|PV Interface] Inverter INV_HV: AC Voltage = 233.26 V, AC Current = 5.09 A, AC Power = 1185.92 W, AC Apparent Power = 1184.53 VA, AC Reactive Power = 0.00 var
+2022-05-02 10:01:31 [I|BAT Interface] Inverter INV_LV: Battery Voltage = -0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-02 10:21:22 [I|BAT Interface] Battery temp not available, Case temp: 33.76 °C
+2022-05-02 10:21:22 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[4439.4W] INV_HV:[1421.7W] Total production: 5861.1W current feed-in limit: 100.00 %
+2022-05-02 10:43:40 [I|SYS|Selftest] Requesting re-test after failed selftest, delay: 60 minutes
+2022-05-02 10:43:40 [I|SYS|Selftest] Initialized
+2022-05-02 10:43:40 [I|SYS|Selftest] display message: Starte Test-Modus (1/6)
+2022-05-02 10:43:40 [I|SYS|Selftest] Enforcing passive mode before switching AC coil
+2022-05-02 10:43:40 [I|Energy Management|State:Off] temporary leave to run selftest
+2022-05-02 10:43:40 OFF: Waking up BMS
+2022-05-02 10:43:40 [I|KILLSWITCH|BMZ] disabled output IO
+2022-05-02 10:43:40 [I|BAT_MODULE_ENABLE_BMZ|BMZ] enabled output IO
+2022-05-02 10:43:40 [I|Energy Management] State: Fernabschaltung -> Selbsttest
+2022-05-02 10:43:45 [I|SYS|Selftest] Forced passive mode entered
+2022-05-02 10:43:45 [I|SYS|Selftest] display message: Batterie- sicherheit (2/6)
+2022-05-02 10:43:45 [I|SYS|Selftest] Checking if BMZ faultline test is running
+2022-05-02 10:43:45 [I|SYS|Selftest] BMZ faultline test running
+2022-05-02 10:43:54 [I|SYS|Selftest] BMZ faultline test finished
+2022-05-02 10:43:54 [I|SYS|Selftest] BMZ wait to get ready
+2022-05-02 10:43:54 [I|BMZ] Faultline resumed normal mode.
+2022-05-02 10:44:01 [I|BMZ] Module #A module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 10:44:02 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3437] [ ][3434] [ ][3435] [ ][3432] [ ][3436] [ ][3437] [ ][3438] [ ][3437] [ ][3437] [ ][3436] [ ][3436] [ ][3438] [ ][3437] [ ][3442] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 31-32C Voltage: 48.112V 
+2022-05-02 10:44:02 [I|BMZ] Module #A [Temp]: [32][32][31][32][32][31]
+2022-05-02 10:44:04 [I|BMZ] Module #B module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 10:44:06 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3436] [ ][3437] [ ][3434] [ ][3433] [ ][3437] [ ][3437] [ ][3437] [ ][3436] [ ][3437] [ ][3437] [ ][3438] [ ][3438] [ ][3437] [ ][3437] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 30-30C Voltage: 48.111V 
+2022-05-02 10:44:06 [I|BMZ] Module #B [Temp]: [30][30][30][30][30][30]
+2022-05-02 10:44:07 [I|BMZ] Module #C module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 10:44:07 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3439] [ ][3437] [ ][3438] [ ][3436] [ ][3438] [ ][3437] [ ][3438] [ ][3432] [ ][3436] [ ][3436] [ ][3437] [ ][3437] [ ][3438] [ ][3437] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 28-29C Voltage: 48.116V 
+2022-05-02 10:44:07 [I|BMZ] Module #C [Temp]: [29][29][28][29][29][29]
+2022-05-02 10:44:10 [I|BMZ] 4 modules working as expected
+2022-05-02 10:44:10 [I|BMZ] Module #D module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 10:44:10 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3437] [ ][3435] [ ][3437] [ ][3437] [ ][3437] [ ][3437] [ ][3437] [ ][3434] [ ][3438] [ ][3438] [ ][3438] [ ][3437] [ ][3437] [ ][3438] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 29-30C Voltage: 48.117V 
+2022-05-02 10:44:10 [I|BMZ] Module #D [Temp]: [30][30][30][29][30][30]
+2022-05-02 10:44:10 [I|BMZ] Faultline test started.
+2022-05-02 10:44:11 [I|BMZ] Module #A faultline state change:  [Faultline pulled]
+2022-05-02 10:44:12 [I|BMZ] Module #A faultline state change:  inactive
+2022-05-02 10:44:13 [I|BMZ] Module #A module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 10:44:14 [I|BMZ] Module #B faultline state change:  [Faultline pulled]
+2022-05-02 10:44:15 [I|BMZ] Module #B faultline state change:  inactive
+2022-05-02 10:44:16 [I|BMZ] Module #B module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 10:44:17 [I|BMZ] Module #C faultline state change:  [Faultline pulled]
+2022-05-02 10:44:17 [I|BMZ] Module #C faultline state change:  inactive
+2022-05-02 10:44:19 [I|BMZ] Module #C module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 10:44:20 [I|BMZ] Module #D faultline state change:  [Faultline pulled]
+2022-05-02 10:44:20 [I|BMZ] Module #D faultline state change:  inactive
+2022-05-02 10:44:22 [I|BMZ|Ready] Communication initialization complete.
+2022-05-02 10:44:22 [I|BMZ] Module #A Serial: 43006224 FW: 30134 Type: 30012
+2022-05-02 10:44:22 [I|BMZ] Module #B Serial: 43006208 FW: 30134 Type: 30012
+2022-05-02 10:44:22 [I|BMZ] Module #C Serial: 40006774 FW: 30134 Type: 30012
+2022-05-02 10:44:22 [I|BMZ] Module #D Serial: 43010127 FW: 30134 Type: 30012
+2022-05-02 10:44:22 [I|SYS|Selftest] BMS ready for operation
+2022-05-02 10:44:22 [I|SYS|Selftest] display message: BWR Kommuni-kation (4/6)
+2022-05-02 10:44:22 [I|SYS|Selftest] Inverter: Check inverter communication
+2022-05-02 10:44:22 [I|SYS|Selftest] Inverter: Communication check successful
+2022-05-02 10:44:22 [I|SYS|Selftest] Start dc coil tests.
+2022-05-02 10:44:22 [I|SYS|Selftest] display message: Test DC-Schuetz (5/6)
+2022-05-02 10:44:22 [I|INV_LV] Reset triggered
+2022-05-02 10:44:22 [I|BMZ] Module #D module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 10:44:22 [I|BMZ] Faultline test passed by all modules.
+2022-05-02 10:44:27 [I|INV_LV] Reset time for state change logging
+2022-05-02 10:44:29 [I|INV_LV] date and time updated
+2022-05-02 10:44:29 [I|INV_LV] Gridcode correct (4901)
+2022-05-02 10:44:30 [I|INV_LV] Serial is 767272GF008074270001
+2022-05-02 10:44:30 [I|INV_LV] Nominal Power: 4600W
+2022-05-02 10:44:33 [I|INV_LV] DC measurements taken
+2022-05-02 10:44:34 [I|INV_LV] State change logging enabled.
+2022-05-02 10:44:40 OFF: Switching on inverter
+2022-05-02 10:44:40 [I|INV_LV] Enabled Batteries and reset DC measurements
+2022-05-02 10:44:41 [I|INV_LV] Disabled Batteries and reset DC measurements
+2022-05-02 10:44:41 [I|INV_LV] Energysource transferred: Battery: 0 PV: 1 Island: 0
+2022-05-02 10:44:42 [I|INV_LV] DC measurements taken
+2022-05-02 10:51:22 [I|BAT Interface] Battery temp: 28.00 to 32.00 °C, case temp: 33.53 °C
+2022-05-02 10:51:22 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[4259.2W] INV_HV:[1778.8W] Total production: 6038.0W current feed-in limit: 100.00 %
+2022-05-02 10:59:30 [I|INV_LV] State change logging disabled.
+2022-05-02 11:13:40 [W|Energy Management|State:Selftest] Leaving selftest because of timeout in state off.
+2022-05-02 11:13:40 [I|Energy Management] State: Selbsttest -> Fernabschaltung
+2022-05-02 11:13:40 OFF: Sending passive request
+2022-05-02 11:13:50 OFF: Switching off Inverter
+2022-05-02 11:13:55 OFF: Sending BMS shutdown command
+2022-05-02 11:13:55 [I|BMZ] Shutdown started.
+2022-05-02 11:13:55 [I|Remanent Data] Last BMS disable saved: 2022-05-02 11:13:55 
+2022-05-02 11:13:55 [I|KILLSWITCH|BMZ] enabled output IO
+2022-05-02 11:13:56 [I|BAT_MODULE_ENABLE_BMZ|BMZ] disabled output IO
+2022-05-02 11:21:22 [I|BAT Interface] Battery temp not available, Case temp: 33.13 °C
+2022-05-02 11:21:22 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[3331.3W] INV_HV:[1758.6W] Total production: 5089.9W current feed-in limit: 100.00 %
+2022-05-02 11:51:23 [I|BAT Interface] Battery temp not available, Case temp: 33.98 °C
+2022-05-02 11:51:23 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[3724.7W] INV_HV:[2372.4W] Total production: 6097.1W current feed-in limit: 100.00 %
+2022-05-02 12:01:09 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 483.38 V, PV Current = 7.49 A, PV Power = 3597.03 W
+2022-05-02 12:01:09 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 236.72 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 12:01:09 [I|PV Interface] Inverter INV_LV: AC Voltage = 236.10 V, AC Current = 15.44 A, AC Power = 3646.14 W, AC Apparent Power = 3641.07 VA, AC Reactive Power = 0.00 var
+2022-05-02 12:01:09 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 392.23 V, PV Current = 6.28 A, PV Power = 2462.15 W
+2022-05-02 12:01:09 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 196.04 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 12:01:09 [I|PV Interface] Inverter INV_HV: AC Voltage = 236.99 V, AC Current = 10.11 A, AC Power = 2400.02 W, AC Apparent Power = 2398.50 VA, AC Reactive Power = 0.00 var
+2022-05-02 12:01:32 [I|BAT Interface] Inverter INV_LV: Battery Voltage = -0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-02 12:21:23 [I|BAT Interface] Battery temp not available, Case temp: 33.28 °C
+2022-05-02 12:21:23 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[3382.0W] INV_HV:[2603.7W] Total production: 5985.8W current feed-in limit: 100.00 %
+2022-05-02 12:30:27 [I|System Update|Server] Remote: MCU-reboot
+2022-05-02 12:30:27 [I|Remanent Data] Module resets allowed.
+2022-05-02 12:30:29 [I|Energy Management] State: Fernabschaltung -> Neustart
+2022-05-02 12:30:34 [I|BMZ] Shutdown started.
+2022-05-02 12:30:34 [I|Remanent Data] Last BMS disable saved: 2022-05-02 12:30:34 
+2022-05-02 12:31:27 [I|System Update] System is going down for reboot!
+2022-05-02 12:31:27 [I|Remanent Data] Last MCU shutdown saved: 2022-05-02 12:31:27 
+2022-05-02 12:31:48 [I|Remanent Data] Setting 'off by display' loaded: disabled
+2022-05-02 12:31:48 [I|Remanent Data] Saving setting 'off by display' cleared from 'Init'.
+2022-05-02 12:31:48 [I|Main] System is booting ...
+2022-05-02 12:31:48 [I|SD Card] mid: 0x27, oid: 0x5048, pnm: 'acon ', prv: 3.0, psn: 0x6de03561, mdt: 2.2021, crc: 0x48
+2022-05-02 12:31:48 [I|SD Card] speed: 50000 kHz (default)
+2022-05-02 12:31:48 [I|Settings] Max. PV power:  9990W, export limit 70%
+2022-05-02 12:31:48 [I|Settings] Grid connection: 3ph
+2022-05-02 12:31:48 [I|Settings] MCU firmware version: 1990, GUI version 0959
+2022-05-02 12:31:48 [I|Settings] Server URL is machine.mein-senec.de.
+2022-05-02 12:31:48 [I|SYS] Initializing V3 device.
+2022-05-02 12:31:48 [I|IPU] hardware revision: IPU V3.1.1
+2022-05-02 12:31:48 [I|IPU] Skip RCMU test; no external RCMU available
+2022-05-02 12:31:48 [I|SYS|Selftest] Requesting initial selftest
+2022-05-02 12:31:48 [I|INV_LV] Enabled PV
+2022-05-02 12:31:48 [I|INV_LV] Riso desired: 1000 Ohm/V.
+2022-05-02 12:31:48 [I|Energy Management] Remanent data: zero-grid feed off
+2022-05-02 12:31:48 [I|SYS] Inverter 1: SENEC.Inverter V3 LV
+2022-05-02 12:31:48 [I|INV_HV] Enabled PV
+2022-05-02 12:31:48 [I|SYS] Inverter 2: SENEC.Inverter V3 HV
+2022-05-02 12:31:48 [I|INV_HV] Riso desired: 1000 Ohm/V.
+2022-05-02 12:31:48 [I|Statistics] Continue statistics file /stat/2022_05/22-05-02.csv
+2022-05-02 12:31:48 [I|Energy Management|State:Off] Force off detected (display or remote), configuring selftest for inverter-only mode
+2022-05-02 12:31:48 [I|NPU] Correctly started
+2022-05-02 12:31:48 [I|SYS|Selftest] Initialized
+2022-05-02 12:31:48 [I|SYS|Selftest] display message: Starte Test-Modus (1/6)
+2022-05-02 12:31:48 [I|SYS|Selftest] Enforcing passive mode before switching AC coil
+2022-05-02 12:31:48 [I|Energy Management] State: Initialzustand -> Selbsttest
+2022-05-02 12:31:48 [I|INV_HV] date and time updated
+2022-05-02 12:31:48 [I|INV_HV] Gridcode correct (4901)
+2022-05-02 12:31:48 [I|INV_HV] Serial is 765856GE007978720038
+2022-05-02 12:31:48 [I|INV_HV] Nominal Power: 4600W
+2022-05-02 12:31:48 [I|INV_HV] Inverter is connected to grid.
+2022-05-02 12:31:50 [I|INV_HV] ReadIdentification successful. HMI: 3.16.20 PU: 4.3.10
+2022-05-02 12:31:50 [I|NPU] Communication established
+2022-05-02 12:31:51 [I|NPU] NPU: Change backend server to 0
+2022-05-02 12:31:52 [I|INV_HV] Insulation resistance: 10000000 Ohm.
+2022-05-02 12:31:53 [I|INV_HV] Ethernet: No Link
+2022-05-02 12:31:53 [I|SYS|Selftest] Forced passive mode entered
+2022-05-02 12:31:53 [I|SYS|Selftest] Inverter-only test mode selected
+2022-05-02 12:31:53 [I|SYS|Selftest] display message: BWR Kommuni-kation (4/6)
+2022-05-02 12:31:53 [I|SYS|Selftest] Inverter: Check inverter communication
+2022-05-02 12:31:53 [I|SYS|Selftest] Skip DC coil test and end selftest. Reason: Inverter-only test mode selected.
+2022-05-02 12:31:53 [I|SYS|Selftest] Leaving forced passive mode
+2022-05-02 12:31:53 [I|SYS|Selftest] successful
+2022-05-02 12:31:53 [I|Energy Management] State: Selbsttest -> Fernabschaltung
+2022-05-02 12:31:53 [I|NPU] NPU: image version 2106-085fbac7
+2022-05-02 12:31:53 [I|NPU] NPU: protocol version 10 (0x085F)
+2022-05-02 12:31:55 Settingssynchronizer Feature: State: 001011001100
+2022-05-02 12:31:55 NET: IP address changed from uninitialized (0.0.0.0) to 192.168.178.101.
+2022-05-02 12:31:56 [I|Settings] DNS lookup successful.
+2022-05-02 12:31:56 [I|INV_HV] CosPhi settings adopted
+2022-05-02 12:31:56 [I|INV_HV] cosPhi Settings: Calculationbasis: 0, entries: 2, power factor: 1000, Values:  x0=0, y0=100  x1=100, y1=100 
+2022-05-02 12:31:57 [I|INV_LV] Reset triggered
+2022-05-02 12:31:58 BL: mcuId=2;  legacy signature found, v=954; BL-MAC-address 14:1F:BA:21:27:21
+2022-05-02 12:31:58 BL: NIC MAC is 14:1F:BA:21:27:21, located at 0x801fc04
+2022-05-02 12:31:58 990.1-0 Backup:2a295040a25010b6879623176e215c41d469eaf2  - MCU_1990 - 2022-04-25T15:29:34+02:00
+2022-05-02 12:31:58 Server Communicator-Info: 0, 0x00000000.
+2022-05-02 12:32:02 [I|INV_LV] Reset time for state change logging
+2022-05-02 12:32:04 [I|INV_HV] Start gridparameter state machine.
+2022-05-02 12:32:35 [I|BAT_MODULE_ENABLE_BMZ|BMZ] enabled output IO
+2022-05-02 12:32:35 [I|BMZ] 4 modules configured
+2022-05-02 12:32:38 [I|INV_HV] Succesfully read all gridparameter of interest.
+2022-05-02 12:32:38 [I|INV_HV] Finish gridparameter state machine
+2022-05-02 12:32:38 [I|INV_LV] date and time updated
+2022-05-02 12:32:38 [I|INV_LV] Gridcode correct (4901)
+2022-05-02 12:32:38 [I|INV_LV] Serial is 767272GF008074270001
+2022-05-02 12:32:38 [I|INV_LV] Nominal Power: 4600W
+2022-05-02 12:32:38 [I|INV_LV] Gridconnection state: standby
+2022-05-02 12:32:38 [I|INV_LV] Inverter is disconnected from grid
+2022-05-02 12:32:38 [I|INV_LV] Startupstate StabilizeMcuSupply  -> Sleep  
+2022-05-02 12:32:39 [I|INV_LV] Energysource transferred: Battery: 0 PV: 1 Island: 0
+2022-05-02 12:32:41 [I|INV_LV] ReadIdentification successful. HMI: 3.16.20 PU: 4.3.10 BDC: 5.4.6
+2022-05-02 12:32:44 [I|INV_LV] Event Appeared: BDC_is_not_Running
+2022-05-02 12:32:44 [I|INV_LV] DC measurements taken
+2022-05-02 12:32:45 [I|INV_LV] Ethernet: No Link
+2022-05-02 12:32:49 [I|BMZ] Faultline resumed normal mode.
+2022-05-02 12:32:49 [I|INV_LV] CosPhi settings adopted
+2022-05-02 12:32:49 [I|INV_LV] cosPhi Settings: Calculationbasis: 0, entries: 2, power factor: 1000, Values:  x0=0, y0=100  x1=100, y1=100 
+2022-05-02 12:32:53 [I|INV_LV] Start gridparameter state machine.
+2022-05-02 12:32:56 [I|BMZ] Module #A module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 12:32:56 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3437] [ ][3435] [ ][3435] [ ][3432] [ ][3435] [ ][3435] [ ][3436] [ ][3436] [ ][3438] [ ][3437] [ ][3437] [ ][3437] [ ][3436] [ ][3440] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 32-33C Voltage: 48.106V 
+2022-05-02 12:32:56 [I|BMZ] Module #A [Temp]: [33][32][32][33][32][32]
+2022-05-02 12:32:58 [I|BMZ] Module #B module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 12:32:58 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3436] [ ][3437] [ ][3433] [ ][3432] [ ][3436] [ ][3437] [ ][3436] [ ][3435] [ ][3436] [ ][3437] [ ][3437] [ ][3437] [ ][3437] [ ][3437] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 30-31C Voltage: 48.103V 
+2022-05-02 12:32:58 [I|BMZ] Module #B [Temp]: [31][30][30][31][31][30]
+2022-05-02 12:33:01 [I|BMZ] Module #C module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 12:33:01 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3438] [ ][3436] [ ][3438] [ ][3436] [ ][3438] [ ][3436] [ ][3437] [ ][3431] [ ][3435] [ ][3436] [ ][3436] [ ][3436] [ ][3437] [ ][3437] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 29-29C Voltage: 48.107V 
+2022-05-02 12:33:01 [I|BMZ] Module #C [Temp]: [29][29][29][29][29][29]
+2022-05-02 12:33:05 [I|BMZ] 4 modules working as expected
+2022-05-02 12:33:05 [I|BMZ] Module #D module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 12:33:05 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3436] [ ][3435] [ ][3436] [ ][3437] [ ][3437] [ ][3437] [ ][3437] [ ][3434] [ ][3438] [ ][3438] [ ][3438] [ ][3437] [ ][3436] [ ][3437] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 30-30C Voltage: 48.113V 
+2022-05-02 12:33:05 [I|BMZ] Module #D [Temp]: [30][30][30][30][30][30]
+2022-05-02 12:33:05 [I|BMZ] Faultline test started.
+2022-05-02 12:33:06 [I|BMZ] Module #A faultline state change:  [Faultline pulled]
+2022-05-02 12:33:06 [I|BMZ] Module #A faultline state change:  inactive
+2022-05-02 12:33:08 [I|BMZ] Module #A module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 12:33:09 [I|BMZ] Module #B faultline state change:  [Faultline pulled]
+2022-05-02 12:33:09 [I|BMZ] Module #B faultline state change:  inactive
+2022-05-02 12:33:10 [I|BMZ] Module #B module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 12:33:11 [I|BMZ] Module #C faultline state change:  [Faultline pulled]
+2022-05-02 12:33:12 [I|BMZ] Module #C faultline state change:  inactive
+2022-05-02 12:33:13 [I|BMZ] Module #C module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 12:33:14 [I|BMZ] Module #D faultline state change:  [Faultline pulled]
+2022-05-02 12:33:15 [I|BMZ] Module #D faultline state change:  inactive
+2022-05-02 12:33:17 [I|BMZ] Module #D module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 12:33:17 [I|BMZ] Faultline test passed by all modules.
+2022-05-02 12:33:17 [I|BMZ|Ready] Communication initialization complete.
+2022-05-02 12:33:17 [I|BMZ] Module #A Serial: 43006224 FW: 30134 Type: 30012
+2022-05-02 12:33:17 [I|BMZ] Module #B Serial: 43006208 FW: 30134 Type: 30012
+2022-05-02 12:33:17 [I|BMZ] Module #C Serial: 40006774 FW: 30134 Type: 30012
+2022-05-02 12:33:17 [I|BMZ] Module #D Serial: 43010127 FW: 30134 Type: 30012
+2022-05-02 12:33:27 [I|INV_LV] Succesfully read all gridparameter of interest.
+2022-05-02 12:33:27 [I|INV_LV] Finish gridparameter state machine
+2022-05-02 12:33:31 [I|INV_LV] Gridconnection state: startup
+2022-05-02 12:33:31 [I|INV_LV] BDC Event #0: Time: 2022-05-02 12:32:39 Event: StillNotStartedNoError, BDC_is_not_Running, HWprotect_DISABLE_1, I_bat_discharge_max_too_low_for_Startup, Standby_0W, 
+2022-05-02 12:33:31 [I|INV_LV] Eventcode: 80008000 00000100 01800000
+2022-05-02 12:33:31 [I|INV_LV] Startupstate Sleep  -> IsolationCheck 1
+2022-05-02 12:34:27 [I|INV_LV] Insulation resistance: 10000000 Ohm.
+2022-05-02 12:34:31 [I|INV_LV] Startupstate IsolationCheck 1-> IsolationCheck 2
+2022-05-02 12:35:07 [I|INV_LV] Startupstate IsolationCheck 2-> IsolationCheck 3
+2022-05-02 12:35:37 [I|INV_LV] Startupstate IsolationCheck 3-> EstablishAcVoltage  
+2022-05-02 12:35:45 [I|INV_LV] Gridconnection state: connected
+2022-05-02 12:35:45 [I|INV_LV] Inverter is connected to grid.
+2022-05-02 12:35:45 [I|INV_LV] Startupstate EstablishAcVoltage  -> RunGrid  
+2022-05-02 12:41:47 [I|BAT Interface] Inverter INV_LV: Battery Voltage = -0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-02 12:41:47 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 492.58 V, PV Current = 2.01 A, PV Power = 990.95 W
+2022-05-02 12:41:47 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 78.02 V, PV Current = -0.10 A, PV Power = -8.20 W
+2022-05-02 12:41:47 [I|PV Interface] Inverter INV_LV: AC Voltage = 233.75 V, AC Current = 4.56 A, AC Power = 1063.67 W, AC Apparent Power = 1066.26 VA, AC Reactive Power = 74.26 var
+2022-05-02 12:41:47 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 385.63 V, PV Current = 2.63 A, PV Power = 1009.90 W
+2022-05-02 12:41:47 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 183.13 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 12:41:47 [I|PV Interface] Inverter INV_HV: AC Voltage = 235.22 V, AC Current = 4.18 A, AC Power = 984.03 W, AC Apparent Power = 1002.50 VA, AC Reactive Power = 191.57 var
+2022-05-02 12:41:53 OFF: Sending passive request
+2022-05-02 12:41:53 [I|System Update|Server] Remote: MCU-reboot
+2022-05-02 12:41:53 [I|Remanent Data] Module resets allowed.
+2022-05-02 12:41:55 [I|Energy Management] State: Fernabschaltung -> Neustart
+2022-05-02 12:42:00 [I|BMZ] Shutdown started.
+2022-05-02 12:42:00 [I|Remanent Data] Last BMS disable saved: 2022-05-02 12:42:00 
+2022-05-02 12:42:00 [I|KILLSWITCH|BMZ] enabled output IO
+2022-05-02 12:42:01 [I|BAT_MODULE_ENABLE_BMZ|BMZ] disabled output IO
+2022-05-02 12:42:03 OFF: Switching off Inverter
+2022-05-02 12:42:08 OFF: Sending BMS shutdown command
+2022-05-02 12:42:08 [I|BMZ] Shutdown started.
+2022-05-02 12:42:08 [I|Remanent Data] Last BMS disable saved: 2022-05-02 12:42:08 
+2022-05-02 12:42:53 [I|System Update] System is going down for reboot!
+2022-05-02 12:42:53 [I|Remanent Data] Last MCU shutdown saved: 2022-05-02 12:42:53 
+2022-05-02 12:43:14 [I|Remanent Data] Setting 'off by display' loaded: disabled
+2022-05-02 12:43:14 [I|Remanent Data] Saving setting 'off by display' cleared from 'Init'.
+2022-05-02 12:43:14 [I|Main] System is booting ...
+2022-05-02 12:43:14 [I|SD Card] mid: 0x27, oid: 0x5048, pnm: 'acon ', prv: 3.0, psn: 0x6de03561, mdt: 2.2021, crc: 0x48
+2022-05-02 12:43:14 [I|SD Card] speed: 50000 kHz (default)
+2022-05-02 12:43:14 [I|Settings] Max. PV power:  9990W, export limit 70%
+2022-05-02 12:43:14 [I|Settings] Grid connection: 3ph
+2022-05-02 12:43:14 [I|Settings] MCU firmware version: 1990, GUI version 0959
+2022-05-02 12:43:14 [I|Settings] Server URL is machine.mein-senec.de.
+2022-05-02 12:43:14 [I|SYS] Initializing V3 device.
+2022-05-02 12:43:14 [I|IPU] hardware revision: IPU V3.1.1
+2022-05-02 12:43:14 [I|IPU] Skip RCMU test; no external RCMU available
+2022-05-02 12:43:14 [I|SYS|Selftest] Requesting initial selftest
+2022-05-02 12:43:14 [I|INV_LV] Enabled PV
+2022-05-02 12:43:14 [I|INV_LV] Riso desired: 1000 Ohm/V.
+2022-05-02 12:43:14 [I|Energy Management] Remanent data: zero-grid feed off
+2022-05-02 12:43:14 [I|SYS] Inverter 1: SENEC.Inverter V3 LV
+2022-05-02 12:43:14 [I|INV_HV] Enabled PV
+2022-05-02 12:43:14 [I|SYS] Inverter 2: SENEC.Inverter V3 HV
+2022-05-02 12:43:14 [I|INV_HV] Riso desired: 1000 Ohm/V.
+2022-05-02 12:43:14 [I|Statistics] Continue statistics file /stat/2022_05/22-05-02.csv
+2022-05-02 12:43:14 [I|Energy Management|State:Off] Force off detected (display or remote), configuring selftest for inverter-only mode
+2022-05-02 12:43:14 [I|NPU] Correctly started
+2022-05-02 12:43:14 [I|SYS|Selftest] Initialized
+2022-05-02 12:43:14 [I|SYS|Selftest] display message: Starte Test-Modus (1/6)
+2022-05-02 12:43:14 [I|SYS|Selftest] Enforcing passive mode before switching AC coil
+2022-05-02 12:43:14 [I|Energy Management] State: Initialzustand -> Selbsttest
+2022-05-02 12:43:14 [I|INV_HV] date and time updated
+2022-05-02 12:43:14 [I|INV_HV] Gridcode correct (4901)
+2022-05-02 12:43:14 [I|INV_HV] Serial is 765856GE007978720038
+2022-05-02 12:43:14 [I|INV_HV] Nominal Power: 4600W
+2022-05-02 12:43:14 [I|INV_HV] Inverter is connected to grid.
+2022-05-02 12:43:16 [I|INV_HV] ReadIdentification successful. HMI: 3.16.20 PU: 4.3.10
+2022-05-02 12:43:16 [I|NPU] Communication established
+2022-05-02 12:43:17 [I|NPU] NPU: Change backend server to 0
+2022-05-02 12:43:19 [I|INV_HV] Insulation resistance: 10000000 Ohm.
+2022-05-02 12:43:19 [I|INV_HV] Ethernet: No Link
+2022-05-02 12:43:19 [I|SYS|Selftest] Forced passive mode entered
+2022-05-02 12:43:19 [I|SYS|Selftest] Inverter-only test mode selected
+2022-05-02 12:43:19 [I|SYS|Selftest] display message: BWR Kommuni-kation (4/6)
+2022-05-02 12:43:19 [I|SYS|Selftest] Inverter: Check inverter communication
+2022-05-02 12:43:19 [I|SYS|Selftest] Skip DC coil test and end selftest. Reason: Inverter-only test mode selected.
+2022-05-02 12:43:19 [I|SYS|Selftest] Leaving forced passive mode
+2022-05-02 12:43:19 [I|SYS|Selftest] successful
+2022-05-02 12:43:19 [I|Energy Management] State: Selbsttest -> Fernabschaltung
+2022-05-02 12:43:19 [I|NPU] NPU: image version 2106-085fbac7
+2022-05-02 12:43:19 [I|NPU] NPU: protocol version 10 (0x085F)
+2022-05-02 12:43:21 Settingssynchronizer Feature: State: 001011001100
+2022-05-02 12:43:21 NET: IP address changed from uninitialized (0.0.0.0) to 192.168.178.101.
+2022-05-02 12:43:22 [I|Settings] DNS lookup successful.
+2022-05-02 12:43:22 [I|INV_HV] CosPhi settings adopted
+2022-05-02 12:43:22 [I|INV_HV] cosPhi Settings: Calculationbasis: 0, entries: 2, power factor: 1000, Values:  x0=0, y0=100  x1=100, y1=100 
+2022-05-02 12:43:23 [I|INV_LV] Reset triggered
+2022-05-02 12:43:24 BL: mcuId=2;  legacy signature found, v=954; BL-MAC-address 14:1F:BA:21:27:21
+2022-05-02 12:43:24 BL: NIC MAC is 14:1F:BA:21:27:21, located at 0x801fc04
+2022-05-02 12:43:24 990.1-0 Backup:2a295040a25010b6879623176e215c41d469eaf2  - MCU_1990 - 2022-04-25T15:29:34+02:00
+2022-05-02 12:43:24 Server Communicator-Info: 0, 0x00000000.
+2022-05-02 12:43:29 [I|INV_LV] Reset time for state change logging
+2022-05-02 12:43:31 [I|INV_HV] Start gridparameter state machine.
+2022-05-02 12:44:05 [I|INV_HV] Succesfully read all gridparameter of interest.
+2022-05-02 12:44:05 [I|INV_HV] Finish gridparameter state machine
+2022-05-02 12:44:05 [I|INV_LV] date and time updated
+2022-05-02 12:44:05 [I|INV_LV] Gridcode correct (4901)
+2022-05-02 12:44:05 [I|INV_LV] Serial is 767272GF008074270001
+2022-05-02 12:44:05 [I|INV_LV] Nominal Power: 4600W
+2022-05-02 12:44:06 [I|INV_LV] Gridconnection state: standby
+2022-05-02 12:44:06 [I|INV_LV] Inverter is disconnected from grid
+2022-05-02 12:44:06 [I|INV_LV] Startupstate StabilizeMcuSupply  -> Sleep  
+2022-05-02 12:44:06 [I|INV_LV] Energysource transferred: Battery: 0 PV: 1 Island: 0
+2022-05-02 12:44:08 [I|INV_LV] ReadIdentification successful. HMI: 3.16.20 PU: 4.3.10 BDC: 5.4.6
+2022-05-02 12:44:09 [I|BAT_MODULE_ENABLE_BMZ|BMZ] enabled output IO
+2022-05-02 12:44:09 [I|BMZ] 4 modules configured
+2022-05-02 12:44:11 [I|INV_LV] Event Appeared: BDC_is_not_Running
+2022-05-02 12:44:11 [I|INV_LV] DC measurements taken
+2022-05-02 12:44:12 [I|INV_LV] Ethernet: No Link
+2022-05-02 12:44:16 [I|INV_LV] CosPhi settings adopted
+2022-05-02 12:44:16 [I|INV_LV] cosPhi Settings: Calculationbasis: 0, entries: 2, power factor: 1000, Values:  x0=0, y0=100  x1=100, y1=100 
+2022-05-02 12:44:20 [I|INV_LV] Start gridparameter state machine.
+2022-05-02 12:44:23 [I|BMZ] Faultline resumed normal mode.
+2022-05-02 12:44:30 [I|BMZ] Module #A module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 12:44:30 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3437] [ ][3434] [ ][3435] [ ][3432] [ ][3435] [ ][3435] [ ][3436] [ ][3436] [ ][3437] [ ][3437] [ ][3436] [ ][3438] [ ][3436] [ ][3439] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 32-32C Voltage: 48.103V 
+2022-05-02 12:44:30 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 12:44:32 [I|BMZ] Module #B module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 12:44:32 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3435] [ ][3437] [ ][3433] [ ][3432] [ ][3436] [ ][3436] [ ][3436] [ ][3435] [ ][3437] [ ][3437] [ ][3437] [ ][3437] [ ][3436] [ ][3437] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 30-31C Voltage: 48.101V 
+2022-05-02 12:44:32 [I|BMZ] Module #B [Temp]: [30][30][30][31][31][30]
+2022-05-02 12:44:35 [I|BMZ] Module #C module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 12:44:35 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3438] [ ][3437] [ ][3438] [ ][3435] [ ][3438] [ ][3436] [ ][3437] [ ][3431] [ ][3435] [ ][3436] [ ][3436] [ ][3436] [ ][3437] [ ][3437] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 28-29C Voltage: 48.107V 
+2022-05-02 12:44:35 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 12:44:39 [I|BMZ] 4 modules working as expected
+2022-05-02 12:44:39 [I|BMZ] Module #D module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-02 12:44:39 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3436] [ ][3435] [ ][3436] [ ][3437] [ ][3437] [ ][3437] [ ][3437] [ ][3433] [ ][3437] [ ][3437] [ ][3438] [ ][3437] [ ][3436] [ ][3437] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 29-30C Voltage: 48.110V 
+2022-05-02 12:44:39 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 12:44:39 [I|BMZ] Faultline test started.
+2022-05-02 12:44:40 [I|BMZ] Module #A faultline state change:  [Faultline pulled]
+2022-05-02 12:44:40 [I|BMZ] Module #A faultline state change:  inactive
+2022-05-02 12:44:42 [I|BMZ] Module #A module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 12:44:43 [I|BMZ] Module #B faultline state change:  [Faultline pulled]
+2022-05-02 12:44:43 [I|BMZ] Module #B faultline state change:  inactive
+2022-05-02 12:44:44 [I|BMZ] Module #B module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 12:44:45 [I|BMZ] Module #C faultline state change:  [Faultline pulled]
+2022-05-02 12:44:46 [I|BMZ] Module #C faultline state change:  inactive
+2022-05-02 12:44:47 [I|BMZ] Module #C module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 12:44:48 [I|BMZ] Module #D faultline state change:  [Faultline pulled]
+2022-05-02 12:44:49 [I|BMZ] Module #D faultline state change:  inactive
+2022-05-02 12:44:51 [I|BMZ] Module #D module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-02 12:44:51 [I|BMZ] Faultline test passed by all modules.
+2022-05-02 12:44:53 [I|BMZ|Ready] Communication initialization complete.
+2022-05-02 12:44:53 [I|BMZ] Module #A Serial: 43006224 FW: 30134 Type: 30012
+2022-05-02 12:44:53 [I|BMZ] Module #B Serial: 43006208 FW: 30134 Type: 30012
+2022-05-02 12:44:53 [I|BMZ] Module #C Serial: 40006774 FW: 30134 Type: 30012
+2022-05-02 12:44:53 [I|BMZ] Module #D Serial: 43010127 FW: 30134 Type: 30012
+2022-05-02 12:44:54 [I|INV_LV] Succesfully read all gridparameter of interest.
+2022-05-02 12:44:54 [I|INV_LV] Finish gridparameter state machine
+2022-05-02 12:44:58 [I|INV_LV] Gridconnection state: startup
+2022-05-02 12:44:58 [I|INV_LV] BDC Event #0: Time: 2022-05-02 12:44:06 Event: StillNotStartedNoError, BDC_is_not_Running, HWprotect_DISABLE_1, I_bat_discharge_max_too_low_for_Startup, Standby_0W, 
+2022-05-02 12:44:58 [I|INV_LV] Eventcode: 80008000 00000100 01800000
+2022-05-02 12:44:58 [I|INV_LV] Startupstate Sleep  -> IsolationCheck 1
+2022-05-02 12:45:54 [I|INV_LV] Insulation resistance: 10000000 Ohm.
+2022-05-02 12:45:58 [I|INV_LV] Startupstate IsolationCheck 1-> IsolationCheck 2
+2022-05-02 12:46:28 [I|INV_LV] Startupstate IsolationCheck 2-> IsolationCheck 3
+2022-05-02 12:47:05 [I|INV_LV] Startupstate IsolationCheck 3-> EstablishAcVoltage  
+2022-05-02 12:47:13 [I|INV_LV] Gridconnection state: connected
+2022-05-02 12:47:13 [I|INV_LV] Inverter is connected to grid.
+2022-05-02 12:47:13 [I|INV_LV] Startupstate EstablishAcVoltage  -> RunGrid  
+2022-05-02 12:48:18 [I|System Update|Server] Remote: Remote shutdown deactivated
+2022-05-02 12:48:18 [I|Remanent Data] Saving setting 'force shutdown', value: false
+2022-05-02 12:48:18 [I|Energy Management|State:Off] leaving off state - no requests pending
+2022-05-02 12:48:18 [I|Energy Management] State: Fernabschaltung -> Ausgeschaltet
+2022-05-02 12:48:18 [I|SYS|Selftest] Initialized
+2022-05-02 12:48:18 [I|SYS|Selftest] display message: Starte Test-Modus (1/6)
+2022-05-02 12:48:18 [I|SYS|Selftest] Enforcing passive mode before switching AC coil
+2022-05-02 12:48:18 [I|BAT Interface] DC target power ready, continue DC enable process
+2022-05-02 12:48:18 [I|Energy Management] State: Ausgeschaltet -> Selbsttest
+2022-05-02 12:48:22 [I|BAT Interface] Inverter voltage below threshold inverter voltage: -0.01V / threshold: 20.00
+2022-05-02 12:48:22 [I|INV_LV] Enabled Batteries and reset DC measurements
+2022-05-02 12:48:22 [I|DC_SWITCH|BatteryInterface] enabled output IO
+2022-05-02 12:48:23 [I|INV_LV] Energysource transferred: Battery: 1 PV: 1 Island: 0
+2022-05-02 12:48:23 [I|INV_LV] DC measurements taken
+2022-05-02 12:48:23 [I|SYS|Selftest] Forced passive mode entered
+2022-05-02 12:48:23 [I|SYS|Selftest] display message: Batterie- sicherheit (2/6)
+2022-05-02 12:48:23 [I|SYS|Selftest] Checking if BMZ faultline test is running
+2022-05-02 12:48:23 [I|SYS|Selftest] BMZ faultline test not running
+2022-05-02 12:48:23 [I|SYS|Selftest] display message: BWR Kommuni-kation (4/6)
+2022-05-02 12:48:23 [I|SYS|Selftest] Inverter: Check inverter communication
+2022-05-02 12:48:23 [I|SYS|Selftest] Inverter: Communication check successful
+2022-05-02 12:48:23 [I|SYS|Selftest] Start dc coil tests.
+2022-05-02 12:48:23 [I|SYS|Selftest] display message: Test DC-Schuetz (5/6)
+2022-05-02 12:48:23 [I|SYS|DcCoilTest] Skip DC coil off test, because DC coil is on
+2022-05-02 12:48:23 [I|SYS|DcCoilTest] Enabling DC coil and measuring battery voltage
+2022-05-02 12:48:24 [I|INV_LV] Reset triggered
+2022-05-02 12:48:29 [I|INV_LV] Reset time for state change logging
+2022-05-02 12:48:32 [I|INV_LV] date and time updated
+2022-05-02 12:48:32 [I|INV_LV] Gridcode correct (4901)
+2022-05-02 12:48:32 [I|INV_LV] Serial is 767272GF008074270001
+2022-05-02 12:48:32 [I|INV_LV] Nominal Power: 4600W
+2022-05-02 12:48:32 [I|INV_LV] DC measurements taken
+2022-05-02 12:48:36 [I|INV_LV] Gridconnection state: standby
+2022-05-02 12:48:36 [I|INV_LV] BDC Event #0: Time: 2022-05-02 12:48:23 Event: StillNotStartedNoError, BDC_is_not_Running, HWprotect_DISABLE_1, Standby_0W, 
+2022-05-02 12:48:36 [I|INV_LV] Eventcode: 80008000 00000100 01000000
+2022-05-02 12:48:36 [I|INV_LV] Inverter is disconnected from grid
+2022-05-02 12:48:36 [I|INV_LV] Startupstate RunGrid  -> Sleep  
+2022-05-02 12:48:40 [I|INV_LV] Event Appeared: Relais_K1_Batt_closed
+2022-05-02 12:48:43 [I|INV_LV] Gridconnection state: startup
+2022-05-02 12:48:43 [I|INV_LV] BDC Event #0: Time: 2022-05-02 12:48:39 Event: StartingUp, BDC_is_not_Running, HWprotect_DISABLE_1, Standby_0W, Relais_K1_Batt_closed, 
+2022-05-02 12:48:43 [I|INV_LV] Eventcode: 80010000 00000100 41000000
+2022-05-02 12:48:43 [I|INV_LV] BDC Event #1: Time: 2022-05-02 12:48:40 Event: StartingUp, BDC_is_not_Running, Standby_0W, Relais_K1_Batt_closed, 
+2022-05-02 12:48:43 [I|INV_LV] Eventcode: 80010000 00000000 41000000
+2022-05-02 12:48:43 [I|INV_LV] BDC Event #2: Time: 2022-05-02 12:48:43 Event: PowerLimitedToMaximum, BatteryDischargeCurrentLimit, Relais_K1_Batt_closed, 
+2022-05-02 12:48:43 [I|INV_LV] Eventcode: 01080000 00000000 40000000
+2022-05-02 12:48:43 [I|INV_LV] Startupstate Sleep  -> StabilizeMcuSupply  
+2022-05-02 12:48:43 [I|INV_LV] Event Appeared: MiniDumploadActive
+2022-05-02 12:48:44 [I|INV_LV] Event Disappeared: BDC_is_not_Running
+2022-05-02 12:48:45 [I|SYS|DcCoilTest] DC coil on check: successful, measured voltage: 48.0 V
+2022-05-02 12:48:45 [I|SYS|Selftest] display message: BWR Zuschaltung (6/6)
+2022-05-02 12:48:45 [I|SYS|Selftest] Inverter: Waiting for isotest start
+2022-05-02 12:48:45 [I|SYS|Selftest] Inverter: Isotest started
+2022-05-02 12:48:51 [I|INV_LV] Startupstate StabilizeMcuSupply  -> GetAcOffset  
+2022-05-02 12:48:51 [I|INV_LV] Event Disappeared: MiniDumploadActive
+2022-05-02 12:48:51 [I|INV_LV] Event Appeared: BDC_is_not_Running
+2022-05-02 12:48:51 [I|INV_LV] Event Disappeared: Relais_K1_Batt_closed
+2022-05-02 12:48:54 [I|INV_LV] Event Appeared: Relais_K1_Batt_closed
+2022-05-02 12:48:58 [I|INV_LV] Event Disappeared: BDC_is_not_Running
+2022-05-02 12:48:58 [I|INV_LV] Startupstate GetAcOffset  -> CheckStrings  
+2022-05-02 12:48:58 [I|INV_LV] Event Appeared: MiniDumploadActive
+2022-05-02 12:49:14 [I|INV_LV] Startupstate CheckStrings  -> TestAcRelais  
+2022-05-02 12:49:22 [I|INV_LV] Startupstate TestAcRelais  -> IsolationCheck 1
+2022-05-02 12:50:07 [I|INV_LV] Startupstate IsolationCheck 1-> IsolationCheck 2
+2022-05-02 12:50:10 [I|INV_LV] Insulation resistance: 10000000 Ohm.
+2022-05-02 12:51:06 [I|INV_LV] Startupstate IsolationCheck 2-> IsolationCheck 3
+2022-05-02 12:51:59 [I|INV_LV] Startupstate IsolationCheck 3-> EstablishAcVoltage  
+2022-05-02 12:52:07 [I|INV_LV] Gridconnection state: connected
+2022-05-02 12:52:07 [I|INV_LV] BDC Event #0: Time: 2022-05-02 12:48:44 Event: PowerLimitedToMaximum, HVmaximumVoltageLimit, Relais_K1_Batt_closed, 
+2022-05-02 12:52:07 [I|INV_LV] Eventcode: 04080000 00000000 40000000
+2022-05-02 12:52:07 [I|INV_LV] BDC Event #1: Time: 2022-05-02 12:48:47 Event: BatteryDischargeCurrentLimit, Relais_K1_Batt_closed, 
+2022-05-02 12:52:07 [I|INV_LV] Eventcode: 01000000 00000000 40000000
+2022-05-02 12:52:07 [I|INV_LV] BDC Event #2: Time: 2022-05-02 12:48:51 Event: StillNotStartedNoError, BDC_is_not_Running, HWprotect_DISABLE_1, Standby_0W, 
+2022-05-02 12:52:07 [I|INV_LV] Eventcode: 80008000 00000100 01000000
+2022-05-02 12:52:07 [I|INV_LV] BDC Event #3: Time: 2022-05-02 12:48:51 Event: StartingUp, BDC_is_not_Running, HWprotect_DISABLE_1, Standby_0W, Relais_K1_Batt_closed, 
+2022-05-02 12:52:07 [I|INV_LV] Eventcode: 80010000 00000100 41000000
+2022-05-02 12:52:07 [I|INV_LV] BDC Event #4: Time: 2022-05-02 12:48:54 Event: StartingUp, HVmaximumVoltageLimit, BDC_is_not_Running, Relais_K1_Batt_closed, 
+2022-05-02 12:52:07 [I|INV_LV] Eventcode: 84010000 00000000 40000000
+2022-05-02 12:52:07 [I|INV_LV] Inverter is connected to grid.
+2022-05-02 12:52:07 [I|INV_LV] Startupstate EstablishAcVoltage  -> RunGrid  
+2022-05-02 12:52:07 [I|INV_LV] Event Disappeared: MiniDumploadActive
+2022-05-02 12:52:07 [I|SYS|Selftest] Inverter: Isotest finished
+2022-05-02 12:52:07 [I|SYS|Selftest] Leaving forced passive mode
+2022-05-02 12:52:07 [I|SYS|Selftest] successful
+2022-05-02 12:52:07 [I|INV_LV] Event Appeared: BDC_is_not_Running
+2022-05-02 12:52:07 [I|INV_LV] Event Appeared: HWprotect_OV_HV1
+2022-05-02 12:52:07 [I|Energy Management] State: Selbsttest -> Passiv
+2022-05-02 12:52:18 [I|INV_LV] Event Disappeared: HWprotect_OV_HV1
+2022-05-02 12:52:21 [I|INV_LV] Event Disappeared: BDC_is_not_Running
+2022-05-02 12:52:22 [I|INV_LV] Event Appeared: MiniDumploadActive
+2022-05-02 12:53:14 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 496.72 V, PV Current = 1.96 A, PV Power = 969.37 W
+2022-05-02 12:53:14 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 213.62 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 12:53:14 [I|PV Interface] Inverter INV_LV: AC Voltage = 234.37 V, AC Current = 4.42 A, AC Power = 1035.88 W, AC Apparent Power = 1035.38 VA, AC Reactive Power = 0.00 var
+2022-05-02 12:53:14 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 397.85 V, PV Current = 2.51 A, PV Power = 993.61 W
+2022-05-02 12:53:14 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 198.02 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 12:53:14 [I|PV Interface] Inverter INV_HV: AC Voltage = 234.30 V, AC Current = 4.17 A, AC Power = 962.20 W, AC Apparent Power = 960.42 VA, AC Reactive Power = 0.00 var
+2022-05-02 12:53:14 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 48.04 V, Battery Current = 0.00 A, Battery Power = 0.10 W
+2022-05-02 12:53:22 [I|System Update|GUI] Performing GUI update...
+2022-05-02 12:54:19 [I|System Update|GUI] GUI update successful
+2022-05-02 12:58:57 Server Communicator: Error on establishing connection.
+2022-05-02 12:58:57 mbedtls_ssl_read returned -0x004C.
+2022-05-02 12:59:14 [I|BMZ|Battery diagnosis] Entering cell diagnose.
+2022-05-02 12:59:14 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3436] [ ][3434] [ ][3435] [ ][3432] [ ][3435] [ ][3435] [ ][3436] [ ][3435] [ ][3436] [ ][3436] [ ][3436] [ ][3437] [ ][3436] [ ][3439] SoC: 13% Current: 0.00A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.098V 
+2022-05-02 12:59:14 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3435] [ ][3436] [ ][3432] [ ][3432] [ ][3435] [ ][3436] [ ][3435] [ ][3435] [ ][3436] [ ][3436] [ ][3436] [ ][3436] [ ][3436] [ ][3436] SoC: 13% Current: -0.01A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.092V 
+2022-05-02 12:59:14 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3438] [ ][3436] [ ][3437] [ ][3435] [ ][3437] [ ][3436] [ ][3437] [ ][3431] [ ][3434] [ ][3435] [ ][3435] [ ][3435] [ ][3437] [ ][3436] SoC: 13% Current: 0.00A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.099V 
+2022-05-02 12:59:14 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3436] [ ][3435] [ ][3435] [ ][3436] [ ][3436] [ ][3436] [ ][3436] [ ][3433] [ ][3437] [ ][3437] [ ][3437] [ ][3436] [ ][3435] [ ][3437] SoC: 13% Current: -0.01A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.102V 
+2022-05-02 12:59:14 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 12:59:14 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 12:59:14 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 12:59:14 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 12:59:45 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3448] [ ][3444] [ ][3445] [ ][3442] [ ][3446] [ ][3445] [ ][3446] [ ][3450] [ ][3447] [ ][3447] [ ][3447] [ ][3448] [ ][3447] [ ][3450] SoC: 13% Current: 4.09A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.252V 
+2022-05-02 12:59:45 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3447] [ ][3447] [ ][3444] [ ][3443] [ ][3446] [ ][3447] [ ][3445] [ ][3449] [ ][3446] [ ][3447] [ ][3447] [ ][3447] [ ][3447] [ ][3448] SoC: 13% Current: 4.01A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.250V 
+2022-05-02 12:59:45 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3450] [ ][3447] [ ][3448] [ ][3446] [ ][3448] [ ][3446] [ ][3447] [ ][3446] [ ][3445] [ ][3446] [ ][3446] [ ][3446] [ ][3448] [ ][3448] SoC: 13% Current: 4.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.257V 
+2022-05-02 12:59:45 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3447] [ ][3445] [ ][3445] [ ][3446] [ ][3446] [ ][3446] [ ][3446] [ ][3447] [ ][3447] [ ][3447] [ ][3447] [ ][3446] [ ][3446] [ ][3448] SoC: 13% Current: 3.99A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.249V 
+2022-05-02 12:59:45 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 12:59:45 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 12:59:45 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 12:59:45 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:00:15 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3451] [ ][3447] [ ][3448] [ ][3445] [ ][3448] [ ][3448] [ ][3448] [ ][3452] [ ][3449] [ ][3449] [ ][3449] [ ][3450] [ ][3449] [ ][3453] SoC: 13% Current: 4.09A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.286V 
+2022-05-02 13:00:15 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3449] [ ][3449] [ ][3446] [ ][3444] [ ][3448] [ ][3448] [ ][3447] [ ][3451] [ ][3448] [ ][3449] [ ][3449] [ ][3449] [ ][3448] [ ][3450] SoC: 13% Current: 4.01A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.275V 
+2022-05-02 13:00:15 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3452] [ ][3449] [ ][3450] [ ][3448] [ ][3450] [ ][3449] [ ][3449] [ ][3448] [ ][3447] [ ][3448] [ ][3449] [ ][3449] [ ][3450] [ ][3450] SoC: 14% Current: 4.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.288V 
+2022-05-02 13:00:15 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3450] [ ][3447] [ ][3448] [ ][3449] [ ][3449] [ ][3449] [ ][3448] [ ][3450] [ ][3450] [ ][3450] [ ][3450] [ ][3449] [ ][3448] [ ][3451] SoC: 14% Current: 3.99A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.288V 
+2022-05-02 13:00:15 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:00:15 [I|BMZ] Module #B [Temp]: [30][30][31][30][31][30]
+2022-05-02 13:00:15 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:00:15 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:00:45 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3452] [ ][3449] [ ][3450] [ ][3447] [ ][3450] [ ][3450] [ ][3450] [ ][3454] [ ][3451] [ ][3451] [ ][3451] [ ][3452] [ ][3451] [ ][3455] SoC: 13% Current: 4.08A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.313V 
+2022-05-02 13:00:45 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3451] [ ][3451] [ ][3447] [ ][3446] [ ][3450] [ ][3450] [ ][3449] [ ][3454] [ ][3450] [ ][3451] [ ][3451] [ ][3451] [ ][3451] [ ][3452] SoC: 13% Current: 4.01A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.304V 
+2022-05-02 13:00:45 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3454] [ ][3451] [ ][3451] [ ][3450] [ ][3452] [ ][3450] [ ][3451] [ ][3450] [ ][3449] [ ][3450] [ ][3450] [ ][3450] [ ][3452] [ ][3452] SoC: 14% Current: 4.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.312V 
+2022-05-02 13:00:45 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3451] [ ][3449] [ ][3450] [ ][3451] [ ][3451] [ ][3450] [ ][3450] [ ][3452] [ ][3451] [ ][3451] [ ][3451] [ ][3451] [ ][3450] [ ][3452] SoC: 14% Current: 4.01A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.310V 
+2022-05-02 13:00:45 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:00:45 [I|BMZ] Module #B [Temp]: [30][30][31][30][31][30]
+2022-05-02 13:00:45 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:00:45 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:01:15 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3454] [ ][3450] [ ][3451] [ ][3448] [ ][3451] [ ][3451] [ ][3452] [ ][3455] [ ][3452] [ ][3453] [ ][3452] [ ][3453] [ ][3452] [ ][3456] SoC: 14% Current: 4.07A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.330V 
+2022-05-02 13:01:15 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3452] [ ][3453] [ ][3449] [ ][3448] [ ][3451] [ ][3452] [ ][3451] [ ][3455] [ ][3452] [ ][3452] [ ][3452] [ ][3452] [ ][3452] [ ][3453] SoC: 14% Current: 4.00A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.324V 
+2022-05-02 13:01:15 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3455] [ ][3452] [ ][3453] [ ][3451] [ ][3454] [ ][3452] [ ][3452] [ ][3451] [ ][3451] [ ][3452] [ ][3452] [ ][3452] [ ][3453] [ ][3453] SoC: 14% Current: 4.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.333V 
+2022-05-02 13:01:15 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3453] [ ][3451] [ ][3451] [ ][3452] [ ][3452] [ ][3452] [ ][3452] [ ][3453] [ ][3452] [ ][3453] [ ][3453] [ ][3452] [ ][3452] [ ][3454] SoC: 14% Current: 4.02A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.332V 
+2022-05-02 13:01:15 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:01:15 [I|BMZ] Module #B [Temp]: [30][30][31][30][31][30]
+2022-05-02 13:01:15 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:01:15 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:01:45 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3455] [ ][3452] [ ][3453] [ ][3450] [ ][3453] [ ][3453] [ ][3453] [ ][3457] [ ][3454] [ ][3454] [ ][3454] [ ][3454] [ ][3453] [ ][3458] SoC: 14% Current: 4.09A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.353V 
+2022-05-02 13:01:45 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3454] [ ][3454] [ ][3450] [ ][3449] [ ][3453] [ ][3453] [ ][3452] [ ][3456] [ ][3453] [ ][3453] [ ][3453] [ ][3453] [ ][3453] [ ][3454] SoC: 14% Current: 4.00A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.340V 
+2022-05-02 13:01:45 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3457] [ ][3454] [ ][3454] [ ][3453] [ ][3455] [ ][3453] [ ][3454] [ ][3453] [ ][3452] [ ][3453] [ ][3453] [ ][3453] [ ][3455] [ ][3455] SoC: 14% Current: 4.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.354V 
+2022-05-02 13:01:45 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3455] [ ][3452] [ ][3453] [ ][3454] [ ][3454] [ ][3453] [ ][3453] [ ][3454] [ ][3454] [ ][3454] [ ][3455] [ ][3454] [ ][3453] [ ][3455] SoC: 14% Current: 4.01A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.353V 
+2022-05-02 13:01:45 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:01:45 [I|BMZ] Module #B [Temp]: [30][30][31][30][31][30]
+2022-05-02 13:01:45 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:01:45 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:02:15 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3457] [ ][3453] [ ][3454] [ ][3451] [ ][3454] [ ][3454] [ ][3454] [ ][3458] [ ][3455] [ ][3455] [ ][3455] [ ][3456] [ ][3455] [ ][3459] SoC: 14% Current: 4.08A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.370V 
+2022-05-02 13:02:15 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3455] [ ][3455] [ ][3451] [ ][3451] [ ][3454] [ ][3454] [ ][3453] [ ][3457] [ ][3454] [ ][3455] [ ][3455] [ ][3455] [ ][3454] [ ][3456] SoC: 14% Current: 4.00A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.359V 
+2022-05-02 13:02:15 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3458] [ ][3455] [ ][3456] [ ][3454] [ ][3456] [ ][3455] [ ][3455] [ ][3454] [ ][3454] [ ][3454] [ ][3454] [ ][3454] [ ][3456] [ ][3456] SoC: 14% Current: 4.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.371V 
+2022-05-02 13:02:15 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3456] [ ][3453] [ ][3454] [ ][3455] [ ][3455] [ ][3455] [ ][3454] [ ][3456] [ ][3455] [ ][3456] [ ][3456] [ ][3455] [ ][3455] [ ][3457] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.372V 
+2022-05-02 13:02:15 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:02:15 [I|BMZ] Module #B [Temp]: [30][30][31][30][31][30]
+2022-05-02 13:02:15 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:02:15 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:02:45 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3458] [ ][3454] [ ][3455] [ ][3453] [ ][3455] [ ][3456] [ ][3456] [ ][3460] [ ][3456] [ ][3456] [ ][3456] [ ][3457] [ ][3456] [ ][3460] SoC: 14% Current: 4.08A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.388V 
+2022-05-02 13:02:45 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3457] [ ][3456] [ ][3453] [ ][3452] [ ][3455] [ ][3456] [ ][3455] [ ][3459] [ ][3456] [ ][3456] [ ][3456] [ ][3456] [ ][3456] [ ][3457] SoC: 14% Current: 4.01A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.380V 
+2022-05-02 13:02:45 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3459] [ ][3456] [ ][3457] [ ][3456] [ ][3458] [ ][3456] [ ][3456] [ ][3455] [ ][3455] [ ][3456] [ ][3456] [ ][3456] [ ][3457] [ ][3458] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.391V 
+2022-05-02 13:02:45 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3457] [ ][3455] [ ][3455] [ ][3456] [ ][3456] [ ][3456] [ ][3456] [ ][3457] [ ][3457] [ ][3457] [ ][3457] [ ][3456] [ ][3456] [ ][3458] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.389V 
+2022-05-02 13:02:45 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:02:45 [I|BMZ] Module #B [Temp]: [30][30][31][30][31][30]
+2022-05-02 13:02:45 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:02:45 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:03:15 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3459] [ ][3456] [ ][3456] [ ][3454] [ ][3457] [ ][3457] [ ][3457] [ ][3461] [ ][3458] [ ][3458] [ ][3458] [ ][3458] [ ][3457] [ ][3461] SoC: 14% Current: 4.07A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.407V 
+2022-05-02 13:03:15 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3457] [ ][3458] [ ][3454] [ ][3453] [ ][3457] [ ][3457] [ ][3456] [ ][3460] [ ][3457] [ ][3457] [ ][3457] [ ][3457] [ ][3457] [ ][3458] SoC: 14% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.395V 
+2022-05-02 13:03:15 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3460] [ ][3458] [ ][3458] [ ][3457] [ ][3459] [ ][3458] [ ][3457] [ ][3456] [ ][3456] [ ][3457] [ ][3457] [ ][3457] [ ][3459] [ ][3459] SoC: 14% Current: 4.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.408V 
+2022-05-02 13:03:15 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3458] [ ][3456] [ ][3456] [ ][3458] [ ][3458] [ ][3457] [ ][3457] [ ][3458] [ ][3458] [ ][3459] [ ][3458] [ ][3457] [ ][3457] [ ][3459] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.406V 
+2022-05-02 13:03:15 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:03:15 [I|BMZ] Module #B [Temp]: [30][30][31][30][31][30]
+2022-05-02 13:03:15 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:03:15 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:03:21 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.1043/0.3947, mean(2min)/max(2min): 0.1202/0.2403, mean(5min)/max(5min): 0.1606/0.2403
+2022-05-02 13:03:33 [I|INV_LV] State change logging disabled.
+2022-05-02 13:03:45 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3460] [ ][3457] [ ][3457] [ ][3455] [ ][3458] [ ][3458] [ ][3458] [ ][3462] [ ][3459] [ ][3459] [ ][3459] [ ][3460] [ ][3458] [ ][3462] SoC: 14% Current: 4.07A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.422V 
+2022-05-02 13:03:45 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3459] [ ][3459] [ ][3456] [ ][3454] [ ][3458] [ ][3458] [ ][3457] [ ][3461] [ ][3458] [ ][3459] [ ][3459] [ ][3458] [ ][3458] [ ][3460] SoC: 14% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.414V 
+2022-05-02 13:03:45 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3462] [ ][3459] [ ][3459] [ ][3458] [ ][3460] [ ][3459] [ ][3458] [ ][3457] [ ][3457] [ ][3458] [ ][3458] [ ][3458] [ ][3460] [ ][3460] SoC: 14% Current: 4.02A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.423V 
+2022-05-02 13:03:45 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3459] [ ][3457] [ ][3458] [ ][3459] [ ][3459] [ ][3459] [ ][3458] [ ][3459] [ ][3459] [ ][3460] [ ][3460] [ ][3459] [ ][3458] [ ][3460] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.424V 
+2022-05-02 13:03:45 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:03:45 [I|BMZ] Module #B [Temp]: [30][30][31][30][31][30]
+2022-05-02 13:03:45 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:03:45 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:03:47 Server Communicator: Reconnected.
+2022-05-02 13:04:14 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3461] [ ][3458] [ ][3459] [ ][3456] [ ][3459] [ ][3459] [ ][3459] [ ][3463] [ ][3460] [ ][3460] [ ][3460] [ ][3461] [ ][3459] [ ][3463] SoC: 14% Current: 4.07A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.437V 
+2022-05-02 13:04:14 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3460] [ ][3460] [ ][3457] [ ][3456] [ ][3459] [ ][3459] [ ][3458] [ ][3462] [ ][3459] [ ][3460] [ ][3460] [ ][3460] [ ][3459] [ ][3461] SoC: 14% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.430V 
+2022-05-02 13:04:14 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3463] [ ][3460] [ ][3461] [ ][3459] [ ][3461] [ ][3460] [ ][3460] [ ][3459] [ ][3459] [ ][3459] [ ][3459] [ ][3459] [ ][3461] [ ][3461] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.441V 
+2022-05-02 13:04:14 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3461] [ ][3458] [ ][3459] [ ][3460] [ ][3460] [ ][3460] [ ][3459] [ ][3460] [ ][3460] [ ][3461] [ ][3461] [ ][3460] [ ][3459] [ ][3461] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.439V 
+2022-05-02 13:04:14 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:04:14 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:04:14 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:04:14 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:04:15 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3461] [ ][3458] [ ][3459] [ ][3456] [ ][3459] [ ][3459] [ ][3459] [ ][3463] [ ][3460] [ ][3460] [ ][3460] [ ][3461] [ ][3459] [ ][3463] SoC: 14% Current: 4.07A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.437V 
+2022-05-02 13:04:15 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3460] [ ][3460] [ ][3457] [ ][3456] [ ][3459] [ ][3459] [ ][3458] [ ][3462] [ ][3459] [ ][3460] [ ][3460] [ ][3460] [ ][3459] [ ][3461] SoC: 14% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.430V 
+2022-05-02 13:04:15 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3463] [ ][3460] [ ][3461] [ ][3459] [ ][3461] [ ][3460] [ ][3460] [ ][3459] [ ][3459] [ ][3459] [ ][3459] [ ][3459] [ ][3461] [ ][3461] SoC: 14% Current: 4.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.441V 
+2022-05-02 13:04:15 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3461] [ ][3458] [ ][3459] [ ][3460] [ ][3460] [ ][3460] [ ][3459] [ ][3460] [ ][3460] [ ][3461] [ ][3461] [ ][3460] [ ][3459] [ ][3461] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.439V 
+2022-05-02 13:04:15 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:04:15 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:04:15 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:04:15 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:04:46 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3463] [ ][3459] [ ][3460] [ ][3457] [ ][3460] [ ][3460] [ ][3460] [ ][3464] [ ][3461] [ ][3461] [ ][3461] [ ][3462] [ ][3461] [ ][3465] SoC: 14% Current: 4.07A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.454V 
+2022-05-02 13:04:46 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3461] [ ][3461] [ ][3458] [ ][3457] [ ][3460] [ ][3461] [ ][3460] [ ][3464] [ ][3460] [ ][3461] [ ][3461] [ ][3461] [ ][3460] [ ][3462] SoC: 14% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.447V 
+2022-05-02 13:04:46 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3464] [ ][3461] [ ][3462] [ ][3460] [ ][3462] [ ][3461] [ ][3461] [ ][3460] [ ][3459] [ ][3460] [ ][3460] [ ][3460] [ ][3462] [ ][3462] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.454V 
+2022-05-02 13:04:46 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3462] [ ][3460] [ ][3460] [ ][3461] [ ][3461] [ ][3461] [ ][3460] [ ][3462] [ ][3461] [ ][3462] [ ][3462] [ ][3461] [ ][3460] [ ][3463] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.456V 
+2022-05-02 13:04:46 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:04:46 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:04:46 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:04:46 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:05:16 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3464] [ ][3460] [ ][3461] [ ][3458] [ ][3461] [ ][3461] [ ][3461] [ ][3465] [ ][3462] [ ][3462] [ ][3462] [ ][3463] [ ][3461] [ ][3465] SoC: 14% Current: 4.06A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.466V 
+2022-05-02 13:05:16 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3462] [ ][3462] [ ][3459] [ ][3458] [ ][3461] [ ][3462] [ ][3461] [ ][3465] [ ][3461] [ ][3462] [ ][3462] [ ][3462] [ ][3461] [ ][3463] SoC: 14% Current: 3.98A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.461V 
+2022-05-02 13:05:16 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3465] [ ][3462] [ ][3463] [ ][3461] [ ][3463] [ ][3462] [ ][3462] [ ][3461] [ ][3461] [ ][3462] [ ][3461] [ ][3461] [ ][3463] [ ][3463] SoC: 14% Current: 4.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.470V 
+2022-05-02 13:05:16 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3463] [ ][3461] [ ][3461] [ ][3462] [ ][3462] [ ][3462] [ ][3461] [ ][3463] [ ][3462] [ ][3463] [ ][3463] [ ][3462] [ ][3461] [ ][3464] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.470V 
+2022-05-02 13:05:16 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:05:16 [I|BMZ] Module #B [Temp]: [30][30][31][30][31][30]
+2022-05-02 13:05:16 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:05:16 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:05:46 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3465] [ ][3461] [ ][3462] [ ][3459] [ ][3462] [ ][3462] [ ][3462] [ ][3466] [ ][3463] [ ][3463] [ ][3463] [ ][3464] [ ][3462] [ ][3467] SoC: 14% Current: 4.06A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.481V 
+2022-05-02 13:05:46 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3463] [ ][3463] [ ][3460] [ ][3459] [ ][3462] [ ][3462] [ ][3461] [ ][3466] [ ][3462] [ ][3463] [ ][3463] [ ][3463] [ ][3462] [ ][3464] SoC: 14% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.473V 
+2022-05-02 13:05:46 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3466] [ ][3463] [ ][3464] [ ][3462] [ ][3464] [ ][3463] [ ][3463] [ ][3462] [ ][3461] [ ][3463] [ ][3462] [ ][3462] [ ][3464] [ ][3465] SoC: 14% Current: 4.02A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.484V 
+2022-05-02 13:05:46 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3464] [ ][3462] [ ][3462] [ ][3463] [ ][3463] [ ][3463] [ ][3462] [ ][3464] [ ][3464] [ ][3464] [ ][3464] [ ][3463] [ ][3462] [ ][3465] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.485V 
+2022-05-02 13:05:46 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:05:46 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:05:46 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:05:46 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:06:16 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3466] [ ][3463] [ ][3463] [ ][3460] [ ][3463] [ ][3463] [ ][3463] [ ][3467] [ ][3464] [ ][3464] [ ][3464] [ ][3465] [ ][3464] [ ][3468] SoC: 14% Current: 4.07A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.497V 
+2022-05-02 13:06:16 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3464] [ ][3464] [ ][3461] [ ][3460] [ ][3463] [ ][3464] [ ][3462] [ ][3466] [ ][3463] [ ][3464] [ ][3464] [ ][3464] [ ][3463] [ ][3465] SoC: 14% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.487V 
+2022-05-02 13:06:16 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3467] [ ][3464] [ ][3465] [ ][3463] [ ][3465] [ ][3464] [ ][3464] [ ][3463] [ ][3463] [ ][3464] [ ][3464] [ ][3464] [ ][3465] [ ][3466] SoC: 14% Current: 4.02A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.501V 
+2022-05-02 13:06:16 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3465] [ ][3462] [ ][3463] [ ][3464] [ ][3465] [ ][3464] [ ][3463] [ ][3465] [ ][3465] [ ][3465] [ ][3465] [ ][3464] [ ][3464] [ ][3466] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.500V 
+2022-05-02 13:06:16 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:06:16 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:06:16 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:06:16 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:06:46 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3467] [ ][3463] [ ][3464] [ ][3462] [ ][3464] [ ][3465] [ ][3465] [ ][3468] [ ][3465] [ ][3466] [ ][3465] [ ][3466] [ ][3465] [ ][3469] SoC: 14% Current: 4.06A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.514V 
+2022-05-02 13:06:46 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3465] [ ][3465] [ ][3462] [ ][3461] [ ][3464] [ ][3465] [ ][3463] [ ][3467] [ ][3464] [ ][3465] [ ][3465] [ ][3465] [ ][3464] [ ][3466] SoC: 14% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.501V 
+2022-05-02 13:06:46 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3468] [ ][3465] [ ][3466] [ ][3464] [ ][3466] [ ][3465] [ ][3465] [ ][3464] [ ][3464] [ ][3465] [ ][3465] [ ][3465] [ ][3466] [ ][3467] SoC: 14% Current: 4.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.515V 
+2022-05-02 13:06:46 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3466] [ ][3464] [ ][3464] [ ][3466] [ ][3465] [ ][3465] [ ][3464] [ ][3466] [ ][3466] [ ][3466] [ ][3466] [ ][3465] [ ][3465] [ ][3467] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.515V 
+2022-05-02 13:06:46 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:06:46 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:06:46 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:06:46 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:07:16 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3468] [ ][3464] [ ][3465] [ ][3463] [ ][3466] [ ][3466] [ ][3465] [ ][3469] [ ][3466] [ ][3466] [ ][3466] [ ][3467] [ ][3465] [ ][3470] SoC: 14% Current: 4.07A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.526V 
+2022-05-02 13:07:16 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3466] [ ][3466] [ ][3463] [ ][3462] [ ][3465] [ ][3465] [ ][3465] [ ][3469] [ ][3465] [ ][3466] [ ][3466] [ ][3466] [ ][3466] [ ][3467] SoC: 14% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.517V 
+2022-05-02 13:07:16 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3469] [ ][3466] [ ][3467] [ ][3465] [ ][3467] [ ][3466] [ ][3466] [ ][3465] [ ][3465] [ ][3465] [ ][3466] [ ][3466] [ ][3467] [ ][3468] SoC: 14% Current: 4.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.528V 
+2022-05-02 13:07:16 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3467] [ ][3465] [ ][3465] [ ][3466] [ ][3466] [ ][3466] [ ][3465] [ ][3467] [ ][3466] [ ][3467] [ ][3467] [ ][3466] [ ][3465] [ ][3468] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.526V 
+2022-05-02 13:07:16 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:07:16 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:07:16 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:07:16 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:07:46 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3469] [ ][3465] [ ][3466] [ ][3464] [ ][3467] [ ][3466] [ ][3466] [ ][3470] [ ][3467] [ ][3467] [ ][3467] [ ][3468] [ ][3466] [ ][3470] SoC: 14% Current: 4.07A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.538V 
+2022-05-02 13:07:46 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3467] [ ][3467] [ ][3464] [ ][3463] [ ][3466] [ ][3467] [ ][3466] [ ][3470] [ ][3467] [ ][3467] [ ][3467] [ ][3467] [ ][3467] [ ][3468] SoC: 14% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.533V 
+2022-05-02 13:07:46 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3470] [ ][3467] [ ][3467] [ ][3466] [ ][3468] [ ][3467] [ ][3467] [ ][3466] [ ][3466] [ ][3466] [ ][3467] [ ][3466] [ ][3468] [ ][3468] SoC: 14% Current: 4.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.539V 
+2022-05-02 13:07:46 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3468] [ ][3465] [ ][3466] [ ][3467] [ ][3467] [ ][3467] [ ][3466] [ ][3468] [ ][3467] [ ][3468] [ ][3468] [ ][3467] [ ][3466] [ ][3469] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.539V 
+2022-05-02 13:07:46 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:07:46 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:07:46 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:07:46 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:08:16 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3470] [ ][3466] [ ][3467] [ ][3464] [ ][3467] [ ][3467] [ ][3467] [ ][3471] [ ][3468] [ ][3468] [ ][3468] [ ][3468] [ ][3467] [ ][3471] SoC: 14% Current: 4.07A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.549V 
+2022-05-02 13:08:16 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3468] [ ][3468] [ ][3465] [ ][3464] [ ][3467] [ ][3467] [ ][3466] [ ][3470] [ ][3467] [ ][3468] [ ][3468] [ ][3467] [ ][3467] [ ][3469] SoC: 14% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.541V 
+2022-05-02 13:08:16 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3471] [ ][3468] [ ][3468] [ ][3467] [ ][3469] [ ][3467] [ ][3468] [ ][3467] [ ][3467] [ ][3467] [ ][3467] [ ][3467] [ ][3469] [ ][3469] SoC: 14% Current: 4.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.551V 
+2022-05-02 13:08:16 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3469] [ ][3466] [ ][3467] [ ][3468] [ ][3468] [ ][3467] [ ][3467] [ ][3469] [ ][3468] [ ][3469] [ ][3468] [ ][3468] [ ][3467] [ ][3470] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.551V 
+2022-05-02 13:08:16 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:08:16 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:08:16 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:08:16 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:08:46 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3470] [ ][3467] [ ][3468] [ ][3465] [ ][3468] [ ][3468] [ ][3468] [ ][3472] [ ][3469] [ ][3469] [ ][3469] [ ][3469] [ ][3468] [ ][3472] SoC: 14% Current: 4.07A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.562V 
+2022-05-02 13:08:46 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3469] [ ][3469] [ ][3466] [ ][3465] [ ][3468] [ ][3468] [ ][3467] [ ][3472] [ ][3468] [ ][3469] [ ][3469] [ ][3469] [ ][3468] [ ][3470] SoC: 14% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.557V 
+2022-05-02 13:08:46 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3471] [ ][3469] [ ][3469] [ ][3468] [ ][3470] [ ][3469] [ ][3468] [ ][3468] [ ][3467] [ ][3468] [ ][3468] [ ][3468] [ ][3470] [ ][3470] SoC: 14% Current: 4.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.563V 
+2022-05-02 13:08:46 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3470] [ ][3467] [ ][3467] [ ][3468] [ ][3469] [ ][3469] [ ][3468] [ ][3469] [ ][3469] [ ][3470] [ ][3470] [ ][3468] [ ][3468] [ ][3470] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.562V 
+2022-05-02 13:08:46 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:08:46 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:08:46 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:08:46 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:09:15 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3471] [ ][3468] [ ][3468] [ ][3466] [ ][3469] [ ][3469] [ ][3469] [ ][3472] [ ][3469] [ ][3470] [ ][3469] [ ][3470] [ ][3469] [ ][3473] SoC: 14% Current: 4.07A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.572V 
+2022-05-02 13:09:15 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3470] [ ][3469] [ ][3466] [ ][3465] [ ][3468] [ ][3469] [ ][3468] [ ][3472] [ ][3469] [ ][3469] [ ][3469] [ ][3469] [ ][3469] [ ][3470] SoC: 14% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.562V 
+2022-05-02 13:09:15 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3472] [ ][3469] [ ][3470] [ ][3468] [ ][3471] [ ][3469] [ ][3469] [ ][3469] [ ][3468] [ ][3469] [ ][3469] [ ][3469] [ ][3470] [ ][3471] SoC: 14% Current: 4.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.573V 
+2022-05-02 13:09:15 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3471] [ ][3468] [ ][3468] [ ][3469] [ ][3470] [ ][3469] [ ][3469] [ ][3470] [ ][3470] [ ][3470] [ ][3470] [ ][3470] [ ][3469] [ ][3471] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.574V 
+2022-05-02 13:09:15 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:09:15 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:09:15 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:09:15 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:09:17 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3471] [ ][3468] [ ][3468] [ ][3466] [ ][3469] [ ][3469] [ ][3469] [ ][3473] [ ][3470] [ ][3470] [ ][3470] [ ][3470] [ ][3469] [ ][3473] SoC: 14% Current: 4.07A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.575V 
+2022-05-02 13:09:17 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3470] [ ][3469] [ ][3466] [ ][3465] [ ][3469] [ ][3469] [ ][3468] [ ][3472] [ ][3469] [ ][3470] [ ][3469] [ ][3469] [ ][3469] [ ][3471] SoC: 14% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.565V 
+2022-05-02 13:09:17 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3472] [ ][3469] [ ][3470] [ ][3468] [ ][3471] [ ][3469] [ ][3469] [ ][3469] [ ][3468] [ ][3469] [ ][3469] [ ][3469] [ ][3470] [ ][3471] SoC: 14% Current: 4.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.573V 
+2022-05-02 13:09:17 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3471] [ ][3468] [ ][3468] [ ][3469] [ ][3469] [ ][3470] [ ][3469] [ ][3470] [ ][3469] [ ][3470] [ ][3471] [ ][3470] [ ][3468] [ ][3470] SoC: 14% Current: 4.04A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.572V 
+2022-05-02 13:09:17 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:09:17 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:09:17 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:09:17 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:09:47 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3472] [ ][3469] [ ][3469] [ ][3467] [ ][3470] [ ][3470] [ ][3470] [ ][3474] [ ][3470] [ ][3471] [ ][3470] [ ][3471] [ ][3470] [ ][3474] SoC: 14% Current: 4.06A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.587V 
+2022-05-02 13:09:47 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3470] [ ][3470] [ ][3467] [ ][3466] [ ][3469] [ ][3470] [ ][3468] [ ][3473] [ ][3469] [ ][3470] [ ][3470] [ ][3470] [ ][3470] [ ][3471] SoC: 14% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.573V 
+2022-05-02 13:09:47 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3473] [ ][3470] [ ][3471] [ ][3469] [ ][3471] [ ][3470] [ ][3470] [ ][3470] [ ][3469] [ ][3470] [ ][3470] [ ][3470] [ ][3471] [ ][3472] SoC: 14% Current: 4.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.586V 
+2022-05-02 13:09:47 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3471] [ ][3469] [ ][3469] [ ][3470] [ ][3471] [ ][3470] [ ][3470] [ ][3471] [ ][3471] [ ][3471] [ ][3471] [ ][3470] [ ][3470] [ ][3472] SoC: 14% Current: 4.03A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.586V 
+2022-05-02 13:09:47 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:09:47 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:09:47 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:09:47 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:10:17 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3473] [ ][3470] [ ][3470] [ ][3468] [ ][3471] [ ][3470] [ ][3470] [ ][3474] [ ][3471] [ ][3471] [ ][3471] [ ][3472] [ ][3470] [ ][3474] SoC: 14% Current: 4.05A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.595V 
+2022-05-02 13:10:17 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3471] [ ][3471] [ ][3468] [ ][3467] [ ][3470] [ ][3470] [ ][3469] [ ][3474] [ ][3470] [ ][3471] [ ][3471] [ ][3471] [ ][3470] [ ][3472] SoC: 14% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.585V 
+2022-05-02 13:10:17 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3474] [ ][3471] [ ][3471] [ ][3470] [ ][3472] [ ][3471] [ ][3471] [ ][3470] [ ][3470] [ ][3470] [ ][3470] [ ][3471] [ ][3472] [ ][3473] SoC: 15% Current: 4.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.596V 
+2022-05-02 13:10:17 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3472] [ ][3469] [ ][3470] [ ][3471] [ ][3471] [ ][3471] [ ][3470] [ ][3472] [ ][3472] [ ][3472] [ ][3472] [ ][3471] [ ][3470] [ ][3473] SoC: 15% Current: 4.03A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.596V 
+2022-05-02 13:10:17 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:10:17 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:10:17 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:10:17 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:10:47 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3474] [ ][3470] [ ][3471] [ ][3468] [ ][3471] [ ][3471] [ ][3471] [ ][3475] [ ][3472] [ ][3472] [ ][3472] [ ][3472] [ ][3471] [ ][3475] SoC: 15% Current: 4.06A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.605V 
+2022-05-02 13:10:47 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3472] [ ][3472] [ ][3469] [ ][3468] [ ][3471] [ ][3471] [ ][3470] [ ][3474] [ ][3471] [ ][3472] [ ][3471] [ ][3472] [ ][3471] [ ][3473] SoC: 15% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.597V 
+2022-05-02 13:10:47 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3474] [ ][3472] [ ][3472] [ ][3471] [ ][3473] [ ][3472] [ ][3471] [ ][3471] [ ][3470] [ ][3471] [ ][3471] [ ][3471] [ ][3473] [ ][3473] SoC: 15% Current: 4.02A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.605V 
+2022-05-02 13:10:47 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3473] [ ][3470] [ ][3471] [ ][3472] [ ][3472] [ ][3472] [ ][3471] [ ][3473] [ ][3472] [ ][3472] [ ][3472] [ ][3472] [ ][3471] [ ][3473] SoC: 15% Current: 4.04A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.606V 
+2022-05-02 13:10:47 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:10:47 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:10:47 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:10:47 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:11:17 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3474] [ ][3471] [ ][3472] [ ][3469] [ ][3472] [ ][3472] [ ][3472] [ ][3476] [ ][3472] [ ][3472] [ ][3472] [ ][3473] [ ][3472] [ ][3476] SoC: 15% Current: 4.05A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.615V 
+2022-05-02 13:11:17 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3473] [ ][3473] [ ][3470] [ ][3468] [ ][3472] [ ][3472] [ ][3471] [ ][3475] [ ][3472] [ ][3472] [ ][3472] [ ][3472] [ ][3472] [ ][3474] SoC: 15% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.608V 
+2022-05-02 13:11:17 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3475] [ ][3473] [ ][3473] [ ][3472] [ ][3474] [ ][3472] [ ][3472] [ ][3472] [ ][3471] [ ][3472] [ ][3472] [ ][3472] [ ][3473] [ ][3474] SoC: 15% Current: 4.02A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.617V 
+2022-05-02 13:11:17 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3474] [ ][3471] [ ][3472] [ ][3472] [ ][3472] [ ][3472] [ ][3472] [ ][3473] [ ][3472] [ ][3473] [ ][3473] [ ][3473] [ ][3472] [ ][3474] SoC: 15% Current: 4.05A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.615V 
+2022-05-02 13:11:17 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:11:17 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:11:17 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:11:17 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:11:47 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3475] [ ][3472] [ ][3472] [ ][3470] [ ][3473] [ ][3473] [ ][3473] [ ][3476] [ ][3473] [ ][3473] [ ][3473] [ ][3474] [ ][3473] [ ][3476] SoC: 15% Current: 4.05A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.626V 
+2022-05-02 13:11:47 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3474] [ ][3473] [ ][3470] [ ][3469] [ ][3472] [ ][3473] [ ][3472] [ ][3476] [ ][3473] [ ][3473] [ ][3473] [ ][3473] [ ][3473] [ ][3474] SoC: 15% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.618V 
+2022-05-02 13:11:47 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3476] [ ][3473] [ ][3474] [ ][3472] [ ][3474] [ ][3473] [ ][3473] [ ][3473] [ ][3472] [ ][3473] [ ][3473] [ ][3473] [ ][3474] [ ][3475] SoC: 15% Current: 4.03A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.628V 
+2022-05-02 13:11:47 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3474] [ ][3472] [ ][3472] [ ][3473] [ ][3473] [ ][3473] [ ][3472] [ ][3474] [ ][3474] [ ][3474] [ ][3474] [ ][3473] [ ][3472] [ ][3475] SoC: 15% Current: 4.04A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.625V 
+2022-05-02 13:11:47 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:11:47 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:11:47 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:11:47 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:12:17 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3476] [ ][3472] [ ][3473] [ ][3471] [ ][3474] [ ][3473] [ ][3473] [ ][3477] [ ][3474] [ ][3474] [ ][3474] [ ][3475] [ ][3473] [ ][3477] SoC: 15% Current: 4.04A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.636V 
+2022-05-02 13:12:17 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3474] [ ][3474] [ ][3471] [ ][3470] [ ][3473] [ ][3473] [ ][3472] [ ][3476] [ ][3473] [ ][3474] [ ][3474] [ ][3474] [ ][3473] [ ][3475] SoC: 15% Current: 3.99A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.626V 
+2022-05-02 13:12:17 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3477] [ ][3474] [ ][3475] [ ][3473] [ ][3475] [ ][3474] [ ][3474] [ ][3474] [ ][3473] [ ][3473] [ ][3473] [ ][3474] [ ][3475] [ ][3475] SoC: 15% Current: 4.03A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.639V 
+2022-05-02 13:12:17 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3475] [ ][3473] [ ][3473] [ ][3474] [ ][3474] [ ][3474] [ ][3474] [ ][3475] [ ][3474] [ ][3475] [ ][3475] [ ][3474] [ ][3473] [ ][3476] SoC: 15% Current: 4.05A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.639V 
+2022-05-02 13:12:17 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:12:17 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:12:17 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:12:17 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:12:47 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3477] [ ][3473] [ ][3474] [ ][3472] [ ][3474] [ ][3474] [ ][3474] [ ][3478] [ ][3475] [ ][3475] [ ][3475] [ ][3475] [ ][3474] [ ][3478] SoC: 15% Current: 4.04A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.648V 
+2022-05-02 13:12:47 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3475] [ ][3475] [ ][3472] [ ][3471] [ ][3474] [ ][3474] [ ][3473] [ ][3477] [ ][3474] [ ][3475] [ ][3474] [ ][3474] [ ][3474] [ ][3476] SoC: 15% Current: 3.98A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.638V 
+2022-05-02 13:12:47 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3477] [ ][3475] [ ][3475] [ ][3474] [ ][3476] [ ][3474] [ ][3474] [ ][3474] [ ][3473] [ ][3474] [ ][3474] [ ][3474] [ ][3476] [ ][3476] SoC: 15% Current: 4.03A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.646V 
+2022-05-02 13:12:47 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3476] [ ][3474] [ ][3474] [ ][3475] [ ][3475] [ ][3474] [ ][3474] [ ][3476] [ ][3475] [ ][3475] [ ][3476] [ ][3475] [ ][3474] [ ][3476] SoC: 15% Current: 4.05A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.649V 
+2022-05-02 13:12:47 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:12:47 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:12:47 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:12:47 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:13:14 [I|BAT Interface] Battery temp: 28.00 to 32.00 °C, case temp: 36.26 °C
+2022-05-02 13:13:14 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[1046.2W] INV_HV:[1026.2W] Total production: 2072.3W current feed-in limit: 100.00 %
+2022-05-02 13:13:17 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3477] [ ][3474] [ ][3475] [ ][3472] [ ][3475] [ ][3475] [ ][3475] [ ][3479] [ ][3475] [ ][3476] [ ][3475] [ ][3476] [ ][3475] [ ][3479] SoC: 15% Current: 4.04A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.658V 
+2022-05-02 13:13:17 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3476] [ ][3475] [ ][3472] [ ][3472] [ ][3475] [ ][3475] [ ][3474] [ ][3478] [ ][3475] [ ][3475] [ ][3475] [ ][3475] [ ][3475] [ ][3476] SoC: 15% Current: 3.97A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.648V 
+2022-05-02 13:13:17 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3478] [ ][3475] [ ][3476] [ ][3474] [ ][3477] [ ][3475] [ ][3475] [ ][3475] [ ][3474] [ ][3475] [ ][3475] [ ][3475] [ ][3476] [ ][3477] SoC: 15% Current: 4.04A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.657V 
+2022-05-02 13:13:17 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3477] [ ][3474] [ ][3475] [ ][3475] [ ][3476] [ ][3475] [ ][3475] [ ][3476] [ ][3476] [ ][3477] [ ][3476] [ ][3475] [ ][3475] [ ][3477] SoC: 15% Current: 4.05A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.659V 
+2022-05-02 13:13:17 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:13:17 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:13:17 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:13:17 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:13:47 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3478] [ ][3475] [ ][3475] [ ][3473] [ ][3476] [ ][3476] [ ][3475] [ ][3479] [ ][3476] [ ][3476] [ ][3476] [ ][3477] [ ][3476] [ ][3479] SoC: 15% Current: 4.04A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.667V 
+2022-05-02 13:13:47 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3476] [ ][3476] [ ][3473] [ ][3472] [ ][3475] [ ][3476] [ ][3475] [ ][3479] [ ][3476] [ ][3476] [ ][3476] [ ][3476] [ ][3476] [ ][3477] SoC: 15% Current: 3.97A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.659V 
+2022-05-02 13:13:47 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3479] [ ][3476] [ ][3477] [ ][3475] [ ][3477] [ ][3476] [ ][3476] [ ][3475] [ ][3475] [ ][3476] [ ][3476] [ ][3476] [ ][3477] [ ][3478] SoC: 15% Current: 4.05A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.669V 
+2022-05-02 13:13:47 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3478] [ ][3475] [ ][3475] [ ][3476] [ ][3476] [ ][3476] [ ][3476] [ ][3477] [ ][3476] [ ][3477] [ ][3477] [ ][3476] [ ][3475] [ ][3478] SoC: 15% Current: 4.05A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.668V 
+2022-05-02 13:13:47 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:13:47 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:13:47 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:13:47 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:14:15 [I|BMZ|Battery diagnosis] Cell diagnose charge done, entering relaxation phase.
+2022-05-02 13:14:15 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3479] [ ][3475] [ ][3476] [ ][3474] [ ][3476] [ ][3476] [ ][3476] [ ][3480] [ ][3477] [ ][3477] [ ][3477] [ ][3477] [ ][3476] [ ][3480] SoC: 15% Current: 4.04A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.676V 
+2022-05-02 13:14:15 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3477] [ ][3477] [ ][3474] [ ][3473] [ ][3476] [ ][3477] [ ][3476] [ ][3480] [ ][3477] [ ][3477] [ ][3477] [ ][3477] [ ][3477] [ ][3478] SoC: 15% Current: 3.97A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.673V 
+2022-05-02 13:14:15 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3479] [ ][3477] [ ][3477] [ ][3476] [ ][3478] [ ][3476] [ ][3476] [ ][3476] [ ][3475] [ ][3476] [ ][3476] [ ][3476] [ ][3477] [ ][3478] SoC: 15% Current: 4.05A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.673V 
+2022-05-02 13:14:15 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3478] [ ][3475] [ ][3475] [ ][3477] [ ][3478] [ ][3477] [ ][3475] [ ][3477] [ ][3477] [ ][3478] [ ][3478] [ ][3476] [ ][3476] [ ][3479] SoC: 15% Current: 4.05A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.676V 
+2022-05-02 13:14:15 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:14:15 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-05-02 13:14:15 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:14:15 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:14:15 [I|BMZ|Battery diagnosis] Relaxation wait up to 45 minutes.
+2022-05-02 13:15:15 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3467] [ ][3464] [ ][3465] [ ][3463] [ ][3465] [ ][3465] [ ][3466] [ ][3465] [ ][3466] [ ][3467] [ ][3466] [ ][3467] [ ][3466] [ ][3468] SoC: 15% Current: -0.05A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.520V 
+2022-05-02 13:15:15 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3465] [ ][3466] [ ][3463] [ ][3462] [ ][3465] [ ][3466] [ ][3465] [ ][3465] [ ][3466] [ ][3466] [ ][3466] [ ][3466] [ ][3465] [ ][3466] SoC: 15% Current: -0.04A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.512V 
+2022-05-02 13:15:15 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3468] [ ][3466] [ ][3467] [ ][3465] [ ][3467] [ ][3466] [ ][3466] [ ][3461] [ ][3465] [ ][3465] [ ][3466] [ ][3466] [ ][3467] [ ][3466] SoC: 15% Current: 0.02A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.521V 
+2022-05-02 13:15:15 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3466] [ ][3465] [ ][3465] [ ][3466] [ ][3466] [ ][3466] [ ][3466] [ ][3463] [ ][3467] [ ][3467] [ ][3467] [ ][3466] [ ][3466] [ ][3467] SoC: 15% Current: 0.02A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.523V 
+2022-05-02 13:15:15 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:15:15 [I|BMZ] Module #B [Temp]: [30][30][31][30][31][30]
+2022-05-02 13:15:15 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:15:15 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:15:17 [W|BAT Interface] Enter passive state. Target power was not updated for 1 minute.
+2022-05-02 13:15:45 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3466] [ ][3464] [ ][3464] [ ][3462] [ ][3465] [ ][3465] [ ][3465] [ ][3464] [ ][3466] [ ][3466] [ ][3466] [ ][3466] [ ][3465] [ ][3468] SoC: 15% Current: -0.05A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.512V 
+2022-05-02 13:15:45 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3465] [ ][3465] [ ][3462] [ ][3462] [ ][3464] [ ][3465] [ ][3465] [ ][3464] [ ][3465] [ ][3465] [ ][3465] [ ][3465] [ ][3465] [ ][3465] SoC: 15% Current: -0.03A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.502V 
+2022-05-02 13:15:45 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3467] [ ][3465] [ ][3466] [ ][3464] [ ][3467] [ ][3465] [ ][3466] [ ][3461] [ ][3464] [ ][3465] [ ][3465] [ ][3465] [ ][3466] [ ][3466] SoC: 15% Current: 0.02A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.512V 
+2022-05-02 13:15:45 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3465] [ ][3464] [ ][3465] [ ][3466] [ ][3466] [ ][3466] [ ][3466] [ ][3463] [ ][3466] [ ][3466] [ ][3466] [ ][3465] [ ][3465] [ ][3467] SoC: 15% Current: 0.02A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.516V 
+2022-05-02 13:15:45 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:15:45 [I|BMZ] Module #B [Temp]: [30][30][31][30][31][30]
+2022-05-02 13:15:45 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:15:45 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:16:15 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3466] [ ][3463] [ ][3464] [ ][3462] [ ][3464] [ ][3464] [ ][3465] [ ][3464] [ ][3465] [ ][3465] [ ][3465] [ ][3466] [ ][3464] [ ][3468] SoC: 15% Current: -0.04A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.505V 
+2022-05-02 13:16:15 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3464] [ ][3465] [ ][3462] [ ][3461] [ ][3464] [ ][3465] [ ][3464] [ ][3464] [ ][3465] [ ][3465] [ ][3465] [ ][3465] [ ][3465] [ ][3465] SoC: 15% Current: -0.03A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.499V 
+2022-05-02 13:16:15 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3467] [ ][3465] [ ][3466] [ ][3464] [ ][3466] [ ][3465] [ ][3465] [ ][3460] [ ][3463] [ ][3464] [ ][3464] [ ][3465] [ ][3465] [ ][3465] SoC: 15% Current: 0.02A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.504V 
+2022-05-02 13:16:15 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3465] [ ][3464] [ ][3465] [ ][3465] [ ][3465] [ ][3465] [ ][3465] [ ][3462] [ ][3465] [ ][3466] [ ][3466] [ ][3465] [ ][3465] [ ][3466] SoC: 15% Current: 0.01A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.509V 
+2022-05-02 13:16:15 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:16:15 [I|BMZ] Module #B [Temp]: [30][30][31][30][31][30]
+2022-05-02 13:16:15 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:16:15 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:16:45 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3465] [ ][3463] [ ][3463] [ ][3461] [ ][3464] [ ][3464] [ ][3465] [ ][3464] [ ][3465] [ ][3465] [ ][3465] [ ][3466] [ ][3464] [ ][3467] SoC: 15% Current: -0.04A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.501V 
+2022-05-02 13:16:45 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3463] [ ][3464] [ ][3461] [ ][3460] [ ][3464] [ ][3464] [ ][3463] [ ][3463] [ ][3464] [ ][3464] [ ][3464] [ ][3464] [ ][3464] [ ][3464] SoC: 15% Current: -0.03A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.486V 
+2022-05-02 13:16:45 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3466] [ ][3465] [ ][3465] [ ][3463] [ ][3466] [ ][3464] [ ][3465] [ ][3460] [ ][3463] [ ][3464] [ ][3464] [ ][3464] [ ][3465] [ ][3465] SoC: 15% Current: 0.02A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.499V 
+2022-05-02 13:16:45 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3465] [ ][3463] [ ][3464] [ ][3465] [ ][3465] [ ][3465] [ ][3465] [ ][3462] [ ][3465] [ ][3466] [ ][3466] [ ][3464] [ ][3464] [ ][3465] SoC: 15% Current: 0.00A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.504V 
+2022-05-02 13:16:45 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:16:45 [I|BMZ] Module #B [Temp]: [30][30][31][30][31][30]
+2022-05-02 13:16:45 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:16:45 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:17:15 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3465] [ ][3463] [ ][3463] [ ][3461] [ ][3464] [ ][3464] [ ][3464] [ ][3463] [ ][3465] [ ][3465] [ ][3464] [ ][3465] [ ][3464] [ ][3467] SoC: 15% Current: -0.05A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.497V 
+2022-05-02 13:17:15 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3463] [ ][3464] [ ][3461] [ ][3460] [ ][3463] [ ][3464] [ ][3463] [ ][3462] [ ][3463] [ ][3464] [ ][3464] [ ][3464] [ ][3463] [ ][3464] SoC: 15% Current: -0.01A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.482V 
+2022-05-02 13:17:15 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3466] [ ][3464] [ ][3465] [ ][3463] [ ][3465] [ ][3464] [ ][3465] [ ][3459] [ ][3463] [ ][3464] [ ][3464] [ ][3464] [ ][3465] [ ][3465] SoC: 15% Current: 0.02A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.496V 
+2022-05-02 13:17:15 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3464] [ ][3463] [ ][3464] [ ][3464] [ ][3465] [ ][3465] [ ][3465] [ ][3461] [ ][3465] [ ][3465] [ ][3465] [ ][3464] [ ][3463] [ ][3465] SoC: 15% Current: 0.00A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.498V 
+2022-05-02 13:17:15 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:17:15 [I|BMZ] Module #B [Temp]: [30][30][31][30][31][30]
+2022-05-02 13:17:15 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:17:15 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:17:45 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3465] [ ][3462] [ ][3463] [ ][3461] [ ][3463] [ ][3463] [ ][3464] [ ][3463] [ ][3464] [ ][3464] [ ][3464] [ ][3465] [ ][3464] [ ][3466] SoC: 15% Current: -0.04A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.491V 
+2022-05-02 13:17:45 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3463] [ ][3464] [ ][3461] [ ][3460] [ ][3463] [ ][3464] [ ][3463] [ ][3463] [ ][3464] [ ][3464] [ ][3464] [ ][3464] [ ][3464] [ ][3464] SoC: 15% Current: -0.02A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.485V 
+2022-05-02 13:17:45 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3466] [ ][3464] [ ][3465] [ ][3463] [ ][3465] [ ][3464] [ ][3464] [ ][3459] [ ][3462] [ ][3464] [ ][3463] [ ][3463] [ ][3465] [ ][3464] SoC: 15% Current: 0.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.491V 
+2022-05-02 13:17:45 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3464] [ ][3463] [ ][3463] [ ][3464] [ ][3464] [ ][3464] [ ][3465] [ ][3461] [ ][3465] [ ][3465] [ ][3465] [ ][3464] [ ][3463] [ ][3465] SoC: 15% Current: 0.00A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.495V 
+2022-05-02 13:17:45 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:17:45 [I|BMZ] Module #B [Temp]: [30][30][31][30][31][30]
+2022-05-02 13:17:45 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:17:45 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:18:15 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3464] [ ][3462] [ ][3463] [ ][3460] [ ][3463] [ ][3463] [ ][3464] [ ][3463] [ ][3464] [ ][3464] [ ][3464] [ ][3465] [ ][3463] [ ][3466] SoC: 15% Current: -0.05A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.488V 
+2022-05-02 13:18:15 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3463] [ ][3464] [ ][3461] [ ][3460] [ ][3463] [ ][3463] [ ][3463] [ ][3462] [ ][3463] [ ][3464] [ ][3463] [ ][3463] [ ][3463] [ ][3464] SoC: 15% Current: -0.02A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.479V 
+2022-05-02 13:18:15 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3465] [ ][3464] [ ][3465] [ ][3463] [ ][3465] [ ][3464] [ ][3464] [ ][3459] [ ][3462] [ ][3463] [ ][3463] [ ][3463] [ ][3464] [ ][3464] SoC: 15% Current: 0.02A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.488V 
+2022-05-02 13:18:15 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3464] [ ][3462] [ ][3463] [ ][3464] [ ][3464] [ ][3464] [ ][3464] [ ][3461] [ ][3465] [ ][3465] [ ][3465] [ ][3464] [ ][3463] [ ][3465] SoC: 15% Current: 0.00A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.493V 
+2022-05-02 13:18:15 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:18:15 [I|BMZ] Module #B [Temp]: [30][30][31][30][31][30]
+2022-05-02 13:18:15 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:18:15 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:18:45 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3464] [ ][3462] [ ][3462] [ ][3460] [ ][3463] [ ][3463] [ ][3464] [ ][3463] [ ][3464] [ ][3464] [ ][3464] [ ][3465] [ ][3463] [ ][3466] SoC: 15% Current: -0.03A Limit: 6.00A/-12.00A Temp: 32-32C Voltage: 48.487V 
+2022-05-02 13:18:45 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3463] [ ][3463] [ ][3460] [ ][3459] [ ][3462] [ ][3463] [ ][3463] [ ][3462] [ ][3463] [ ][3463] [ ][3463] [ ][3463] [ ][3463] [ ][3463] SoC: 15% Current: -0.01A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.473V 
+2022-05-02 13:18:45 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3465] [ ][3464] [ ][3464] [ ][3463] [ ][3465] [ ][3463] [ ][3464] [ ][3459] [ ][3462] [ ][3463] [ ][3463] [ ][3463] [ ][3464] [ ][3464] SoC: 15% Current: 0.02A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.486V 
+2022-05-02 13:18:45 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3464] [ ][3463] [ ][3463] [ ][3464] [ ][3464] [ ][3464] [ ][3464] [ ][3460] [ ][3464] [ ][3465] [ ][3465] [ ][3464] [ ][3463] [ ][3464] SoC: 15% Current: 0.00A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.491V 
+2022-05-02 13:18:45 [I|BMZ] Module #A [Temp]: [32][32][32][32][32][32]
+2022-05-02 13:18:45 [I|BMZ] Module #B [Temp]: [30][30][31][30][31][30]
+2022-05-02 13:18:45 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-05-02 13:18:45 [I|BMZ] Module #D [Temp]: [29][30][30][30][30][30]
+2022-05-02 13:43:14 [I|BAT Interface] Battery temp: 28.00 to 33.00 °C, case temp: 35.32 °C
+2022-05-02 13:43:14 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[1201.6W] INV_HV:[1468.1W] Total production: 2669.7W current feed-in limit: 100.00 %
+2022-05-02 13:59:15 [I|BMZ|Battery diagnosis] Relaxation time over, cell diagnosis successfull.
+2022-05-02 13:59:15 [I|BMZ|Battery diagnosis] Leaving cell diagnose charge.
+2022-05-02 13:59:15 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3462] [ ][3460] [ ][3460] [ ][3457] [ ][3460] [ ][3460] [ ][3461] [ ][3460] [ ][3461] [ ][3461] [ ][3461] [ ][3462] [ ][3461] [ ][3464] SoC: 16% Current: -0.01A Limit: 6.00A/-12.00A Temp: 32-33C Voltage: 48.450V 
+2022-05-02 13:59:15 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3461] [ ][3462] [ ][3459] [ ][3457] [ ][3461] [ ][3461] [ ][3461] [ ][3460] [ ][3461] [ ][3461] [ ][3461] [ ][3461] [ ][3461] [ ][3461] SoC: 15% Current: -0.01A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.448V 
+2022-05-02 13:59:15 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3463] [ ][3461] [ ][3462] [ ][3460] [ ][3462] [ ][3461] [ ][3462] [ ][3456] [ ][3460] [ ][3461] [ ][3461] [ ][3461] [ ][3462] [ ][3461] SoC: 15% Current: 0.00A Limit: 6.00A/-12.00A Temp: 28-30C Voltage: 48.453V 
+2022-05-02 13:59:15 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3461] [ ][3460] [ ][3461] [ ][3461] [ ][3461] [ ][3461] [ ][3462] [ ][3458] [ ][3462] [ ][3462] [ ][3462] [ ][3461] [ ][3461] [ ][3462] SoC: 15% Current: -0.01A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.455V 
+2022-05-02 13:59:15 [I|BMZ] Module #A [Temp]: [32][32][33][32][33][32]
+2022-05-02 13:59:15 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][31]
+2022-05-02 13:59:15 [I|BMZ] Module #C [Temp]: [28][29][29][29][30][30]
+2022-05-02 13:59:15 [I|BMZ] Module #D [Temp]: [30][30][30][30][31][31]
+2022-05-02 13:59:22 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.6567/1.0760, mean(2min)/max(2min): 1.0760/1.0760, mean(5min)/max(5min): 1.0760/1.0760
+2022-05-02 14:13:15 [I|BAT Interface] Battery temp: 29.00 to 33.00 °C, case temp: 34.72 °C
+2022-05-02 14:13:15 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[1383.2W] INV_HV:[2852.6W] Total production: 4235.9W current feed-in limit: 100.00 %
+2022-05-02 14:19:24 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0117/0.8487, mean(2min)/max(2min): 0.0712/1.0760, mean(5min)/max(5min): 0.0616/1.0760
+2022-05-02 14:39:36 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.2809, mean(2min)/max(2min): 0.0035/0.1244, mean(5min)/max(5min): 0.0336/0.0949
+2022-05-02 14:43:15 [I|BAT Interface] Battery temp: 29.00 to 33.00 °C, case temp: 33.65 °C
+2022-05-02 14:43:15 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[950.4W] INV_HV:[2455.1W] Total production: 3405.5W current feed-in limit: 100.00 %
+2022-05-02 14:53:14 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 504.28 V, PV Current = 1.68 A, PV Power = 845.33 W
+2022-05-02 14:53:14 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 222.50 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 14:53:14 [I|PV Interface] Inverter INV_LV: AC Voltage = 230.90 V, AC Current = 1.33 A, AC Power = -278.51 W, AC Apparent Power = 283.00 VA, AC Reactive Power = 50.23 var
+2022-05-02 14:53:14 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 394.98 V, PV Current = 7.30 A, PV Power = 2869.62 W
+2022-05-02 14:53:14 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 196.77 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 14:53:14 [I|PV Interface] Inverter INV_HV: AC Voltage = 235.75 V, AC Current = 11.84 A, AC Power = 2777.02 W, AC Apparent Power = 2788.32 VA, AC Reactive Power = 250.81 var
+2022-05-02 14:53:16 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 49.96 V, Battery Current = 23.43 A, Battery Power = 1170.52 W
+2022-05-02 14:59:38 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.1437, mean(2min)/max(2min): 0.0000/0.0181, mean(5min)/max(5min): 0.0065/0.0336
+2022-05-02 15:13:15 [I|BAT Interface] Battery temp: 29.00 to 34.00 °C, case temp: 32.41 °C
+2022-05-02 15:13:15 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[825.4W] INV_HV:[940.4W] Total production: 1765.8W current feed-in limit: 100.00 %
+2022-05-02 15:19:40 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.2624, mean(2min)/max(2min): 0.0083/0.0532, mean(5min)/max(5min): 0.0101/0.0329
+2022-05-02 15:39:42 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.3978, mean(2min)/max(2min): 0.0008/0.0665, mean(5min)/max(5min): 0.0122/0.0380
+2022-05-02 15:43:15 [I|BAT Interface] Battery temp: 30.00 to 34.00 °C, case temp: 33.26 °C
+2022-05-02 15:43:15 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[360.0W] INV_HV:[2580.5W] Total production: 2940.6W current feed-in limit: 100.00 %
+2022-05-02 15:54:45 [W|BMZ] Module temperature above warning threshold.
+2022-05-02 15:54:46 [I|BMZ] Module temperature below warning threshold, release current limit.
+2022-05-02 15:54:48 [W|BMZ] Module temperature above warning threshold.
+2022-05-02 15:59:15 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3608] [ ][3605] [ ][3605] [ ][3604] [ ][3606] [ ][3605] [ ][3605] [ ][3610] [ ][3606] [ ][3606] [ ][3606] [ ][3606] [ ][3606] [ ][3608] SoC: 36% Current: 4.01A Limit: 6.00A/-12.00A Temp: 34-35C Voltage: 50.486V 
+2022-05-02 15:59:15 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3607] [ ][3606] [ ][3605] [ ][3605] [ ][3606] [ ][3607] [ ][3606] [ ][3610] [ ][3606] [ ][3606] [ ][3607] [ ][3606] [ ][3606] [ ][3608] SoC: 35% Current: 4.04A Limit: 6.00A/-12.00A Temp: 32-33C Voltage: 50.491V 
+2022-05-02 15:59:15 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3609] [ ][3606] [ ][3606] [ ][3606] [ ][3606] [ ][3606] [ ][3605] [ ][3608] [ ][3606] [ ][3606] [ ][3606] [ ][3606] [ ][3606] [ ][3608] SoC: 36% Current: 4.03A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 50.490V 
+2022-05-02 15:59:15 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3607] [ ][3606] [ ][3606] [ ][3606] [ ][3606] [ ][3606] [ ][3606] [ ][3609] [ ][3606] [ ][3607] [ ][3606] [ ][3606] [ ][3606] [ ][3608] SoC: 36% Current: 4.01A Limit: 6.00A/-12.00A Temp: 32-33C Voltage: 50.491V 
+2022-05-02 15:59:15 [I|BMZ] Module #A [Temp]: [34][34][34][34][35][34]
+2022-05-02 15:59:15 [I|BMZ] Module #B [Temp]: [32][32][33][33][33][33]
+2022-05-02 15:59:15 [I|BMZ] Module #C [Temp]: [30][31][31][31][31][31]
+2022-05-02 15:59:15 [I|BMZ] Module #D [Temp]: [32][32][32][32][33][32]
+2022-05-02 15:59:44 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0775/0.5389, mean(2min)/max(2min): 0.0430/0.0493, mean(5min)/max(5min): 0.0381/0.0381
+2022-05-02 16:13:15 [I|BAT Interface] Battery temp: 30.00 to 35.00 °C, case temp: 33.69 °C
+2022-05-02 16:13:15 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[488.0W] INV_HV:[2350.4W] Total production: 2838.3W current feed-in limit: 100.00 %
+2022-05-02 16:19:50 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.2324, mean(2min)/max(2min): 0.0638/0.0890, mean(5min)/max(5min): 0.0488/0.0617
+2022-05-02 16:39:52 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.2822, mean(2min)/max(2min): 0.0000/0.1098, mean(5min)/max(5min): 0.0208/0.1006
+2022-05-02 16:40:29 [E|Settings] DNS lookup failed.
+2022-05-02 16:40:37 [I|Settings] DNS lookup successful.
+2022-05-02 16:43:15 [I|BAT Interface] Battery temp: 30.00 to 35.00 °C, case temp: 36.61 °C
+2022-05-02 16:43:15 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[290.1W] INV_HV:[755.8W] Total production: 1045.9W current feed-in limit: 100.00 %
+2022-05-02 16:53:15 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 488.56 V, PV Current = 0.58 A, PV Power = 282.51 W
+2022-05-02 16:53:15 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 195.36 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 16:53:15 [I|PV Interface] Inverter INV_LV: AC Voltage = 230.61 V, AC Current = 4.44 A, AC Power = 1026.38 W, AC Apparent Power = 1032.54 VA, AC Reactive Power = 112.60 var
+2022-05-02 16:53:15 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 394.93 V, PV Current = 3.45 A, PV Power = 1356.66 W
+2022-05-02 16:53:15 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 213.58 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 16:53:15 [I|PV Interface] Inverter INV_HV: AC Voltage = 231.25 V, AC Current = 5.70 A, AC Power = 1309.35 W, AC Apparent Power = 1310.97 VA, AC Reactive Power = 65.16 var
+2022-05-02 16:53:16 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 49.99 V, Battery Current = -16.01 A, Battery Power = -800.59 W
+2022-05-02 17:00:00 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.3959, mean(2min)/max(2min): 0.0285/0.0285, mean(5min)/max(5min): 0.0102/0.0208
+2022-05-02 17:13:16 [I|BAT Interface] Battery temp: 30.00 to 35.00 °C, case temp: 37.91 °C
+2022-05-02 17:13:16 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[200.5W] INV_HV:[520.4W] Total production: 720.9W current feed-in limit: 100.00 %
+2022-05-02 17:20:06 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/1.7188, mean(2min)/max(2min): 0.0813/0.1727, mean(5min)/max(5min): 0.0465/0.0955
+2022-05-02 17:40:08 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0052/0.2140, mean(2min)/max(2min): 0.0499/0.0813, mean(5min)/max(5min): 0.0337/0.0646
+2022-05-02 17:43:16 [I|BAT Interface] Battery temp: 30.00 to 35.00 °C, case temp: 37.23 °C
+2022-05-02 17:43:16 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[186.6W] INV_HV:[1195.0W] Total production: 1381.6W current feed-in limit: 100.00 %
+2022-05-02 17:59:16 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3621] [ ][3619] [ ][3619] [ ][3619] [ ][3620] [ ][3620] [ ][3619] [ ][3622] [ ][3620] [ ][3620] [ ][3620] [ ][3620] [ ][3620] [ ][3622] SoC: 40% Current: 2.03A Limit: 6.00A/-12.00A Temp: 33-35C Voltage: 50.681V 
+2022-05-02 17:59:16 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3621] [ ][3621] [ ][3620] [ ][3620] [ ][3621] [ ][3621] [ ][3621] [ ][3623] [ ][3620] [ ][3621] [ ][3621] [ ][3621] [ ][3621] [ ][3622] SoC: 40% Current: 1.99A Limit: 6.00A/-12.00A Temp: 32-33C Voltage: 50.694V 
+2022-05-02 17:59:16 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3622] [ ][3620] [ ][3621] [ ][3620] [ ][3621] [ ][3621] [ ][3620] [ ][3620] [ ][3620] [ ][3621] [ ][3621] [ ][3621] [ ][3621] [ ][3622] SoC: 41% Current: 1.97A Limit: 6.00A/-12.00A Temp: 30-32C Voltage: 50.691V 
+2022-05-02 17:59:16 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3621] [ ][3620] [ ][3621] [ ][3621] [ ][3621] [ ][3621] [ ][3621] [ ][3622] [ ][3621] [ ][3621] [ ][3621] [ ][3620] [ ][3621] [ ][3622] SoC: 41% Current: 1.95A Limit: 6.00A/-12.00A Temp: 31-33C Voltage: 50.694V 
+2022-05-02 17:59:16 [I|BMZ] Module #A [Temp]: [33][34][34][34][35][34]
+2022-05-02 17:59:16 [I|BMZ] Module #B [Temp]: [32][32][33][33][33][32]
+2022-05-02 17:59:16 [I|BMZ] Module #C [Temp]: [30][31][31][31][32][31]
+2022-05-02 17:59:16 [I|BMZ] Module #D [Temp]: [31][32][32][32][33][32]
+2022-05-02 18:00:13 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0614/0.3635, mean(2min)/max(2min): 0.0348/0.0580, mean(5min)/max(5min): 0.0401/0.0442
+2022-05-02 18:13:16 [I|BAT Interface] Battery temp: 30.00 to 35.00 °C, case temp: 39.19 °C
+2022-05-02 18:13:16 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[94.7W] INV_HV:[411.9W] Total production: 506.6W current feed-in limit: 100.00 %
+2022-05-02 18:16:54 [I|BMZ] Module temperature below warning threshold, release current limit.
+2022-05-02 18:20:21 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0894, mean(2min)/max(2min): 0.0030/0.0405, mean(5min)/max(5min): 0.0028/0.0439
+2022-05-02 18:40:26 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0495, mean(2min)/max(2min): 0.0000/0.0056, mean(5min)/max(5min): 0.0000/0.0047
+2022-05-02 18:43:16 [I|BAT Interface] Battery temp: 30.00 to 34.00 °C, case temp: 39.11 °C
+2022-05-02 18:43:16 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[25.3W] INV_HV:[48.5W] Total production:  73.8W current feed-in limit: 100.00 %
+2022-05-02 18:53:15 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 489.82 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 18:53:15 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 215.10 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 18:53:15 [I|PV Interface] Inverter INV_LV: AC Voltage = 233.01 V, AC Current = 1.84 A, AC Power = 432.89 W, AC Apparent Power = 433.99 VA, AC Reactive Power = 30.81 var
+2022-05-02 18:53:15 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 348.79 V, PV Current = 0.05 A, PV Power = 13.60 W
+2022-05-02 18:53:15 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 189.30 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 18:53:15 [I|PV Interface] Inverter INV_HV: AC Voltage = 231.11 V, AC Current = 0.10 A, AC Power = 0.00 W, AC Apparent Power = 35.28 VA, AC Reactive Power = 35.28 var
+2022-05-02 18:53:17 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 50.12 V, Battery Current = -9.49 A, Battery Power = -475.81 W
+2022-05-02 19:00:18 [I|INV_HV] Inverter is disconnected from grid
+2022-05-02 19:00:26 [I|INV_HV] Inverter is connected to grid.
+2022-05-02 19:00:35 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0776, mean(2min)/max(2min): 0.0000/0.0025, mean(5min)/max(5min): 0.0008/0.0009
+2022-05-02 19:01:27 [I|INV_HV] Inverter is disconnected from grid
+2022-05-02 19:01:42 [I|INV_HV] Inverter is connected to grid.
+2022-05-02 19:02:42 [I|INV_HV] Inverter is disconnected from grid
+2022-05-02 19:02:50 [I|INV_HV] Inverter is connected to grid.
+2022-05-02 19:03:50 [I|INV_HV] Inverter is disconnected from grid
+2022-05-02 19:03:57 [I|INV_HV] Inverter is connected to grid.
+2022-05-02 19:05:05 [I|INV_HV] Inverter is disconnected from grid
+2022-05-02 19:05:13 [I|INV_HV] Inverter is connected to grid.
+2022-05-02 19:06:12 [I|INV_HV] Inverter is disconnected from grid
+2022-05-02 19:06:20 [I|INV_HV] Inverter is connected to grid.
+2022-05-02 19:07:20 [I|INV_HV] Inverter is disconnected from grid
+2022-05-02 19:07:35 [I|INV_HV] Inverter is connected to grid.
+2022-05-02 19:08:35 [I|INV_HV] Inverter is disconnected from grid
+2022-05-02 19:08:43 [I|INV_HV] Inverter is connected to grid.
+2022-05-02 19:09:43 [I|INV_HV] Inverter is disconnected from grid
+2022-05-02 19:09:51 [I|INV_HV] Inverter is connected to grid.
+2022-05-02 19:10:51 [I|INV_HV] Inverter is disconnected from grid
+2022-05-02 19:10:58 [I|INV_HV] Inverter is connected to grid.
+2022-05-02 19:13:13 [I|INV_HV] Inverter is disconnected from grid
+2022-05-02 19:13:16 [I|BAT Interface] Battery temp: 29.00 to 34.00 °C, case temp: 38.59 °C
+2022-05-02 19:13:16 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.4W] Total production:   0.4W current feed-in limit: 100.00 %
+2022-05-02 19:13:20 [I|INV_HV] Inverter is connected to grid.
+2022-05-02 19:14:20 [I|INV_HV] Inverter is disconnected from grid
+2022-05-02 19:20:37 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0000, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0008
+2022-05-02 19:40:39 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0365, mean(2min)/max(2min): 0.0000/0.0033, mean(5min)/max(5min): 0.0012/0.0012
+2022-05-02 19:43:16 [I|BAT Interface] Battery temp: 29.00 to 33.00 °C, case temp: 38.02 °C
+2022-05-02 19:43:16 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-02 19:59:18 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3562] [ ][3562] [ ][3563] [ ][3562] [ ][3563] [ ][3563] [ ][3563] [ ][3560] [ ][3563] [ ][3564] [ ][3564] [ ][3564] [ ][3563] [ ][3563] SoC: 33% Current: -2.65A Limit: 6.00A/-12.00A Temp: 31-33C Voltage: 49.879V 
+2022-05-02 19:59:18 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3562] [ ][3563] [ ][3562] [ ][3562] [ ][3563] [ ][3563] [ ][3563] [ ][3559] [ ][3562] [ ][3563] [ ][3563] [ ][3563] [ ][3563] [ ][3562] SoC: 33% Current: -2.68A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 49.873V 
+2022-05-02 19:59:18 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3563] [ ][3563] [ ][3563] [ ][3563] [ ][3563] [ ][3563] [ ][3564] [ ][3558] [ ][3563] [ ][3563] [ ][3563] [ ][3563] [ ][3563] [ ][3563] SoC: 34% Current: -2.66A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 49.878V 
+2022-05-02 19:59:18 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3562] [ ][3563] [ ][3564] [ ][3564] [ ][3564] [ ][3564] [ ][3564] [ ][3560] [ ][3564] [ ][3564] [ ][3564] [ ][3563] [ ][3564] [ ][3563] SoC: 34% Current: -2.66A Limit: 6.00A/-12.00A Temp: 29-31C Voltage: 49.887V 
+2022-05-02 19:59:18 [I|BMZ] Module #A [Temp]: [31][32][32][32][33][32]
+2022-05-02 19:59:18 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][31]
+2022-05-02 19:59:18 [I|BMZ] Module #C [Temp]: [29][29][29][30][30][30]
+2022-05-02 19:59:18 [I|BMZ] Module #D [Temp]: [29][30][31][30][31][31]
+2022-05-02 20:00:45 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.2397, mean(2min)/max(2min): 0.0000/0.0240, mean(5min)/max(5min): 0.0000/0.0092
+2022-05-02 20:13:17 [I|BAT Interface] Battery temp: 28.00 to 32.00 °C, case temp: 37.36 °C
+2022-05-02 20:13:17 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-02 20:20:46 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0000, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-05-02 20:40:52 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0868, mean(2min)/max(2min): 0.0000/0.0087, mean(5min)/max(5min): 0.0000/0.0035
+2022-05-02 20:43:17 [I|BAT Interface] Battery temp: 28.00 to 32.00 °C, case temp: 37.01 °C
+2022-05-02 20:43:17 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-02 20:53:16 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 125.02 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 20:53:16 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 199.18 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 20:53:16 [I|PV Interface] Inverter INV_LV: AC Voltage = 231.94 V, AC Current = 1.87 A, AC Power = 435.45 W, AC Apparent Power = 435.00 VA, AC Reactive Power = 0.00 var
+2022-05-02 20:53:16 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 1.54 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 20:53:16 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 2.22 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 20:53:16 [I|PV Interface] Inverter INV_HV: AC Voltage = 232.21 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-05-02 20:53:20 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 49.43 V, Battery Current = -9.29 A, Battery Power = -459.37 W
+2022-05-02 21:00:54 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0252, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-05-02 21:13:17 [I|BAT Interface] Battery temp: 28.00 to 32.00 °C, case temp: 36.59 °C
+2022-05-02 21:13:17 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-02 21:21:03 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0063, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-05-02 21:41:07 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0000, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-05-02 21:43:17 [I|BAT Interface] Battery temp: 28.00 to 31.00 °C, case temp: 36.03 °C
+2022-05-02 21:43:17 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-02 21:59:20 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3509] [ ][3508] [ ][3509] [ ][3507] [ ][3509] [ ][3509] [ ][3510] [ ][3507] [ ][3510] [ ][3510] [ ][3510] [ ][3511] [ ][3510] [ ][3511] SoC: 24% Current: -2.22A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 49.130V 
+2022-05-02 21:59:20 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3509] [ ][3510] [ ][3508] [ ][3507] [ ][3509] [ ][3510] [ ][3510] [ ][3507] [ ][3510] [ ][3510] [ ][3510] [ ][3510] [ ][3510] [ ][3509] SoC: 24% Current: -2.22A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 49.129V 
+2022-05-02 21:59:20 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3510] [ ][3510] [ ][3511] [ ][3509] [ ][3511] [ ][3510] [ ][3511] [ ][3505] [ ][3510] [ ][3510] [ ][3510] [ ][3510] [ ][3510] [ ][3510] SoC: 24% Current: -2.26A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 49.137V 
+2022-05-02 21:59:20 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3509] [ ][3509] [ ][3510] [ ][3511] [ ][3510] [ ][3510] [ ][3511] [ ][3506] [ ][3510] [ ][3511] [ ][3511] [ ][3510] [ ][3510] [ ][3510] SoC: 24% Current: -2.26A Limit: 6.00A/-12.00A Temp: 28-30C Voltage: 49.138V 
+2022-05-02 21:59:20 [I|BMZ] Module #A [Temp]: [30][30][31][31][31][31]
+2022-05-02 21:59:20 [I|BMZ] Module #B [Temp]: [29][29][30][30][30][30]
+2022-05-02 21:59:20 [I|BMZ] Module #C [Temp]: [28][28][28][29][29][29]
+2022-05-02 21:59:20 [I|BMZ] Module #D [Temp]: [28][29][29][29][30][29]
+2022-05-02 22:01:10 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0000, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-05-02 22:13:17 [I|BAT Interface] Battery temp: 28.00 to 31.00 °C, case temp: 35.84 °C
+2022-05-02 22:13:17 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-02 22:21:21 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0000, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-05-02 22:41:26 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0527, mean(2min)/max(2min): 0.0000/0.0034, mean(5min)/max(5min): 0.0000/0.0012
+2022-05-02 22:43:18 [I|BAT Interface] Battery temp: 28.00 to 31.00 °C, case temp: 35.81 °C
+2022-05-02 22:43:18 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-02 22:53:16 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 125.09 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 22:53:16 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 191.41 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 22:53:16 [I|PV Interface] Inverter INV_LV: AC Voltage = 232.43 V, AC Current = 1.54 A, AC Power = 362.52 W, AC Apparent Power = 363.17 VA, AC Reactive Power = 21.80 var
+2022-05-02 22:53:16 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 1.35 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 22:53:16 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 2.05 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-02 22:53:16 [I|PV Interface] Inverter INV_HV: AC Voltage = 231.59 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-05-02 22:53:22 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 48.64 V, Battery Current = -7.97 A, Battery Power = -387.90 W
+2022-05-02 23:01:28 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0000, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-05-02 23:13:18 [I|BAT Interface] Battery temp: 28.00 to 31.00 °C, case temp: 35.52 °C
+2022-05-02 23:13:18 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-02 23:21:30 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0000, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-05-02 23:41:33 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0046, mean(2min)/max(2min): 0.0005/0.0005, mean(5min)/max(5min): 0.0002/0.0002
+2022-05-02 23:43:18 [I|BAT Interface] Battery temp: 28.00 to 31.00 °C, case temp: 35.28 °C
+2022-05-02 23:43:18 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-02 23:59:23 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3444] [ ][3443] [ ][3443] [ ][3441] [ ][3444] [ ][3444] [ ][3445] [ ][3442] [ ][3445] [ ][3445] [ ][3445] [ ][3446] [ ][3445] [ ][3447] SoC: 16% Current: -2.26A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.219V 
+2022-05-02 23:59:23 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3443] [ ][3445] [ ][3442] [ ][3441] [ ][3444] [ ][3445] [ ][3444] [ ][3441] [ ][3444] [ ][3445] [ ][3445] [ ][3445] [ ][3444] [ ][3444] SoC: 16% Current: -2.26A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.212V 
+2022-05-02 23:59:23 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3445] [ ][3445] [ ][3446] [ ][3444] [ ][3446] [ ][3444] [ ][3446] [ ][3438] [ ][3444] [ ][3444] [ ][3444] [ ][3444] [ ][3445] [ ][3444] SoC: 16% Current: -2.31A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.219V 
+2022-05-02 23:59:23 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3444] [ ][3444] [ ][3444] [ ][3445] [ ][3445] [ ][3445] [ ][3446] [ ][3440] [ ][3445] [ ][3446] [ ][3446] [ ][3445] [ ][3445] [ ][3445] SoC: 16% Current: -2.33A Limit: 6.00A/-12.00A Temp: 28-30C Voltage: 48.225V 
+2022-05-02 23:59:23 [I|BMZ] Module #A [Temp]: [30][30][31][31][31][30]
+2022-05-02 23:59:23 [I|BMZ] Module #B [Temp]: [29][29][30][30][30][30]
+2022-05-02 23:59:23 [I|BMZ] Module #C [Temp]: [28][28][29][29][29][29]
+2022-05-02 23:59:23 [I|BMZ] Module #D [Temp]: [28][29][29][29][30][29]

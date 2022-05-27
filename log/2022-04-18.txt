@@ -1,0 +1,736 @@
+2022-04-18 00:00:01 [I|SYS] Serial: S39977261194348553540356920 MCU firmware version: 1988, GUI version 0959
+2022-04-18 00:00:01 [I|SYS] Factory Settings: System type: Home V3 hybrid duo, battery type: Lithium-ion (BMZ) parallel, country: Germany | Settings: battery inverter: SENEC.Inverter V3 LV, power meter: ABB B2x
+2022-04-18 00:00:01 [I|SYS] Inverter Firmware Info: HMI: 3.16.20 PU: 4.3.10 BDC: 5.4.6
+2022-04-18 00:00:01 [I|SYS] BMS Firmware Info: [Module 0] 30134 [Module 1] 30134 [Module 2] 30134 [Module 3] 30134
+2022-04-18 00:00:01 [I|Statistics] Created statistics file 2022-04-18
+2022-04-18 00:02:14 [I|BAT Interface] Battery temp: 28.00 to 31.00 °C, case temp: 34.65 °C
+2022-04-18 00:02:14 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-04-18 00:08:00 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0000, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-04-18 00:14:38 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3333] [ ][3333] [ ][3333] [ ][3331] [ ][3334] [ ][3334] [ ][3334] [ ][3333] [ ][3336] [ ][3336] [ ][3336] [ ][3337] [ ][3336] [ ][3337] SoC: 8% Current: -2.10A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 46.683V 
+2022-04-18 00:14:38 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3334] [ ][3335] [ ][3333] [ ][3333] [ ][3335] [ ][3335] [ ][3335] [ ][3332] [ ][3334] [ ][3335] [ ][3335] [ ][3335] [ ][3335] [ ][3334] SoC: 8% Current: -2.09A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.680V 
+2022-04-18 00:14:38 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3335] [ ][3335] [ ][3335] [ ][3334] [ ][3335] [ ][3335] [ ][3335] [ ][3329] [ ][3334] [ ][3335] [ ][3335] [ ][3335] [ ][3335] [ ][3334] SoC: 8% Current: -1.99A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.681V 
+2022-04-18 00:14:38 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3334] [ ][3334] [ ][3335] [ ][3336] [ ][3335] [ ][3336] [ ][3336] [ ][3331] [ ][3336] [ ][3336] [ ][3336] [ ][3335] [ ][3335] [ ][3335] SoC: 8% Current: -2.00A Limit: 6.00A/-12.00A Temp: 28-30C Voltage: 46.690V 
+2022-04-18 00:14:38 [I|BMZ] Module #A [Temp]: [30][30][31][31][31][31]
+2022-04-18 00:14:38 [I|BMZ] Module #B [Temp]: [29][29][30][30][30][30]
+2022-04-18 00:14:38 [I|BMZ] Module #C [Temp]: [28][28][29][29][29][29]
+2022-04-18 00:14:38 [I|BMZ] Module #D [Temp]: [28][29][29][29][30][29]
+2022-04-18 00:28:03 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0090, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-04-18 00:32:14 [I|BAT Interface] Battery temp: 28.00 to 31.00 °C, case temp: 34.42 °C
+2022-04-18 00:32:14 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-04-18 00:48:08 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.1304, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-04-18 01:02:15 [I|BAT Interface] Battery temp: 28.00 to 31.00 °C, case temp: 34.26 °C
+2022-04-18 01:02:15 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-04-18 01:08:08 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0000, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-04-18 01:28:15 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0903/0.6068, mean(2min)/max(2min): 0.0234/0.0234, mean(5min)/max(5min): 0.0102/0.0102
+2022-04-18 01:32:15 [I|BAT Interface] Battery temp: 27.00 to 31.00 °C, case temp: 34.20 °C
+2022-04-18 01:32:15 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-04-18 01:38:47 [I|BMZ] Module #A module order change:  [WARNING: Last faultline test more than 12h ago]
+2022-04-18 01:38:52 [I|BMZ] Module #B module order change:  [WARNING: Last faultline test more than 12h ago]
+2022-04-18 01:38:52 [I|BMZ] Module #C module order change:  [WARNING: Last faultline test more than 12h ago]
+2022-04-18 01:38:55 [I|BMZ] Module #D module order change:  [WARNING: Last faultline test more than 12h ago]
+2022-04-18 01:41:50 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 115.60 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 01:41:50 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 192.20 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 01:41:50 [I|PV Interface] Inverter INV_LV: AC Voltage = 232.59 V, AC Current = 0.56 A, AC Power = -0.48 W, AC Apparent Power = 95.26 VA, AC Reactive Power = 95.26 var
+2022-04-18 01:41:50 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 2.55 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 01:41:50 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 2.29 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 01:41:50 [I|PV Interface] Inverter INV_HV: AC Voltage = 229.68 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-04-18 01:42:26 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 46.28 V, Battery Current = -0.00 A, Battery Power = -0.06 W
+2022-04-18 01:48:15 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0580/4.9021, mean(2min)/max(2min): 0.1282/1.1718, mean(5min)/max(5min): 0.2459/0.7085
+2022-04-18 02:02:15 [I|BAT Interface] Battery temp: 27.00 to 31.00 °C, case temp: 33.56 °C
+2022-04-18 02:02:15 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-04-18 02:08:20 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/1.3081, mean(2min)/max(2min): 0.1760/0.3193, mean(5min)/max(5min): 0.0866/0.2594
+2022-04-18 02:14:39 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3303] [ ][3303] [ ][3303] [ ][3301] [ ][3304] [ ][3304] [ ][3304] [ ][3304] [ ][3306] [ ][3306] [ ][3305] [ ][3307] [ ][3306] [ ][3308] SoC: 2% Current: -0.68A Limit: 6.00A/-11.70A Temp: 30-31C Voltage: 46.264V 
+2022-04-18 02:14:39 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3304] [ ][3305] [ ][3303] [ ][3303] [ ][3304] [ ][3305] [ ][3305] [ ][3303] [ ][3304] [ ][3305] [ ][3305] [ ][3305] [ ][3305] [ ][3304] SoC: 2% Current: -0.69A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.260V 
+2022-04-18 02:14:39 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3305] [ ][3304] [ ][3305] [ ][3305] [ ][3306] [ ][3305] [ ][3305] [ ][3301] [ ][3304] [ ][3305] [ ][3305] [ ][3305] [ ][3305] [ ][3304] SoC: 2% Current: -0.74A Limit: 6.00A/-11.70A Temp: 27-29C Voltage: 46.264V 
+2022-04-18 02:14:39 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3304] [ ][3304] [ ][3305] [ ][3305] [ ][3305] [ ][3305] [ ][3305] [ ][3302] [ ][3306] [ ][3306] [ ][3306] [ ][3305] [ ][3305] [ ][3306] SoC: 2% Current: -0.74A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.269V 
+2022-04-18 02:14:39 [I|BMZ] Module #A [Temp]: [30][30][30][30][31][30]
+2022-04-18 02:14:39 [I|BMZ] Module #B [Temp]: [29][29][30][29][30][29]
+2022-04-18 02:14:39 [I|BMZ] Module #C [Temp]: [27][28][28][28][29][29]
+2022-04-18 02:14:39 [I|BMZ] Module #D [Temp]: [28][28][29][29][29][29]
+2022-04-18 02:28:31 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0007/0.4877, mean(2min)/max(2min): 0.0156/0.1760, mean(5min)/max(5min): 0.0142/0.1101
+2022-04-18 02:32:15 [I|BAT Interface] Battery temp: 27.00 to 31.00 °C, case temp: 33.24 °C
+2022-04-18 02:32:15 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-04-18 02:41:23 [I|BMZ] Module #A considered as empty with [3301 mV,2% SOC].
+2022-04-18 03:02:16 [I|BAT Interface] Battery temp: 27.00 to 30.00 °C, case temp: 31.97 °C
+2022-04-18 03:02:16 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-04-18 03:32:16 [I|BAT Interface] Battery temp: 27.00 to 30.00 °C, case temp: 31.24 °C
+2022-04-18 03:32:16 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-04-18 03:41:50 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 181.32 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 03:41:50 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 180.31 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 03:41:50 [I|PV Interface] Inverter INV_LV: AC Voltage = 230.60 V, AC Current = 0.40 A, AC Power = -1.33 W, AC Apparent Power = 92.51 VA, AC Reactive Power = 92.50 var
+2022-04-18 03:41:50 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 9.41 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 03:41:50 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 5.81 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 03:41:50 [I|PV Interface] Inverter INV_HV: AC Voltage = 228.65 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-04-18 03:42:27 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 46.29 V, Battery Current = -0.00 A, Battery Power = -0.17 W
+2022-04-18 03:55:10 Logfile: Upload to server...
+2022-04-18 04:02:16 [I|BAT Interface] Battery temp: 27.00 to 30.00 °C, case temp: 30.69 °C
+2022-04-18 04:02:16 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-04-18 04:02:41 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0067/0.2033, mean(2min)/max(2min): 0.0041/0.0294, mean(5min)/max(5min): 0.0041/0.0209
+2022-04-18 04:14:39 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3308] [ ][3307] [ ][3307] [ ][3305] [ ][3307] [ ][3308] [ ][3308] [ ][3308] [ ][3310] [ ][3310] [ ][3309] [ ][3311] [ ][3310] [ ][3312] SoC: 2% Current: -0.36A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.320V 
+2022-04-18 04:14:39 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3308] [ ][3309] [ ][3307] [ ][3306] [ ][3309] [ ][3309] [ ][3309] [ ][3308] [ ][3309] [ ][3309] [ ][3309] [ ][3309] [ ][3309] [ ][3309] SoC: 2% Current: -0.36A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.319V 
+2022-04-18 04:14:39 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3310] [ ][3308] [ ][3309] [ ][3308] [ ][3310] [ ][3309] [ ][3309] [ ][3305] [ ][3308] [ ][3309] [ ][3309] [ ][3309] [ ][3309] [ ][3309] SoC: 2% Current: -0.38A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.321V 
+2022-04-18 04:14:39 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3309] [ ][3309] [ ][3310] [ ][3309] [ ][3309] [ ][3310] [ ][3310] [ ][3307] [ ][3310] [ ][3310] [ ][3310] [ ][3310] [ ][3309] [ ][3310] SoC: 2% Current: -0.39A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.332V 
+2022-04-18 04:14:39 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 04:14:39 [I|BMZ] Module #B [Temp]: [28][28][29][29][29][29]
+2022-04-18 04:14:39 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 04:14:39 [I|BMZ] Module #D [Temp]: [28][28][29][28][29][28]
+2022-04-18 04:22:43 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0068, mean(2min)/max(2min): 0.0000/0.0041, mean(5min)/max(5min): 0.0000/0.0041
+2022-04-18 04:30:33 [I|INV_HV] Insulation resistance: 0 Ohm.
+2022-04-18 04:31:55 [I|INV_HV] Insulation resistance: 10000000 Ohm.
+2022-04-18 04:32:14 [I|BAT Interface] Battery temp: 27.00 to 30.00 °C, case temp: 30.97 °C
+2022-04-18 04:32:14 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[51.2W] INV_HV:[24.8W] Total production:  76.0W current feed-in limit: 100.00 %
+2022-04-18 04:34:02 [I|INV_HV] Inverter is connected to grid.
+2022-04-18 04:43:15 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0439, mean(2min)/max(2min): 0.0000/0.0413, mean(5min)/max(5min): 0.0000/0.0413
+2022-04-18 05:02:14 [I|BAT Interface] Battery temp: 27.00 to 30.00 °C, case temp: 34.15 °C
+2022-04-18 05:02:14 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[1318.2W] INV_HV:[86.1W] Total production: 1404.4W current feed-in limit: 100.00 %
+2022-04-18 05:14:34 [I|Energy Management] State: Akku leer -> Batteriediagnose
+2022-04-18 05:14:34 [I|BMZ|Battery diagnosis] Entering cell diagnose.
+2022-04-18 05:14:34 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3308] [ ][3307] [ ][3307] [ ][3304] [ ][3307] [ ][3307] [ ][3308] [ ][3308] [ ][3309] [ ][3310] [ ][3309] [ ][3311] [ ][3310] [ ][3312] SoC: 2% Current: 0.00A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.317V 
+2022-04-18 05:14:34 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3308] [ ][3309] [ ][3306] [ ][3305] [ ][3308] [ ][3309] [ ][3308] [ ][3308] [ ][3308] [ ][3309] [ ][3309] [ ][3309] [ ][3309] [ ][3309] SoC: 2% Current: -0.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.314V 
+2022-04-18 05:14:34 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3310] [ ][3308] [ ][3309] [ ][3308] [ ][3309] [ ][3309] [ ][3309] [ ][3305] [ ][3307] [ ][3309] [ ][3308] [ ][3308] [ ][3309] [ ][3309] SoC: 2% Current: 0.00A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.317V 
+2022-04-18 05:14:34 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3308] [ ][3307] [ ][3308] [ ][3309] [ ][3308] [ ][3309] [ ][3309] [ ][3306] [ ][3309] [ ][3310] [ ][3310] [ ][3309] [ ][3308] [ ][3310] SoC: 2% Current: -0.01A Limit: 6.00A/-12.00A Temp: 27-29C Voltage: 46.320V 
+2022-04-18 05:14:34 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:14:34 [I|BMZ] Module #B [Temp]: [28][28][29][29][29][29]
+2022-04-18 05:14:34 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:14:34 [I|BMZ] Module #D [Temp]: [27][28][28][28][29][29]
+2022-04-18 05:14:41 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.2097/0.3599, mean(2min)/max(2min): 0.3599/0.3599, mean(5min)/max(5min): 0.3599/0.3599
+2022-04-18 05:15:04 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3329] [ ][3326] [ ][3326] [ ][3324] [ ][3327] [ ][3326] [ ][3327] [ ][3331] [ ][3327] [ ][3328] [ ][3328] [ ][3328] [ ][3328] [ ][3330] SoC: 3% Current: 3.98A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.585V 
+2022-04-18 05:15:04 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3328] [ ][3327] [ ][3325] [ ][3324] [ ][3327] [ ][3327] [ ][3326] [ ][3331] [ ][3327] [ ][3328] [ ][3328] [ ][3328] [ ][3328] [ ][3329] SoC: 3% Current: 3.92A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.583V 
+2022-04-18 05:15:04 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3330] [ ][3327] [ ][3327] [ ][3326] [ ][3328] [ ][3327] [ ][3327] [ ][3329] [ ][3326] [ ][3327] [ ][3327] [ ][3327] [ ][3328] [ ][3329] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.585V 
+2022-04-18 05:15:04 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3328] [ ][3326] [ ][3327] [ ][3327] [ ][3327] [ ][3327] [ ][3327] [ ][3330] [ ][3328] [ ][3328] [ ][3328] [ ][3327] [ ][3327] [ ][3329] SoC: 3% Current: 4.09A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.586V 
+2022-04-18 05:15:04 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:15:04 [I|BMZ] Module #B [Temp]: [28][28][29][29][29][29]
+2022-04-18 05:15:04 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:15:04 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:15:34 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3333] [ ][3330] [ ][3330] [ ][3328] [ ][3330] [ ][3330] [ ][3330] [ ][3335] [ ][3331] [ ][3331] [ ][3331] [ ][3332] [ ][3331] [ ][3334] SoC: 3% Current: 3.97A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.636V 
+2022-04-18 05:15:34 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3332] [ ][3331] [ ][3329] [ ][3328] [ ][3330] [ ][3331] [ ][3330] [ ][3335] [ ][3331] [ ][3331] [ ][3331] [ ][3331] [ ][3331] [ ][3332] SoC: 3% Current: 3.93A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.633V 
+2022-04-18 05:15:34 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3333] [ ][3331] [ ][3331] [ ][3330] [ ][3331] [ ][3330] [ ][3330] [ ][3333] [ ][3330] [ ][3331] [ ][3331] [ ][3331] [ ][3332] [ ][3333] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.637V 
+2022-04-18 05:15:34 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3332] [ ][3330] [ ][3331] [ ][3331] [ ][3331] [ ][3331] [ ][3330] [ ][3333] [ ][3331] [ ][3332] [ ][3331] [ ][3331] [ ][3331] [ ][3332] SoC: 3% Current: 4.09A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.637V 
+2022-04-18 05:15:34 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:15:34 [I|BMZ] Module #B [Temp]: [28][28][29][29][29][29]
+2022-04-18 05:15:34 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:15:34 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:16:04 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3336] [ ][3333] [ ][3333] [ ][3332] [ ][3334] [ ][3333] [ ][3333] [ ][3338] [ ][3334] [ ][3334] [ ][3334] [ ][3335] [ ][3334] [ ][3337] SoC: 3% Current: 3.97A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.680V 
+2022-04-18 05:16:04 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3334] [ ][3334] [ ][3331] [ ][3331] [ ][3333] [ ][3334] [ ][3333] [ ][3338] [ ][3334] [ ][3334] [ ][3334] [ ][3334] [ ][3334] [ ][3335] SoC: 3% Current: 3.92A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.673V 
+2022-04-18 05:16:04 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3336] [ ][3333] [ ][3334] [ ][3333] [ ][3334] [ ][3333] [ ][3333] [ ][3335] [ ][3333] [ ][3334] [ ][3334] [ ][3333] [ ][3334] [ ][3335] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.674V 
+2022-04-18 05:16:04 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3335] [ ][3333] [ ][3333] [ ][3334] [ ][3334] [ ][3334] [ ][3333] [ ][3336] [ ][3334] [ ][3335] [ ][3334] [ ][3334] [ ][3333] [ ][3335] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.677V 
+2022-04-18 05:16:04 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:16:04 [I|BMZ] Module #B [Temp]: [28][28][29][29][29][29]
+2022-04-18 05:16:04 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:16:04 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:16:34 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3338] [ ][3335] [ ][3335] [ ][3334] [ ][3336] [ ][3336] [ ][3335] [ ][3340] [ ][3336] [ ][3337] [ ][3336] [ ][3337] [ ][3337] [ ][3339] SoC: 3% Current: 3.96A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.711V 
+2022-04-18 05:16:34 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3337] [ ][3336] [ ][3334] [ ][3334] [ ][3336] [ ][3336] [ ][3335] [ ][3340] [ ][3336] [ ][3337] [ ][3337] [ ][3337] [ ][3336] [ ][3338] SoC: 3% Current: 3.92A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.709V 
+2022-04-18 05:16:34 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3338] [ ][3336] [ ][3336] [ ][3335] [ ][3336] [ ][3336] [ ][3335] [ ][3338] [ ][3335] [ ][3336] [ ][3336] [ ][3336] [ ][3337] [ ][3337] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.707V 
+2022-04-18 05:16:34 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3337] [ ][3336] [ ][3336] [ ][3336] [ ][3336] [ ][3336] [ ][3336] [ ][3339] [ ][3337] [ ][3337] [ ][3337] [ ][3336] [ ][3336] [ ][3338] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.713V 
+2022-04-18 05:16:34 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:16:34 [I|BMZ] Module #B [Temp]: [28][28][29][29][29][29]
+2022-04-18 05:16:34 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:16:34 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:17:04 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3340] [ ][3338] [ ][3338] [ ][3336] [ ][3338] [ ][3338] [ ][3338] [ ][3342] [ ][3338] [ ][3339] [ ][3338] [ ][3339] [ ][3338] [ ][3341] SoC: 3% Current: 3.97A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.741V 
+2022-04-18 05:17:04 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3339] [ ][3338] [ ][3336] [ ][3336] [ ][3338] [ ][3339] [ ][3338] [ ][3342] [ ][3338] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3340] SoC: 3% Current: 3.91A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.740V 
+2022-04-18 05:17:04 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3340] [ ][3338] [ ][3338] [ ][3337] [ ][3339] [ ][3338] [ ][3338] [ ][3340] [ ][3338] [ ][3338] [ ][3338] [ ][3338] [ ][3339] [ ][3340] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.739V 
+2022-04-18 05:17:04 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3339] [ ][3338] [ ][3338] [ ][3338] [ ][3338] [ ][3338] [ ][3338] [ ][3341] [ ][3338] [ ][3339] [ ][3339] [ ][3338] [ ][3338] [ ][3340] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.740V 
+2022-04-18 05:17:04 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:17:04 [I|BMZ] Module #B [Temp]: [28][28][29][29][29][29]
+2022-04-18 05:17:04 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:17:04 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:17:34 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3342] [ ][3340] [ ][3340] [ ][3338] [ ][3340] [ ][3340] [ ][3339] [ ][3343] [ ][3340] [ ][3340] [ ][3340] [ ][3340] [ ][3340] [ ][3342] SoC: 3% Current: 3.97A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.764V 
+2022-04-18 05:17:34 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3341] [ ][3340] [ ][3338] [ ][3338] [ ][3340] [ ][3340] [ ][3339] [ ][3344] [ ][3340] [ ][3341] [ ][3341] [ ][3340] [ ][3340] [ ][3342] SoC: 3% Current: 3.91A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.764V 
+2022-04-18 05:17:34 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3342] [ ][3340] [ ][3340] [ ][3339] [ ][3340] [ ][3340] [ ][3339] [ ][3342] [ ][3340] [ ][3340] [ ][3340] [ ][3340] [ ][3341] [ ][3342] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.765V 
+2022-04-18 05:17:34 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3341] [ ][3340] [ ][3340] [ ][3340] [ ][3340] [ ][3340] [ ][3340] [ ][3343] [ ][3340] [ ][3341] [ ][3340] [ ][3340] [ ][3339] [ ][3342] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.766V 
+2022-04-18 05:17:34 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:17:34 [I|BMZ] Module #B [Temp]: [28][28][29][29][29][29]
+2022-04-18 05:17:34 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:17:34 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:18:05 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3344] [ ][3341] [ ][3341] [ ][3340] [ ][3342] [ ][3342] [ ][3341] [ ][3345] [ ][3341] [ ][3342] [ ][3342] [ ][3342] [ ][3342] [ ][3344] SoC: 3% Current: 3.95A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.789V 
+2022-04-18 05:18:05 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3342] [ ][3341] [ ][3340] [ ][3340] [ ][3341] [ ][3342] [ ][3341] [ ][3345] [ ][3341] [ ][3342] [ ][3342] [ ][3342] [ ][3342] [ ][3343] SoC: 3% Current: 3.91A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.784V 
+2022-04-18 05:18:05 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3343] [ ][3341] [ ][3341] [ ][3340] [ ][3342] [ ][3341] [ ][3341] [ ][3344] [ ][3341] [ ][3342] [ ][3341] [ ][3341] [ ][3342] [ ][3343] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.783V 
+2022-04-18 05:18:05 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3343] [ ][3341] [ ][3341] [ ][3342] [ ][3341] [ ][3342] [ ][3341] [ ][3344] [ ][3342] [ ][3342] [ ][3342] [ ][3341] [ ][3341] [ ][3343] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.786V 
+2022-04-18 05:18:05 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:18:05 [I|BMZ] Module #B [Temp]: [28][28][29][29][29][29]
+2022-04-18 05:18:05 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:18:05 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:18:35 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3345] [ ][3343] [ ][3343] [ ][3342] [ ][3343] [ ][3343] [ ][3342] [ ][3346] [ ][3343] [ ][3343] [ ][3343] [ ][3343] [ ][3343] [ ][3345] SoC: 3% Current: 3.96A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.807V 
+2022-04-18 05:18:35 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3343] [ ][3343] [ ][3341] [ ][3341] [ ][3342] [ ][3343] [ ][3342] [ ][3347] [ ][3343] [ ][3343] [ ][3343] [ ][3343] [ ][3343] [ ][3345] SoC: 3% Current: 3.92A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.802V 
+2022-04-18 05:18:35 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3345] [ ][3343] [ ][3343] [ ][3342] [ ][3343] [ ][3343] [ ][3342] [ ][3345] [ ][3343] [ ][3343] [ ][3343] [ ][3343] [ ][3343] [ ][3344] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.805V 
+2022-04-18 05:18:35 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3344] [ ][3342] [ ][3343] [ ][3343] [ ][3343] [ ][3343] [ ][3343] [ ][3346] [ ][3343] [ ][3344] [ ][3343] [ ][3343] [ ][3343] [ ][3345] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.808V 
+2022-04-18 05:18:35 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:18:35 [I|BMZ] Module #B [Temp]: [28][28][29][29][29][29]
+2022-04-18 05:18:35 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:18:35 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:19:05 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3346] [ ][3344] [ ][3344] [ ][3343] [ ][3344] [ ][3344] [ ][3344] [ ][3348] [ ][3344] [ ][3344] [ ][3344] [ ][3345] [ ][3344] [ ][3346] SoC: 3% Current: 3.97A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.824V 
+2022-04-18 05:19:05 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3345] [ ][3344] [ ][3343] [ ][3343] [ ][3344] [ ][3344] [ ][3343] [ ][3348] [ ][3344] [ ][3345] [ ][3344] [ ][3344] [ ][3344] [ ][3346] SoC: 3% Current: 3.91A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.821V 
+2022-04-18 05:19:05 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3346] [ ][3344] [ ][3344] [ ][3343] [ ][3344] [ ][3344] [ ][3343] [ ][3347] [ ][3344] [ ][3345] [ ][3344] [ ][3344] [ ][3345] [ ][3346] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.823V 
+2022-04-18 05:19:05 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3346] [ ][3344] [ ][3344] [ ][3344] [ ][3344] [ ][3344] [ ][3343] [ ][3347] [ ][3344] [ ][3344] [ ][3344] [ ][3344] [ ][3344] [ ][3346] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.822V 
+2022-04-18 05:19:05 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:19:05 [I|BMZ] Module #B [Temp]: [28][29][29][29][29][29]
+2022-04-18 05:19:05 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:19:05 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:19:34 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3347] [ ][3345] [ ][3345] [ ][3345] [ ][3346] [ ][3345] [ ][3345] [ ][3349] [ ][3345] [ ][3345] [ ][3345] [ ][3345] [ ][3345] [ ][3347] SoC: 3% Current: 3.97A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.839V 
+2022-04-18 05:19:34 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3346] [ ][3345] [ ][3344] [ ][3344] [ ][3345] [ ][3345] [ ][3344] [ ][3349] [ ][3345] [ ][3346] [ ][3346] [ ][3346] [ ][3345] [ ][3347] SoC: 3% Current: 3.91A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.837V 
+2022-04-18 05:19:34 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3347] [ ][3345] [ ][3345] [ ][3344] [ ][3345] [ ][3345] [ ][3345] [ ][3348] [ ][3345] [ ][3346] [ ][3346] [ ][3346] [ ][3346] [ ][3347] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.840V 
+2022-04-18 05:19:34 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3347] [ ][3345] [ ][3345] [ ][3346] [ ][3345] [ ][3345] [ ][3345] [ ][3348] [ ][3346] [ ][3346] [ ][3346] [ ][3345] [ ][3345] [ ][3347] SoC: 3% Current: 4.12A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.841V 
+2022-04-18 05:19:34 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:19:34 [I|BMZ] Module #B [Temp]: [28][29][29][29][29][29]
+2022-04-18 05:19:34 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:19:34 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:19:35 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3347] [ ][3345] [ ][3345] [ ][3345] [ ][3346] [ ][3345] [ ][3345] [ ][3349] [ ][3345] [ ][3345] [ ][3345] [ ][3345] [ ][3345] [ ][3347] SoC: 3% Current: 3.96A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.839V 
+2022-04-18 05:19:35 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3346] [ ][3346] [ ][3344] [ ][3344] [ ][3345] [ ][3345] [ ][3345] [ ][3349] [ ][3345] [ ][3346] [ ][3346] [ ][3346] [ ][3346] [ ][3347] SoC: 3% Current: 3.91A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.840V 
+2022-04-18 05:19:35 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3347] [ ][3345] [ ][3345] [ ][3344] [ ][3345] [ ][3345] [ ][3345] [ ][3348] [ ][3345] [ ][3346] [ ][3346] [ ][3346] [ ][3346] [ ][3347] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.840V 
+2022-04-18 05:19:35 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3347] [ ][3345] [ ][3345] [ ][3346] [ ][3345] [ ][3346] [ ][3345] [ ][3349] [ ][3345] [ ][3346] [ ][3346] [ ][3345] [ ][3345] [ ][3347] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.842V 
+2022-04-18 05:19:35 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:19:35 [I|BMZ] Module #B [Temp]: [28][29][29][29][29][29]
+2022-04-18 05:19:35 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:19:35 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:20:05 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3348] [ ][3346] [ ][3346] [ ][3346] [ ][3347] [ ][3346] [ ][3346] [ ][3350] [ ][3346] [ ][3346] [ ][3347] [ ][3346] [ ][3346] [ ][3348] SoC: 3% Current: 3.96A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.854V 
+2022-04-18 05:20:05 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3347] [ ][3347] [ ][3345] [ ][3345] [ ][3346] [ ][3346] [ ][3346] [ ][3350] [ ][3346] [ ][3347] [ ][3347] [ ][3347] [ ][3347] [ ][3348] SoC: 3% Current: 3.91A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.854V 
+2022-04-18 05:20:05 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3348] [ ][3347] [ ][3346] [ ][3346] [ ][3346] [ ][3346] [ ][3345] [ ][3349] [ ][3346] [ ][3347] [ ][3347] [ ][3347] [ ][3347] [ ][3348] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.855V 
+2022-04-18 05:20:05 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3348] [ ][3346] [ ][3346] [ ][3347] [ ][3346] [ ][3347] [ ][3346] [ ][3350] [ ][3346] [ ][3347] [ ][3347] [ ][3347] [ ][3346] [ ][3348] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.857V 
+2022-04-18 05:20:05 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:20:05 [I|BMZ] Module #B [Temp]: [28][29][29][29][29][29]
+2022-04-18 05:20:05 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:20:05 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:20:35 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3349] [ ][3347] [ ][3347] [ ][3347] [ ][3348] [ ][3347] [ ][3347] [ ][3351] [ ][3347] [ ][3348] [ ][3347] [ ][3347] [ ][3347] [ ][3349] SoC: 3% Current: 3.97A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.868V 
+2022-04-18 05:20:35 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3348] [ ][3347] [ ][3346] [ ][3346] [ ][3347] [ ][3347] [ ][3346] [ ][3351] [ ][3347] [ ][3348] [ ][3347] [ ][3347] [ ][3347] [ ][3349] SoC: 3% Current: 3.91A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.863V 
+2022-04-18 05:20:35 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3349] [ ][3347] [ ][3347] [ ][3347] [ ][3347] [ ][3347] [ ][3346] [ ][3350] [ ][3347] [ ][3347] [ ][3348] [ ][3348] [ ][3348] [ ][3349] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.867V 
+2022-04-18 05:20:35 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3349] [ ][3347] [ ][3347] [ ][3348] [ ][3347] [ ][3347] [ ][3347] [ ][3351] [ ][3347] [ ][3348] [ ][3348] [ ][3347] [ ][3347] [ ][3349] SoC: 3% Current: 4.13A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.869V 
+2022-04-18 05:20:35 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:20:35 [I|BMZ] Module #B [Temp]: [28][29][29][29][29][29]
+2022-04-18 05:20:35 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:20:35 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:21:05 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3350] [ ][3348] [ ][3348] [ ][3348] [ ][3349] [ ][3348] [ ][3348] [ ][3351] [ ][3348] [ ][3348] [ ][3348] [ ][3348] [ ][3348] [ ][3350] SoC: 3% Current: 3.97A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.880V 
+2022-04-18 05:21:05 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3349] [ ][3348] [ ][3347] [ ][3347] [ ][3348] [ ][3348] [ ][3347] [ ][3352] [ ][3348] [ ][3348] [ ][3348] [ ][3348] [ ][3348] [ ][3350] SoC: 3% Current: 3.91A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.876V 
+2022-04-18 05:21:05 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3350] [ ][3348] [ ][3348] [ ][3347] [ ][3348] [ ][3348] [ ][3347] [ ][3351] [ ][3348] [ ][3348] [ ][3349] [ ][3349] [ ][3348] [ ][3350] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.879V 
+2022-04-18 05:21:05 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3350] [ ][3348] [ ][3348] [ ][3349] [ ][3348] [ ][3348] [ ][3348] [ ][3352] [ ][3348] [ ][3348] [ ][3348] [ ][3348] [ ][3348] [ ][3350] SoC: 3% Current: 4.12A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.881V 
+2022-04-18 05:21:05 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:21:05 [I|BMZ] Module #B [Temp]: [28][29][29][29][29][29]
+2022-04-18 05:21:05 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:21:05 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:21:35 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3351] [ ][3349] [ ][3349] [ ][3349] [ ][3349] [ ][3349] [ ][3349] [ ][3352] [ ][3348] [ ][3349] [ ][3349] [ ][3349] [ ][3349] [ ][3351] SoC: 3% Current: 3.97A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.892V 
+2022-04-18 05:21:35 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3349] [ ][3349] [ ][3348] [ ][3348] [ ][3348] [ ][3349] [ ][3348] [ ][3353] [ ][3349] [ ][3349] [ ][3349] [ ][3349] [ ][3349] [ ][3351] SoC: 3% Current: 3.91A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.888V 
+2022-04-18 05:21:35 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3350] [ ][3349] [ ][3349] [ ][3348] [ ][3349] [ ][3349] [ ][3348] [ ][3352] [ ][3349] [ ][3349] [ ][3349] [ ][3349] [ ][3350] [ ][3351] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.891V 
+2022-04-18 05:21:35 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3350] [ ][3349] [ ][3349] [ ][3349] [ ][3349] [ ][3349] [ ][3348] [ ][3352] [ ][3349] [ ][3349] [ ][3349] [ ][3349] [ ][3349] [ ][3350] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.890V 
+2022-04-18 05:21:35 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:21:35 [I|BMZ] Module #B [Temp]: [28][29][29][29][29][29]
+2022-04-18 05:21:35 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:21:35 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:22:05 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3351] [ ][3349] [ ][3349] [ ][3350] [ ][3350] [ ][3350] [ ][3350] [ ][3353] [ ][3349] [ ][3350] [ ][3350] [ ][3350] [ ][3349] [ ][3351] SoC: 3% Current: 3.97A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.901V 
+2022-04-18 05:22:05 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3350] [ ][3350] [ ][3349] [ ][3349] [ ][3349] [ ][3349] [ ][3349] [ ][3354] [ ][3350] [ ][3350] [ ][3350] [ ][3350] [ ][3350] [ ][3351] SoC: 3% Current: 3.91A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.900V 
+2022-04-18 05:22:05 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3351] [ ][3350] [ ][3350] [ ][3349] [ ][3349] [ ][3350] [ ][3349] [ ][3353] [ ][3349] [ ][3350] [ ][3350] [ ][3350] [ ][3350] [ ][3351] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.901V 
+2022-04-18 05:22:05 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3351] [ ][3349] [ ][3350] [ ][3350] [ ][3350] [ ][3350] [ ][3349] [ ][3353] [ ][3350] [ ][3350] [ ][3350] [ ][3349] [ ][3349] [ ][3351] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.901V 
+2022-04-18 05:22:05 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:22:05 [I|BMZ] Module #B [Temp]: [28][29][29][29][29][29]
+2022-04-18 05:22:05 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:22:05 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:22:35 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3352] [ ][3350] [ ][3350] [ ][3350] [ ][3351] [ ][3350] [ ][3350] [ ][3354] [ ][3350] [ ][3350] [ ][3350] [ ][3350] [ ][3350] [ ][3352] SoC: 3% Current: 3.97A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.909V 
+2022-04-18 05:22:35 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3351] [ ][3350] [ ][3349] [ ][3349] [ ][3350] [ ][3350] [ ][3350] [ ][3354] [ ][3350] [ ][3351] [ ][3350] [ ][3350] [ ][3350] [ ][3352] SoC: 3% Current: 3.91A Limit: 6.00A/-12.00A Temp: 29-29C Voltage: 46.906V 
+2022-04-18 05:22:35 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3352] [ ][3350] [ ][3350] [ ][3349] [ ][3350] [ ][3350] [ ][3349] [ ][3353] [ ][3350] [ ][3351] [ ][3351] [ ][3351] [ ][3351] [ ][3352] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.909V 
+2022-04-18 05:22:35 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3352] [ ][3350] [ ][3350] [ ][3351] [ ][3351] [ ][3351] [ ][3350] [ ][3354] [ ][3350] [ ][3351] [ ][3351] [ ][3350] [ ][3350] [ ][3352] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.913V 
+2022-04-18 05:22:35 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:22:35 [I|BMZ] Module #B [Temp]: [29][29][29][29][29][29]
+2022-04-18 05:22:35 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:22:35 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:23:05 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3353] [ ][3351] [ ][3351] [ ][3351] [ ][3351] [ ][3351] [ ][3351] [ ][3354] [ ][3350] [ ][3351] [ ][3351] [ ][3350] [ ][3351] [ ][3352] SoC: 3% Current: 3.97A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.918V 
+2022-04-18 05:23:05 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3351] [ ][3351] [ ][3350] [ ][3350] [ ][3350] [ ][3351] [ ][3350] [ ][3355] [ ][3350] [ ][3351] [ ][3351] [ ][3351] [ ][3351] [ ][3352] SoC: 3% Current: 3.91A Limit: 6.00A/-12.00A Temp: 29-29C Voltage: 46.914V 
+2022-04-18 05:23:05 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3352] [ ][3351] [ ][3351] [ ][3350] [ ][3351] [ ][3351] [ ][3350] [ ][3354] [ ][3351] [ ][3351] [ ][3351] [ ][3351] [ ][3351] [ ][3352] SoC: 3% Current: 4.10A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.917V 
+2022-04-18 05:23:05 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3352] [ ][3351] [ ][3351] [ ][3351] [ ][3351] [ ][3351] [ ][3351] [ ][3355] [ ][3351] [ ][3351] [ ][3351] [ ][3351] [ ][3351] [ ][3352] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.920V 
+2022-04-18 05:23:05 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:23:05 [I|BMZ] Module #B [Temp]: [29][29][29][29][29][29]
+2022-04-18 05:23:05 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:23:05 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:23:36 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3354] [ ][3351] [ ][3351] [ ][3352] [ ][3352] [ ][3352] [ ][3352] [ ][3355] [ ][3351] [ ][3351] [ ][3352] [ ][3351] [ ][3351] [ ][3353] SoC: 3% Current: 3.99A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.928V 
+2022-04-18 05:23:36 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3352] [ ][3351] [ ][3351] [ ][3350] [ ][3351] [ ][3352] [ ][3351] [ ][3355] [ ][3351] [ ][3352] [ ][3352] [ ][3351] [ ][3352] [ ][3353] SoC: 3% Current: 3.92A Limit: 6.00A/-12.00A Temp: 29-29C Voltage: 46.924V 
+2022-04-18 05:23:36 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3353] [ ][3352] [ ][3352] [ ][3351] [ ][3351] [ ][3352] [ ][3351] [ ][3355] [ ][3352] [ ][3352] [ ][3352] [ ][3352] [ ][3352] [ ][3353] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.930V 
+2022-04-18 05:23:36 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3353] [ ][3351] [ ][3352] [ ][3352] [ ][3352] [ ][3352] [ ][3351] [ ][3355] [ ][3352] [ ][3352] [ ][3352] [ ][3351] [ ][3352] [ ][3353] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.930V 
+2022-04-18 05:23:36 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:23:36 [I|BMZ] Module #B [Temp]: [29][29][29][29][29][29]
+2022-04-18 05:23:36 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:23:36 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:24:06 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3354] [ ][3352] [ ][3352] [ ][3352] [ ][3352] [ ][3352] [ ][3352] [ ][3356] [ ][3352] [ ][3352] [ ][3352] [ ][3352] [ ][3352] [ ][3353] SoC: 3% Current: 3.97A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.935V 
+2022-04-18 05:24:06 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3353] [ ][3352] [ ][3351] [ ][3351] [ ][3352] [ ][3352] [ ][3351] [ ][3356] [ ][3352] [ ][3352] [ ][3352] [ ][3352] [ ][3352] [ ][3354] SoC: 3% Current: 3.91A Limit: 6.00A/-12.00A Temp: 29-29C Voltage: 46.932V 
+2022-04-18 05:24:06 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3353] [ ][3352] [ ][3352] [ ][3351] [ ][3352] [ ][3352] [ ][3351] [ ][3356] [ ][3352] [ ][3352] [ ][3352] [ ][3353] [ ][3353] [ ][3354] SoC: 3% Current: 4.10A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.935V 
+2022-04-18 05:24:06 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3354] [ ][3352] [ ][3352] [ ][3352] [ ][3352] [ ][3353] [ ][3352] [ ][3356] [ ][3352] [ ][3353] [ ][3352] [ ][3352] [ ][3352] [ ][3354] SoC: 3% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.938V 
+2022-04-18 05:24:06 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:24:06 [I|BMZ] Module #B [Temp]: [29][29][29][29][29][29]
+2022-04-18 05:24:06 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:24:06 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:24:34 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3355] [ ][3353] [ ][3352] [ ][3353] [ ][3353] [ ][3353] [ ][3352] [ ][3356] [ ][3352] [ ][3353] [ ][3353] [ ][3353] [ ][3353] [ ][3354] SoC: 5% Current: 3.97A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.945V 
+2022-04-18 05:24:34 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3353] [ ][3352] [ ][3352] [ ][3352] [ ][3352] [ ][3353] [ ][3352] [ ][3356] [ ][3352] [ ][3353] [ ][3353] [ ][3353] [ ][3353] [ ][3354] SoC: 3% Current: 3.92A Limit: 6.00A/-12.00A Temp: 29-29C Voltage: 46.940V 
+2022-04-18 05:24:34 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3354] [ ][3353] [ ][3352] [ ][3352] [ ][3352] [ ][3353] [ ][3352] [ ][3356] [ ][3353] [ ][3353] [ ][3353] [ ][3353] [ ][3353] [ ][3354] SoC: 5% Current: 4.09A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.943V 
+2022-04-18 05:24:34 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3354] [ ][3352] [ ][3352] [ ][3353] [ ][3353] [ ][3353] [ ][3352] [ ][3356] [ ][3353] [ ][3353] [ ][3353] [ ][3353] [ ][3353] [ ][3354] SoC: 5% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.944V 
+2022-04-18 05:24:34 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:24:34 [I|BMZ] Module #B [Temp]: [29][29][29][29][29][29]
+2022-04-18 05:24:34 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:24:34 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:24:36 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3355] [ ][3353] [ ][3352] [ ][3353] [ ][3353] [ ][3353] [ ][3352] [ ][3356] [ ][3352] [ ][3353] [ ][3353] [ ][3352] [ ][3352] [ ][3354] SoC: 5% Current: 3.97A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.943V 
+2022-04-18 05:24:36 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3353] [ ][3352] [ ][3352] [ ][3352] [ ][3352] [ ][3353] [ ][3352] [ ][3356] [ ][3352] [ ][3353] [ ][3353] [ ][3353] [ ][3353] [ ][3354] SoC: 3% Current: 3.92A Limit: 6.00A/-12.00A Temp: 29-29C Voltage: 46.940V 
+2022-04-18 05:24:36 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3354] [ ][3353] [ ][3353] [ ][3352] [ ][3353] [ ][3353] [ ][3352] [ ][3356] [ ][3353] [ ][3353] [ ][3353] [ ][3353] [ ][3353] [ ][3355] SoC: 5% Current: 4.09A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.946V 
+2022-04-18 05:24:36 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3354] [ ][3352] [ ][3352] [ ][3353] [ ][3353] [ ][3353] [ ][3352] [ ][3356] [ ][3353] [ ][3353] [ ][3353] [ ][3353] [ ][3353] [ ][3354] SoC: 5% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.944V 
+2022-04-18 05:24:36 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:24:36 [I|BMZ] Module #B [Temp]: [29][29][29][29][29][29]
+2022-04-18 05:24:36 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:24:36 [I|BMZ] Module #D [Temp]: [28][28][28][28][29][29]
+2022-04-18 05:25:06 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3355] [ ][3353] [ ][3353] [ ][3353] [ ][3354] [ ][3353] [ ][3353] [ ][3356] [ ][3352] [ ][3353] [ ][3353] [ ][3353] [ ][3353] [ ][3355] SoC: 5% Current: 3.98A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.949V 
+2022-04-18 05:25:06 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3354] [ ][3353] [ ][3352] [ ][3352] [ ][3353] [ ][3353] [ ][3352] [ ][3357] [ ][3353] [ ][3353] [ ][3353] [ ][3353] [ ][3353] [ ][3354] SoC: 5% Current: 3.92A Limit: 6.00A/-12.00A Temp: 29-29C Voltage: 46.945V 
+2022-04-18 05:25:06 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3354] [ ][3353] [ ][3353] [ ][3352] [ ][3353] [ ][3353] [ ][3352] [ ][3356] [ ][3353] [ ][3354] [ ][3353] [ ][3354] [ ][3354] [ ][3355] SoC: 5% Current: 4.09A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.949V 
+2022-04-18 05:25:06 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3355] [ ][3353] [ ][3353] [ ][3354] [ ][3353] [ ][3353] [ ][3353] [ ][3357] [ ][3353] [ ][3353] [ ][3353] [ ][3353] [ ][3353] [ ][3355] SoC: 5% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.951V 
+2022-04-18 05:25:06 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:25:06 [I|BMZ] Module #B [Temp]: [29][29][29][29][29][29]
+2022-04-18 05:25:06 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:25:06 [I|BMZ] Module #D [Temp]: [28][28][29][28][29][29]
+2022-04-18 05:25:36 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3356] [ ][3354] [ ][3354] [ ][3354] [ ][3354] [ ][3354] [ ][3353] [ ][3357] [ ][3353] [ ][3354] [ ][3354] [ ][3354] [ ][3353] [ ][3355] SoC: 5% Current: 3.98A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.959V 
+2022-04-18 05:25:36 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3354] [ ][3354] [ ][3353] [ ][3353] [ ][3353] [ ][3353] [ ][3353] [ ][3358] [ ][3353] [ ][3354] [ ][3354] [ ][3354] [ ][3354] [ ][3355] SoC: 5% Current: 3.93A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.955V 
+2022-04-18 05:25:36 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3355] [ ][3354] [ ][3354] [ ][3353] [ ][3354] [ ][3354] [ ][3353] [ ][3357] [ ][3354] [ ][3354] [ ][3354] [ ][3354] [ ][3354] [ ][3356] SoC: 5% Current: 4.09A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.960V 
+2022-04-18 05:25:36 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3355] [ ][3354] [ ][3354] [ ][3354] [ ][3354] [ ][3354] [ ][3353] [ ][3357] [ ][3354] [ ][3354] [ ][3354] [ ][3354] [ ][3354] [ ][3355] SoC: 5% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.960V 
+2022-04-18 05:25:36 [I|BMZ] Module #A [Temp]: [29][29][30][29][30][30]
+2022-04-18 05:25:36 [I|BMZ] Module #B [Temp]: [29][29][29][29][29][29]
+2022-04-18 05:25:36 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:25:36 [I|BMZ] Module #D [Temp]: [28][28][29][28][29][29]
+2022-04-18 05:26:06 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3356] [ ][3354] [ ][3354] [ ][3354] [ ][3355] [ ][3354] [ ][3354] [ ][3358] [ ][3354] [ ][3354] [ ][3354] [ ][3354] [ ][3354] [ ][3355] SoC: 5% Current: 3.99A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.964V 
+2022-04-18 05:26:06 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3355] [ ][3354] [ ][3353] [ ][3353] [ ][3354] [ ][3354] [ ][3353] [ ][3358] [ ][3354] [ ][3354] [ ][3354] [ ][3354] [ ][3354] [ ][3356] SoC: 5% Current: 3.93A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.960V 
+2022-04-18 05:26:06 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3356] [ ][3354] [ ][3354] [ ][3353] [ ][3354] [ ][3354] [ ][3353] [ ][3357] [ ][3354] [ ][3355] [ ][3355] [ ][3355] [ ][3355] [ ][3356] SoC: 5% Current: 4.09A Limit: 6.00A/-12.00A Temp: 27-28C Voltage: 46.965V 
+2022-04-18 05:26:06 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3356] [ ][3354] [ ][3354] [ ][3355] [ ][3354] [ ][3355] [ ][3354] [ ][3358] [ ][3354] [ ][3354] [ ][3355] [ ][3354] [ ][3354] [ ][3356] SoC: 5% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.967V 
+2022-04-18 05:26:06 [I|BMZ] Module #A [Temp]: [29][30][30][29][30][30]
+2022-04-18 05:26:06 [I|BMZ] Module #B [Temp]: [29][29][29][29][30][29]
+2022-04-18 05:26:06 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][28]
+2022-04-18 05:26:06 [I|BMZ] Module #D [Temp]: [28][28][29][28][29][29]
+2022-04-18 05:26:36 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3357] [ ][3355] [ ][3355] [ ][3355] [ ][3355] [ ][3355] [ ][3355] [ ][3358] [ ][3354] [ ][3355] [ ][3355] [ ][3354] [ ][3354] [ ][3356] SoC: 5% Current: 3.99A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.973V 
+2022-04-18 05:26:36 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3355] [ ][3355] [ ][3354] [ ][3354] [ ][3354] [ ][3355] [ ][3354] [ ][3359] [ ][3354] [ ][3355] [ ][3355] [ ][3355] [ ][3355] [ ][3356] SoC: 5% Current: 3.93A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.970V 
+2022-04-18 05:26:36 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3356] [ ][3355] [ ][3355] [ ][3354] [ ][3354] [ ][3355] [ ][3354] [ ][3358] [ ][3354] [ ][3355] [ ][3355] [ ][3355] [ ][3355] [ ][3357] SoC: 5% Current: 4.09A Limit: 6.00A/-12.00A Temp: 27-29C Voltage: 46.972V 
+2022-04-18 05:26:36 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3356] [ ][3355] [ ][3355] [ ][3355] [ ][3355] [ ][3355] [ ][3354] [ ][3358] [ ][3355] [ ][3355] [ ][3355] [ ][3355] [ ][3354] [ ][3356] SoC: 5% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.973V 
+2022-04-18 05:26:36 [I|BMZ] Module #A [Temp]: [29][30][30][29][30][30]
+2022-04-18 05:26:36 [I|BMZ] Module #B [Temp]: [29][29][29][29][30][29]
+2022-04-18 05:26:36 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][29]
+2022-04-18 05:26:36 [I|BMZ] Module #D [Temp]: [28][28][29][28][29][29]
+2022-04-18 05:27:06 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3357] [ ][3355] [ ][3355] [ ][3355] [ ][3356] [ ][3355] [ ][3355] [ ][3359] [ ][3355] [ ][3355] [ ][3355] [ ][3355] [ ][3355] [ ][3357] SoC: 5% Current: 3.99A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.979V 
+2022-04-18 05:27:06 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3356] [ ][3355] [ ][3354] [ ][3354] [ ][3355] [ ][3355] [ ][3354] [ ][3359] [ ][3355] [ ][3355] [ ][3355] [ ][3355] [ ][3355] [ ][3357] SoC: 5% Current: 3.93A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.974V 
+2022-04-18 05:27:06 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3357] [ ][3355] [ ][3355] [ ][3355] [ ][3355] [ ][3355] [ ][3354] [ ][3358] [ ][3355] [ ][3355] [ ][3355] [ ][3356] [ ][3356] [ ][3357] SoC: 5% Current: 4.09A Limit: 6.00A/-12.00A Temp: 27-29C Voltage: 46.978V 
+2022-04-18 05:27:06 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3356] [ ][3355] [ ][3355] [ ][3356] [ ][3355] [ ][3355] [ ][3355] [ ][3359] [ ][3355] [ ][3355] [ ][3355] [ ][3355] [ ][3355] [ ][3357] SoC: 5% Current: 4.11A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.978V 
+2022-04-18 05:27:06 [I|BMZ] Module #A [Temp]: [29][30][30][29][30][30]
+2022-04-18 05:27:06 [I|BMZ] Module #B [Temp]: [29][29][29][29][30][29]
+2022-04-18 05:27:06 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][29]
+2022-04-18 05:27:06 [I|BMZ] Module #D [Temp]: [28][28][29][28][29][29]
+2022-04-18 05:27:36 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3358] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3355] [ ][3359] [ ][3355] [ ][3356] [ ][3356] [ ][3355] [ ][3355] [ ][3357] SoC: 5% Current: 3.99A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.986V 
+2022-04-18 05:27:36 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3356] [ ][3356] [ ][3355] [ ][3355] [ ][3355] [ ][3355] [ ][3355] [ ][3359] [ ][3355] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3357] SoC: 5% Current: 3.93A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.982V 
+2022-04-18 05:27:36 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3357] [ ][3356] [ ][3355] [ ][3355] [ ][3355] [ ][3356] [ ][3355] [ ][3359] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3357] SoC: 5% Current: 4.09A Limit: 6.00A/-12.00A Temp: 27-29C Voltage: 46.985V 
+2022-04-18 05:27:36 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3357] [ ][3355] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3355] [ ][3359] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3355] [ ][3357] SoC: 5% Current: 4.10A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.986V 
+2022-04-18 05:27:36 [I|BMZ] Module #A [Temp]: [29][30][30][29][30][30]
+2022-04-18 05:27:36 [I|BMZ] Module #B [Temp]: [29][29][29][29][30][29]
+2022-04-18 05:27:36 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][29]
+2022-04-18 05:27:36 [I|BMZ] Module #D [Temp]: [28][28][29][28][29][29]
+2022-04-18 05:28:07 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3358] [ ][3356] [ ][3356] [ ][3356] [ ][3357] [ ][3356] [ ][3356] [ ][3359] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3357] SoC: 5% Current: 4.00A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.991V 
+2022-04-18 05:28:07 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3357] [ ][3356] [ ][3355] [ ][3355] [ ][3355] [ ][3356] [ ][3355] [ ][3359] [ ][3355] [ ][3355] [ ][3356] [ ][3356] [ ][3356] [ ][3357] SoC: 5% Current: 3.93A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.983V 
+2022-04-18 05:28:07 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3357] [ ][3356] [ ][3356] [ ][3355] [ ][3356] [ ][3356] [ ][3355] [ ][3359] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3357] [ ][3358] SoC: 5% Current: 4.08A Limit: 6.00A/-12.00A Temp: 27-29C Voltage: 46.989V 
+2022-04-18 05:28:07 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3357] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3359] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3357] SoC: 5% Current: 4.09A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.989V 
+2022-04-18 05:28:07 [I|BMZ] Module #A [Temp]: [29][30][30][29][30][30]
+2022-04-18 05:28:07 [I|BMZ] Module #B [Temp]: [29][29][29][29][30][29]
+2022-04-18 05:28:07 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][29]
+2022-04-18 05:28:07 [I|BMZ] Module #D [Temp]: [28][28][29][28][29][29]
+2022-04-18 05:28:37 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3358] [ ][3356] [ ][3356] [ ][3356] [ ][3357] [ ][3357] [ ][3356] [ ][3360] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3358] SoC: 5% Current: 4.00A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.994V 
+2022-04-18 05:28:37 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3357] [ ][3356] [ ][3355] [ ][3355] [ ][3356] [ ][3356] [ ][3355] [ ][3360] [ ][3356] [ ][3356] [ ][3357] [ ][3357] [ ][3356] [ ][3358] SoC: 5% Current: 3.93A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.990V 
+2022-04-18 05:28:37 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3358] [ ][3357] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3360] [ ][3356] [ ][3357] [ ][3357] [ ][3357] [ ][3357] [ ][3358] SoC: 5% Current: 4.08A Limit: 6.00A/-12.00A Temp: 27-29C Voltage: 46.997V 
+2022-04-18 05:28:37 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3358] [ ][3356] [ ][3356] [ ][3357] [ ][3356] [ ][3357] [ ][3356] [ ][3360] [ ][3356] [ ][3357] [ ][3357] [ ][3356] [ ][3356] [ ][3358] SoC: 5% Current: 4.09A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.996V 
+2022-04-18 05:28:37 [I|BMZ] Module #A [Temp]: [29][30][30][29][30][30]
+2022-04-18 05:28:37 [I|BMZ] Module #B [Temp]: [29][29][29][29][30][29]
+2022-04-18 05:28:37 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][29]
+2022-04-18 05:28:37 [I|BMZ] Module #D [Temp]: [28][28][29][28][29][29]
+2022-04-18 05:29:07 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3359] [ ][3357] [ ][3357] [ ][3357] [ ][3357] [ ][3357] [ ][3357] [ ][3360] [ ][3356] [ ][3357] [ ][3357] [ ][3357] [ ][3356] [ ][3358] SoC: 5% Current: 4.01A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 47.002V 
+2022-04-18 05:29:07 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3357] [ ][3357] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3356] [ ][3361] [ ][3356] [ ][3357] [ ][3357] [ ][3357] [ ][3357] [ ][3358] SoC: 5% Current: 3.94A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.997V 
+2022-04-18 05:29:07 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3358] [ ][3357] [ ][3357] [ ][3356] [ ][3357] [ ][3357] [ ][3356] [ ][3360] [ ][3357] [ ][3357] [ ][3357] [ ][3357] [ ][3357] [ ][3359] SoC: 5% Current: 4.09A Limit: 6.00A/-12.00A Temp: 27-29C Voltage: 47.002V 
+2022-04-18 05:29:07 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3358] [ ][3357] [ ][3357] [ ][3357] [ ][3357] [ ][3357] [ ][3356] [ ][3360] [ ][3357] [ ][3357] [ ][3357] [ ][3357] [ ][3357] [ ][3358] SoC: 5% Current: 4.09A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 47.002V 
+2022-04-18 05:29:07 [I|BMZ] Module #A [Temp]: [29][30][30][29][30][30]
+2022-04-18 05:29:07 [I|BMZ] Module #B [Temp]: [29][29][29][29][30][29]
+2022-04-18 05:29:07 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][29]
+2022-04-18 05:29:07 [I|BMZ] Module #D [Temp]: [28][28][29][28][29][29]
+2022-04-18 05:29:34 [I|BMZ|Battery diagnosis] Cell diagnose charge done, entering relaxation phase.
+2022-04-18 05:29:34 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3359] [ ][3357] [ ][3357] [ ][3357] [ ][3358] [ ][3358] [ ][3357] [ ][3360] [ ][3356] [ ][3358] [ ][3357] [ ][3357] [ ][3357] [ ][3358] SoC: 5% Current: 4.00A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 47.006V 
+2022-04-18 05:29:34 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3358] [ ][3357] [ ][3356] [ ][3356] [ ][3357] [ ][3357] [ ][3356] [ ][3361] [ ][3357] [ ][3357] [ ][3357] [ ][3357] [ ][3357] [ ][3359] SoC: 5% Current: 3.93A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 47.002V 
+2022-04-18 05:29:34 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3359] [ ][3357] [ ][3357] [ ][3357] [ ][3357] [ ][3357] [ ][3356] [ ][3361] [ ][3357] [ ][3358] [ ][3357] [ ][3358] [ ][3358] [ ][3359] SoC: 5% Current: 4.08A Limit: 6.00A/-12.00A Temp: 27-29C Voltage: 47.008V 
+2022-04-18 05:29:34 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3359] [ ][3357] [ ][3357] [ ][3357] [ ][3357] [ ][3358] [ ][3357] [ ][3361] [ ][3357] [ ][3358] [ ][3358] [ ][3357] [ ][3357] [ ][3359] SoC: 5% Current: 4.09A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 47.009V 
+2022-04-18 05:29:34 [I|BMZ] Module #A [Temp]: [29][30][30][29][30][30]
+2022-04-18 05:29:34 [I|BMZ] Module #B [Temp]: [29][29][29][29][30][29]
+2022-04-18 05:29:34 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][29]
+2022-04-18 05:29:34 [I|BMZ] Module #D [Temp]: [28][28][29][28][29][29]
+2022-04-18 05:29:34 [I|BMZ|Battery diagnosis] Relaxation wait up to 45 minutes.
+2022-04-18 05:30:34 [W|BAT Interface] Enter passive state. Target power was not updated for 1 minute.
+2022-04-18 05:30:34 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3341] [ ][3340] [ ][3341] [ ][3340] [ ][3341] [ ][3341] [ ][3341] [ ][3341] [ ][3341] [ ][3341] [ ][3341] [ ][3341] [ ][3341] [ ][3342] SoC: 5% Current: 0.02A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.773V 
+2022-04-18 05:30:34 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3341] [ ][3341] [ ][3340] [ ][3340] [ ][3340] [ ][3341] [ ][3341] [ ][3340] [ ][3340] [ ][3341] [ ][3341] [ ][3341] [ ][3341] [ ][3341] SoC: 5% Current: -0.01A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.769V 
+2022-04-18 05:30:34 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3341] [ ][3341] [ ][3341] [ ][3340] [ ][3341] [ ][3341] [ ][3341] [ ][3340] [ ][3341] [ ][3341] [ ][3341] [ ][3341] [ ][3341] [ ][3342] SoC: 5% Current: -0.04A Limit: 6.00A/-12.00A Temp: 27-29C Voltage: 46.773V 
+2022-04-18 05:30:34 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3341] [ ][3341] [ ][3341] [ ][3342] [ ][3341] [ ][3342] [ ][3342] [ ][3340] [ ][3341] [ ][3342] [ ][3341] [ ][3341] [ ][3341] [ ][3342] SoC: 5% Current: 0.00A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.778V 
+2022-04-18 05:30:34 [I|BMZ] Module #A [Temp]: [29][30][30][30][30][30]
+2022-04-18 05:30:34 [I|BMZ] Module #B [Temp]: [29][29][29][29][30][29]
+2022-04-18 05:30:34 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][29]
+2022-04-18 05:30:34 [I|BMZ] Module #D [Temp]: [28][28][29][28][29][29]
+2022-04-18 05:31:04 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3340] [ ][3340] [ ][3339] [ ][3339] [ ][3340] [ ][3340] [ ][3340] [ ][3340] [ ][3340] [ ][3340] [ ][3340] [ ][3340] [ ][3340] [ ][3341] SoC: 5% Current: 0.02A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.759V 
+2022-04-18 05:31:04 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3339] [ ][3340] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3340] [ ][3339] [ ][3339] [ ][3339] SoC: 5% Current: 0.00A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.748V 
+2022-04-18 05:31:04 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3340] [ ][3340] [ ][3340] [ ][3339] [ ][3340] [ ][3340] [ ][3340] [ ][3339] [ ][3340] [ ][3340] [ ][3340] [ ][3340] [ ][3340] [ ][3340] SoC: 5% Current: -0.03A Limit: 6.00A/-12.00A Temp: 27-29C Voltage: 46.758V 
+2022-04-18 05:31:04 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3340] [ ][3340] [ ][3340] [ ][3341] [ ][3340] [ ][3341] [ ][3341] [ ][3340] [ ][3341] [ ][3341] [ ][3340] [ ][3340] [ ][3340] [ ][3341] SoC: 5% Current: -0.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.766V 
+2022-04-18 05:31:04 [I|BMZ] Module #A [Temp]: [29][30][30][30][30][30]
+2022-04-18 05:31:04 [I|BMZ] Module #B [Temp]: [29][29][29][29][30][29]
+2022-04-18 05:31:04 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][29]
+2022-04-18 05:31:04 [I|BMZ] Module #D [Temp]: [28][28][29][28][29][29]
+2022-04-18 05:31:34 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3339] [ ][3339] [ ][3338] [ ][3338] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3340] [ ][3339] [ ][3340] SoC: 5% Current: 0.02A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.746V 
+2022-04-18 05:31:34 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3339] [ ][3339] [ ][3338] [ ][3338] [ ][3338] [ ][3339] [ ][3339] [ ][3338] [ ][3338] [ ][3339] [ ][3339] [ ][3339] [ ][3338] [ ][3339] SoC: 5% Current: 0.00A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.740V 
+2022-04-18 05:31:34 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3338] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3340] SoC: 5% Current: -0.04A Limit: 6.00A/-12.00A Temp: 27-29C Voltage: 46.746V 
+2022-04-18 05:31:34 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3340] [ ][3339] [ ][3339] [ ][3339] [ ][3340] [ ][3340] [ ][3339] [ ][3339] [ ][3340] SoC: 5% Current: -0.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.750V 
+2022-04-18 05:31:34 [I|BMZ] Module #A [Temp]: [29][30][30][30][30][30]
+2022-04-18 05:31:34 [I|BMZ] Module #B [Temp]: [29][29][29][29][30][29]
+2022-04-18 05:31:34 [I|BMZ] Module #C [Temp]: [27][28][28][28][28][29]
+2022-04-18 05:31:34 [I|BMZ] Module #D [Temp]: [28][28][29][28][29][29]
+2022-04-18 05:32:04 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3338] [ ][3338] [ ][3338] [ ][3337] [ ][3338] [ ][3338] [ ][3338] [ ][3338] [ ][3338] [ ][3339] [ ][3339] [ ][3339] [ ][3338] [ ][3339] SoC: 5% Current: 0.01A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.735V 
+2022-04-18 05:32:04 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3338] [ ][3338] [ ][3337] [ ][3337] [ ][3337] [ ][3338] [ ][3338] [ ][3337] [ ][3338] [ ][3338] [ ][3338] [ ][3338] [ ][3338] [ ][3338] SoC: 5% Current: 0.00A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.728V 
+2022-04-18 05:32:04 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3339] [ ][3339] [ ][3339] [ ][3338] [ ][3338] [ ][3339] [ ][3338] [ ][3337] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3339] SoC: 5% Current: -0.03A Limit: 6.00A/-12.00A Temp: 27-29C Voltage: 46.741V 
+2022-04-18 05:32:04 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3339] [ ][3338] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3339] [ ][3338] [ ][3339] [ ][3339] [ ][3339] [ ][3338] [ ][3338] [ ][3339] SoC: 5% Current: -0.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.742V 
+2022-04-18 05:32:04 [I|BMZ] Module #A [Temp]: [29][30][30][30][30][30]
+2022-04-18 05:32:04 [I|BMZ] Module #B [Temp]: [29][29][29][29][30][29]
+2022-04-18 05:32:04 [I|BMZ] Module #C [Temp]: [27][28][28][28][29][29]
+2022-04-18 05:32:04 [I|BMZ] Module #D [Temp]: [28][28][29][28][29][29]
+2022-04-18 05:32:14 [I|BAT Interface] Battery temp: 27.00 to 30.00 °C, case temp: 32.36 °C
+2022-04-18 05:32:14 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[2301.0W] INV_HV:[141.3W] Total production: 2442.3W current feed-in limit: 100.00 %
+2022-04-18 05:32:35 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3338] [ ][3337] [ ][3337] [ ][3337] [ ][3338] [ ][3338] [ ][3338] [ ][3338] [ ][3338] [ ][3339] [ ][3338] [ ][3338] [ ][3338] [ ][3339] SoC: 5% Current: 0.01A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.731V 
+2022-04-18 05:32:35 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3337] [ ][3338] [ ][3337] [ ][3336] [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3338] [ ][3337] [ ][3337] [ ][3338] SoC: 5% Current: 0.00A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.720V 
+2022-04-18 05:32:35 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3338] [ ][3338] [ ][3338] [ ][3337] [ ][3338] [ ][3338] [ ][3338] [ ][3337] [ ][3338] [ ][3338] [ ][3338] [ ][3338] [ ][3338] [ ][3339] SoC: 5% Current: -0.03A Limit: 6.00A/-12.00A Temp: 27-29C Voltage: 46.731V 
+2022-04-18 05:32:35 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3338] [ ][3338] [ ][3338] [ ][3339] [ ][3338] [ ][3339] [ ][3339] [ ][3338] [ ][3338] [ ][3339] [ ][3338] [ ][3338] [ ][3338] [ ][3339] SoC: 5% Current: -0.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.737V 
+2022-04-18 05:32:35 [I|BMZ] Module #A [Temp]: [29][30][30][30][30][30]
+2022-04-18 05:32:35 [I|BMZ] Module #B [Temp]: [29][29][29][29][30][29]
+2022-04-18 05:32:35 [I|BMZ] Module #C [Temp]: [27][28][28][28][29][29]
+2022-04-18 05:32:35 [I|BMZ] Module #D [Temp]: [28][28][29][28][29][29]
+2022-04-18 05:33:05 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3337] [ ][3337] [ ][3337] [ ][3336] [ ][3337] [ ][3338] [ ][3338] [ ][3337] [ ][3337] [ ][3338] [ ][3338] [ ][3338] [ ][3338] [ ][3338] SoC: 5% Current: 0.00A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.724V 
+2022-04-18 05:33:05 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3337] [ ][3337] [ ][3336] [ ][3336] [ ][3337] [ ][3337] [ ][3337] [ ][3336] [ ][3336] [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3337] SoC: 5% Current: 0.00A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.714V 
+2022-04-18 05:33:05 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3338] [ ][3338] [ ][3338] [ ][3337] [ ][3337] [ ][3338] [ ][3337] [ ][3336] [ ][3337] [ ][3338] [ ][3338] [ ][3338] [ ][3338] [ ][3338] SoC: 5% Current: -0.03A Limit: 6.00A/-12.00A Temp: 27-29C Voltage: 46.726V 
+2022-04-18 05:33:05 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3337] [ ][3338] [ ][3338] [ ][3338] [ ][3338] [ ][3338] [ ][3338] [ ][3337] [ ][3338] [ ][3338] [ ][3338] [ ][3337] [ ][3338] [ ][3339] SoC: 5% Current: -0.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.730V 
+2022-04-18 05:33:05 [I|BMZ] Module #A [Temp]: [29][30][30][30][30][30]
+2022-04-18 05:33:05 [I|BMZ] Module #B [Temp]: [29][29][29][29][30][29]
+2022-04-18 05:33:05 [I|BMZ] Module #C [Temp]: [27][28][28][28][29][29]
+2022-04-18 05:33:05 [I|BMZ] Module #D [Temp]: [28][28][29][28][29][29]
+2022-04-18 05:33:35 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3337] [ ][3337] [ ][3336] [ ][3336] [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3338] [ ][3338] [ ][3338] [ ][3337] [ ][3338] SoC: 5% Current: 0.00A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.720V 
+2022-04-18 05:33:35 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3336] [ ][3337] [ ][3336] [ ][3336] [ ][3336] [ ][3337] [ ][3337] [ ][3336] [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3337] SoC: 5% Current: 0.00A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.713V 
+2022-04-18 05:33:35 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3336] [ ][3337] [ ][3338] [ ][3337] [ ][3337] [ ][3337] [ ][3338] SoC: 5% Current: -0.03A Limit: 6.00A/-12.00A Temp: 27-29C Voltage: 46.719V 
+2022-04-18 05:33:35 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3337] [ ][3337] [ ][3337] [ ][3338] [ ][3337] [ ][3338] [ ][3338] [ ][3337] [ ][3337] [ ][3338] [ ][3338] [ ][3337] [ ][3337] [ ][3338] SoC: 5% Current: -0.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.724V 
+2022-04-18 05:33:35 [I|BMZ] Module #A [Temp]: [29][30][30][30][30][30]
+2022-04-18 05:33:35 [I|BMZ] Module #B [Temp]: [29][29][29][29][30][29]
+2022-04-18 05:33:35 [I|BMZ] Module #C [Temp]: [27][28][28][28][29][29]
+2022-04-18 05:33:35 [I|BMZ] Module #D [Temp]: [28][28][29][28][29][29]
+2022-04-18 05:34:05 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3337] [ ][3336] [ ][3336] [ ][3336] [ ][3337] [ ][3337] [ ][3337] [ ][3336] [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3338] SoC: 5% Current: 0.00A Limit: 6.00A/-12.00A Temp: 30-30C Voltage: 46.715V 
+2022-04-18 05:34:05 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3336] [ ][3336] [ ][3336] [ ][3335] [ ][3336] [ ][3336] [ ][3336] [ ][3335] [ ][3336] [ ][3336] [ ][3336] [ ][3336] [ ][3336] [ ][3336] SoC: 5% Current: 0.00A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.702V 
+2022-04-18 05:34:05 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3337] [ ][3337] [ ][3337] [ ][3336] [ ][3337] [ ][3337] [ ][3336] [ ][3335] [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3337] SoC: 5% Current: -0.02A Limit: 6.00A/-12.00A Temp: 27-29C Voltage: 46.714V 
+2022-04-18 05:34:05 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3337] [ ][3336] [ ][3337] [ ][3338] [ ][3338] [ ][3337] [ ][3337] [ ][3338] SoC: 5% Current: -0.01A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 46.720V 
+2022-04-18 05:34:05 [I|BMZ] Module #A [Temp]: [30][30][30][30][30][30]
+2022-04-18 05:34:05 [I|BMZ] Module #B [Temp]: [29][29][29][29][30][29]
+2022-04-18 05:34:05 [I|BMZ] Module #C [Temp]: [27][28][28][28][29][29]
+2022-04-18 05:34:05 [I|BMZ] Module #D [Temp]: [28][28][29][28][29][29]
+2022-04-18 05:41:48 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 523.36 V, PV Current = 4.90 A, PV Power = 2564.58 W
+2022-04-18 05:41:48 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 276.07 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 05:41:48 [I|PV Interface] Inverter INV_LV: AC Voltage = 233.69 V, AC Current = 10.66 A, AC Power = 2494.69 W, AC Apparent Power = 2489.69 VA, AC Reactive Power = 0.00 var
+2022-04-18 05:41:48 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 402.23 V, PV Current = 0.39 A, PV Power = 153.40 W
+2022-04-18 05:41:48 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 201.17 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 05:41:48 [I|PV Interface] Inverter INV_HV: AC Voltage = 231.07 V, AC Current = 0.63 A, AC Power = 140.40 W, AC Apparent Power = 144.06 VA, AC Reactive Power = 32.27 var
+2022-04-18 05:42:26 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 46.63 V, Battery Current = 0.01 A, Battery Power = 0.50 W
+2022-04-18 06:02:14 [I|BAT Interface] Battery temp: 28.00 to 31.00 °C, case temp: 33.62 °C
+2022-04-18 06:02:14 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[2983.9W] INV_HV:[177.4W] Total production: 3161.3W current feed-in limit: 100.00 %
+2022-04-18 06:14:34 [I|BMZ|Battery diagnosis] Relaxation time over, cell diagnosis successfull.
+2022-04-18 06:14:34 [I|BMZ|Battery diagnosis] Leaving cell diagnose charge.
+2022-04-18 06:14:34 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3330] [ ][3330] [ ][3330] [ ][3330] [ ][3331] [ ][3331] [ ][3331] [ ][3331] [ ][3331] [ ][3331] [ ][3331] [ ][3332] [ ][3331] [ ][3332] SoC: 5% Current: -0.01A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 46.632V 
+2022-04-18 06:14:34 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3331] [ ][3331] [ ][3330] [ ][3330] [ ][3331] [ ][3331] [ ][3331] [ ][3331] [ ][3331] [ ][3331] [ ][3331] [ ][3331] [ ][3331] [ ][3331] SoC: 5% Current: -0.01A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 46.632V 
+2022-04-18 06:14:34 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3331] [ ][3331] [ ][3331] [ ][3330] [ ][3331] [ ][3331] [ ][3331] [ ][3330] [ ][3331] [ ][3331] [ ][3331] [ ][3331] [ ][3331] [ ][3331] SoC: 5% Current: 0.00A Limit: 6.00A/-12.00A Temp: 28-30C Voltage: 46.632V 
+2022-04-18 06:14:34 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3331] [ ][3331] [ ][3331] [ ][3331] [ ][3331] [ ][3331] [ ][3331] [ ][3330] [ ][3331] [ ][3332] [ ][3331] [ ][3331] [ ][3331] [ ][3332] SoC: 5% Current: -0.01A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 46.635V 
+2022-04-18 06:14:34 [I|BMZ] Module #A [Temp]: [30][31][31][31][31][31]
+2022-04-18 06:14:34 [I|BMZ] Module #B [Temp]: [30][30][30][30][31][30]
+2022-04-18 06:14:34 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][30]
+2022-04-18 06:14:34 [I|BMZ] Module #D [Temp]: [29][29][30][29][30][30]
+2022-04-18 06:14:34 [I|Energy Management] State: Batteriediagnose -> Laden
+2022-04-18 06:14:42 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.9216/1.7490, mean(2min)/max(2min): 1.7490/1.7490, mean(5min)/max(5min): 1.7490/1.7490
+2022-04-18 06:32:14 [I|BAT Interface] Battery temp: 28.00 to 32.00 °C, case temp: 34.12 °C
+2022-04-18 06:32:14 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[3646.3W] INV_HV:[199.3W] Total production: 3845.6W current feed-in limit: 100.00 %
+2022-04-18 06:34:42 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/1.1931, mean(2min)/max(2min): 0.0175/1.7490, mean(5min)/max(5min): 0.0340/1.7490
+2022-04-18 06:50:27 [I|BMZ] Module A not empty anymore with [3400 mV,10% SOC].
+2022-04-18 06:54:50 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.1682, mean(2min)/max(2min): 0.0000/0.0180, mean(5min)/max(5min): 0.0015/0.0340
+2022-04-18 07:02:15 [I|BAT Interface] Battery temp: 29.00 to 33.00 °C, case temp: 34.87 °C
+2022-04-18 07:02:15 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[4123.9W] INV_HV:[217.6W] Total production: 4341.5W current feed-in limit: 100.00 %
+2022-04-18 07:14:53 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.3313, mean(2min)/max(2min): 0.0070/0.0391, mean(5min)/max(5min): 0.0029/0.0159
+2022-04-18 07:19:07 [I|BMZ|Balancing] Reached min. cell voltage. Wait for balancing to start.
+2022-04-18 07:19:07 [I|Energy Management] State: Laden -> Balancing
+2022-04-18 07:20:07 [W|BAT Interface] Enter passive state. Target power was not updated for 1 minute.
+2022-04-18 07:28:26 [I|Energy Management] State: Balancing -> Eigenverbrauch
+2022-04-18 07:28:27 [I|Energy Management] State: Eigenverbrauch -> Balancing
+2022-04-18 07:32:15 [I|BAT Interface] Battery temp: 30.00 to 33.00 °C, case temp: 34.88 °C
+2022-04-18 07:32:15 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[4456.1W] INV_HV:[230.1W] Total production: 4686.3W current feed-in limit: 100.00 %
+2022-04-18 07:38:46 [I|BMZ] Faultline test started.
+2022-04-18 07:38:46 [I|BMZ] Module #A module order change:  [ALARM: Faultline test must be executed soon.]
+2022-04-18 07:38:47 [I|BMZ] Module #A faultline state change:  [Faultline pulled]
+2022-04-18 07:38:48 [I|BMZ] Module #A faultline state change:  inactive
+2022-04-18 07:38:49 [I|BMZ] Module #B module order change:  [ALARM: Faultline test must be executed soon.]
+2022-04-18 07:38:49 [I|BMZ] Module #A module order change:  [OK: Last faultline test less than 12h ago]
+2022-04-18 07:38:50 [I|BMZ] Module #B faultline state change:  [Faultline pulled]
+2022-04-18 07:38:51 [I|BMZ] Module #B faultline state change:  inactive
+2022-04-18 07:38:52 [I|BMZ] Module #B module order change:  [OK: Last faultline test less than 12h ago]
+2022-04-18 07:38:52 [I|BMZ] Module #C module order change:  [ALARM: Faultline test must be executed soon.]
+2022-04-18 07:38:52 [I|BMZ] Module #C faultline state change:  [Faultline pulled]
+2022-04-18 07:38:53 [I|BMZ] Module #C faultline state change:  inactive
+2022-04-18 07:38:54 [I|BMZ] Module #D module order change:  [ALARM: Faultline test must be executed soon.]
+2022-04-18 07:38:55 [I|BMZ] Module #C module order change:  [OK: Last faultline test less than 12h ago]
+2022-04-18 07:38:56 [I|BMZ] Module #D faultline state change:  [Faultline pulled]
+2022-04-18 07:38:57 [I|BMZ] Module #D faultline state change:  inactive
+2022-04-18 07:38:57 [I|BMZ] Module #D module order change:  [OK: Last faultline test less than 12h ago]
+2022-04-18 07:38:57 [I|BMZ] Faultline test passed by all modules.
+2022-04-18 07:39:07 [I|BMZ|Balancing] Balancing did not start. Continue normal operation.
+2022-04-18 07:39:07 [I|Energy Management] State: Balancing -> Laden
+2022-04-18 07:39:10 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :1.1083/1.1209, mean(2min)/max(2min): 1.1209/1.1209, mean(5min)/max(5min): 1.1209/1.1209
+2022-04-18 07:41:48 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 503.48 V, PV Current = 9.09 A, PV Power = 4548.00 W
+2022-04-18 07:41:48 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 263.76 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 07:41:48 [I|PV Interface] Inverter INV_LV: AC Voltage = 235.30 V, AC Current = 13.93 A, AC Power = 3283.58 W, AC Apparent Power = 3281.17 VA, AC Reactive Power = 0.00 var
+2022-04-18 07:41:48 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 401.42 V, PV Current = 0.58 A, PV Power = 233.69 W
+2022-04-18 07:41:48 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 199.08 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 07:41:48 [I|PV Interface] Inverter INV_HV: AC Voltage = 228.87 V, AC Current = 0.99 A, AC Power = 213.14 W, AC Apparent Power = 217.30 VA, AC Reactive Power = 42.30 var
+2022-04-18 07:42:28 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 48.57 V, Battery Current = 23.99 A, Battery Power = 1165.26 W
+2022-04-18 07:59:12 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/1.1074, mean(2min)/max(2min): 0.0030/1.1209, mean(5min)/max(5min): 0.0088/1.1209
+2022-04-18 08:02:15 [I|BAT Interface] Battery temp: 30.00 to 34.00 °C, case temp: 34.60 °C
+2022-04-18 08:02:15 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[4678.2W] INV_HV:[236.1W] Total production: 4914.2W current feed-in limit: 100.00 %
+2022-04-18 08:14:35 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3522] [ ][3518] [ ][3519] [ ][3517] [ ][3519] [ ][3519] [ ][3518] [ ][3524] [ ][3519] [ ][3519] [ ][3519] [ ][3519] [ ][3518] [ ][3522] SoC: 19% Current: 6.01A Limit: 6.00A/-12.00A Temp: 33-34C Voltage: 49.272V 
+2022-04-18 08:14:35 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3521] [ ][3520] [ ][3518] [ ][3517] [ ][3520] [ ][3520] [ ][3519] [ ][3525] [ ][3520] [ ][3521] [ ][3521] [ ][3521] [ ][3520] [ ][3522] SoC: 19% Current: 5.99A Limit: 6.00A/-12.00A Temp: 32-33C Voltage: 49.285V 
+2022-04-18 08:14:35 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3523] [ ][3520] [ ][3520] [ ][3519] [ ][3521] [ ][3519] [ ][3519] [ ][3522] [ ][3519] [ ][3519] [ ][3519] [ ][3520] [ ][3520] [ ][3522] SoC: 19% Current: 6.13A Limit: 6.00A/-12.00A Temp: 30-32C Voltage: 49.282V 
+2022-04-18 08:14:35 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3521] [ ][3519] [ ][3519] [ ][3520] [ ][3520] [ ][3519] [ ][3518] [ ][3523] [ ][3520] [ ][3520] [ ][3520] [ ][3520] [ ][3519] [ ][3522] SoC: 19% Current: 6.09A Limit: 6.00A/-12.00A Temp: 31-32C Voltage: 49.280V 
+2022-04-18 08:14:35 [I|BMZ] Module #A [Temp]: [33][33][34][33][34][34]
+2022-04-18 08:14:35 [I|BMZ] Module #B [Temp]: [33][32][33][33][33][33]
+2022-04-18 08:14:35 [I|BMZ] Module #C [Temp]: [30][30][31][31][31][32]
+2022-04-18 08:14:35 [I|BMZ] Module #D [Temp]: [31][31][32][32][32][32]
+2022-04-18 08:19:14 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0155/0.0589, mean(2min)/max(2min): 0.0067/0.0067, mean(5min)/max(5min): 0.0050/0.0088
+2022-04-18 08:32:15 [I|BAT Interface] Battery temp: 30.00 to 34.00 °C, case temp: 33.55 °C
+2022-04-18 08:32:15 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[4789.5W] INV_HV:[247.1W] Total production: 5036.6W current feed-in limit: 100.00 %
+2022-04-18 08:39:16 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0344, mean(2min)/max(2min): 0.0000/0.0073, mean(5min)/max(5min): 0.0001/0.0056
+2022-04-18 08:59:18 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0065, mean(2min)/max(2min): 0.0003/0.0004, mean(5min)/max(5min): 0.0002/0.0002
+2022-04-18 09:02:15 [I|BAT Interface] Battery temp: 30.00 to 34.00 °C, case temp: 33.44 °C
+2022-04-18 09:02:15 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[4863.2W] INV_HV:[278.0W] Total production: 5141.3W current feed-in limit: 100.00 %
+2022-04-18 09:19:20 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0259, mean(2min)/max(2min): 0.0000/0.0018, mean(5min)/max(5min): 0.0000/0.0008
+2022-04-18 09:25:23 [W|BMZ] Module temperature above warning threshold.
+2022-04-18 09:32:16 [I|BAT Interface] Battery temp: 30.00 to 35.00 °C, case temp: 33.70 °C
+2022-04-18 09:32:16 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[4844.6W] INV_HV:[504.5W] Total production: 5349.1W current feed-in limit: 100.00 %
+2022-04-18 09:39:20 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.1165, mean(2min)/max(2min): 0.0099/0.0337, mean(5min)/max(5min): 0.0139/0.0255
+2022-04-18 09:41:48 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 480.46 V, PV Current = 10.04 A, PV Power = 4825.68 W
+2022-04-18 09:41:48 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 253.88 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 09:41:48 [I|PV Interface] Inverter INV_LV: AC Voltage = 232.61 V, AC Current = 16.78 A, AC Power = 3914.77 W, AC Apparent Power = 3909.61 VA, AC Reactive Power = 0.00 var
+2022-04-18 09:41:48 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 370.72 V, PV Current = 1.62 A, PV Power = 595.34 W
+2022-04-18 09:41:48 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 185.42 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 09:41:48 [I|PV Interface] Inverter INV_HV: AC Voltage = 230.34 V, AC Current = 2.52 A, AC Power = 578.20 W, AC Apparent Power = 578.39 VA, AC Reactive Power = 14.94 var
+2022-04-18 09:42:28 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 50.45 V, Battery Current = 15.19 A, Battery Power = 766.20 W
+2022-04-18 09:59:25 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0190/0.0953, mean(2min)/max(2min): 0.0319/0.0397, mean(5min)/max(5min): 0.0324/0.0324
+2022-04-18 10:02:16 [I|BAT Interface] Battery temp: 30.00 to 35.00 °C, case temp: 33.95 °C
+2022-04-18 10:02:16 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[4760.7W] INV_HV:[807.8W] Total production: 5568.6W current feed-in limit: 100.00 %
+2022-04-18 10:14:37 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3600] [ ][3598] [ ][3598] [ ][3597] [ ][3598] [ ][3598] [ ][3598] [ ][3599] [ ][3598] [ ][3598] [ ][3598] [ ][3599] [ ][3598] [ ][3600] SoC: 35% Current: 1.18A Limit: 5.90A/-12.00A Temp: 34-35C Voltage: 50.377V 
+2022-04-18 10:14:37 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3599] [ ][3599] [ ][3598] [ ][3597] [ ][3599] [ ][3599] [ ][3599] [ ][3600] [ ][3599] [ ][3599] [ ][3599] [ ][3599] [ ][3599] [ ][3600] SoC: 35% Current: 1.22A Limit: 5.90A/-12.00A Temp: 33-34C Voltage: 50.385V 
+2022-04-18 10:14:37 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3600] [ ][3599] [ ][3599] [ ][3598] [ ][3599] [ ][3599] [ ][3598] [ ][3598] [ ][3599] [ ][3599] [ ][3599] [ ][3599] [ ][3599] [ ][3600] SoC: 36% Current: 1.20A Limit: 1.20A/-12.00A Temp: 30-32C Voltage: 50.385V 
+2022-04-18 10:14:37 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3599] [ ][3599] [ ][3599] [ ][3599] [ ][3599] [ ][3599] [ ][3599] [ ][3599] [ ][3599] [ ][3599] [ ][3599] [ ][3598] [ ][3599] [ ][3600] SoC: 36% Current: 1.20A Limit: 5.90A/-12.00A Temp: 31-33C Voltage: 50.386V 
+2022-04-18 10:14:37 [I|BMZ] Module #A [Temp]: [34][34][35][34][35][35]
+2022-04-18 10:14:37 [I|BMZ] Module #B [Temp]: [33][33][33][34][34][33]
+2022-04-18 10:14:37 [I|BMZ] Module #C [Temp]: [30][31][31][32][32][32]
+2022-04-18 10:14:37 [I|BMZ] Module #D [Temp]: [31][32][32][32][33][33]
+2022-04-18 10:19:27 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0413/0.0761, mean(2min)/max(2min): 0.0401/0.0416, mean(5min)/max(5min): 0.0380/0.0386
+2022-04-18 10:32:16 [I|BAT Interface] Battery temp: 30.00 to 35.00 °C, case temp: 34.28 °C
+2022-04-18 10:32:16 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[4607.8W] INV_HV:[1242.6W] Total production: 5850.4W current feed-in limit: 100.00 %
+2022-04-18 10:39:30 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0361/0.0503, mean(2min)/max(2min): 0.0296/0.0403, mean(5min)/max(5min): 0.0257/0.0380
+2022-04-18 10:45:05 [I|BMZ] Module #A considered as full with [3602 mV,40% SOC]. Charge is now prohibited.
+2022-04-18 11:02:16 [I|BAT Interface] Battery temp: 30.00 to 35.00 °C, case temp: 34.47 °C
+2022-04-18 11:02:16 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[4371.8W] INV_HV:[1593.1W] Total production: 5964.9W current feed-in limit: 100.00 %
+2022-04-18 11:32:17 [I|BAT Interface] Battery temp: 30.00 to 35.00 °C, case temp: 34.02 °C
+2022-04-18 11:32:17 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[4001.6W] INV_HV:[1901.5W] Total production: 5903.0W current feed-in limit: 100.00 %
+2022-04-18 11:41:49 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 486.55 V, PV Current = 7.98 A, PV Power = 3883.63 W
+2022-04-18 11:41:49 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 257.20 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 11:41:49 [I|PV Interface] Inverter INV_LV: AC Voltage = 234.14 V, AC Current = 16.19 A, AC Power = 3796.32 W, AC Apparent Power = 3791.92 VA, AC Reactive Power = 0.00 var
+2022-04-18 11:41:49 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 398.12 V, PV Current = 5.03 A, PV Power = 1998.03 W
+2022-04-18 11:41:49 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 199.19 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 11:41:49 [I|PV Interface] Inverter INV_HV: AC Voltage = 232.63 V, AC Current = 8.36 A, AC Power = 1946.38 W, AC Apparent Power = 1944.31 VA, AC Reactive Power = 0.00 var
+2022-04-18 11:42:29 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 50.27 V, Battery Current = 0.01 A, Battery Power = 0.44 W
+2022-04-18 12:02:17 [I|BAT Interface] Battery temp: 30.00 to 35.00 °C, case temp: 33.31 °C
+2022-04-18 12:02:17 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[3665.0W] INV_HV:[2208.3W] Total production: 5873.3W current feed-in limit: 100.00 %
+2022-04-18 12:14:39 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3594] [ ][3593] [ ][3592] [ ][3592] [ ][3593] [ ][3593] [ ][3593] [ ][3592] [ ][3593] [ ][3594] [ ][3593] [ ][3594] [ ][3593] [ ][3594] SoC: 38% Current: -0.01A Limit: 6.00A/-12.00A Temp: 34-35C Voltage: 50.303V 
+2022-04-18 12:14:39 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3594] [ ][3594] [ ][3593] [ ][3593] [ ][3593] [ ][3594] [ ][3594] [ ][3593] [ ][3593] [ ][3594] [ ][3594] [ ][3594] [ ][3594] [ ][3594] SoC: 38% Current: -0.01A Limit: 6.00A/-12.00A Temp: 33-34C Voltage: 50.311V 
+2022-04-18 12:14:39 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3594] [ ][3594] [ ][3594] [ ][3593] [ ][3594] [ ][3594] [ ][3594] [ ][3591] [ ][3593] [ ][3594] [ ][3593] [ ][3594] [ ][3594] [ ][3594] SoC: 38% Current: 0.00A Limit: 6.00A/-12.00A Temp: 30-32C Voltage: 50.310V 
+2022-04-18 12:14:39 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3594] [ ][3594] [ ][3594] [ ][3594] [ ][3594] [ ][3594] [ ][3594] [ ][3593] [ ][3594] [ ][3594] [ ][3594] [ ][3593] [ ][3594] [ ][3595] SoC: 38% Current: 0.00A Limit: 6.00A/-12.00A Temp: 31-33C Voltage: 50.315V 
+2022-04-18 12:14:39 [I|BMZ] Module #A [Temp]: [34][34][35][34][35][35]
+2022-04-18 12:14:39 [I|BMZ] Module #B [Temp]: [33][33][33][34][34][33]
+2022-04-18 12:14:39 [I|BMZ] Module #C [Temp]: [30][31][31][31][32][32]
+2022-04-18 12:14:39 [I|BMZ] Module #D [Temp]: [31][32][32][32][33][32]
+2022-04-18 12:32:17 [I|BAT Interface] Battery temp: 30.00 to 35.00 °C, case temp: 32.68 °C
+2022-04-18 12:32:17 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[3099.9W] INV_HV:[2455.8W] Total production: 5555.7W current feed-in limit: 100.00 %
+2022-04-18 13:02:17 [I|BAT Interface] Battery temp: 30.00 to 35.00 °C, case temp: 32.06 °C
+2022-04-18 13:02:17 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[2524.4W] INV_HV:[2645.3W] Total production: 5169.7W current feed-in limit: 100.00 %
+2022-04-18 13:12:30 [I|BMZ] Module temperature below warning threshold, release current limit.
+2022-04-18 13:12:34 [W|BMZ] Module temperature above warning threshold.
+2022-04-18 13:12:35 [I|BMZ] Module temperature below warning threshold, release current limit.
+2022-04-18 13:12:36 [W|BMZ] Module temperature above warning threshold.
+2022-04-18 13:12:36 [I|BMZ] Module temperature below warning threshold, release current limit.
+2022-04-18 13:32:18 [I|BAT Interface] Battery temp: 29.00 to 34.00 °C, case temp: 33.29 °C
+2022-04-18 13:32:18 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[1912.9W] INV_HV:[2787.0W] Total production: 4699.9W current feed-in limit: 100.00 %
+2022-04-18 13:41:49 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 483.00 V, PV Current = 3.69 A, PV Power = 1766.68 W
+2022-04-18 13:41:49 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 254.39 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 13:41:49 [I|PV Interface] Inverter INV_LV: AC Voltage = 230.99 V, AC Current = 7.47 A, AC Power = 1725.36 W, AC Apparent Power = 1722.97 VA, AC Reactive Power = 0.00 var
+2022-04-18 13:41:49 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 388.63 V, PV Current = 7.28 A, PV Power = 2826.61 W
+2022-04-18 13:41:49 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 194.53 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 13:41:49 [I|PV Interface] Inverter INV_HV: AC Voltage = 235.61 V, AC Current = 11.66 A, AC Power = 2752.07 W, AC Apparent Power = 2750.78 VA, AC Reactive Power = 0.00 var
+2022-04-18 13:42:29 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 50.24 V, Battery Current = 0.01 A, Battery Power = 0.46 W
+2022-04-18 14:02:18 [I|BAT Interface] Battery temp: 29.00 to 34.00 °C, case temp: 33.45 °C
+2022-04-18 14:02:18 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[1334.6W] INV_HV:[2891.6W] Total production: 4226.2W current feed-in limit: 100.00 %
+2022-04-18 14:14:40 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3592] [ ][3591] [ ][3591] [ ][3590] [ ][3591] [ ][3591] [ ][3592] [ ][3591] [ ][3592] [ ][3592] [ ][3592] [ ][3592] [ ][3592] [ ][3593] SoC: 38% Current: -0.01A Limit: 6.00A/-12.00A Temp: 33-34C Voltage: 50.282V 
+2022-04-18 14:14:40 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3591] [ ][3592] [ ][3591] [ ][3590] [ ][3591] [ ][3591] [ ][3591] [ ][3590] [ ][3591] [ ][3591] [ ][3591] [ ][3591] [ ][3591] [ ][3591] SoC: 38% Current: -0.01A Limit: 6.00A/-12.00A Temp: 32-33C Voltage: 50.273V 
+2022-04-18 14:14:40 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3593] [ ][3592] [ ][3592] [ ][3591] [ ][3592] [ ][3592] [ ][3592] [ ][3589] [ ][3592] [ ][3592] [ ][3592] [ ][3592] [ ][3592] [ ][3592] SoC: 38% Current: 0.00A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 50.285V 
+2022-04-18 14:14:40 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3592] [ ][3591] [ ][3592] [ ][3593] [ ][3592] [ ][3592] [ ][3592] [ ][3591] [ ][3592] [ ][3593] [ ][3592] [ ][3591] [ ][3592] [ ][3593] SoC: 38% Current: -0.01A Limit: 6.00A/-12.00A Temp: 30-32C Voltage: 50.288V 
+2022-04-18 14:14:40 [I|BMZ] Module #A [Temp]: [33][33][34][33][34][33]
+2022-04-18 14:14:40 [I|BMZ] Module #B [Temp]: [32][32][32][32][33][32]
+2022-04-18 14:14:40 [I|BMZ] Module #C [Temp]: [29][29][30][30][30][30]
+2022-04-18 14:14:40 [I|BMZ] Module #D [Temp]: [30][30][31][31][32][31]
+2022-04-18 14:32:18 [I|BAT Interface] Battery temp: 29.00 to 34.00 °C, case temp: 36.62 °C
+2022-04-18 14:32:18 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[710.3W] INV_HV:[2927.5W] Total production: 3637.8W current feed-in limit: 100.00 %
+2022-04-18 15:02:18 [I|BAT Interface] Battery temp: 28.00 to 33.00 °C, case temp: 37.57 °C
+2022-04-18 15:02:18 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[348.7W] INV_HV:[2896.6W] Total production: 3245.3W current feed-in limit: 100.00 %
+2022-04-18 15:32:18 [I|BAT Interface] Battery temp: 28.00 to 33.00 °C, case temp: 38.24 °C
+2022-04-18 15:32:18 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[291.0W] INV_HV:[2826.8W] Total production: 3117.8W current feed-in limit: 100.00 %
+2022-04-18 15:41:50 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 497.69 V, PV Current = 0.58 A, PV Power = 284.12 W
+2022-04-18 15:41:50 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 262.19 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 15:41:50 [I|PV Interface] Inverter INV_LV: AC Voltage = 229.81 V, AC Current = 1.07 A, AC Power = 239.86 W, AC Apparent Power = 244.58 VA, AC Reactive Power = 47.85 var
+2022-04-18 15:41:50 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 393.23 V, PV Current = 7.09 A, PV Power = 2773.82 W
+2022-04-18 15:41:50 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 195.55 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 15:41:50 [I|PV Interface] Inverter INV_HV: AC Voltage = 235.51 V, AC Current = 11.48 A, AC Power = 2703.80 W, AC Apparent Power = 2700.20 VA, AC Reactive Power = 0.00 var
+2022-04-18 15:42:29 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 50.21 V, Battery Current = 0.00 A, Battery Power = 0.27 W
+2022-04-18 16:02:18 [I|BAT Interface] Battery temp: 28.00 to 33.00 °C, case temp: 39.12 °C
+2022-04-18 16:02:18 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[271.1W] INV_HV:[2667.8W] Total production: 2938.9W current feed-in limit: 100.00 %
+2022-04-18 16:14:42 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3590] [ ][3589] [ ][3589] [ ][3588] [ ][3590] [ ][3589] [ ][3590] [ ][3589] [ ][3590] [ ][3590] [ ][3590] [ ][3591] [ ][3590] [ ][3591] SoC: 38% Current: -0.01A Limit: 6.00A/-12.00A Temp: 32-33C Voltage: 50.256V 
+2022-04-18 16:14:42 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3590] [ ][3590] [ ][3589] [ ][3588] [ ][3589] [ ][3590] [ ][3590] [ ][3589] [ ][3589] [ ][3590] [ ][3590] [ ][3590] [ ][3589] [ ][3590] SoC: 38% Current: 0.00A Limit: 6.00A/-12.00A Temp: 31-32C Voltage: 50.253V 
+2022-04-18 16:14:42 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3591] [ ][3590] [ ][3590] [ ][3590] [ ][3590] [ ][3590] [ ][3590] [ ][3588] [ ][3590] [ ][3590] [ ][3590] [ ][3590] [ ][3590] [ ][3590] SoC: 38% Current: 0.00A Limit: 6.00A/-12.00A Temp: 28-30C Voltage: 50.259V 
+2022-04-18 16:14:42 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3590] [ ][3590] [ ][3590] [ ][3591] [ ][3591] [ ][3591] [ ][3591] [ ][3589] [ ][3590] [ ][3591] [ ][3591] [ ][3590] [ ][3591] [ ][3591] SoC: 38% Current: -0.01A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 50.267V 
+2022-04-18 16:14:42 [I|BMZ] Module #A [Temp]: [32][33][33][32][33][33]
+2022-04-18 16:14:42 [I|BMZ] Module #B [Temp]: [31][31][31][31][32][31]
+2022-04-18 16:14:42 [I|BMZ] Module #C [Temp]: [28][29][29][30][30][30]
+2022-04-18 16:14:42 [I|BMZ] Module #D [Temp]: [30][30][30][31][31][31]
+2022-04-18 16:32:19 [I|BAT Interface] Battery temp: 28.00 to 33.00 °C, case temp: 39.33 °C
+2022-04-18 16:32:19 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[243.6W] INV_HV:[2441.8W] Total production: 2685.4W current feed-in limit: 100.00 %
+2022-04-18 16:45:39 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0211/0.0486, mean(2min)/max(2min): 0.0178/0.0298, mean(5min)/max(5min): 0.0178/0.0264
+2022-04-18 17:02:16 [I|BAT Interface] Battery temp: 29.00 to 33.00 °C, case temp: 36.86 °C
+2022-04-18 17:02:16 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[206.2W] INV_HV:[2091.3W] Total production: 2297.5W current feed-in limit: 100.00 %
+2022-04-18 17:05:39 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0267, mean(2min)/max(2min): 0.0000/0.0193, mean(5min)/max(5min): 0.0000/0.0193
+2022-04-18 17:32:16 [I|BAT Interface] Battery temp: 28.00 to 33.00 °C, case temp: 37.92 °C
+2022-04-18 17:32:16 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[152.2W] INV_HV:[1539.8W] Total production: 1692.1W current feed-in limit: 100.00 %
+2022-04-18 17:41:47 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 474.74 V, PV Current = 0.28 A, PV Power = 130.76 W
+2022-04-18 17:41:47 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 252.65 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 17:41:47 [I|PV Interface] Inverter INV_LV: AC Voltage = 229.35 V, AC Current = 0.43 A, AC Power = 90.05 W, AC Apparent Power = 94.81 VA, AC Reactive Power = 29.66 var
+2022-04-18 17:41:47 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 402.80 V, PV Current = 3.31 A, PV Power = 1324.42 W
+2022-04-18 17:41:47 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 201.51 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 17:41:47 [I|PV Interface] Inverter INV_HV: AC Voltage = 231.13 V, AC Current = 5.58 A, AC Power = 1291.05 W, AC Apparent Power = 1289.67 VA, AC Reactive Power = 0.00 var
+2022-04-18 17:42:27 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 49.85 V, Battery Current = -0.00 A, Battery Power = -0.10 W
+2022-04-18 18:01:37 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.2531, mean(2min)/max(2min): 0.0000/0.0100, mean(5min)/max(5min): 0.0000/0.0057
+2022-04-18 18:02:16 [I|BAT Interface] Battery temp: 28.00 to 33.00 °C, case temp: 38.40 °C
+2022-04-18 18:02:16 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[80.3W] INV_HV:[493.4W] Total production: 573.7W current feed-in limit: 100.00 %
+2022-04-18 18:14:41 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3558] [ ][3558] [ ][3557] [ ][3557] [ ][3558] [ ][3558] [ ][3559] [ ][3556] [ ][3558] [ ][3559] [ ][3559] [ ][3559] [ ][3559] [ ][3559] SoC: 33% Current: -1.83A Limit: 6.00A/-12.00A Temp: 31-33C Voltage: 49.814V 
+2022-04-18 18:14:41 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3558] [ ][3559] [ ][3557] [ ][3557] [ ][3557] [ ][3558] [ ][3558] [ ][3555] [ ][3557] [ ][3557] [ ][3558] [ ][3558] [ ][3558] [ ][3558] SoC: 31% Current: -1.83A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 49.805V 
+2022-04-18 18:14:41 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3559] [ ][3558] [ ][3559] [ ][3558] [ ][3559] [ ][3558] [ ][3559] [ ][3554] [ ][3559] [ ][3559] [ ][3558] [ ][3559] [ ][3558] [ ][3558] SoC: 33% Current: -1.82A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 49.815V 
+2022-04-18 18:14:41 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3558] [ ][3558] [ ][3559] [ ][3559] [ ][3559] [ ][3559] [ ][3560] [ ][3556] [ ][3559] [ ][3560] [ ][3559] [ ][3558] [ ][3558] [ ][3559] SoC: 33% Current: -1.83A Limit: 6.00A/-12.00A Temp: 29-31C Voltage: 49.821V 
+2022-04-18 18:14:41 [I|BMZ] Module #A [Temp]: [31][32][32][32][33][32]
+2022-04-18 18:14:41 [I|BMZ] Module #B [Temp]: [30][30][31][31][31][30]
+2022-04-18 18:14:41 [I|BMZ] Module #C [Temp]: [28][29][29][29][29][29]
+2022-04-18 18:14:41 [I|BMZ] Module #D [Temp]: [29][30][30][30][31][30]
+2022-04-18 18:21:37 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0198, mean(2min)/max(2min): 0.0000/0.0058, mean(5min)/max(5min): 0.0000/0.0045
+2022-04-18 18:32:16 [I|BAT Interface] Battery temp: 28.00 to 32.00 °C, case temp: 38.35 °C
+2022-04-18 18:32:16 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[13.4W] Total production:  13.4W current feed-in limit: 100.00 %
+2022-04-18 18:35:53 [I|INV_HV] Inverter is disconnected from grid
+2022-04-18 18:36:01 [I|INV_HV] Inverter is connected to grid.
+2022-04-18 18:37:02 [I|INV_HV] Inverter is disconnected from grid
+2022-04-18 18:37:09 [I|INV_HV] Inverter is connected to grid.
+2022-04-18 18:38:10 [I|INV_HV] Inverter is disconnected from grid
+2022-04-18 18:38:18 [I|INV_HV] Inverter is connected to grid.
+2022-04-18 18:39:18 [I|INV_HV] Inverter is disconnected from grid
+2022-04-18 18:39:33 [I|INV_HV] Inverter is connected to grid.
+2022-04-18 18:40:34 [I|INV_HV] Inverter is disconnected from grid
+2022-04-18 18:40:41 [I|INV_HV] Inverter is connected to grid.
+2022-04-18 18:41:38 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0631, mean(2min)/max(2min): 0.0000/0.0039, mean(5min)/max(5min): 0.0000/0.0016
+2022-04-18 18:41:50 [I|INV_HV] Inverter is disconnected from grid
+2022-04-18 18:41:57 [I|INV_HV] Inverter is connected to grid.
+2022-04-18 18:42:56 [I|INV_HV] Inverter is disconnected from grid
+2022-04-18 18:43:05 [I|INV_HV] Inverter is connected to grid.
+2022-04-18 18:44:12 [I|INV_HV] Inverter is disconnected from grid
+2022-04-18 18:44:20 [I|INV_HV] Inverter is connected to grid.
+2022-04-18 18:45:21 [I|INV_HV] Inverter is disconnected from grid
+2022-04-18 18:45:29 [I|INV_HV] Inverter is connected to grid.
+2022-04-18 18:46:29 [I|INV_HV] Inverter is disconnected from grid
+2022-04-18 18:46:37 [I|INV_HV] Inverter is connected to grid.
+2022-04-18 18:47:37 [I|INV_HV] Inverter is disconnected from grid
+2022-04-18 18:47:52 [I|INV_HV] Inverter is connected to grid.
+2022-04-18 18:48:53 [I|INV_HV] Inverter is disconnected from grid
+2022-04-18 18:49:01 [I|INV_HV] Inverter is connected to grid.
+2022-04-18 18:50:01 [I|INV_HV] Inverter is disconnected from grid
+2022-04-18 19:01:40 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0103, mean(2min)/max(2min): 0.0006/0.0006, mean(5min)/max(5min): 0.0002/0.0002
+2022-04-18 19:02:17 [I|BAT Interface] Battery temp: 28.00 to 32.00 °C, case temp: 37.55 °C
+2022-04-18 19:02:17 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-04-18 19:21:40 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.2737, mean(2min)/max(2min): 0.0000/0.0012, mean(5min)/max(5min): 0.0000/0.0005
+2022-04-18 19:32:17 [I|BAT Interface] Battery temp: 27.00 to 31.00 °C, case temp: 36.68 °C
+2022-04-18 19:32:17 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-04-18 19:41:41 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0505, mean(2min)/max(2min): 0.0000/0.0006, mean(5min)/max(5min): 0.0000/0.0002
+2022-04-18 19:41:47 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 124.76 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 19:41:47 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 221.08 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 19:41:47 [I|PV Interface] Inverter INV_LV: AC Voltage = 229.13 V, AC Current = 2.14 A, AC Power = 495.24 W, AC Apparent Power = 496.70 VA, AC Reactive Power = 38.12 var
+2022-04-18 19:41:47 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 3.82 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 19:41:47 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 3.77 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 19:41:47 [I|PV Interface] Inverter INV_HV: AC Voltage = 228.86 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-04-18 19:42:27 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 49.03 V, Battery Current = -10.71 A, Battery Power = -525.05 W
+2022-04-18 19:53:48 [I|BMZ] Module #A module order change:  [WARNING: Last faultline test more than 12h ago]
+2022-04-18 19:53:51 [I|BMZ] Module #B module order change:  [WARNING: Last faultline test more than 12h ago]
+2022-04-18 19:53:54 [I|BMZ] Module #C module order change:  [WARNING: Last faultline test more than 12h ago]
+2022-04-18 19:53:59 [I|BMZ] Module #D module order change:  [WARNING: Last faultline test more than 12h ago]
+2022-04-18 20:01:44 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0000, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-04-18 20:02:17 [I|BAT Interface] Battery temp: 27.00 to 31.00 °C, case temp: 36.29 °C
+2022-04-18 20:02:17 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-04-18 20:07:53 [I|BMZ] All cell voltages are below [3500 mV]. Charge is allowed again.
+2022-04-18 20:14:43 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3494] [ ][3494] [ ][3494] [ ][3493] [ ][3494] [ ][3495] [ ][3496] [ ][3492] [ ][3495] [ ][3496] [ ][3495] [ ][3496] [ ][3495] [ ][3496] SoC: 23% Current: -2.89A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 48.925V 
+2022-04-18 20:14:43 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3493] [ ][3495] [ ][3493] [ ][3493] [ ][3494] [ ][3495] [ ][3495] [ ][3491] [ ][3495] [ ][3495] [ ][3495] [ ][3495] [ ][3495] [ ][3494] SoC: 23% Current: -2.90A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 48.911V 
+2022-04-18 20:14:43 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3495] [ ][3495] [ ][3496] [ ][3494] [ ][3496] [ ][3495] [ ][3496] [ ][3489] [ ][3495] [ ][3495] [ ][3495] [ ][3495] [ ][3495] [ ][3494] SoC: 23% Current: -2.94A Limit: 6.00A/-12.00A Temp: 27-29C Voltage: 48.925V 
+2022-04-18 20:14:43 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3494] [ ][3495] [ ][3495] [ ][3496] [ ][3495] [ ][3496] [ ][3497] [ ][3491] [ ][3496] [ ][3496] [ ][3496] [ ][3495] [ ][3495] [ ][3495] SoC: 23% Current: -2.92A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 48.932V 
+2022-04-18 20:14:43 [I|BMZ] Module #A [Temp]: [30][30][31][31][31][30]
+2022-04-18 20:14:43 [I|BMZ] Module #B [Temp]: [29][29][30][29][30][29]
+2022-04-18 20:14:43 [I|BMZ] Module #C [Temp]: [27][28][28][28][29][28]
+2022-04-18 20:14:43 [I|BMZ] Module #D [Temp]: [28][28][29][29][29][29]
+2022-04-18 20:21:47 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0004, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-04-18 20:32:17 [I|BAT Interface] Battery temp: 27.00 to 31.00 °C, case temp: 36.38 °C
+2022-04-18 20:32:17 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-04-18 20:41:47 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0292, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-04-18 21:01:49 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0613, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-04-18 21:02:18 [I|BAT Interface] Battery temp: 27.00 to 31.00 °C, case temp: 35.74 °C
+2022-04-18 21:02:18 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-04-18 21:21:50 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0042, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-04-18 21:32:18 [I|BAT Interface] Battery temp: 27.00 to 31.00 °C, case temp: 35.86 °C
+2022-04-18 21:32:18 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-04-18 21:41:48 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 124.72 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 21:41:48 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 217.00 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 21:41:48 [I|PV Interface] Inverter INV_LV: AC Voltage = 229.84 V, AC Current = 1.49 A, AC Power = 344.99 W, AC Apparent Power = 346.79 VA, AC Reactive Power = 35.32 var
+2022-04-18 21:41:48 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 1.39 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 21:41:48 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 2.06 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 21:41:48 [I|PV Interface] Inverter INV_HV: AC Voltage = 229.49 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-04-18 21:41:50 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0000, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-04-18 21:42:28 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 48.09 V, Battery Current = -7.53 A, Battery Power = -361.93 W
+2022-04-18 22:01:51 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0000, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-04-18 22:02:18 [I|BAT Interface] Battery temp: 28.00 to 31.00 °C, case temp: 35.23 °C
+2022-04-18 22:02:18 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-04-18 22:14:44 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3418] [ ][3416] [ ][3417] [ ][3414] [ ][3417] [ ][3417] [ ][3418] [ ][3416] [ ][3420] [ ][3419] [ ][3419] [ ][3420] [ ][3419] [ ][3422] SoC: 15% Current: -1.92A Limit: 6.00A/-12.00A Temp: 30-31C Voltage: 47.852V 
+2022-04-18 22:14:44 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3417] [ ][3418] [ ][3415] [ ][3414] [ ][3418] [ ][3419] [ ][3418] [ ][3415] [ ][3418] [ ][3419] [ ][3419] [ ][3419] [ ][3418] [ ][3418] SoC: 14% Current: -1.92A Limit: 6.00A/-12.00A Temp: 29-30C Voltage: 47.845V 
+2022-04-18 22:14:44 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3420] [ ][3418] [ ][3420] [ ][3417] [ ][3420] [ ][3418] [ ][3420] [ ][3411] [ ][3417] [ ][3418] [ ][3418] [ ][3418] [ ][3419] [ ][3418] SoC: 15% Current: -1.94A Limit: 6.00A/-12.00A Temp: 28-29C Voltage: 47.852V 
+2022-04-18 22:14:44 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3418] [ ][3417] [ ][3418] [ ][3419] [ ][3419] [ ][3419] [ ][3420] [ ][3413] [ ][3420] [ ][3420] [ ][3420] [ ][3419] [ ][3418] [ ][3419] SoC: 15% Current: -1.96A Limit: 6.00A/-12.00A Temp: 28-30C Voltage: 47.859V 
+2022-04-18 22:14:44 [I|BMZ] Module #A [Temp]: [30][30][31][31][31][30]
+2022-04-18 22:14:44 [I|BMZ] Module #B [Temp]: [29][29][30][30][30][30]
+2022-04-18 22:14:44 [I|BMZ] Module #C [Temp]: [28][28][28][29][29][29]
+2022-04-18 22:14:44 [I|BMZ] Module #D [Temp]: [28][29][29][29][30][29]
+2022-04-18 22:21:52 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0000, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-04-18 22:32:18 [I|BAT Interface] Battery temp: 28.00 to 31.00 °C, case temp: 35.02 °C
+2022-04-18 22:32:18 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-04-18 22:41:53 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0006, mean(2min)/max(2min): 0.0000/0.0000, mean(5min)/max(5min): 0.0000/0.0000
+2022-04-18 23:01:53 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0571, mean(2min)/max(2min): 0.0000/0.0034, mean(5min)/max(5min): 0.0000/0.0014
+2022-04-18 23:02:18 [I|BAT Interface] Battery temp: 28.00 to 31.00 °C, case temp: 34.71 °C
+2022-04-18 23:02:18 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-04-18 23:06:56 [I|BMZ|Balancing] Reset balancing check.
+2022-04-18 23:21:53 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0283, mean(2min)/max(2min): 0.0000/0.0009, mean(5min)/max(5min): 0.0000/0.0003
+2022-04-18 23:32:18 [I|BAT Interface] Battery temp: 28.00 to 31.00 °C, case temp: 34.59 °C
+2022-04-18 23:32:18 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-04-18 23:41:48 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 126.30 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 23:41:48 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 211.35 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 23:41:48 [I|PV Interface] Inverter INV_LV: AC Voltage = 230.85 V, AC Current = 1.73 A, AC Power = 395.42 W, AC Apparent Power = 396.79 VA, AC Reactive Power = 32.97 var
+2022-04-18 23:41:48 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 1.92 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 23:41:48 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 2.11 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-04-18 23:41:48 [I|PV Interface] Inverter INV_HV: AC Voltage = 230.90 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-04-18 23:41:54 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0000/0.0350, mean(2min)/max(2min): 0.0000/0.0012, mean(5min)/max(5min): 0.0000/0.0005
+2022-04-18 23:42:28 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 46.66 V, Battery Current = -7.83 A, Battery Power = -365.49 W

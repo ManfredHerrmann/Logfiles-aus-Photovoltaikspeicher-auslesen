@@ -1,0 +1,908 @@
+2022-05-01 00:00:00 [I|SYS] Serial: S39977261194348553540356920 MCU firmware version: 1990, GUI version 0959
+2022-05-01 00:00:00 [I|SYS] Factory Settings: System type: Home V3 hybrid duo, battery type: Lithium-ion (BMZ) parallel, country: Germany | Settings: battery inverter: SENEC.Inverter V3 LV, power meter: ABB B2x
+2022-05-01 00:00:00 [I|SYS] Inverter Firmware Info: HMI: 3.16.20 PU: 4.3.10 BDC: 5.4.6
+2022-05-01 00:00:00 [I|SYS] BMS Firmware Info: Not available
+2022-05-01 00:00:00 [I|Statistics] Created statistics file 2022-05-01
+2022-05-01 00:01:11 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 1.74 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 00:01:11 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 2.34 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 00:01:11 [I|PV Interface] Inverter INV_LV: AC Voltage = 230.85 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-05-01 00:01:11 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 1.48 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 00:01:11 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 2.11 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 00:01:11 [I|PV Interface] Inverter INV_HV: AC Voltage = 231.77 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-05-01 00:01:20 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-01 00:07:35 [I|SYS|Selftest] display message: Fehler DC-Schuetz
+2022-05-01 00:07:35 [W|SYS|Selftest] DC coil error (timeout)
+2022-05-01 00:21:18 [I|BAT Interface] Battery temp not available, Case temp: 27.31 °C
+2022-05-01 00:21:18 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-01 00:51:19 [I|BAT Interface] Battery temp not available, Case temp: 27.27 °C
+2022-05-01 00:51:19 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-01 01:21:19 [I|BAT Interface] Battery temp not available, Case temp: 27.15 °C
+2022-05-01 01:21:19 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-01 01:51:19 [I|BAT Interface] Battery temp not available, Case temp: 27.10 °C
+2022-05-01 01:51:19 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-01 02:01:11 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 2.64 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 02:01:11 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 2.49 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 02:01:11 [I|PV Interface] Inverter INV_LV: AC Voltage = 230.84 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-05-01 02:01:11 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 1.99 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 02:01:11 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 2.30 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 02:01:11 [I|PV Interface] Inverter INV_HV: AC Voltage = 229.90 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-05-01 02:01:22 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-01 02:07:36 [I|SYS|Selftest] Requesting re-test after failed selftest, delay: 120 minutes
+2022-05-01 02:07:36 [I|SYS|Selftest] Initialized
+2022-05-01 02:07:36 [I|SYS|Selftest] display message: Starte Test-Modus (1/6)
+2022-05-01 02:07:36 [I|SYS|Selftest] Enforcing passive mode before switching AC coil
+2022-05-01 02:07:36 [I|Energy Management|State:Off] temporary leave to run selftest
+2022-05-01 02:07:36 OFF: Waking up BMS
+2022-05-01 02:07:36 [I|KILLSWITCH|BMZ] disabled output IO
+2022-05-01 02:07:36 [I|BAT_MODULE_ENABLE_BMZ|BMZ] enabled output IO
+2022-05-01 02:07:36 [I|Energy Management] State: Fernabschaltung -> Selbsttest
+2022-05-01 02:07:41 [I|SYS|Selftest] Forced passive mode entered
+2022-05-01 02:07:41 [I|SYS|Selftest] display message: Batterie- sicherheit (2/6)
+2022-05-01 02:07:41 [I|SYS|Selftest] Checking if BMZ faultline test is running
+2022-05-01 02:07:41 [I|SYS|Selftest] BMZ faultline test running
+2022-05-01 02:07:50 [I|SYS|Selftest] BMZ faultline test finished
+2022-05-01 02:07:50 [I|SYS|Selftest] BMZ wait to get ready
+2022-05-01 02:07:50 [I|BMZ] Faultline resumed normal mode.
+2022-05-01 02:07:57 [I|BMZ] Module #A module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 02:07:58 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3441] [ ][3439] [ ][3440] [ ][3437] [ ][3440] [ ][3440] [ ][3441] [ ][3440] [ ][3442] [ ][3442] [ ][3441] [ ][3443] [ ][3441] [ ][3445] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 25-26C Voltage: 48.172V 
+2022-05-01 02:07:58 [I|BMZ] Module #A [Temp]: [26][25][26][25][26][25]
+2022-05-01 02:08:00 [I|BMZ] Module #B module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 02:08:01 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3440] [ ][3441] [ ][3438] [ ][3437] [ ][3440] [ ][3441] [ ][3440] [ ][3440] [ ][3441] [ ][3442] [ ][3442] [ ][3441] [ ][3441] [ ][3441] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 25-25C Voltage: 48.165V 
+2022-05-01 02:08:01 [I|BMZ] Module #B [Temp]: [25][25][25][25][25][25]
+2022-05-01 02:08:03 [I|BMZ] Module #C module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 02:08:05 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3443] [ ][3441] [ ][3442] [ ][3440] [ ][3442] [ ][3441] [ ][3442] [ ][3436] [ ][3440] [ ][3440] [ ][3441] [ ][3441] [ ][3442] [ ][3442] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 24-25C Voltage: 48.173V 
+2022-05-01 02:08:05 [I|BMZ] Module #C [Temp]: [24][24][24][24][24][25]
+2022-05-01 02:08:06 [I|BMZ] 4 modules working as expected
+2022-05-01 02:08:06 [I|BMZ] Module #D module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 02:08:06 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3441] [ ][3440] [ ][3441] [ ][3441] [ ][3441] [ ][3441] [ ][3441] [ ][3438] [ ][3442] [ ][3442] [ ][3442] [ ][3441] [ ][3441] [ ][3442] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 25-25C Voltage: 48.174V 
+2022-05-01 02:08:06 [I|BMZ] Module #D [Temp]: [25][25][25][25][25][25]
+2022-05-01 02:08:06 [I|BMZ] Faultline test started.
+2022-05-01 02:08:07 [I|BMZ] Module #A faultline state change:  [Faultline pulled]
+2022-05-01 02:08:08 [I|BMZ] Module #A faultline state change:  inactive
+2022-05-01 02:08:09 [I|BMZ] Module #A module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 02:08:10 [I|BMZ] Module #B faultline state change:  [Faultline pulled]
+2022-05-01 02:08:11 [I|BMZ] Module #B faultline state change:  inactive
+2022-05-01 02:08:12 [I|BMZ] Module #B module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 02:08:13 [I|BMZ] Module #C faultline state change:  [Faultline pulled]
+2022-05-01 02:08:13 [I|BMZ] Module #C faultline state change:  inactive
+2022-05-01 02:08:15 [I|BMZ] Module #C module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 02:08:16 [I|BMZ] Module #D faultline state change:  [Faultline pulled]
+2022-05-01 02:08:16 [I|BMZ] Module #D faultline state change:  inactive
+2022-05-01 02:08:17 [I|BMZ|Ready] Communication initialization complete.
+2022-05-01 02:08:17 [I|BMZ] Module #A Serial: 43006224 FW: 30134 Type: 30012
+2022-05-01 02:08:17 [I|BMZ] Module #B Serial: 43006208 FW: 30134 Type: 30012
+2022-05-01 02:08:17 [I|BMZ] Module #C Serial: 40006774 FW: 30134 Type: 30012
+2022-05-01 02:08:17 [I|BMZ] Module #D Serial: 43010127 FW: 30134 Type: 30012
+2022-05-01 02:08:17 [I|SYS|Selftest] BMS ready for operation
+2022-05-01 02:08:17 [I|SYS|Selftest] display message: BWR Kommuni-kation (4/6)
+2022-05-01 02:08:17 [I|SYS|Selftest] Inverter: Check inverter communication
+2022-05-01 02:08:17 [I|SYS|Selftest] Inverter: Communication check successful
+2022-05-01 02:08:17 [I|SYS|Selftest] Start dc coil tests.
+2022-05-01 02:08:17 [I|SYS|Selftest] display message: Test DC-Schuetz (5/6)
+2022-05-01 02:08:17 [I|INV_LV] Reset triggered
+2022-05-01 02:08:18 [I|BMZ] Module #D module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 02:08:18 [I|BMZ] Faultline test passed by all modules.
+2022-05-01 02:08:22 [I|INV_LV] Reset time for state change logging
+2022-05-01 02:08:24 [I|INV_LV] date and time updated
+2022-05-01 02:08:24 [I|INV_LV] Gridcode correct (4901)
+2022-05-01 02:08:24 [I|INV_LV] Serial is 767272GF008074270001
+2022-05-01 02:08:24 [I|INV_LV] Nominal Power: 4600W
+2022-05-01 02:08:24 [I|INV_LV] DC measurements taken
+2022-05-01 02:08:28 [I|INV_LV] State change logging enabled.
+2022-05-01 02:08:36 OFF: Switching on inverter
+2022-05-01 02:08:36 [I|INV_LV] Enabled Batteries and reset DC measurements
+2022-05-01 02:08:39 [I|INV_LV] Disabled Batteries and reset DC measurements
+2022-05-01 02:08:39 [I|INV_LV] Energysource transferred: Battery: 0 PV: 1 Island: 0
+2022-05-01 02:08:40 [I|INV_LV] DC measurements taken
+2022-05-01 02:21:19 [I|BAT Interface] Battery temp: 24.00 to 26.00 °C, case temp: 27.12 °C
+2022-05-01 02:21:19 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-01 02:23:23 [I|INV_LV] State change logging disabled.
+2022-05-01 02:37:36 [W|Energy Management|State:Selftest] Leaving selftest because of timeout in state off.
+2022-05-01 02:37:37 [I|Energy Management] State: Selbsttest -> Fernabschaltung
+2022-05-01 02:37:37 OFF: Sending passive request
+2022-05-01 02:37:47 OFF: Switching off Inverter
+2022-05-01 02:37:52 OFF: Sending BMS shutdown command
+2022-05-01 02:37:52 [I|BMZ] Shutdown started.
+2022-05-01 02:37:52 [I|Remanent Data] Last BMS disable saved: 2022-05-01 02:37:52 
+2022-05-01 02:37:52 [I|KILLSWITCH|BMZ] enabled output IO
+2022-05-01 02:37:52 [I|BAT_MODULE_ENABLE_BMZ|BMZ] disabled output IO
+2022-05-01 02:51:19 [I|BAT Interface] Battery temp not available, Case temp: 27.19 °C
+2022-05-01 02:51:19 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-01 03:21:19 [I|BAT Interface] Battery temp not available, Case temp: 26.96 °C
+2022-05-01 03:21:19 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-01 03:35:18 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:36:09 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:36:16 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:36:30 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:36:44 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:36:59 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:37:13 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:37:27 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:37:35 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:37:56 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:38:03 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:38:59 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:39:06 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:39:56 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:40:10 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:41:00 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:41:07 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:42:05 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:42:12 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:43:03 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:43:17 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:44:14 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:44:21 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:45:19 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:45:26 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:46:22 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:46:36 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:47:34 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:47:41 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:48:38 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:48:52 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:49:50 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:49:58 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:50:55 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:51:02 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:51:20 [I|BAT Interface] Battery temp not available, Case temp: 26.80 °C
+2022-05-01 03:51:20 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.2W] INV_HV:[0.0W] Total production:   0.2W current feed-in limit: 100.00 %
+2022-05-01 03:51:59 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:52:13 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:53:10 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:53:18 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:54:14 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:54:29 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:55:27 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:55:34 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:56:30 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:56:45 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:57:42 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:57:50 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:58:47 [I|INV_LV] Gridconnection state: standby
+2022-05-01 03:59:01 [I|INV_LV] Gridconnection state: startup
+2022-05-01 03:59:58 [I|INV_LV] Gridconnection state: standby
+2022-05-01 04:00:06 [I|INV_LV] Gridconnection state: startup
+2022-05-01 04:01:02 [I|INV_LV] Gridconnection state: standby
+2022-05-01 04:01:10 [I|INV_LV] Gridconnection state: startup
+2022-05-01 04:01:11 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 501.24 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 04:01:11 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 272.18 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 04:01:11 [I|PV Interface] Inverter INV_LV: AC Voltage = 230.52 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-05-01 04:01:11 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 382.50 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 04:01:11 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 84.95 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 04:01:11 [I|PV Interface] Inverter INV_HV: AC Voltage = 230.09 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-05-01 04:01:23 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-01 04:02:08 [I|INV_LV] Gridconnection state: standby
+2022-05-01 04:02:22 [I|INV_LV] Gridconnection state: startup
+2022-05-01 04:03:20 [I|INV_LV] Gridconnection state: standby
+2022-05-01 04:03:27 [I|INV_LV] Gridconnection state: startup
+2022-05-01 04:04:25 [I|INV_LV] Gridconnection state: standby
+2022-05-01 04:04:39 [I|INV_LV] Gridconnection state: startup
+2022-05-01 04:05:30 [I|INV_LV] Gridconnection state: standby
+2022-05-01 04:05:44 [I|INV_LV] Gridconnection state: startup
+2022-05-01 04:06:41 [I|INV_LV] Gridconnection state: standby
+2022-05-01 04:06:48 [I|INV_LV] Gridconnection state: startup
+2022-05-01 04:07:45 [I|INV_LV] Gridconnection state: standby
+2022-05-01 04:08:00 [I|INV_LV] Gridconnection state: startup
+2022-05-01 04:08:57 [I|INV_LV] Gridconnection state: standby
+2022-05-01 04:09:04 [I|INV_LV] Gridconnection state: startup
+2022-05-01 04:10:01 [I|INV_LV] Gridconnection state: standby
+2022-05-01 04:10:15 [I|INV_LV] Gridconnection state: startup
+2022-05-01 04:11:14 [I|INV_LV] Gridconnection state: standby
+2022-05-01 04:11:21 [I|INV_LV] Gridconnection state: startup
+2022-05-01 04:12:20 [I|INV_LV] Gridconnection state: standby
+2022-05-01 04:12:26 [I|INV_LV] Gridconnection state: startup
+2022-05-01 04:13:24 [I|INV_LV] Gridconnection state: standby
+2022-05-01 04:13:37 [I|INV_LV] Gridconnection state: startup
+2022-05-01 04:14:35 [I|INV_LV] Gridconnection state: standby
+2022-05-01 04:14:42 [I|INV_LV] Gridconnection state: startup
+2022-05-01 04:15:40 [I|INV_LV] Gridconnection state: standby
+2022-05-01 04:15:48 [I|INV_LV] Gridconnection state: startup
+2022-05-01 04:16:52 [I|INV_LV] Gridconnection state: standby
+2022-05-01 04:16:58 [I|INV_HV] Insulation resistance: 0 Ohm.
+2022-05-01 04:16:59 [I|INV_LV] Gridconnection state: startup
+2022-05-01 04:18:17 [I|SYS|Selftest] display message: Fehler DC-Schuetz
+2022-05-01 04:18:17 [W|SYS|Selftest] DC coil error (timeout)
+2022-05-01 04:18:19 [I|INV_HV] Insulation resistance: 10000000 Ohm.
+2022-05-01 04:19:44 [I|INV_LV] Insulation resistance: 10000000 Ohm.
+2022-05-01 04:20:28 [I|INV_HV] Inverter is connected to grid.
+2022-05-01 04:21:09 [I|INV_LV] Gridconnection state: connected
+2022-05-01 04:21:09 [I|INV_LV] Inverter is connected to grid.
+2022-05-01 04:21:20 [I|BAT Interface] Battery temp not available, Case temp: 27.87 °C
+2022-05-01 04:21:20 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[29.7W] INV_HV:[30.0W] Total production:  59.7W current feed-in limit: 100.00 %
+2022-05-01 04:28:03 Logfile: Upload to server...
+2022-05-01 04:30:26 [E|Settings] DNS lookup failed.
+2022-05-01 04:30:29 [I|Settings] DNS lookup successful.
+2022-05-01 04:51:20 [I|BAT Interface] Battery temp not available, Case temp: 30.39 °C
+2022-05-01 04:51:20 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[114.1W] INV_HV:[86.3W] Total production: 200.4W current feed-in limit: 100.00 %
+2022-05-01 05:18:17 [I|SYS|Selftest] Requesting re-test after failed selftest, delay: 60 minutes
+2022-05-01 05:18:17 [I|SYS|Selftest] Initialized
+2022-05-01 05:18:17 [I|SYS|Selftest] display message: Starte Test-Modus (1/6)
+2022-05-01 05:18:17 [I|SYS|Selftest] Enforcing passive mode before switching AC coil
+2022-05-01 05:18:17 [I|Energy Management|State:Off] temporary leave to run selftest
+2022-05-01 05:18:17 OFF: Waking up BMS
+2022-05-01 05:18:17 [I|KILLSWITCH|BMZ] disabled output IO
+2022-05-01 05:18:17 [I|BAT_MODULE_ENABLE_BMZ|BMZ] enabled output IO
+2022-05-01 05:18:17 [I|Energy Management] State: Fernabschaltung -> Selbsttest
+2022-05-01 05:18:22 [I|SYS|Selftest] Forced passive mode entered
+2022-05-01 05:18:22 [I|SYS|Selftest] display message: Batterie- sicherheit (2/6)
+2022-05-01 05:18:22 [I|SYS|Selftest] Checking if BMZ faultline test is running
+2022-05-01 05:18:22 [I|SYS|Selftest] BMZ faultline test running
+2022-05-01 05:18:31 [I|SYS|Selftest] BMZ faultline test finished
+2022-05-01 05:18:31 [I|SYS|Selftest] BMZ wait to get ready
+2022-05-01 05:18:31 [I|BMZ] Faultline resumed normal mode.
+2022-05-01 05:18:39 [I|BMZ] Module #A module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 05:18:40 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3441] [ ][3439] [ ][3439] [ ][3436] [ ][3440] [ ][3440] [ ][3440] [ ][3440] [ ][3441] [ ][3441] [ ][3441] [ ][3442] [ ][3441] [ ][3444] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 25-25C Voltage: 48.165V 
+2022-05-01 05:18:40 [I|BMZ] Module #A [Temp]: [25][25][25][25][25][25]
+2022-05-01 05:18:41 [I|BMZ] Module #B module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 05:18:41 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3440] [ ][3441] [ ][3438] [ ][3436] [ ][3440] [ ][3440] [ ][3440] [ ][3440] [ ][3441] [ ][3441] [ ][3441] [ ][3441] [ ][3441] [ ][3441] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 25-25C Voltage: 48.161V 
+2022-05-01 05:18:41 [I|BMZ] Module #B [Temp]: [25][25][25][25][25][25]
+2022-05-01 05:18:44 [I|BMZ] Module #C module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 05:18:44 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3442] [ ][3441] [ ][3442] [ ][3440] [ ][3442] [ ][3441] [ ][3441] [ ][3436] [ ][3439] [ ][3440] [ ][3440] [ ][3440] [ ][3442] [ ][3441] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 24-24C Voltage: 48.167V 
+2022-05-01 05:18:44 [I|BMZ] Module #C [Temp]: [24][24][24][24][24][24]
+2022-05-01 05:18:48 [I|BMZ] 4 modules working as expected
+2022-05-01 05:18:48 [I|BMZ] Module #D module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 05:18:48 [I|BMZ] Faultline test started.
+2022-05-01 05:18:48 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3440] [ ][3439] [ ][3440] [ ][3441] [ ][3441] [ ][3441] [ ][3441] [ ][3438] [ ][3442] [ ][3442] [ ][3442] [ ][3441] [ ][3441] [ ][3442] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 25-25C Voltage: 48.171V 
+2022-05-01 05:18:48 [I|BMZ] Module #D [Temp]: [25][25][25][25][25][25]
+2022-05-01 05:18:49 [I|BMZ] Module #A faultline state change:  [Faultline pulled]
+2022-05-01 05:18:49 [I|BMZ] Module #A faultline state change:  inactive
+2022-05-01 05:18:51 [I|BMZ] Module #A module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 05:18:52 [I|BMZ] Module #B faultline state change:  [Faultline pulled]
+2022-05-01 05:18:52 [I|BMZ] Module #B faultline state change:  inactive
+2022-05-01 05:18:53 [I|BMZ] Module #B module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 05:18:54 [I|BMZ] Module #C faultline state change:  [Faultline pulled]
+2022-05-01 05:18:55 [I|BMZ] Module #C faultline state change:  inactive
+2022-05-01 05:18:56 [I|BMZ] Module #C module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 05:18:57 [I|BMZ] Module #D faultline state change:  [Faultline pulled]
+2022-05-01 05:18:58 [I|BMZ] Module #D faultline state change:  inactive
+2022-05-01 05:18:58 [I|BMZ|Ready] Communication initialization complete.
+2022-05-01 05:18:58 [I|BMZ] Module #A Serial: 43006224 FW: 30134 Type: 30012
+2022-05-01 05:18:58 [I|BMZ] Module #B Serial: 43006208 FW: 30134 Type: 30012
+2022-05-01 05:18:58 [I|BMZ] Module #C Serial: 40006774 FW: 30134 Type: 30012
+2022-05-01 05:18:58 [I|BMZ] Module #D Serial: 43010127 FW: 30134 Type: 30012
+2022-05-01 05:18:58 [I|SYS|Selftest] BMS ready for operation
+2022-05-01 05:18:58 [I|SYS|Selftest] display message: BWR Kommuni-kation (4/6)
+2022-05-01 05:18:58 [I|SYS|Selftest] Inverter: Check inverter communication
+2022-05-01 05:18:58 [I|SYS|Selftest] Inverter: Communication check successful
+2022-05-01 05:18:58 [I|SYS|Selftest] Start dc coil tests.
+2022-05-01 05:18:58 [I|SYS|Selftest] display message: Test DC-Schuetz (5/6)
+2022-05-01 05:19:00 [I|BMZ] Module #D module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 05:19:00 [I|BMZ] Faultline test passed by all modules.
+2022-05-01 05:19:01 [I|INV_LV] Reset triggered
+2022-05-01 05:19:06 [I|INV_LV] Reset time for state change logging
+2022-05-01 05:19:08 [I|INV_LV] date and time updated
+2022-05-01 05:19:08 [I|INV_LV] Gridcode correct (4901)
+2022-05-01 05:19:09 [I|INV_LV] Serial is 767272GF008074270001
+2022-05-01 05:19:09 [I|INV_LV] Nominal Power: 4600W
+2022-05-01 05:19:09 [I|INV_LV] Gridconnection state: startup
+2022-05-01 05:19:09 [I|INV_LV] Inverter is disconnected from grid
+2022-05-01 05:19:09 [I|INV_LV] State change logging enabled.
+2022-05-01 05:19:09 [I|INV_LV] Startupstate RunGrid  -> StartMonitoring  
+2022-05-01 05:19:09 [I|INV_LV] DC measurements taken
+2022-05-01 05:19:16 [I|INV_LV] Startupstate StartMonitoring  -> GetAcOffset  
+2022-05-01 05:19:17 OFF: Switching on inverter
+2022-05-01 05:19:17 [I|INV_LV] Enabled Batteries and reset DC measurements
+2022-05-01 05:19:19 [I|INV_LV] Disabled Batteries and reset DC measurements
+2022-05-01 05:19:19 [I|INV_LV] Energysource transferred: Battery: 0 PV: 1 Island: 0
+2022-05-01 05:19:20 [I|INV_LV] DC measurements taken
+2022-05-01 05:19:23 [I|INV_LV] Startupstate GetAcOffset  -> CheckStrings  
+2022-05-01 05:19:37 [I|INV_LV] Startupstate CheckStrings  -> TestAcRelais  
+2022-05-01 05:19:45 [I|INV_LV] Startupstate TestAcRelais  -> IsolationCheck 1
+2022-05-01 05:20:47 [I|INV_LV] Insulation resistance: 10000000 Ohm.
+2022-05-01 05:20:51 [I|INV_LV] Startupstate IsolationCheck 1-> IsolationCheck 2
+2022-05-01 05:21:20 [I|BAT Interface] Battery temp: 24.00 to 25.00 °C, case temp: 32.35 °C
+2022-05-01 05:21:20 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[-125.6W] INV_HV:[189.9W] Total production:  64.3W current feed-in limit: 100.00 %
+2022-05-01 05:21:21 [I|INV_LV] Startupstate IsolationCheck 2-> IsolationCheck 3
+2022-05-01 05:21:59 [I|INV_LV] Startupstate IsolationCheck 3-> EstablishAcVoltage  
+2022-05-01 05:22:06 [I|INV_LV] Gridconnection state: connected
+2022-05-01 05:22:06 [I|INV_LV] Inverter is connected to grid.
+2022-05-01 05:22:06 [I|INV_LV] Startupstate EstablishAcVoltage  -> RunGrid  
+2022-05-01 05:34:09 [I|INV_LV] State change logging disabled.
+2022-05-01 05:48:18 [W|Energy Management|State:Selftest] Leaving selftest because of timeout in state off.
+2022-05-01 05:48:18 [I|Energy Management] State: Selbsttest -> Fernabschaltung
+2022-05-01 05:48:18 OFF: Sending passive request
+2022-05-01 05:48:28 OFF: Switching off Inverter
+2022-05-01 05:48:33 OFF: Sending BMS shutdown command
+2022-05-01 05:48:33 [I|BMZ] Shutdown started.
+2022-05-01 05:48:33 [I|Remanent Data] Last BMS disable saved: 2022-05-01 05:48:33 
+2022-05-01 05:48:33 [I|KILLSWITCH|BMZ] enabled output IO
+2022-05-01 05:48:33 [I|BAT_MODULE_ENABLE_BMZ|BMZ] disabled output IO
+2022-05-01 05:51:20 [I|BAT Interface] Battery temp not available, Case temp: 33.43 °C
+2022-05-01 05:51:20 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[627.6W] INV_HV:[366.9W] Total production: 994.5W current feed-in limit: 100.00 %
+2022-05-01 06:01:12 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 524.47 V, PV Current = 1.30 A, PV Power = 676.33 W
+2022-05-01 06:01:12 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 130.69 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 06:01:12 [I|PV Interface] Inverter INV_LV: AC Voltage = 229.64 V, AC Current = 2.75 A, AC Power = 642.92 W, AC Apparent Power = 669.61 VA, AC Reactive Power = 187.17 var
+2022-05-01 06:01:12 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 407.13 V, PV Current = 1.03 A, PV Power = 412.17 W
+2022-05-01 06:01:12 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 203.41 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 06:01:12 [I|PV Interface] Inverter INV_HV: AC Voltage = 229.88 V, AC Current = 1.71 A, AC Power = 391.12 W, AC Apparent Power = 393.70 VA, AC Reactive Power = 45.01 var
+2022-05-01 06:01:24 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-01 06:21:21 [I|BAT Interface] Battery temp not available, Case temp: 33.25 °C
+2022-05-01 06:21:21 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[3769.4W] INV_HV:[550.1W] Total production: 4319.5W current feed-in limit: 100.00 %
+2022-05-01 06:51:21 [I|BAT Interface] Battery temp not available, Case temp: 32.12 °C
+2022-05-01 06:51:21 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[2319.3W] INV_HV:[717.2W] Total production: 3036.5W current feed-in limit: 100.00 %
+2022-05-01 07:21:21 [I|BAT Interface] Battery temp not available, Case temp: 35.20 °C
+2022-05-01 07:21:21 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[1427.8W] INV_HV:[641.9W] Total production: 2069.6W current feed-in limit: 100.00 %
+2022-05-01 07:28:58 [I|SYS|Selftest] display message: Fehler DC-Schuetz
+2022-05-01 07:28:58 [W|SYS|Selftest] DC coil error (timeout)
+2022-05-01 07:51:21 [I|BAT Interface] Battery temp not available, Case temp: 33.49 °C
+2022-05-01 07:51:21 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[2258.4W] INV_HV:[610.7W] Total production: 2869.1W current feed-in limit: 100.00 %
+2022-05-01 08:01:12 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 506.23 V, PV Current = 5.78 A, PV Power = 2926.18 W
+2022-05-01 08:01:12 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 184.83 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 08:01:12 [I|PV Interface] Inverter INV_LV: AC Voltage = 232.17 V, AC Current = 12.37 A, AC Power = 2871.16 W, AC Apparent Power = 2860.98 VA, AC Reactive Power = 0.00 var
+2022-05-01 08:01:12 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 408.08 V, PV Current = 1.46 A, PV Power = 587.09 W
+2022-05-01 08:01:12 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 203.81 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 08:01:12 [I|PV Interface] Inverter INV_HV: AC Voltage = 231.45 V, AC Current = 2.47 A, AC Power = 565.58 W, AC Apparent Power = 567.43 VA, AC Reactive Power = 45.76 var
+2022-05-01 08:01:25 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-01 08:21:18 [I|BAT Interface] Battery temp not available, Case temp: 31.21 °C
+2022-05-01 08:21:18 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[2698.6W] INV_HV:[685.1W] Total production: 3383.7W current feed-in limit: 100.00 %
+2022-05-01 08:51:18 [I|BAT Interface] Battery temp not available, Case temp: 33.93 °C
+2022-05-01 08:51:18 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[2637.8W] INV_HV:[1026.0W] Total production: 3663.8W current feed-in limit: 100.00 %
+2022-05-01 09:21:18 [I|BAT Interface] Battery temp not available, Case temp: 32.71 °C
+2022-05-01 09:21:18 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[4675.8W] INV_HV:[883.9W] Total production: 5559.7W current feed-in limit: 100.00 %
+2022-05-01 09:28:56 [I|SYS|Selftest] Requesting re-test after failed selftest, delay: 120 minutes
+2022-05-01 09:28:56 [I|SYS|Selftest] Initialized
+2022-05-01 09:28:56 [I|SYS|Selftest] display message: Starte Test-Modus (1/6)
+2022-05-01 09:28:56 [I|SYS|Selftest] Enforcing passive mode before switching AC coil
+2022-05-01 09:28:56 [I|Energy Management|State:Off] temporary leave to run selftest
+2022-05-01 09:28:56 OFF: Waking up BMS
+2022-05-01 09:28:56 [I|KILLSWITCH|BMZ] disabled output IO
+2022-05-01 09:28:56 [I|BAT_MODULE_ENABLE_BMZ|BMZ] enabled output IO
+2022-05-01 09:28:56 [I|Energy Management] State: Fernabschaltung -> Selbsttest
+2022-05-01 09:29:01 [I|SYS|Selftest] Forced passive mode entered
+2022-05-01 09:29:01 [I|SYS|Selftest] display message: Batterie- sicherheit (2/6)
+2022-05-01 09:29:01 [I|SYS|Selftest] Checking if BMZ faultline test is running
+2022-05-01 09:29:01 [I|SYS|Selftest] BMZ faultline test running
+2022-05-01 09:29:10 [I|SYS|Selftest] BMZ faultline test finished
+2022-05-01 09:29:10 [I|SYS|Selftest] BMZ wait to get ready
+2022-05-01 09:29:10 [I|BMZ] Faultline resumed normal mode.
+2022-05-01 09:29:17 [I|BMZ] Module #A module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 09:29:18 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3440] [ ][3438] [ ][3439] [ ][3436] [ ][3439] [ ][3439] [ ][3440] [ ][3440] [ ][3441] [ ][3441] [ ][3440] [ ][3442] [ ][3440] [ ][3443] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 29-30C Voltage: 48.158V 
+2022-05-01 09:29:18 [I|BMZ] Module #A [Temp]: [30][30][29][30][29][29]
+2022-05-01 09:29:20 [I|BMZ] Module #B module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 09:29:22 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3439] [ ][3440] [ ][3437] [ ][3436] [ ][3440] [ ][3440] [ ][3440] [ ][3439] [ ][3440] [ ][3441] [ ][3440] [ ][3441] [ ][3440] [ ][3441] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 28-28C Voltage: 48.154V 
+2022-05-01 09:29:22 [I|BMZ] Module #B [Temp]: [28][28][28][28][28][28]
+2022-05-01 09:29:23 [I|BMZ] Module #C module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 09:29:23 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3442] [ ][3440] [ ][3441] [ ][3439] [ ][3441] [ ][3440] [ ][3441] [ ][3435] [ ][3439] [ ][3440] [ ][3440] [ ][3440] [ ][3441] [ ][3441] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 27-27C Voltage: 48.160V 
+2022-05-01 09:29:23 [I|BMZ] Module #C [Temp]: [27][27][27][27][27][27]
+2022-05-01 09:29:26 [I|BMZ] 4 modules working as expected
+2022-05-01 09:29:26 [I|BMZ] Module #D module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 09:29:26 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3440] [ ][3438] [ ][3439] [ ][3440] [ ][3440] [ ][3440] [ ][3440] [ ][3437] [ ][3441] [ ][3441] [ ][3441] [ ][3440] [ ][3440] [ ][3441] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 28-29C Voltage: 48.158V 
+2022-05-01 09:29:26 [I|BMZ] Module #D [Temp]: [28][28][28][28][28][29]
+2022-05-01 09:29:26 [I|BMZ] Faultline test started.
+2022-05-01 09:29:27 [I|BMZ] Module #A faultline state change:  [Faultline pulled]
+2022-05-01 09:29:28 [I|BMZ] Module #A faultline state change:  inactive
+2022-05-01 09:29:29 [I|BMZ] Module #A module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 09:29:30 [I|BMZ] Module #B faultline state change:  [Faultline pulled]
+2022-05-01 09:29:31 [I|BMZ] Module #B faultline state change:  inactive
+2022-05-01 09:29:32 [I|BMZ] Module #B module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 09:29:33 [I|BMZ] Module #C faultline state change:  [Faultline pulled]
+2022-05-01 09:29:33 [I|BMZ] Module #C faultline state change:  inactive
+2022-05-01 09:29:35 [I|BMZ] Module #C module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 09:29:36 [I|BMZ] Module #D faultline state change:  [Faultline pulled]
+2022-05-01 09:29:36 [I|BMZ] Module #D faultline state change:  inactive
+2022-05-01 09:29:37 [I|BMZ|Ready] Communication initialization complete.
+2022-05-01 09:29:37 [I|BMZ] Module #A Serial: 43006224 FW: 30134 Type: 30012
+2022-05-01 09:29:37 [I|BMZ] Module #B Serial: 43006208 FW: 30134 Type: 30012
+2022-05-01 09:29:37 [I|BMZ] Module #C Serial: 40006774 FW: 30134 Type: 30012
+2022-05-01 09:29:37 [I|BMZ] Module #D Serial: 43010127 FW: 30134 Type: 30012
+2022-05-01 09:29:37 [I|SYS|Selftest] BMS ready for operation
+2022-05-01 09:29:37 [I|SYS|Selftest] display message: BWR Kommuni-kation (4/6)
+2022-05-01 09:29:37 [I|SYS|Selftest] Inverter: Check inverter communication
+2022-05-01 09:29:37 [I|SYS|Selftest] Inverter: Communication check successful
+2022-05-01 09:29:37 [I|SYS|Selftest] Start dc coil tests.
+2022-05-01 09:29:37 [I|SYS|Selftest] display message: Test DC-Schuetz (5/6)
+2022-05-01 09:29:38 [I|BMZ] Module #D module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 09:29:38 [I|BMZ] Faultline test passed by all modules.
+2022-05-01 09:29:38 [I|INV_LV] Reset triggered
+2022-05-01 09:29:43 [I|INV_LV] Reset time for state change logging
+2022-05-01 09:29:46 [I|INV_LV] date and time updated
+2022-05-01 09:29:46 [I|INV_LV] Gridcode correct (4901)
+2022-05-01 09:29:47 [I|INV_LV] Serial is 767272GF008074270001
+2022-05-01 09:29:47 [I|INV_LV] Nominal Power: 4600W
+2022-05-01 09:29:47 [I|INV_LV] Gridconnection state: startup
+2022-05-01 09:29:47 [I|INV_LV] Inverter is disconnected from grid
+2022-05-01 09:29:47 [I|INV_LV] DC measurements taken
+2022-05-01 09:29:54 [I|INV_LV] Gridconnection state: standby
+2022-05-01 09:29:54 [I|INV_LV] State change logging enabled.
+2022-05-01 09:29:54 [I|INV_LV] Startupstate RunGrid  -> Sleep  
+2022-05-01 09:29:56 OFF: Switching on inverter
+2022-05-01 09:29:56 [I|INV_LV] Enabled Batteries and reset DC measurements
+2022-05-01 09:29:57 [I|INV_LV] Disabled Batteries and reset DC measurements
+2022-05-01 09:29:58 [I|INV_LV] Energysource transferred: Battery: 0 PV: 1 Island: 0
+2022-05-01 09:29:58 [I|INV_LV] DC measurements taken
+2022-05-01 09:30:02 [I|INV_LV] Gridconnection state: startup
+2022-05-01 09:30:02 [I|INV_LV] Startupstate Sleep  -> GetAcOffset  
+2022-05-01 09:30:09 [I|INV_LV] Startupstate GetAcOffset  -> SwitchOnDcRelais  
+2022-05-01 09:30:16 [I|INV_LV] Startupstate SwitchOnDcRelais  -> CheckStrings  
+2022-05-01 09:30:24 [I|INV_LV] Startupstate CheckStrings  -> TestAcRelais  
+2022-05-01 09:30:32 [I|INV_LV] Startupstate TestAcRelais  -> IsolationCheck 1
+2022-05-01 09:31:36 [I|INV_LV] Insulation resistance: 10000000 Ohm.
+2022-05-01 09:31:39 [I|INV_LV] Startupstate IsolationCheck 1-> IsolationCheck 2
+2022-05-01 09:32:10 [I|INV_LV] Startupstate IsolationCheck 2-> IsolationCheck 3
+2022-05-01 09:32:47 [I|INV_LV] Startupstate IsolationCheck 3-> EstablishAcVoltage  
+2022-05-01 09:32:54 [I|INV_LV] Gridconnection state: connected
+2022-05-01 09:32:54 [I|INV_LV] Inverter is connected to grid.
+2022-05-01 09:32:54 [I|INV_LV] Startupstate EstablishAcVoltage  -> RunGrid  
+2022-05-01 09:44:50 [I|INV_LV] State change logging disabled.
+2022-05-01 09:51:19 [I|BAT Interface] Battery temp: 28.00 to 31.00 °C, case temp: 33.23 °C
+2022-05-01 09:51:19 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[4547.9W] INV_HV:[1461.9W] Total production: 6009.8W current feed-in limit: 100.00 %
+2022-05-01 09:58:56 [W|Energy Management|State:Selftest] Leaving selftest because of timeout in state off.
+2022-05-01 09:58:57 [I|Energy Management] State: Selbsttest -> Fernabschaltung
+2022-05-01 09:58:57 OFF: Sending passive request
+2022-05-01 09:59:07 OFF: Switching off Inverter
+2022-05-01 09:59:12 OFF: Sending BMS shutdown command
+2022-05-01 09:59:12 [I|BMZ] Shutdown started.
+2022-05-01 09:59:12 [I|Remanent Data] Last BMS disable saved: 2022-05-01 09:59:12 
+2022-05-01 09:59:12 [I|KILLSWITCH|BMZ] enabled output IO
+2022-05-01 09:59:12 [I|BAT_MODULE_ENABLE_BMZ|BMZ] disabled output IO
+2022-05-01 10:01:09 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 483.30 V, PV Current = 6.43 A, PV Power = 3083.99 W
+2022-05-01 10:01:09 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 250.39 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 10:01:09 [I|PV Interface] Inverter INV_LV: AC Voltage = 231.53 V, AC Current = 13.55 A, AC Power = 3128.19 W, AC Apparent Power = 3106.34 VA, AC Reactive Power = 0.00 var
+2022-05-01 10:01:09 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 405.92 V, PV Current = 4.07 A, PV Power = 1646.08 W
+2022-05-01 10:01:09 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 202.78 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 10:01:09 [I|PV Interface] Inverter INV_HV: AC Voltage = 229.89 V, AC Current = 6.99 A, AC Power = 1612.05 W, AC Apparent Power = 1603.21 VA, AC Reactive Power = 0.00 var
+2022-05-01 10:01:23 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-01 10:21:19 [I|BAT Interface] Battery temp not available, Case temp: 32.37 °C
+2022-05-01 10:21:19 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[2098.1W] INV_HV:[1172.0W] Total production: 3270.1W current feed-in limit: 100.00 %
+2022-05-01 10:51:19 [I|BAT Interface] Battery temp not available, Case temp: 31.69 °C
+2022-05-01 10:51:19 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[3555.2W] INV_HV:[2083.5W] Total production: 5638.7W current feed-in limit: 100.00 %
+2022-05-01 11:21:19 [I|BAT Interface] Battery temp not available, Case temp: 32.16 °C
+2022-05-01 11:21:19 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[2179.1W] INV_HV:[1623.8W] Total production: 3802.9W current feed-in limit: 100.00 %
+2022-05-01 11:39:38 [I|SYS|Selftest] display message: Fehler DC-Schuetz
+2022-05-01 11:39:38 [W|SYS|Selftest] DC coil error (timeout)
+2022-05-01 11:51:19 [I|BAT Interface] Battery temp not available, Case temp: 31.81 °C
+2022-05-01 11:51:19 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[2485.3W] INV_HV:[1829.5W] Total production: 4314.8W current feed-in limit: 100.00 %
+2022-05-01 12:01:10 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 497.38 V, PV Current = 3.91 A, PV Power = 1931.52 W
+2022-05-01 12:01:10 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 241.09 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 12:01:10 [I|PV Interface] Inverter INV_LV: AC Voltage = 229.49 V, AC Current = 8.75 A, AC Power = 2010.48 W, AC Apparent Power = 2009.84 VA, AC Reactive Power = 0.00 var
+2022-05-01 12:01:10 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 403.92 V, PV Current = 4.01 A, PV Power = 1611.98 W
+2022-05-01 12:01:10 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 201.13 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 12:01:10 [I|PV Interface] Inverter INV_HV: AC Voltage = 229.16 V, AC Current = 6.85 A, AC Power = 1569.28 W, AC Apparent Power = 1571.45 VA, AC Reactive Power = 82.71 var
+2022-05-01 12:01:23 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-01 12:21:20 [I|BAT Interface] Battery temp not available, Case temp: 33.32 °C
+2022-05-01 12:21:20 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[1868.2W] INV_HV:[1500.4W] Total production: 3368.6W current feed-in limit: 100.00 %
+2022-05-01 12:39:38 [I|SYS|Selftest] Requesting re-test after failed selftest, delay: 60 minutes
+2022-05-01 12:39:38 [I|SYS|Selftest] Initialized
+2022-05-01 12:39:38 [I|SYS|Selftest] display message: Starte Test-Modus (1/6)
+2022-05-01 12:39:38 [I|SYS|Selftest] Enforcing passive mode before switching AC coil
+2022-05-01 12:39:38 [I|Energy Management|State:Off] temporary leave to run selftest
+2022-05-01 12:39:38 OFF: Waking up BMS
+2022-05-01 12:39:38 [I|KILLSWITCH|BMZ] disabled output IO
+2022-05-01 12:39:38 [I|BAT_MODULE_ENABLE_BMZ|BMZ] enabled output IO
+2022-05-01 12:39:38 [I|Energy Management] State: Fernabschaltung -> Selbsttest
+2022-05-01 12:39:43 [I|SYS|Selftest] Forced passive mode entered
+2022-05-01 12:39:43 [I|SYS|Selftest] display message: Batterie- sicherheit (2/6)
+2022-05-01 12:39:43 [I|SYS|Selftest] Checking if BMZ faultline test is running
+2022-05-01 12:39:43 [I|SYS|Selftest] BMZ faultline test running
+2022-05-01 12:39:52 [I|SYS|Selftest] BMZ faultline test finished
+2022-05-01 12:39:52 [I|SYS|Selftest] BMZ wait to get ready
+2022-05-01 12:39:52 [I|BMZ] Faultline resumed normal mode.
+2022-05-01 12:39:59 [I|BMZ] Module #A module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 12:40:01 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3440] [ ][3438] [ ][3438] [ ][3435] [ ][3438] [ ][3439] [ ][3439] [ ][3439] [ ][3440] [ ][3440] [ ][3440] [ ][3441] [ ][3439] [ ][3443] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 30-31C Voltage: 48.149V 
+2022-05-01 12:40:01 [I|BMZ] Module #A [Temp]: [31][30][30][30][30][30]
+2022-05-01 12:40:02 [I|BMZ] Module #B module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 12:40:02 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3439] [ ][3440] [ ][3436] [ ][3435] [ ][3439] [ ][3440] [ ][3439] [ ][3438] [ ][3440] [ ][3440] [ ][3440] [ ][3440] [ ][3440] [ ][3440] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 28-29C Voltage: 48.146V 
+2022-05-01 12:40:02 [I|BMZ] Module #B [Temp]: [29][28][28][29][29][28]
+2022-05-01 12:40:05 [I|BMZ] Module #C module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 12:40:05 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3441] [ ][3440] [ ][3440] [ ][3438] [ ][3441] [ ][3440] [ ][3440] [ ][3434] [ ][3438] [ ][3439] [ ][3439] [ ][3439] [ ][3440] [ ][3440] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 27-27C Voltage: 48.149V 
+2022-05-01 12:40:05 [I|BMZ] Module #C [Temp]: [27][27][27][27][27][27]
+2022-05-01 12:40:08 [I|BMZ] 4 modules working as expected
+2022-05-01 12:40:08 [I|BMZ] Module #D module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 12:40:08 [I|BMZ] Faultline test started.
+2022-05-01 12:40:09 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3439] [ ][3438] [ ][3439] [ ][3440] [ ][3440] [ ][3440] [ ][3440] [ ][3437] [ ][3440] [ ][3441] [ ][3441] [ ][3440] [ ][3439] [ ][3441] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 28-29C Voltage: 48.155V 
+2022-05-01 12:40:09 [I|BMZ] Module #D [Temp]: [28][28][28][28][28][29]
+2022-05-01 12:40:09 [I|BMZ] Module #A faultline state change:  [Faultline pulled]
+2022-05-01 12:40:10 [I|BMZ] Module #A faultline state change:  inactive
+2022-05-01 12:40:11 [I|BMZ] Module #A module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 12:40:12 [I|BMZ] Module #B faultline state change:  [Faultline pulled]
+2022-05-01 12:40:13 [I|BMZ] Module #B faultline state change:  inactive
+2022-05-01 12:40:14 [I|BMZ] Module #B module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 12:40:15 [I|BMZ] Module #C faultline state change:  [Faultline pulled]
+2022-05-01 12:40:15 [I|BMZ] Module #C faultline state change:  inactive
+2022-05-01 12:40:17 [I|BMZ] Module #C module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 12:40:18 [I|BMZ] Module #D faultline state change:  [Faultline pulled]
+2022-05-01 12:40:18 [I|BMZ] Module #D faultline state change:  inactive
+2022-05-01 12:40:18 [I|BMZ|Ready] Communication initialization complete.
+2022-05-01 12:40:18 [I|BMZ] Module #A Serial: 43006224 FW: 30134 Type: 30012
+2022-05-01 12:40:18 [I|BMZ] Module #B Serial: 43006208 FW: 30134 Type: 30012
+2022-05-01 12:40:18 [I|BMZ] Module #C Serial: 40006774 FW: 30134 Type: 30012
+2022-05-01 12:40:18 [I|BMZ] Module #D Serial: 43010127 FW: 30134 Type: 30012
+2022-05-01 12:40:18 [I|SYS|Selftest] BMS ready for operation
+2022-05-01 12:40:18 [I|SYS|Selftest] display message: BWR Kommuni-kation (4/6)
+2022-05-01 12:40:18 [I|SYS|Selftest] Inverter: Check inverter communication
+2022-05-01 12:40:18 [I|SYS|Selftest] Inverter: Communication check successful
+2022-05-01 12:40:18 [I|SYS|Selftest] Start dc coil tests.
+2022-05-01 12:40:18 [I|SYS|Selftest] display message: Test DC-Schuetz (5/6)
+2022-05-01 12:40:20 [I|BMZ] Module #D module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 12:40:20 [I|BMZ] Faultline test passed by all modules.
+2022-05-01 12:40:22 [I|INV_LV] Reset triggered
+2022-05-01 12:40:27 [I|INV_LV] Reset time for state change logging
+2022-05-01 12:40:29 [I|INV_LV] date and time updated
+2022-05-01 12:40:29 [I|INV_LV] Gridcode correct (4901)
+2022-05-01 12:40:30 [I|INV_LV] Serial is 767272GF008074270001
+2022-05-01 12:40:30 [I|INV_LV] Nominal Power: 4600W
+2022-05-01 12:40:30 [I|INV_LV] DC measurements taken
+2022-05-01 12:40:34 [I|INV_LV] Gridconnection state: standby
+2022-05-01 12:40:34 [I|INV_LV] Inverter is disconnected from grid
+2022-05-01 12:40:34 [I|INV_LV] State change logging enabled.
+2022-05-01 12:40:34 [I|INV_LV] Startupstate RunGrid  -> Sleep  
+2022-05-01 12:40:38 OFF: Switching on inverter
+2022-05-01 12:40:38 [I|INV_LV] Enabled Batteries and reset DC measurements
+2022-05-01 12:40:38 [I|INV_LV] Disabled Batteries and reset DC measurements
+2022-05-01 12:40:38 [I|INV_LV] Energysource transferred: Battery: 0 PV: 1 Island: 0
+2022-05-01 12:40:41 [I|INV_LV] DC measurements taken
+2022-05-01 12:40:41 [I|INV_LV] Gridconnection state: startup
+2022-05-01 12:40:41 [I|INV_LV] Startupstate Sleep  -> StartHighSidePwm  
+2022-05-01 12:40:49 [I|INV_LV] Startupstate StartHighSidePwm  -> GetAcOffset  
+2022-05-01 12:40:56 [I|INV_LV] Startupstate GetAcOffset  -> CheckStrings  
+2022-05-01 12:41:11 [I|INV_LV] Startupstate CheckStrings  -> TestAcRelais  
+2022-05-01 12:41:19 [I|INV_LV] Startupstate TestAcRelais  -> IsolationCheck 1
+2022-05-01 12:42:15 [I|INV_LV] Insulation resistance: 10000000 Ohm.
+2022-05-01 12:42:19 [I|INV_LV] Startupstate IsolationCheck 1-> IsolationCheck 2
+2022-05-01 12:42:49 [I|INV_LV] Startupstate IsolationCheck 2-> IsolationCheck 3
+2022-05-01 12:43:27 [I|INV_LV] Startupstate IsolationCheck 3-> EstablishAcVoltage  
+2022-05-01 12:43:34 [I|INV_LV] Gridconnection state: connected
+2022-05-01 12:43:34 [I|INV_LV] Inverter is connected to grid.
+2022-05-01 12:43:34 [I|INV_LV] Startupstate EstablishAcVoltage  -> RunGrid  
+2022-05-01 12:51:20 [I|BAT Interface] Battery temp: 27.00 to 31.00 °C, case temp: 33.21 °C
+2022-05-01 12:51:20 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[2942.0W] INV_HV:[3042.8W] Total production: 5984.9W current feed-in limit: 100.00 %
+2022-05-01 12:55:31 [I|INV_LV] State change logging disabled.
+2022-05-01 13:09:38 [W|Energy Management|State:Selftest] Leaving selftest because of timeout in state off.
+2022-05-01 13:09:38 [I|Energy Management] State: Selbsttest -> Fernabschaltung
+2022-05-01 13:09:38 OFF: Sending passive request
+2022-05-01 13:09:48 OFF: Switching off Inverter
+2022-05-01 13:09:53 OFF: Sending BMS shutdown command
+2022-05-01 13:09:53 [I|BMZ] Shutdown started.
+2022-05-01 13:09:53 [I|Remanent Data] Last BMS disable saved: 2022-05-01 13:09:53 
+2022-05-01 13:09:53 [I|KILLSWITCH|BMZ] enabled output IO
+2022-05-01 13:09:54 [I|BAT_MODULE_ENABLE_BMZ|BMZ] disabled output IO
+2022-05-01 13:21:20 [I|BAT Interface] Battery temp not available, Case temp: 33.81 °C
+2022-05-01 13:21:20 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[1498.3W] INV_HV:[1487.4W] Total production: 2985.8W current feed-in limit: 100.00 %
+2022-05-01 13:51:20 [I|BAT Interface] Battery temp not available, Case temp: 33.63 °C
+2022-05-01 13:51:20 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[1742.7W] INV_HV:[2592.0W] Total production: 4334.7W current feed-in limit: 100.00 %
+2022-05-01 14:01:10 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 485.38 V, PV Current = 2.92 A, PV Power = 1417.80 W
+2022-05-01 14:01:10 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 241.97 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 14:01:10 [I|PV Interface] Inverter INV_LV: AC Voltage = 230.36 V, AC Current = 6.58 A, AC Power = 1511.87 W, AC Apparent Power = 1509.40 VA, AC Reactive Power = 0.00 var
+2022-05-01 14:01:10 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 407.46 V, PV Current = 4.78 A, PV Power = 1945.54 W
+2022-05-01 14:01:10 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 200.67 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 14:01:10 [I|PV Interface] Inverter INV_HV: AC Voltage = 233.26 V, AC Current = 8.14 A, AC Power = 1933.35 W, AC Apparent Power = 1905.06 VA, AC Reactive Power = 0.00 var
+2022-05-01 14:01:25 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-01 14:21:21 [I|BAT Interface] Battery temp not available, Case temp: 34.07 °C
+2022-05-01 14:21:21 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[1562.5W] INV_HV:[3021.9W] Total production: 4584.4W current feed-in limit: 100.00 %
+2022-05-01 14:50:19 [I|SYS|Selftest] display message: Fehler DC-Schuetz
+2022-05-01 14:50:19 [W|SYS|Selftest] DC coil error (timeout)
+2022-05-01 14:51:21 [I|BAT Interface] Battery temp not available, Case temp: 35.88 °C
+2022-05-01 14:51:21 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[817.1W] INV_HV:[782.2W] Total production: 1599.3W current feed-in limit: 100.00 %
+2022-05-01 15:21:21 [I|BAT Interface] Battery temp not available, Case temp: 35.88 °C
+2022-05-01 15:21:21 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[772.9W] INV_HV:[847.6W] Total production: 1620.5W current feed-in limit: 100.00 %
+2022-05-01 15:51:21 [I|BAT Interface] Battery temp not available, Case temp: 35.74 °C
+2022-05-01 15:51:21 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[719.6W] INV_HV:[1116.1W] Total production: 1835.6W current feed-in limit: 100.00 %
+2022-05-01 16:01:11 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 514.08 V, PV Current = 1.57 A, PV Power = 802.18 W
+2022-05-01 16:01:11 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 253.51 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 16:01:11 [I|PV Interface] Inverter INV_LV: AC Voltage = 227.28 V, AC Current = 3.99 A, AC Power = 901.69 W, AC Apparent Power = 892.31 VA, AC Reactive Power = 0.00 var
+2022-05-01 16:01:11 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 411.42 V, PV Current = 3.24 A, PV Power = 1328.05 W
+2022-05-01 16:01:11 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 204.66 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 16:01:11 [I|PV Interface] Inverter INV_HV: AC Voltage = 229.04 V, AC Current = 5.62 A, AC Power = 1291.22 W, AC Apparent Power = 1289.60 VA, AC Reactive Power = 0.00 var
+2022-05-01 16:01:26 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-01 16:21:21 [I|BAT Interface] Battery temp not available, Case temp: 35.64 °C
+2022-05-01 16:21:21 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[755.8W] INV_HV:[1004.0W] Total production: 1759.8W current feed-in limit: 100.00 %
+2022-05-01 16:50:19 [I|SYS|Selftest] Requesting re-test after failed selftest, delay: 120 minutes
+2022-05-01 16:50:19 [I|SYS|Selftest] Initialized
+2022-05-01 16:50:19 [I|SYS|Selftest] display message: Starte Test-Modus (1/6)
+2022-05-01 16:50:19 [I|SYS|Selftest] Enforcing passive mode before switching AC coil
+2022-05-01 16:50:19 [I|Energy Management|State:Off] temporary leave to run selftest
+2022-05-01 16:50:19 OFF: Waking up BMS
+2022-05-01 16:50:19 [I|KILLSWITCH|BMZ] disabled output IO
+2022-05-01 16:50:19 [I|BAT_MODULE_ENABLE_BMZ|BMZ] enabled output IO
+2022-05-01 16:50:19 [I|Energy Management] State: Fernabschaltung -> Selbsttest
+2022-05-01 16:50:24 [I|SYS|Selftest] Forced passive mode entered
+2022-05-01 16:50:24 [I|SYS|Selftest] display message: Batterie- sicherheit (2/6)
+2022-05-01 16:50:24 [I|SYS|Selftest] Checking if BMZ faultline test is running
+2022-05-01 16:50:24 [I|SYS|Selftest] BMZ faultline test running
+2022-05-01 16:50:33 [I|SYS|Selftest] BMZ faultline test finished
+2022-05-01 16:50:33 [I|SYS|Selftest] BMZ wait to get ready
+2022-05-01 16:50:33 [I|BMZ] Faultline resumed normal mode.
+2022-05-01 16:50:41 [I|BMZ] Module #A module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 16:50:41 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3439] [ ][3437] [ ][3438] [ ][3435] [ ][3438] [ ][3438] [ ][3439] [ ][3438] [ ][3439] [ ][3440] [ ][3439] [ ][3440] [ ][3439] [ ][3443] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 29-29C Voltage: 48.142V 
+2022-05-01 16:50:41 [I|BMZ] Module #A [Temp]: [29][29][29][29][29][29]
+2022-05-01 16:50:43 [I|BMZ] Module #B module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 16:50:45 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3438] [ ][3439] [ ][3436] [ ][3435] [ ][3439] [ ][3439] [ ][3439] [ ][3438] [ ][3439] [ ][3440] [ ][3439] [ ][3440] [ ][3439] [ ][3440] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 27-28C Voltage: 48.140V 
+2022-05-01 16:50:45 [I|BMZ] Module #B [Temp]: [28][27][27][28][28][27]
+2022-05-01 16:50:46 [I|BMZ] Module #C module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 16:50:46 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3441] [ ][3439] [ ][3440] [ ][3438] [ ][3441] [ ][3439] [ ][3440] [ ][3434] [ ][3438] [ ][3439] [ ][3439] [ ][3439] [ ][3440] [ ][3440] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 26-26C Voltage: 48.147V 
+2022-05-01 16:50:46 [I|BMZ] Module #C [Temp]: [26][26][26][26][26][26]
+2022-05-01 16:50:50 [I|BMZ] 4 modules working as expected
+2022-05-01 16:50:50 [I|BMZ] Module #D module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 16:50:50 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3439] [ ][3438] [ ][3438] [ ][3439] [ ][3439] [ ][3439] [ ][3440] [ ][3436] [ ][3440] [ ][3440] [ ][3440] [ ][3440] [ ][3439] [ ][3440] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 27-27C Voltage: 48.147V 
+2022-05-01 16:50:50 [I|BMZ] Module #D [Temp]: [27][27][27][27][27][27]
+2022-05-01 16:50:50 [I|BMZ] Faultline test started.
+2022-05-01 16:50:51 [I|BMZ] Module #A faultline state change:  [Faultline pulled]
+2022-05-01 16:50:51 [I|BMZ] Module #A faultline state change:  inactive
+2022-05-01 16:50:53 [I|BMZ] Module #A module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 16:50:54 [I|BMZ] Module #B faultline state change:  [Faultline pulled]
+2022-05-01 16:50:54 [I|BMZ] Module #B faultline state change:  inactive
+2022-05-01 16:50:55 [I|BMZ] Module #B module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 16:50:56 [I|BMZ] Module #C faultline state change:  [Faultline pulled]
+2022-05-01 16:50:57 [I|BMZ] Module #C faultline state change:  inactive
+2022-05-01 16:50:58 [I|BMZ] Module #C module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 16:50:59 [I|BMZ] Module #D faultline state change:  [Faultline pulled]
+2022-05-01 16:50:59 [I|BMZ|Ready] Communication initialization complete.
+2022-05-01 16:50:59 [I|BMZ] Module #A Serial: 43006224 FW: 30134 Type: 30012
+2022-05-01 16:50:59 [I|BMZ] Module #B Serial: 43006208 FW: 30134 Type: 30012
+2022-05-01 16:50:59 [I|BMZ] Module #C Serial: 40006774 FW: 30134 Type: 30012
+2022-05-01 16:50:59 [I|BMZ] Module #D Serial: 43010127 FW: 30134 Type: 30012
+2022-05-01 16:50:59 [I|SYS|Selftest] BMS ready for operation
+2022-05-01 16:50:59 [I|SYS|Selftest] display message: BWR Kommuni-kation (4/6)
+2022-05-01 16:50:59 [I|SYS|Selftest] Inverter: Check inverter communication
+2022-05-01 16:50:59 [I|SYS|Selftest] Inverter: Communication check successful
+2022-05-01 16:50:59 [I|SYS|Selftest] Start dc coil tests.
+2022-05-01 16:50:59 [I|SYS|Selftest] display message: Test DC-Schuetz (5/6)
+2022-05-01 16:50:59 [I|BMZ] Module #D faultline state change:  inactive
+2022-05-01 16:51:01 [I|INV_LV] Reset triggered
+2022-05-01 16:51:01 [I|BMZ] Module #D module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 16:51:01 [I|BMZ] Faultline test passed by all modules.
+2022-05-01 16:51:06 [I|INV_LV] Reset time for state change logging
+2022-05-01 16:51:09 [I|INV_LV] date and time updated
+2022-05-01 16:51:10 [I|INV_LV] Gridcode correct (4901)
+2022-05-01 16:51:10 [I|INV_LV] Serial is 767272GF008074270001
+2022-05-01 16:51:10 [I|INV_LV] Nominal Power: 4600W
+2022-05-01 16:51:10 [I|INV_LV] DC measurements taken
+2022-05-01 16:51:14 [I|INV_LV] Gridconnection state: standby
+2022-05-01 16:51:14 [I|INV_LV] Inverter is disconnected from grid
+2022-05-01 16:51:14 [I|INV_LV] State change logging enabled.
+2022-05-01 16:51:14 [I|INV_LV] Startupstate RunGrid  -> Sleep  
+2022-05-01 16:51:19 OFF: Switching on inverter
+2022-05-01 16:51:19 [I|INV_LV] Enabled Batteries and reset DC measurements
+2022-05-01 16:51:21 [I|INV_LV] Disabled Batteries and reset DC measurements
+2022-05-01 16:51:21 [I|INV_LV] Energysource transferred: Battery: 0 PV: 1 Island: 0
+2022-05-01 16:51:21 [I|INV_LV] Gridconnection state: startup
+2022-05-01 16:51:21 [I|INV_LV] Startupstate Sleep  -> StartHighSidePwm  
+2022-05-01 16:51:21 [I|BAT Interface] Battery temp: 26.00 to 29.00 °C, case temp: 35.77 °C
+2022-05-01 16:51:21 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[465.1W] Total production: 465.1W current feed-in limit: 100.00 %
+2022-05-01 16:51:22 [I|INV_LV] DC measurements taken
+2022-05-01 16:51:29 [I|INV_LV] Startupstate StartHighSidePwm  -> GetAcOffset  
+2022-05-01 16:51:36 [I|INV_LV] Startupstate GetAcOffset  -> CheckStrings  
+2022-05-01 16:51:51 [I|INV_LV] Startupstate CheckStrings  -> TestAcRelais  
+2022-05-01 16:51:59 [I|INV_LV] Startupstate TestAcRelais  -> IsolationCheck 1
+2022-05-01 16:52:58 [I|INV_LV] Startupstate IsolationCheck 1-> IsolationCheck 2
+2022-05-01 16:53:02 [I|INV_LV] Insulation resistance: 10000000 Ohm.
+2022-05-01 16:53:36 [I|INV_LV] Startupstate IsolationCheck 2-> IsolationCheck 3
+2022-05-01 16:54:06 [I|INV_LV] Startupstate IsolationCheck 3-> EstablishAcVoltage  
+2022-05-01 16:54:13 [I|INV_LV] Gridconnection state: connected
+2022-05-01 16:54:13 [I|INV_LV] Inverter is connected to grid.
+2022-05-01 16:54:13 [I|INV_LV] Startupstate EstablishAcVoltage  -> RunGrid  
+2022-05-01 16:54:17 [I|INV_LV] Event Appeared: HWprotect_OV_HV1
+2022-05-01 17:06:13 [I|INV_LV] State change logging disabled.
+2022-05-01 17:20:19 [W|Energy Management|State:Selftest] Leaving selftest because of timeout in state off.
+2022-05-01 17:20:20 [I|Energy Management] State: Selbsttest -> Fernabschaltung
+2022-05-01 17:20:20 OFF: Sending passive request
+2022-05-01 17:20:30 OFF: Switching off Inverter
+2022-05-01 17:20:35 OFF: Sending BMS shutdown command
+2022-05-01 17:20:35 [I|BMZ] Shutdown started.
+2022-05-01 17:20:35 [I|Remanent Data] Last BMS disable saved: 2022-05-01 17:20:35 
+2022-05-01 17:20:35 [I|KILLSWITCH|BMZ] enabled output IO
+2022-05-01 17:20:35 [I|BAT_MODULE_ENABLE_BMZ|BMZ] disabled output IO
+2022-05-01 17:21:22 [I|BAT Interface] Battery temp not available, Case temp: 36.33 °C
+2022-05-01 17:21:22 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[277.6W] INV_HV:[227.7W] Total production: 505.2W current feed-in limit: 100.00 %
+2022-05-01 17:51:22 [I|BAT Interface] Battery temp not available, Case temp: 35.42 °C
+2022-05-01 17:51:22 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[155.2W] INV_HV:[139.2W] Total production: 294.3W current feed-in limit: 100.00 %
+2022-05-01 18:01:11 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 479.93 V, PV Current = 0.28 A, PV Power = 131.56 W
+2022-05-01 18:01:11 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 254.14 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 18:01:11 [I|PV Interface] Inverter INV_LV: AC Voltage = 225.95 V, AC Current = 0.48 A, AC Power = 102.26 W, AC Apparent Power = 106.81 VA, AC Reactive Power = 30.84 var
+2022-05-01 18:01:11 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 386.42 V, PV Current = 0.30 A, PV Power = 111.38 W
+2022-05-01 18:01:11 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 207.94 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 18:01:11 [I|PV Interface] Inverter INV_HV: AC Voltage = 225.75 V, AC Current = 0.40 A, AC Power = 84.74 W, AC Apparent Power = 89.89 VA, AC Reactive Power = 29.99 var
+2022-05-01 18:01:26 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-01 18:21:22 [I|BAT Interface] Battery temp not available, Case temp: 35.32 °C
+2022-05-01 18:21:22 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[61.2W] INV_HV:[50.0W] Total production: 111.2W current feed-in limit: 100.00 %
+2022-05-01 18:44:19 [I|INV_LV] Gridconnection state: standby
+2022-05-01 18:44:19 [I|INV_LV] BDC Event #0: Time: 2022-05-01 16:54:17 Event: V_HV_too_High, StillNotStartedNoError, BDC_is_not_Running, HWprotect_OV_HV1, HWprotect_DISABLE_1, I_bat_discharge_max_too_low_for_Startup, Standby_0W, 
+2022-05-01 18:44:19 [I|INV_LV] Eventcode: 80008100 00000120 01800000
+2022-05-01 18:44:19 [I|INV_LV] Inverter is disconnected from grid
+2022-05-01 18:44:26 [I|INV_LV] Gridconnection state: startup
+2022-05-01 18:45:25 [I|INV_LV] Gridconnection state: standby
+2022-05-01 18:45:40 [I|INV_LV] Gridconnection state: startup
+2022-05-01 18:46:20 [I|INV_HV] Inverter is disconnected from grid
+2022-05-01 18:46:27 [I|INV_HV] Inverter is connected to grid.
+2022-05-01 18:46:31 [I|INV_LV] Gridconnection state: standby
+2022-05-01 18:46:46 [I|INV_LV] Gridconnection state: startup
+2022-05-01 18:47:33 [I|INV_HV] Inverter is disconnected from grid
+2022-05-01 18:47:40 [I|INV_HV] Inverter is connected to grid.
+2022-05-01 18:47:44 [I|INV_LV] Gridconnection state: standby
+2022-05-01 18:47:51 [I|INV_LV] Gridconnection state: startup
+2022-05-01 18:48:38 [I|INV_HV] Inverter is disconnected from grid
+2022-05-01 18:48:49 [I|INV_LV] Gridconnection state: standby
+2022-05-01 18:48:52 [I|INV_HV] Inverter is connected to grid.
+2022-05-01 18:48:56 [I|INV_LV] Gridconnection state: startup
+2022-05-01 18:49:50 [I|INV_HV] Inverter is disconnected from grid
+2022-05-01 18:49:55 [I|INV_LV] Gridconnection state: standby
+2022-05-01 18:50:05 [I|INV_HV] Inverter is connected to grid.
+2022-05-01 18:50:09 [I|INV_LV] Gridconnection state: startup
+2022-05-01 18:51:03 [I|INV_HV] Inverter is disconnected from grid
+2022-05-01 18:51:07 [I|INV_LV] Gridconnection state: standby
+2022-05-01 18:51:10 [I|INV_HV] Inverter is connected to grid.
+2022-05-01 18:51:15 [I|INV_LV] Gridconnection state: startup
+2022-05-01 18:51:22 [I|BAT Interface] Battery temp not available, Case temp: 34.33 °C
+2022-05-01 18:51:22 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-01 18:52:13 [I|INV_LV] Gridconnection state: standby
+2022-05-01 18:52:15 [I|INV_HV] Inverter is disconnected from grid
+2022-05-01 18:52:20 [I|INV_LV] Gridconnection state: startup
+2022-05-01 18:52:23 [I|INV_HV] Inverter is connected to grid.
+2022-05-01 18:53:18 [I|INV_LV] Gridconnection state: standby
+2022-05-01 18:53:21 [I|INV_HV] Inverter is disconnected from grid
+2022-05-01 18:53:28 [I|INV_HV] Inverter is connected to grid.
+2022-05-01 18:53:32 [I|INV_LV] Gridconnection state: startup
+2022-05-01 18:54:30 [I|INV_LV] Gridconnection state: standby
+2022-05-01 18:54:33 [I|INV_HV] Inverter is disconnected from grid
+2022-05-01 18:54:38 [I|INV_LV] Gridconnection state: startup
+2022-05-01 18:54:41 [I|INV_HV] Inverter is connected to grid.
+2022-05-01 18:55:36 [I|INV_LV] Gridconnection state: standby
+2022-05-01 18:55:39 [I|INV_HV] Inverter is disconnected from grid
+2022-05-01 18:55:43 [I|INV_LV] Gridconnection state: startup
+2022-05-01 18:55:53 [I|INV_HV] Inverter is connected to grid.
+2022-05-01 18:56:41 [I|INV_LV] Gridconnection state: standby
+2022-05-01 18:56:51 [I|INV_HV] Inverter is disconnected from grid
+2022-05-01 18:56:55 [I|INV_LV] Gridconnection state: startup
+2022-05-01 18:57:05 [I|INV_HV] Inverter is connected to grid.
+2022-05-01 18:57:53 [I|INV_LV] Gridconnection state: standby
+2022-05-01 18:58:00 [I|INV_LV] Gridconnection state: startup
+2022-05-01 18:58:03 [I|INV_HV] Inverter is disconnected from grid
+2022-05-01 18:58:17 [I|INV_HV] Inverter is connected to grid.
+2022-05-01 18:58:58 [I|INV_LV] Gridconnection state: standby
+2022-05-01 18:59:05 [I|INV_LV] Gridconnection state: startup
+2022-05-01 18:59:15 [I|INV_HV] Inverter is disconnected from grid
+2022-05-01 18:59:30 [I|INV_HV] Inverter is connected to grid.
+2022-05-01 19:00:03 [I|INV_LV] Gridconnection state: standby
+2022-05-01 19:00:17 [I|INV_LV] Gridconnection state: startup
+2022-05-01 19:00:27 [I|INV_HV] Inverter is disconnected from grid
+2022-05-01 19:00:34 [I|INV_HV] Inverter is connected to grid.
+2022-05-01 19:01:00 [I|SYS|Selftest] display message: Fehler DC-Schuetz
+2022-05-01 19:01:00 [W|SYS|Selftest] DC coil error (timeout)
+2022-05-01 19:01:14 [I|INV_LV] Gridconnection state: standby
+2022-05-01 19:01:22 [I|INV_LV] Gridconnection state: startup
+2022-05-01 19:01:39 [I|INV_HV] Inverter is disconnected from grid
+2022-05-01 19:01:46 [I|INV_HV] Inverter is connected to grid.
+2022-05-01 19:02:20 [I|INV_LV] Gridconnection state: standby
+2022-05-01 19:02:26 [I|INV_LV] Gridconnection state: startup
+2022-05-01 19:02:51 [I|INV_HV] Inverter is disconnected from grid
+2022-05-01 19:02:58 [I|INV_HV] Inverter is connected to grid.
+2022-05-01 19:03:25 [I|INV_LV] Gridconnection state: standby
+2022-05-01 19:03:39 [I|INV_LV] Gridconnection state: startup
+2022-05-01 19:04:04 [I|INV_HV] Inverter is disconnected from grid
+2022-05-01 19:04:29 [I|INV_LV] Gridconnection state: standby
+2022-05-01 19:04:44 [I|INV_LV] Gridconnection state: startup
+2022-05-01 19:05:41 [I|INV_LV] Gridconnection state: standby
+2022-05-01 19:05:49 [I|INV_LV] Gridconnection state: startup
+2022-05-01 19:06:39 [I|INV_LV] Gridconnection state: standby
+2022-05-01 19:06:54 [I|INV_LV] Gridconnection state: startup
+2022-05-01 19:07:45 [I|INV_LV] Gridconnection state: standby
+2022-05-01 19:07:52 [I|INV_LV] Gridconnection state: startup
+2022-05-01 19:08:41 [I|INV_LV] Gridconnection state: standby
+2022-05-01 19:08:57 [I|INV_LV] Gridconnection state: startup
+2022-05-01 19:09:45 [I|INV_LV] Gridconnection state: standby
+2022-05-01 19:09:59 [I|INV_LV] Gridconnection state: startup
+2022-05-01 19:10:50 [I|INV_LV] Gridconnection state: standby
+2022-05-01 19:10:57 [I|INV_LV] Gridconnection state: startup
+2022-05-01 19:11:48 [I|INV_LV] Gridconnection state: standby
+2022-05-01 19:12:02 [I|INV_LV] Gridconnection state: startup
+2022-05-01 19:12:53 [I|INV_LV] Gridconnection state: standby
+2022-05-01 19:13:00 [I|INV_LV] Gridconnection state: startup
+2022-05-01 19:13:21 [I|INV_LV] Gridconnection state: standby
+2022-05-01 19:13:28 [I|INV_LV] Gridconnection state: startup
+2022-05-01 19:14:19 [I|INV_LV] Gridconnection state: standby
+2022-05-01 19:14:26 [I|INV_LV] Gridconnection state: startup
+2022-05-01 19:15:10 [I|INV_LV] Gridconnection state: standby
+2022-05-01 19:21:22 [I|BAT Interface] Battery temp not available, Case temp: 31.49 °C
+2022-05-01 19:21:22 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-01 19:51:23 [I|BAT Interface] Battery temp not available, Case temp: 30.25 °C
+2022-05-01 19:51:23 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-01 20:01:00 [I|SYS|Selftest] Requesting re-test after failed selftest, delay: 60 minutes
+2022-05-01 20:01:00 [I|SYS|Selftest] Initialized
+2022-05-01 20:01:00 [I|SYS|Selftest] display message: Starte Test-Modus (1/6)
+2022-05-01 20:01:00 [I|SYS|Selftest] Enforcing passive mode before switching AC coil
+2022-05-01 20:01:00 [I|Energy Management|State:Off] temporary leave to run selftest
+2022-05-01 20:01:00 OFF: Waking up BMS
+2022-05-01 20:01:00 [I|KILLSWITCH|BMZ] disabled output IO
+2022-05-01 20:01:00 [I|BAT_MODULE_ENABLE_BMZ|BMZ] enabled output IO
+2022-05-01 20:01:00 [I|Energy Management] State: Fernabschaltung -> Selbsttest
+2022-05-01 20:01:05 [I|SYS|Selftest] Forced passive mode entered
+2022-05-01 20:01:05 [I|SYS|Selftest] display message: Batterie- sicherheit (2/6)
+2022-05-01 20:01:05 [I|SYS|Selftest] Checking if BMZ faultline test is running
+2022-05-01 20:01:05 [I|SYS|Selftest] BMZ faultline test running
+2022-05-01 20:01:11 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 3.77 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 20:01:11 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 3.58 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 20:01:11 [I|PV Interface] Inverter INV_LV: AC Voltage = 226.69 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-05-01 20:01:11 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 3.60 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 20:01:11 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 3.52 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 20:01:11 [I|PV Interface] Inverter INV_HV: AC Voltage = 227.60 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-05-01 20:01:14 [I|SYS|Selftest] BMZ faultline test finished
+2022-05-01 20:01:14 [I|SYS|Selftest] BMZ wait to get ready
+2022-05-01 20:01:14 [I|BMZ] Faultline resumed normal mode.
+2022-05-01 20:01:22 [I|BMZ] Module #A module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 20:01:24 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3439] [ ][3437] [ ][3437] [ ][3434] [ ][3438] [ ][3438] [ ][3438] [ ][3438] [ ][3439] [ ][3440] [ ][3439] [ ][3440] [ ][3438] [ ][3442] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 27-27C Voltage: 48.137V 
+2022-05-01 20:01:24 [I|BMZ] Module #A [Temp]: [27][27][27][27][27][27]
+2022-05-01 20:01:24 [I|BMZ] Module #B module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 20:01:24 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3437] [ ][3438] [ ][3435] [ ][3434] [ ][3439] [ ][3441] [ ][3439] [ ][3438] [ ][3437] [ ][3438] [ ][3438] [ ][3440] [ ][3441] [ ][3440] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 26-27C Voltage: 48.135V 
+2022-05-01 20:01:24 [I|BMZ] Module #B [Temp]: [26][26][26][27][27][26]
+2022-05-01 20:01:27 [I|BMZ] Module #C module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 20:01:28 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-01 20:01:28 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3441] [ ][3438] [ ][3440] [ ][3438] [ ][3440] [ ][3440] [ ][3439] [ ][3434] [ ][3437] [ ][3438] [ ][3439] [ ][3438] [ ][3441] [ ][3439] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 25-26C Voltage: 48.142V 
+2022-05-01 20:01:28 [I|BMZ] Module #C [Temp]: [25][25][25][26][25][26]
+2022-05-01 20:01:31 [I|BMZ] 4 modules working as expected
+2022-05-01 20:01:31 [I|BMZ] Module #D module order change:  [ALARM: Faultline test must be executed soon.]
+2022-05-01 20:01:31 [I|BMZ] Faultline test started.
+2022-05-01 20:01:31 [I|BMZ] Module #A faultline state change:  [Faultline pulled]
+2022-05-01 20:01:32 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3438] [ ][3438] [ ][3438] [ ][3439] [ ][3439] [ ][3439] [ ][3440] [ ][3436] [ ][3440] [ ][3440] [ ][3441] [ ][3440] [ ][3439] [ ][3440] SoC: 0% Current: 0.00A Limit: 0.00A/0.00A Temp: 26-26C Voltage: 48.147V 
+2022-05-01 20:01:32 [I|BMZ] Module #D [Temp]: [26][26][26][26][26][26]
+2022-05-01 20:01:32 [I|BMZ] Module #A faultline state change:  inactive
+2022-05-01 20:01:33 [I|BMZ] Module #A module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 20:01:35 [I|BMZ] Module #B faultline state change:  [Faultline pulled]
+2022-05-01 20:01:35 [I|BMZ] Module #B faultline state change:  inactive
+2022-05-01 20:01:36 [I|BMZ] Module #B module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 20:01:37 [I|BMZ] Module #C faultline state change:  [Faultline pulled]
+2022-05-01 20:01:38 [I|BMZ] Module #C faultline state change:  inactive
+2022-05-01 20:01:39 [I|BMZ] Module #C module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 20:01:40 [I|BMZ] Module #D faultline state change:  [Faultline pulled]
+2022-05-01 20:01:40 [I|BMZ] Module #D faultline state change:  inactive
+2022-05-01 20:01:41 [I|BMZ|Ready] Communication initialization complete.
+2022-05-01 20:01:41 [I|BMZ] Module #A Serial: 43006224 FW: 30134 Type: 30012
+2022-05-01 20:01:41 [I|BMZ] Module #B Serial: 43006208 FW: 30134 Type: 30012
+2022-05-01 20:01:41 [I|BMZ] Module #C Serial: 40006774 FW: 30134 Type: 30012
+2022-05-01 20:01:41 [I|BMZ] Module #D Serial: 43010127 FW: 30134 Type: 30012
+2022-05-01 20:01:41 [I|SYS|Selftest] BMS ready for operation
+2022-05-01 20:01:41 [I|SYS|Selftest] display message: BWR Kommuni-kation (4/6)
+2022-05-01 20:01:41 [I|SYS|Selftest] Inverter: Check inverter communication
+2022-05-01 20:01:41 [I|SYS|Selftest] Inverter: Communication check successful
+2022-05-01 20:01:41 [I|SYS|Selftest] Start dc coil tests.
+2022-05-01 20:01:41 [I|SYS|Selftest] display message: Test DC-Schuetz (5/6)
+2022-05-01 20:01:41 [I|INV_LV] Reset triggered
+2022-05-01 20:01:42 [I|BMZ] Module #D module order change:  [OK: Last faultline test less than 12h ago]
+2022-05-01 20:01:42 [I|BMZ] Faultline test passed by all modules.
+2022-05-01 20:01:46 [I|INV_LV] Reset time for state change logging
+2022-05-01 20:01:48 [I|INV_LV] date and time updated
+2022-05-01 20:01:48 [I|INV_LV] Gridcode correct (4901)
+2022-05-01 20:01:48 [I|INV_LV] Serial is 767272GF008074270001
+2022-05-01 20:01:48 [I|INV_LV] Nominal Power: 4600W
+2022-05-01 20:01:49 [I|INV_LV] DC measurements taken
+2022-05-01 20:01:53 [I|INV_LV] State change logging enabled.
+2022-05-01 20:02:00 OFF: Switching on inverter
+2022-05-01 20:02:00 [I|INV_LV] Enabled Batteries and reset DC measurements
+2022-05-01 20:02:00 [I|INV_LV] Disabled Batteries and reset DC measurements
+2022-05-01 20:02:00 [I|INV_LV] Energysource transferred: Battery: 0 PV: 1 Island: 0
+2022-05-01 20:02:03 [I|INV_LV] DC measurements taken
+2022-05-01 20:16:49 [I|INV_LV] State change logging disabled.
+2022-05-01 20:21:23 [I|BAT Interface] Battery temp: 25.00 to 28.00 °C, case temp: 29.38 °C
+2022-05-01 20:21:23 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-01 20:30:58 [W|Energy Management|State:Selftest] Leaving selftest because of timeout in state off.
+2022-05-01 20:30:58 [I|Energy Management] State: Selbsttest -> Fernabschaltung
+2022-05-01 20:30:58 OFF: Sending passive request
+2022-05-01 20:31:08 OFF: Switching off Inverter
+2022-05-01 20:31:13 OFF: Sending BMS shutdown command
+2022-05-01 20:31:13 [I|BMZ] Shutdown started.
+2022-05-01 20:31:13 [I|Remanent Data] Last BMS disable saved: 2022-05-01 20:31:13 
+2022-05-01 20:31:13 [I|KILLSWITCH|BMZ] enabled output IO
+2022-05-01 20:31:13 [I|BAT_MODULE_ENABLE_BMZ|BMZ] disabled output IO
+2022-05-01 20:51:20 [I|BAT Interface] Battery temp not available, Case temp: 28.56 °C
+2022-05-01 20:51:20 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-01 21:21:20 [I|BAT Interface] Battery temp not available, Case temp: 27.86 °C
+2022-05-01 21:21:20 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-01 21:51:21 [I|BAT Interface] Battery temp not available, Case temp: 27.44 °C
+2022-05-01 21:51:21 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-01 22:01:09 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 1.86 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 22:01:09 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 2.21 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 22:01:09 [I|PV Interface] Inverter INV_LV: AC Voltage = 230.87 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-05-01 22:01:09 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 1.55 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 22:01:09 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 2.18 V, PV Current = 0.00 A, PV Power = 0.00 W
+2022-05-01 22:01:09 [I|PV Interface] Inverter INV_HV: AC Voltage = 230.76 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2022-05-01 22:01:27 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 0.01 V, Battery Current = -0.00 A, Battery Power = -0.00 W
+2022-05-01 22:11:38 [I|SYS|Selftest] display message: Fehler DC-Schuetz
+2022-05-01 22:11:38 [W|SYS|Selftest] DC coil error (timeout)
+2022-05-01 22:21:21 [I|BAT Interface] Battery temp not available, Case temp: 27.26 °C
+2022-05-01 22:21:21 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-01 22:51:21 [I|BAT Interface] Battery temp not available, Case temp: 26.96 °C
+2022-05-01 22:51:21 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-01 23:21:21 [I|BAT Interface] Battery temp not available, Case temp: 26.97 °C
+2022-05-01 23:21:21 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-01 23:51:21 [I|BAT Interface] Battery temp not available, Case temp: 26.85 °C
+2022-05-01 23:51:21 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %

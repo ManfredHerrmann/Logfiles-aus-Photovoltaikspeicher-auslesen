@@ -1,0 +1,391 @@
+2021-09-28 00:00:01 [I|SYS] Serial: S39977261194348553540356920 MCU firmware version: 0811, GUI version 0957
+2021-09-28 00:00:01 [I|SYS] Factory Settings: System type: Home V3 hybrid duo battery inverter: SENEC.Inverter V3 LV, battery type: Lithium-ion (BMZ) parallel, power meter: ABB B2x, country: Germany
+2021-09-28 00:00:01 [I|SYS] Inverter Firmware Info: HMI: 3.16.20 PU: 4.3.10 BDC: 5.4.6
+2021-09-28 00:00:00 [I|Statistics] Created statistics file 2021-09-28
+2021-09-28 00:11:26 [I|BAT Interface] Battery temp: 29.00 to 32.00 °C, case temp: 36.20 °C
+2021-09-28 00:11:26 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 00:32:59 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3685] [ ][3685] [ ][3685] [ ][3683] [ ][3685] [ ][3686] [ ][3686] [ ][3685] [ ][3686] [ ][3686] [ ][3686] [ ][3687] [ ][3686] [ ][3687] SoC: 55% Current: -0.74A Limit: 12.00A/-24.00A Temp: 31-32C Voltage: 51.598V 
+2021-09-28 00:32:59 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3686] [ ][3686] [ ][3685] [ ][3685] [ ][3685] [ ][3686] [ ][3686] [ ][3685] [ ][3685] [ ][3685] [ ][3686] [ ][3686] [ ][3685] [ ][3686] SoC: 55% Current: -0.75A Limit: 12.00A/-24.00A Temp: 30-31C Voltage: 51.597V 
+2021-09-28 00:32:59 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3687] [ ][3686] [ ][3687] [ ][3686] [ ][3687] [ ][3686] [ ][3687] [ ][3684] [ ][3685] [ ][3685] [ ][3685] [ ][3686] [ ][3685] [ ][3686] SoC: 55% Current: -0.73A Limit: 12.00A/-24.00A Temp: 29-30C Voltage: 51.602V 
+2021-09-28 00:32:59 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3686] [ ][3686] [ ][3686] [ ][3687] [ ][3687] [ ][3687] [ ][3687] [ ][3685] [ ][3686] [ ][3687] [ ][3687] [ ][3685] [ ][3686] [ ][3686] SoC: 55% Current: -0.73A Limit: 12.00A/-24.00A Temp: 29-31C Voltage: 51.608V 
+2021-09-28 00:41:26 [I|BAT Interface] Battery temp: 29.00 to 32.00 °C, case temp: 35.69 °C
+2021-09-28 00:41:26 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 01:11:26 [I|BAT Interface] Battery temp: 29.00 to 32.00 °C, case temp: 35.44 °C
+2021-09-28 01:11:26 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 01:41:26 [I|BAT Interface] Battery temp: 28.00 to 32.00 °C, case temp: 35.50 °C
+2021-09-28 01:41:26 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 01:50:54 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 75.94 V, PV Current = 0.01 A, PV Power = 0.45 W
+2021-09-28 01:50:54 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 234.31 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 01:50:54 [I|PV Interface] Inverter INV_LV: AC Voltage = 230.41 V, AC Current = 0.50 A, AC Power = 104.52 W, AC Apparent Power = 115.70 VA, AC Reactive Power = 49.62 var
+2021-09-28 01:50:54 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 3.11 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 01:50:54 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 2.52 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 01:50:54 [I|PV Interface] Inverter INV_HV: AC Voltage = 230.84 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2021-09-28 01:51:47 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 51.35 V, Battery Current = -2.51 A, Battery Power = -128.83 W
+2021-09-28 02:11:27 [I|BAT Interface] Battery temp: 28.00 to 31.00 °C, case temp: 35.37 °C
+2021-09-28 02:11:27 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 02:33:01 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3665] [ ][3665] [ ][3665] [ ][3663] [ ][3665] [ ][3665] [ ][3666] [ ][3665] [ ][3666] [ ][3666] [ ][3666] [ ][3667] [ ][3666] [ ][3667] SoC: 52% Current: -0.94A Limit: 12.00A/-24.00A Temp: 30-31C Voltage: 51.317V 
+2021-09-28 02:33:01 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3666] [ ][3666] [ ][3665] [ ][3665] [ ][3665] [ ][3666] [ ][3666] [ ][3665] [ ][3665] [ ][3665] [ ][3665] [ ][3666] [ ][3665] [ ][3665] SoC: 52% Current: -0.93A Limit: 12.00A/-24.00A Temp: 30-31C Voltage: 51.315V 
+2021-09-28 02:33:01 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3667] [ ][3666] [ ][3666] [ ][3666] [ ][3666] [ ][3666] [ ][3666] [ ][3664] [ ][3665] [ ][3666] [ ][3665] [ ][3666] [ ][3665] [ ][3666] SoC: 52% Current: -0.93A Limit: 12.00A/-24.00A Temp: 28-29C Voltage: 51.320V 
+2021-09-28 02:33:01 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3666] [ ][3666] [ ][3666] [ ][3667] [ ][3666] [ ][3667] [ ][3667] [ ][3665] [ ][3666] [ ][3666] [ ][3667] [ ][3665] [ ][3666] [ ][3666] SoC: 52% Current: -0.91A Limit: 12.00A/-24.00A Temp: 29-30C Voltage: 51.326V 
+2021-09-28 02:41:27 [I|BAT Interface] Battery temp: 28.00 to 31.00 °C, case temp: 35.47 °C
+2021-09-28 02:41:27 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 03:11:27 [I|BAT Interface] Battery temp: 28.00 to 31.00 °C, case temp: 35.33 °C
+2021-09-28 03:11:27 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 03:33:09 [I|BAT Interface] BMS: -61.30A, 50.71V Inverter: -60.34A, 50.15V, Offset: 0.05V
+2021-09-28 03:33:09 [I|BAT Interface] Measured contact resistance: 0.0083
+2021-09-28 03:41:27 [I|BAT Interface] Battery temp: 28.00 to 31.00 °C, case temp: 35.48 °C
+2021-09-28 03:41:27 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 03:50:55 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 75.89 V, PV Current = 0.01 A, PV Power = 0.41 W
+2021-09-28 03:50:55 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 231.48 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 03:50:55 [I|PV Interface] Inverter INV_LV: AC Voltage = 230.87 V, AC Current = 13.31 A, AC Power = 3080.89 W, AC Apparent Power = 3097.85 VA, AC Reactive Power = 323.74 var
+2021-09-28 03:50:55 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 3.13 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 03:50:55 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 2.57 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 03:50:55 [I|PV Interface] Inverter INV_HV: AC Voltage = 227.67 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2021-09-28 03:51:50 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 49.20 V, Battery Current = -65.83 A, Battery Power = -3239.09 W
+2021-09-28 04:02:51 Logfile: Upload to server...
+2021-09-28 04:03:02 Logfile: Failed to upload
+2021-09-28 04:11:27 [I|BAT Interface] Battery temp: 30.00 to 33.00 °C, case temp: 35.28 °C
+2021-09-28 04:11:27 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 04:12:16 [I|BMZ] Faultline test started.
+2021-09-28 04:12:16 [I|BMZ] Module #A module order change:  [ALARM: Faultline test must be executed soon.]
+2021-09-28 04:12:17 [I|BMZ] Module #A faultline state change:  [Faultline pulled]
+2021-09-28 04:12:17 [I|BMZ] Module #A faultline state change:  inactive
+2021-09-28 04:12:18 [I|BMZ] Module #A module order change:  [OK: Last faultline test less than 12h ago]
+2021-09-28 04:12:20 [I|BMZ] Module #B faultline state change:  [Faultline pulled]
+2021-09-28 04:12:20 [I|BMZ] Module #B module order change:  [OK: Last faultline test less than 12h ago]
+2021-09-28 04:12:20 [I|BMZ] Module #B faultline state change:  inactive
+2021-09-28 04:12:20 [I|BMZ] Module #C module order change:  [No order set]
+2021-09-28 04:12:21 [I|BMZ] Module #C faultline state change:  [Faultline pulled]
+2021-09-28 04:12:21 [I|BMZ] Module #C faultline state change:  inactive
+2021-09-28 04:12:23 [I|BMZ] Module #C module order change:  [OK: Last faultline test less than 12h ago]
+2021-09-28 04:12:24 [I|BMZ] Module #D module order change:  [ALARM: Faultline test must be executed soon.]
+2021-09-28 04:12:24 [I|BMZ] Module #D faultline state change:  [Faultline pulled]
+2021-09-28 04:12:25 [I|BMZ] Module #D faultline state change:  inactive
+2021-09-28 04:12:27 [I|BMZ] Module #D module order change:  [OK: Last faultline test less than 12h ago]
+2021-09-28 04:12:27 [I|BMZ] Faultline test passed by all modules.
+2021-09-28 04:33:03 Logfile: Upload to server...
+2021-09-28 04:33:03 Logfile: Failed to upload
+2021-09-28 04:33:03 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3586] [ ][3586] [ ][3586] [ ][3585] [ ][3586] [ ][3586] [ ][3587] [ ][3585] [ ][3587] [ ][3587] [ ][3587] [ ][3587] [ ][3587] [ ][3587] SoC: 37% Current: -1.43A Limit: 12.00A/-24.00A Temp: 32-32C Voltage: 50.209V 
+2021-09-28 04:33:03 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3586] [ ][3587] [ ][3586] [ ][3586] [ ][3586] [ ][3587] [ ][3587] [ ][3586] [ ][3586] [ ][3587] [ ][3587] [ ][3587] [ ][3587] [ ][3587] SoC: 37% Current: -1.45A Limit: 12.00A/-24.00A Temp: 31-31C Voltage: 50.212V 
+2021-09-28 04:33:03 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3587] [ ][3587] [ ][3587] [ ][3586] [ ][3587] [ ][3586] [ ][3587] [ ][3584] [ ][3586] [ ][3586] [ ][3586] [ ][3586] [ ][3586] [ ][3586] SoC: 37% Current: -1.40A Limit: 12.00A/-24.00A Temp: 29-30C Voltage: 50.207V 
+2021-09-28 04:33:03 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3586] [ ][3587] [ ][3587] [ ][3587] [ ][3587] [ ][3588] [ ][3588] [ ][3586] [ ][3586] [ ][3587] [ ][3588] [ ][3587] [ ][3587] [ ][3586] SoC: 37% Current: -1.40A Limit: 12.00A/-24.00A Temp: 30-31C Voltage: 50.217V 
+2021-09-28 04:41:28 [I|BAT Interface] Battery temp: 29.00 to 32.00 °C, case temp: 35.84 °C
+2021-09-28 04:41:28 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 04:42:51 [I|BAT Interface] BMS: -41.36A, 49.94V Inverter: -40.54A, 49.54V, Offset: 0.05V
+2021-09-28 04:42:51 [I|BAT Interface] Measured contact resistance: 0.0083
+2021-09-28 04:43:11 [I|BAT Interface] BMS: -49.13A, 49.83V Inverter: -48.17A, 49.37V, Offset: 0.05V
+2021-09-28 04:43:11 [I|BAT Interface] Measured contact resistance: 0.0083
+2021-09-28 04:45:42 [I|BAT Interface] BMS: -24.70A, 49.76V Inverter: -25.57A, 49.50V, Offset: 0.05V
+2021-09-28 04:45:42 [I|BAT Interface] Measured contact resistance: 0.0087
+2021-09-28 05:03:05 Logfile: Upload to server...
+2021-09-28 05:03:18 Logfile: Failed to upload
+2021-09-28 05:11:28 [I|BAT Interface] Battery temp: 29.00 to 32.00 °C, case temp: 35.43 °C
+2021-09-28 05:11:28 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[1.2W] Total production:   1.2W current feed-in limit: 100.00 %
+2021-09-28 05:33:19 Logfile: Upload to server...
+2021-09-28 05:33:19 Logfile: Failed to upload
+2021-09-28 05:36:28 [I|INV_HV] Inverter is connected to grid.
+2021-09-28 05:41:28 [I|BAT Interface] Battery temp: 29.00 to 32.00 °C, case temp: 34.13 °C
+2021-09-28 05:41:28 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[70.9W] INV_HV:[28.3W] Total production:  99.1W current feed-in limit: 100.00 %
+2021-09-28 05:50:55 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 472.96 V, PV Current = 0.35 A, PV Power = 161.27 W
+2021-09-28 05:50:55 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 250.52 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 05:50:55 [I|PV Interface] Inverter INV_LV: AC Voltage = 230.26 V, AC Current = 0.52 A, AC Power = 115.50 W, AC Apparent Power = 121.30 VA, AC Reactive Power = 37.07 var
+2021-09-28 05:50:55 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 373.99 V, PV Current = 0.18 A, PV Power = 66.95 W
+2021-09-28 05:50:55 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 186.26 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 05:50:55 [I|PV Interface] Inverter INV_HV: AC Voltage = 229.66 V, AC Current = 0.32 A, AC Power = 60.35 W, AC Apparent Power = 70.68 VA, AC Reactive Power = 36.79 var
+2021-09-28 05:51:51 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 49.54 V, Battery Current = 0.00 A, Battery Power = 0.11 W
+2021-09-28 06:03:21 Logfile: Upload to server...
+2021-09-28 06:03:33 Logfile: Failed to upload
+2021-09-28 06:05:04 [I|BAT Interface] BMS: 5.05A, 49.63V Inverter: 4.81A, 49.64V, Offset: 0.05V
+2021-09-28 06:05:04 [I|BAT Interface] Measured contact resistance: 0.0117
+2021-09-28 06:11:28 [I|BAT Interface] Battery temp: 29.00 to 32.00 °C, case temp: 33.65 °C
+2021-09-28 06:11:28 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[465.1W] INV_HV:[127.1W] Total production: 592.2W current feed-in limit: 100.00 %
+2021-09-28 06:33:04 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3556] [ ][3556] [ ][3555] [ ][3554] [ ][3555] [ ][3555] [ ][3556] [ ][3556] [ ][3556] [ ][3556] [ ][3556] [ ][3556] [ ][3556] [ ][3557] SoC: 29% Current: -0.02A Limit: 12.00A/-24.00A Temp: 31-32C Voltage: 49.780V 
+2021-09-28 06:33:04 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3555] [ ][3555] [ ][3555] [ ][3555] [ ][3555] [ ][3555] [ ][3555] [ ][3555] [ ][3555] [ ][3555] [ ][3555] [ ][3555] [ ][3555] [ ][3555] SoC: 29% Current: -0.05A Limit: 12.00A/-24.00A Temp: 30-31C Voltage: 49.770V 
+2021-09-28 06:33:04 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3557] [ ][3556] [ ][3556] [ ][3555] [ ][3556] [ ][3556] [ ][3556] [ ][3555] [ ][3555] [ ][3555] [ ][3555] [ ][3555] [ ][3555] [ ][3556] SoC: 29% Current: 0.01A Limit: 12.00A/-24.00A Temp: 29-30C Voltage: 49.778V 
+2021-09-28 06:33:04 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3555] [ ][3555] [ ][3556] [ ][3557] [ ][3556] [ ][3556] [ ][3556] [ ][3556] [ ][3556] [ ][3557] [ ][3556] [ ][3555] [ ][3556] [ ][3557] SoC: 29% Current: 0.02A Limit: 12.00A/-24.00A Temp: 29-31C Voltage: 49.784V 
+2021-09-28 06:33:33 Logfile: Upload to server...
+2021-09-28 06:33:33 Logfile: Failed to upload
+2021-09-28 06:41:29 [I|BAT Interface] Battery temp: 29.00 to 32.00 °C, case temp: 35.03 °C
+2021-09-28 06:41:29 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[776.3W] INV_HV:[198.7W] Total production: 975.1W current feed-in limit: 100.00 %
+2021-09-28 07:01:56 [I|BAT Interface] BMS: 26.55A, 49.63V Inverter: 27.22A, 49.82V, Offset: 0.05V
+2021-09-28 07:01:56 [I|BAT Interface] Measured contact resistance: 0.0088
+2021-09-28 07:03:35 Logfile: Upload to server...
+2021-09-28 07:03:47 Logfile: Failed to upload
+2021-09-28 07:11:29 [I|BAT Interface] Battery temp: 29.00 to 32.00 °C, case temp: 33.72 °C
+2021-09-28 07:11:29 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[961.4W] INV_HV:[282.2W] Total production: 1243.6W current feed-in limit: 100.00 %
+2021-09-28 07:13:58 [I|BAT Interface] BMS: 38.33A, 50.14V Inverter: 39.30A, 50.43V, Offset: 0.05V
+2021-09-28 07:13:58 [I|BAT Interface] Measured contact resistance: 0.0089
+2021-09-28 07:33:47 Logfile: Upload to server...
+2021-09-28 07:33:58 Logfile: Failed to upload
+2021-09-28 07:41:29 [I|BAT Interface] Battery temp: 30.00 to 33.00 °C, case temp: 33.12 °C
+2021-09-28 07:41:29 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[968.9W] INV_HV:[421.1W] Total production: 1390.0W current feed-in limit: 100.00 %
+2021-09-28 07:45:36 [I|BAT Interface] BMS: 48.35A, 50.69V Inverter: 48.01A, 51.06V, Offset: 0.05V
+2021-09-28 07:45:36 [I|BAT Interface] Measured contact resistance: 0.0088
+2021-09-28 07:50:56 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 515.08 V, PV Current = 2.07 A, PV Power = 1064.51 W
+2021-09-28 07:50:56 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 272.70 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 07:50:56 [I|PV Interface] Inverter INV_LV: AC Voltage = 228.95 V, AC Current = 2.04 A, AC Power = -460.33 W, AC Apparent Power = 453.54 VA, AC Reactive Power = 0.00 var
+2021-09-28 07:50:56 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 399.30 V, PV Current = 1.35 A, PV Power = 538.26 W
+2021-09-28 07:50:56 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 200.51 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 07:50:56 [I|PV Interface] Inverter INV_HV: AC Voltage = 229.20 V, AC Current = 2.34 A, AC Power = 538.75 W, AC Apparent Power = 542.87 VA, AC Reactive Power = 66.76 var
+2021-09-28 07:51:55 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 50.86 V, Battery Current = 28.13 A, Battery Power = 1430.74 W
+2021-09-28 08:04:00 Logfile: Upload to server...
+2021-09-28 08:04:00 Logfile: Failed to upload
+2021-09-28 08:11:29 [I|BAT Interface] Battery temp: 31.00 to 34.00 °C, case temp: 32.86 °C
+2021-09-28 08:11:29 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[864.0W] INV_HV:[494.3W] Total production: 1358.3W current feed-in limit: 100.00 %
+2021-09-28 08:33:07 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3660] [ ][3657] [ ][3657] [ ][3656] [ ][3657] [ ][3657] [ ][3656] [ ][3665] [ ][3657] [ ][3657] [ ][3658] [ ][3658] [ ][3657] [ ][3660] SoC: 44% Current: 7.50A Limit: 12.00A/-24.00A Temp: 34-35C Voltage: 51.212V 
+2021-09-28 08:33:07 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3660] [ ][3657] [ ][3657] [ ][3657] [ ][3657] [ ][3658] [ ][3656] [ ][3665] [ ][3657] [ ][3657] [ ][3657] [ ][3657] [ ][3657] [ ][3660] SoC: 44% Current: 7.48A Limit: 12.00A/-24.00A Temp: 33-34C Voltage: 51.212V 
+2021-09-28 08:33:07 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3660] [ ][3657] [ ][3657] [ ][3656] [ ][3657] [ ][3657] [ ][3655] [ ][3664] [ ][3657] [ ][3657] [ ][3657] [ ][3657] [ ][3657] [ ][3660] SoC: 44% Current: 7.52A Limit: 12.00A/-24.00A Temp: 31-33C Voltage: 51.208V 
+2021-09-28 08:33:07 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3659] [ ][3657] [ ][3657] [ ][3657] [ ][3656] [ ][3657] [ ][3656] [ ][3664] [ ][3656] [ ][3657] [ ][3657] [ ][3656] [ ][3657] [ ][3660] SoC: 44% Current: 7.51A Limit: 12.00A/-24.00A Temp: 32-33C Voltage: 51.206V 
+2021-09-28 08:34:02 Logfile: Upload to server...
+2021-09-28 08:34:02 Logfile: Failed to upload
+2021-09-28 08:41:30 [I|BAT Interface] Battery temp: 31.00 to 35.00 °C, case temp: 33.63 °C
+2021-09-28 08:41:30 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[1871.1W] INV_HV:[741.4W] Total production: 2612.4W current feed-in limit: 100.00 %
+2021-09-28 09:04:04 Logfile: Upload to server...
+2021-09-28 09:04:12 Logfile: Failed to upload
+2021-09-28 09:04:12 Logfile: Upload failed - too many retries!
+2021-09-28 09:11:27 [I|BAT Interface] Battery temp: 33.00 to 37.00 °C, case temp: 35.57 °C
+2021-09-28 09:11:27 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[4635.6W] INV_HV:[766.3W] Total production: 5401.9W current feed-in limit: 100.00 %
+2021-09-28 09:41:27 [I|BAT Interface] Battery temp: 35.00 to 39.00 °C, case temp: 36.20 °C
+2021-09-28 09:41:27 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[1818.4W] INV_HV:[565.6W] Total production: 2384.1W current feed-in limit: 100.00 %
+2021-09-28 09:50:53 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 492.85 V, PV Current = 3.03 A, PV Power = 1485.85 W
+2021-09-28 09:50:53 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 259.49 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 09:50:53 [I|PV Interface] Inverter INV_LV: AC Voltage = 229.10 V, AC Current = 0.96 A, AC Power = -208.37 W, AC Apparent Power = 219.79 VA, AC Reactive Power = 69.95 var
+2021-09-28 09:50:53 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 403.54 V, PV Current = 1.17 A, PV Power = 470.63 W
+2021-09-28 09:50:53 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 200.12 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 09:50:53 [I|PV Interface] Inverter INV_HV: AC Voltage = 231.82 V, AC Current = 2.02 A, AC Power = 468.01 W, AC Apparent Power = 474.03 VA, AC Reactive Power = 75.31 var
+2021-09-28 09:51:52 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 54.41 V, Battery Current = 33.78 A, Battery Power = 1837.91 W
+2021-09-28 09:57:07 [I|BMZ] Module #A State Change: [Warning: cell overtemperature charging] 
+2021-09-28 09:57:07 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3874] [ ][3870] [ ][3870] [ ][3868] [ ][3871] [ ][3871] [ ][3869] [ ][3878] [ ][3871] [ ][3871] [ ][3871] [ ][3872] [ ][3871] [ ][3874] SoC: 71% Current: 7.19A Limit: 12.00A/-24.00A Temp: 38-40C Voltage: 54.201V 
+2021-09-28 09:57:07 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3874] [ ][3871] [ ][3871] [ ][3870] [ ][3871] [ ][3872] [ ][3870] [ ][3878] [ ][3870] [ ][3871] [ ][3871] [ ][3871] [ ][3870] [ ][3873] SoC: 71% Current: 7.20A Limit: 12.00A/-24.00A Temp: 37-39C Voltage: 54.203V 
+2021-09-28 09:57:07 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3875] [ ][3870] [ ][3871] [ ][3870] [ ][3871] [ ][3870] [ ][3870] [ ][3877] [ ][3870] [ ][3870] [ ][3870] [ ][3870] [ ][3870] [ ][3873] SoC: 71% Current: 7.26A Limit: 12.00A/-24.00A Temp: 35-37C Voltage: 54.197V 
+2021-09-28 09:57:07 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3873] [ ][3870] [ ][3871] [ ][3871] [ ][3870] [ ][3871] [ ][3869] [ ][3878] [ ][3870] [ ][3871] [ ][3871] [ ][3870] [ ][3871] [ ][3873] SoC: 71% Current: 7.23A Limit: 12.00A/-24.00A Temp: 36-38C Voltage: 54.199V 
+2021-09-28 10:11:27 [I|BAT Interface] Battery temp: 35.00 to 40.00 °C, case temp: 35.16 °C
+2021-09-28 10:11:27 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[2647.0W] INV_HV:[792.2W] Total production: 3439.2W current feed-in limit: 100.00 %
+2021-09-28 10:41:27 [I|BAT Interface] Battery temp: 35.00 to 40.00 °C, case temp: 35.35 °C
+2021-09-28 10:41:27 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[3250.2W] INV_HV:[1129.8W] Total production: 4380.0W current feed-in limit: 100.00 %
+2021-09-28 10:44:38 [I|BMZ] Module #B State Change: [Warning: cell overtemperature charging] 
+2021-09-28 10:44:38 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3973] [ ][3969] [ ][3969] [ ][3967] [ ][3970] [ ][3970] [ ][3968] [ ][3979] [ ][3970] [ ][3970] [ ][3970] [ ][3971] [ ][3970] [ ][3974] SoC: 86% Current: 8.28A Limit: 12.00A/-24.00A Temp: 39-40C Voltage: 55.590V 
+2021-09-28 10:44:38 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3974] [ ][3970] [ ][3969] [ ][3969] [ ][3969] [ ][3971] [ ][3970] [ ][3979] [ ][3970] [ ][3971] [ ][3971] [ ][3970] [ ][3969] [ ][3972] SoC: 86% Current: 8.28A Limit: 12.00A/-24.00A Temp: 38-40C Voltage: 55.594V 
+2021-09-28 10:44:38 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3975] [ ][3969] [ ][3970] [ ][3968] [ ][3970] [ ][3969] [ ][3968] [ ][3977] [ ][3969] [ ][3969] [ ][3969] [ ][3969] [ ][3969] [ ][3973] SoC: 86% Current: 8.74A Limit: 12.00A/-24.00A Temp: 35-37C Voltage: 55.584V 
+2021-09-28 10:44:38 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3972] [ ][3969] [ ][3969] [ ][3969] [ ][3969] [ ][3969] [ ][3968] [ ][3979] [ ][3969] [ ][3970] [ ][3970] [ ][3968] [ ][3970] [ ][3973] SoC: 86% Current: 8.72A Limit: 12.00A/-24.00A Temp: 37-38C Voltage: 55.584V 
+2021-09-28 11:11:28 [I|BAT Interface] Battery temp: 35.00 to 41.00 °C, case temp: 35.66 °C
+2021-09-28 11:11:28 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[3018.4W] INV_HV:[1133.2W] Total production: 4151.6W current feed-in limit: 100.00 %
+2021-09-28 11:41:28 [I|BAT Interface] Battery temp: 35.00 to 41.00 °C, case temp: 37.19 °C
+2021-09-28 11:41:28 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[2341.1W] INV_HV:[1195.3W] Total production: 3536.3W current feed-in limit: 100.00 %
+2021-09-28 11:50:53 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 491.54 V, PV Current = 4.86 A, PV Power = 2370.84 W
+2021-09-28 11:50:53 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 260.68 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 11:50:53 [I|PV Interface] Inverter INV_LV: AC Voltage = 233.57 V, AC Current = 7.16 A, AC Power = 1679.83 W, AC Apparent Power = 1670.18 VA, AC Reactive Power = 0.00 var
+2021-09-28 11:50:53 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 404.70 V, PV Current = 3.07 A, PV Power = 1242.51 W
+2021-09-28 11:50:53 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 201.21 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 11:50:53 [I|PV Interface] Inverter INV_HV: AC Voltage = 234.89 V, AC Current = 5.35 A, AC Power = 1256.91 W, AC Apparent Power = 1251.67 VA, AC Reactive Power = 0.00 var
+2021-09-28 11:51:54 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 56.87 V, Battery Current = 10.02 A, Battery Power = 569.53 W
+2021-09-28 12:08:02 Server Communicator: Error on establishing connection.
+2021-09-28 12:08:02 mbedtls_ssl_read returned -0x004C.
+2021-09-28 12:11:28 [I|BAT Interface] Battery temp: 35.00 to 40.00 °C, case temp: 36.31 °C
+2021-09-28 12:11:28 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[1783.4W] INV_HV:[1131.1W] Total production: 2914.5W current feed-in limit: 100.00 %
+2021-09-28 12:12:53 Server Communicator: Reconnected.
+2021-09-28 12:41:28 [I|BAT Interface] Battery temp: 34.00 to 40.00 °C, case temp: 35.17 °C
+2021-09-28 12:41:28 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[1527.8W] INV_HV:[1232.2W] Total production: 2760.0W current feed-in limit: 100.00 %
+2021-09-28 12:44:39 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][4064] [ ][4063] [ ][4063] [ ][4061] [ ][4064] [ ][4063] [ ][4063] [ ][4064] [ ][4064] [ ][4064] [ ][4064] [ ][4066] [ ][4064] [ ][4065] SoC: 100% Current: 0.00A Limit: 1.00A/-24.00A Temp: 38-40C Voltage: 56.892V 
+2021-09-28 12:44:39 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][4066] [ ][4064] [ ][4064] [ ][4064] [ ][4064] [ ][4065] [ ][4065] [ ][4064] [ ][4063] [ ][4063] [ ][4064] [ ][4064] [ ][4063] [ ][4064] SoC: 100% Current: 0.00A Limit: 1.00A/-24.00A Temp: 37-39C Voltage: 56.897V 
+2021-09-28 12:44:39 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][4066] [ ][4064] [ ][4065] [ ][4063] [ ][4064] [ ][4063] [ ][4064] [ ][4062] [ ][4063] [ ][4063] [ ][4063] [ ][4064] [ ][4063] [ ][4064] SoC: 100% Current: -0.01A Limit: 1.00A/-24.00A Temp: 34-37C Voltage: 56.891V 
+2021-09-28 12:44:39 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][4063] [ ][4064] [ ][4064] [ ][4064] [ ][4064] [ ][4064] [ ][4064] [ ][4065] [ ][4064] [ ][4065] [ ][4065] [ ][4064] [ ][4065] [ ][4065] SoC: 100% Current: -0.03A Limit: 1.40A/-24.00A Temp: 35-37C Voltage: 56.900V 
+2021-09-28 13:11:28 [I|BAT Interface] Battery temp: 34.00 to 40.00 °C, case temp: 34.69 °C
+2021-09-28 13:11:28 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[1405.2W] INV_HV:[1353.2W] Total production: 2758.3W current feed-in limit: 100.00 %
+2021-09-28 13:41:28 [I|BAT Interface] Battery temp: 34.00 to 39.00 °C, case temp: 36.39 °C
+2021-09-28 13:41:28 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[1155.7W] INV_HV:[1254.5W] Total production: 2410.2W current feed-in limit: 100.00 %
+2021-09-28 13:50:54 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 518.06 V, PV Current = 2.14 A, PV Power = 1109.10 W
+2021-09-28 13:50:54 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 273.66 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 13:50:54 [I|PV Interface] Inverter INV_LV: AC Voltage = 231.06 V, AC Current = 4.59 A, AC Power = 1071.53 W, AC Apparent Power = 1051.03 VA, AC Reactive Power = 0.00 var
+2021-09-28 13:50:54 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 405.16 V, PV Current = 3.37 A, PV Power = 1357.47 W
+2021-09-28 13:50:54 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 201.55 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 13:50:54 [I|PV Interface] Inverter INV_HV: AC Voltage = 233.14 V, AC Current = 5.91 A, AC Power = 1372.64 W, AC Apparent Power = 1374.68 VA, AC Reactive Power = 74.94 var
+2021-09-28 13:51:54 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 56.73 V, Battery Current = -0.01 A, Battery Power = -0.61 W
+2021-09-28 14:11:29 [I|BAT Interface] Battery temp: 33.00 to 39.00 °C, case temp: 35.66 °C
+2021-09-28 14:11:29 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[910.3W] INV_HV:[1411.6W] Total production: 2321.9W current feed-in limit: 100.00 %
+2021-09-28 14:41:29 [I|BAT Interface] Battery temp: 33.00 to 38.00 °C, case temp: 38.03 °C
+2021-09-28 14:41:29 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[686.1W] INV_HV:[1052.1W] Total production: 1738.2W current feed-in limit: 100.00 %
+2021-09-28 14:44:40 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][4062] [ ][4060] [ ][4060] [ ][4058] [ ][4061] [ ][4061] [ ][4061] [ ][4063] [ ][4062] [ ][4062] [ ][4061] [ ][4063] [ ][4062] [ ][4064] SoC: 100% Current: 1.72A Limit: 1.80A/-24.00A Temp: 37-38C Voltage: 56.860V 
+2021-09-28 14:44:40 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][4064] [ ][4062] [ ][4062] [ ][4061] [ ][4061] [ ][4062] [ ][4062] [ ][4063] [ ][4060] [ ][4061] [ ][4061] [ ][4062] [ ][4061] [ ][4063] SoC: 100% Current: 1.71A Limit: 1.80A/-24.00A Temp: 36-37C Voltage: 56.865V 
+2021-09-28 14:44:40 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][4064] [ ][4061] [ ][4063] [ ][4061] [ ][4062] [ ][4061] [ ][4062] [ ][4061] [ ][4061] [ ][4061] [ ][4061] [ ][4061] [ ][4060] [ ][4062] SoC: 100% Current: 1.58A Limit: 1.80A/-24.00A Temp: 33-35C Voltage: 56.861V 
+2021-09-28 14:44:40 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][4061] [ ][4061] [ ][4061] [ ][4062] [ ][4061] [ ][4062] [ ][4061] [ ][4064] [ ][4062] [ ][4062] [ ][4062] [ ][4061] [ ][4063] [ ][4063] SoC: 100% Current: 1.56A Limit: 1.70A/-24.00A Temp: 34-36C Voltage: 56.866V 
+2021-09-28 15:11:29 [I|BAT Interface] Battery temp: 33.00 to 38.00 °C, case temp: 38.27 °C
+2021-09-28 15:11:29 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[435.8W] INV_HV:[802.7W] Total production: 1238.5W current feed-in limit: 100.00 %
+2021-09-28 15:41:29 [I|BAT Interface] Battery temp: 32.00 to 38.00 °C, case temp: 37.74 °C
+2021-09-28 15:41:29 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[384.9W] INV_HV:[504.2W] Total production: 889.1W current feed-in limit: 100.00 %
+2021-09-28 15:50:54 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 496.10 V, PV Current = 0.64 A, PV Power = 315.18 W
+2021-09-28 15:50:54 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 261.42 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 15:50:54 [I|PV Interface] Inverter INV_LV: AC Voltage = 227.27 V, AC Current = 0.42 A, AC Power = -89.29 W, AC Apparent Power = 93.72 VA, AC Reactive Power = 28.47 var
+2021-09-28 15:50:54 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 394.56 V, PV Current = 1.11 A, PV Power = 438.47 W
+2021-09-28 15:50:54 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 196.35 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 15:50:54 [I|PV Interface] Inverter INV_HV: AC Voltage = 226.82 V, AC Current = 1.90 A, AC Power = 434.95 W, AC Apparent Power = 435.57 VA, AC Reactive Power = 23.18 var
+2021-09-28 15:51:54 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 56.42 V, Battery Current = 5.82 A, Battery Power = 328.40 W
+2021-09-28 16:11:29 [I|BAT Interface] Battery temp: 32.00 to 37.00 °C, case temp: 39.24 °C
+2021-09-28 16:11:29 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[230.6W] INV_HV:[314.4W] Total production: 545.0W current feed-in limit: 100.00 %
+2021-09-28 16:27:17 [I|BMZ] Module #A module order change:  [WARNING: Last faultline test more than 12h ago]
+2021-09-28 16:27:22 [I|BMZ] Module #B module order change:  [WARNING: Last faultline test more than 12h ago]
+2021-09-28 16:27:22 [I|BMZ] Module #C module order change:  [WARNING: Last faultline test more than 12h ago]
+2021-09-28 16:27:25 [I|BMZ] Module #D module order change:  [WARNING: Last faultline test more than 12h ago]
+2021-09-28 16:41:30 [I|BAT Interface] Battery temp: 32.00 to 37.00 °C, case temp: 37.18 °C
+2021-09-28 16:41:30 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[74.2W] INV_HV:[146.2W] Total production: 220.3W current feed-in limit: 100.00 %
+2021-09-28 16:44:41 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3917] [ ][3921] [ ][3921] [ ][3919] [ ][3922] [ ][3922] [ ][3925] [ ][3905] [ ][3924] [ ][3924] [ ][3923] [ ][3925] [ ][3923] [ ][3919] SoC: 90% Current: -16.73A Limit: 12.00A/-24.00A Temp: 36-37C Voltage: 54.890V 
+2021-09-28 16:44:41 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3919] [ ][3923] [ ][3922] [ ][3922] [ ][3922] [ ][3923] [ ][3925] [ ][3905] [ ][3921] [ ][3922] [ ][3923] [ ][3923] [ ][3922] [ ][3918] SoC: 90% Current: -16.69A Limit: 12.00A/-24.00A Temp: 35-36C Voltage: 54.890V 
+2021-09-28 16:44:41 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3919] [ ][3922] [ ][3924] [ ][3923] [ ][3923] [ ][3922] [ ][3926] [ ][3904] [ ][3922] [ ][3922] [ ][3921] [ ][3922] [ ][3920] [ ][3917] SoC: 90% Current: -16.54A Limit: 12.00A/-24.00A Temp: 32-34C Voltage: 54.887V 
+2021-09-28 16:44:41 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3917] [ ][3923] [ ][3924] [ ][3924] [ ][3924] [ ][3924] [ ][3927] [ ][3907] [ ][3924] [ ][3924] [ ][3924] [ ][3923] [ ][3924] [ ][3919] SoC: 91% Current: -16.52A Limit: 12.00A/-24.00A Temp: 33-35C Voltage: 54.908V 
+2021-09-28 17:11:30 [I|BAT Interface] Battery temp: 32.00 to 37.00 °C, case temp: 38.60 °C
+2021-09-28 17:11:30 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[10.8W] INV_HV:[24.2W] Total production:  35.0W current feed-in limit: 100.00 %
+2021-09-28 17:16:59 [I|INV_HV] Inverter is disconnected from grid
+2021-09-28 17:17:06 [I|INV_HV] Inverter is connected to grid.
+2021-09-28 17:18:09 [I|INV_HV] Inverter is disconnected from grid
+2021-09-28 17:41:30 [I|BAT Interface] Battery temp: 31.00 to 36.00 °C, case temp: 38.27 °C
+2021-09-28 17:41:30 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 17:50:54 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 138.82 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 17:50:54 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 245.16 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 17:50:54 [I|PV Interface] Inverter INV_LV: AC Voltage = 224.78 V, AC Current = 1.98 A, AC Power = 449.00 W, AC Apparent Power = 449.92 VA, AC Reactive Power = 28.70 var
+2021-09-28 17:50:54 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 8.81 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 17:50:54 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 5.66 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 17:50:54 [I|PV Interface] Inverter INV_HV: AC Voltage = 227.61 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2021-09-28 17:51:55 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 54.71 V, Battery Current = -8.71 A, Battery Power = -476.61 W
+2021-09-28 18:11:30 [I|BAT Interface] Battery temp: 31.00 to 36.00 °C, case temp: 38.07 °C
+2021-09-28 18:11:30 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 18:16:41 [I|BMZ] Module #B State Change: [Ok] 
+2021-09-28 18:16:41 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3904] [ ][3905] [ ][3904] [ ][3903] [ ][3905] [ ][3905] [ ][3905] [ ][3903] [ ][3905] [ ][3906] [ ][3905] [ ][3906] [ ][3905] [ ][3905] SoC: 83% Current: -2.24A Limit: 12.00A/-24.00A Temp: 34-36C Voltage: 54.666V 
+2021-09-28 18:16:41 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3905] [ ][3905] [ ][3905] [ ][3905] [ ][3905] [ ][3906] [ ][3906] [ ][3903] [ ][3904] [ ][3905] [ ][3905] [ ][3905] [ ][3905] [ ][3905] SoC: 83% Current: -2.24A Limit: 12.00A/-24.00A Temp: 33-34C Voltage: 54.669V 
+2021-09-28 18:16:41 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3906] [ ][3905] [ ][3906] [ ][3905] [ ][3905] [ ][3905] [ ][3906] [ ][3902] [ ][3905] [ ][3905] [ ][3905] [ ][3905] [ ][3904] [ ][3904] SoC: 83% Current: -2.33A Limit: 12.00A/-24.00A Temp: 31-33C Voltage: 54.668V 
+2021-09-28 18:16:41 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3903] [ ][3905] [ ][3906] [ ][3907] [ ][3906] [ ][3905] [ ][3905] [ ][3904] [ ][3907] [ ][3906] [ ][3905] [ ][3904] [ ][3907] [ ][3906] SoC: 84% Current: -2.34A Limit: 12.00A/-24.00A Temp: 31-33C Voltage: 54.676V 
+2021-09-28 18:41:31 [I|BAT Interface] Battery temp: 31.00 to 35.00 °C, case temp: 38.29 °C
+2021-09-28 18:41:31 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 19:11:31 [I|BAT Interface] Battery temp: 30.00 to 35.00 °C, case temp: 37.52 °C
+2021-09-28 19:11:31 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 19:35:51 [I|BMZ] Module #A State Change: [Ok] 
+2021-09-28 19:35:51 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3877] [ ][3876] [ ][3876] [ ][3875] [ ][3877] [ ][3877] [ ][3877] [ ][3875] [ ][3877] [ ][3877] [ ][3877] [ ][3878] [ ][3877] [ ][3877] SoC: 78% Current: -1.67A Limit: 12.00A/-24.00A Temp: 33-34C Voltage: 54.273V 
+2021-09-28 19:35:51 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3877] [ ][3878] [ ][3877] [ ][3877] [ ][3877] [ ][3878] [ ][3878] [ ][3876] [ ][3876] [ ][3877] [ ][3877] [ ][3878] [ ][3877] [ ][3877] SoC: 78% Current: -1.68A Limit: 12.00A/-24.00A Temp: 32-33C Voltage: 54.280V 
+2021-09-28 19:35:51 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3878] [ ][3877] [ ][3878] [ ][3877] [ ][3878] [ ][3877] [ ][3878] [ ][3874] [ ][3877] [ ][3877] [ ][3877] [ ][3878] [ ][3876] [ ][3877] SoC: 78% Current: -1.74A Limit: 12.00A/-24.00A Temp: 30-32C Voltage: 54.279V 
+2021-09-28 19:35:51 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3877] [ ][3878] [ ][3878] [ ][3878] [ ][3877] [ ][3878] [ ][3879] [ ][3876] [ ][3877] [ ][3878] [ ][3878] [ ][3878] [ ][3878] [ ][3877] SoC: 79% Current: -1.75A Limit: 12.00A/-24.00A Temp: 31-32C Voltage: 54.287V 
+2021-09-28 19:41:31 [I|BAT Interface] Battery temp: 30.00 to 34.00 °C, case temp: 37.43 °C
+2021-09-28 19:41:31 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 19:50:55 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 122.66 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 19:50:55 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 242.25 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 19:50:55 [I|PV Interface] Inverter INV_LV: AC Voltage = 232.73 V, AC Current = 1.21 A, AC Power = 280.87 W, AC Apparent Power = 282.86 VA, AC Reactive Power = 33.51 var
+2021-09-28 19:50:55 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 3.62 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 19:50:55 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 2.95 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 19:50:55 [I|PV Interface] Inverter INV_HV: AC Voltage = 232.49 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2021-09-28 19:51:56 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 54.12 V, Battery Current = -5.72 A, Battery Power = -309.63 W
+2021-09-28 20:11:31 [I|BAT Interface] Battery temp: 30.00 to 34.00 °C, case temp: 37.07 °C
+2021-09-28 20:11:31 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 20:41:31 [I|BAT Interface] Battery temp: 30.00 to 34.00 °C, case temp: 37.01 °C
+2021-09-28 20:41:31 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 21:11:29 [I|BAT Interface] Battery temp: 29.00 to 33.00 °C, case temp: 36.80 °C
+2021-09-28 21:11:29 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 21:35:48 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3836] [ ][3836] [ ][3836] [ ][3834] [ ][3837] [ ][3837] [ ][3837] [ ][3835] [ ][3837] [ ][3837] [ ][3837] [ ][3838] [ ][3837] [ ][3837] SoC: 72% Current: -1.66A Limit: 12.00A/-24.00A Temp: 32-33C Voltage: 53.711V 
+2021-09-28 21:35:48 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3837] [ ][3837] [ ][3836] [ ][3836] [ ][3836] [ ][3837] [ ][3837] [ ][3834] [ ][3835] [ ][3836] [ ][3836] [ ][3836] [ ][3836] [ ][3836] SoC: 72% Current: -1.68A Limit: 12.00A/-24.00A Temp: 31-32C Voltage: 53.705V 
+2021-09-28 21:35:48 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3838] [ ][3837] [ ][3838] [ ][3837] [ ][3838] [ ][3837] [ ][3838] [ ][3833] [ ][3836] [ ][3836] [ ][3836] [ ][3837] [ ][3836] [ ][3836] SoC: 72% Current: -1.70A Limit: 12.00A/-24.00A Temp: 29-31C Voltage: 53.713V 
+2021-09-28 21:35:48 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3836] [ ][3837] [ ][3837] [ ][3838] [ ][3837] [ ][3838] [ ][3838] [ ][3836] [ ][3837] [ ][3837] [ ][3838] [ ][3836] [ ][3837] [ ][3837] SoC: 72% Current: -1.70A Limit: 12.00A/-24.00A Temp: 30-31C Voltage: 53.719V 
+2021-09-28 21:41:29 [I|BAT Interface] Battery temp: 29.00 to 33.00 °C, case temp: 36.48 °C
+2021-09-28 21:41:29 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 21:50:53 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 128.45 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 21:50:53 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 240.22 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 21:50:53 [I|PV Interface] Inverter INV_LV: AC Voltage = 232.07 V, AC Current = 1.08 A, AC Power = 245.70 W, AC Apparent Power = 247.48 VA, AC Reactive Power = 29.64 var
+2021-09-28 21:50:53 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 3.45 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 21:50:53 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 2.82 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 21:50:53 [I|PV Interface] Inverter INV_HV: AC Voltage = 232.59 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2021-09-28 21:51:54 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 53.57 V, Battery Current = -4.92 A, Battery Power = -263.76 W
+2021-09-28 22:01:26 [I|BAT Interface] BMS: -5.22A, 53.63V Inverter: -4.67A, 53.55V, Offset: 0.05V
+2021-09-28 22:01:26 [I|BAT Interface] Measured contact resistance: 0.0065
+2021-09-28 22:11:29 [I|BAT Interface] Battery temp: 29.00 to 33.00 °C, case temp: 36.43 °C
+2021-09-28 22:11:29 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 22:12:32 [I|BAT Interface] BMS: -25.53A, 53.41V Inverter: -24.92A, 53.15V, Offset: 0.05V
+2021-09-28 22:12:32 [I|BAT Interface] Measured contact resistance: 0.0081
+2021-09-28 22:14:18 [I|BAT Interface] BMS: -35.19A, 53.17V Inverter: -34.68A, 52.83V, Offset: 0.05V
+2021-09-28 22:14:18 [I|BAT Interface] Measured contact resistance: 0.0082
+2021-09-28 22:20:28 [I|BAT Interface] BMS: -48.08A, 52.72V Inverter: -47.51A, 52.28V, Offset: 0.05V
+2021-09-28 22:20:28 [I|BAT Interface] Measured contact resistance: 0.0082
+2021-09-28 22:26:50 [I|BAT Interface] BMS: -68.09A, 52.22V Inverter: -67.10A, 51.59V, Offset: 0.05V
+2021-09-28 22:26:50 [I|BAT Interface] Measured contact resistance: 0.0084
+2021-09-28 22:27:17 [I|BMZ] Faultline test started.
+2021-09-28 22:27:17 [I|BMZ] Module #A module order change:  [ALARM: Faultline test must be executed soon.]
+2021-09-28 22:27:21 [I|BMZ] Module #B module order change:  [ALARM: Faultline test must be executed soon.]
+2021-09-28 22:27:22 [I|BMZ] Module #C module order change:  [ALARM: Faultline test must be executed soon.]
+2021-09-28 22:27:25 [I|BMZ] Module #D module order change:  [ALARM: Faultline test must be executed soon.]
+2021-09-28 22:27:27 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:27:35 [I|BAT Interface] BMS: -70.17A, 52.13V Inverter: -69.33A, 51.47V, Offset: 0.05V
+2021-09-28 22:27:35 [I|BAT Interface] Measured contact resistance: 0.0088
+2021-09-28 22:27:37 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:27:47 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:27:58 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:28:08 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:28:18 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:28:28 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:28:38 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:28:49 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:28:49 [I|BMZ] Module #A module order change:  [No order set]
+2021-09-28 22:28:52 [I|BMZ] Module #A module order change:  [ALARM: Faultline test must be executed soon.]
+2021-09-28 22:28:59 [W|BMZ] Module B failed (not pulled) faultline test.
+2021-09-28 22:29:09 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:29:19 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:29:29 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:29:40 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:29:50 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:30:00 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:30:10 [I|BMZ] Module #B module order change:  [No order set]
+2021-09-28 22:30:10 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:30:13 [I|BMZ] Module #B module order change:  [ALARM: Faultline test must be executed soon.]
+2021-09-28 22:30:20 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:30:20 [I|BMZ] Module #A module order change:  [No order set]
+2021-09-28 22:30:23 [I|BMZ] Module #A module order change:  [ALARM: Faultline test must be executed soon.]
+2021-09-28 22:30:31 [W|BMZ] Module B failed (not pulled) faultline test.
+2021-09-28 22:30:41 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:30:51 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:31:01 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:31:11 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:31:22 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:31:32 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:31:42 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:31:52 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:31:52 [I|BMZ] Module #A module order change:  [No order set]
+2021-09-28 22:31:55 [I|BMZ] Module #A module order change:  [ALARM: Faultline test must be executed soon.]
+2021-09-28 22:32:02 [W|BMZ] Module B failed (not pulled) faultline test.
+2021-09-28 22:32:13 [W|BMZ] Module A failed (not pulled) faultline test.
+2021-09-28 22:32:23 [I|BMZ] Module #A faultline state change:  [Faultline pulled]
+2021-09-28 22:32:24 [I|BMZ] Module #A faultline state change:  inactive
+2021-09-28 22:32:25 [I|BMZ] Module #A module order change:  [OK: Last faultline test less than 12h ago]
+2021-09-28 22:32:35 [W|BMZ] Module B failed (not pulled) faultline test.
+2021-09-28 22:32:45 [W|BMZ] Module B failed (not pulled) faultline test.
+2021-09-28 22:32:55 [W|BMZ] Module B failed (not pulled) faultline test.
+2021-09-28 22:33:06 [W|BMZ] Module B failed (not pulled) faultline test.
+2021-09-28 22:33:16 [W|BMZ] Module B failed (not pulled) faultline test.
+2021-09-28 22:33:26 [W|BMZ] Module B failed (not pulled) faultline test.
+2021-09-28 22:33:36 [W|BMZ] Module B failed (not pulled) faultline test.
+2021-09-28 22:33:46 [I|BMZ] Module #B module order change:  [No order set]
+2021-09-28 22:33:46 [W|BMZ] Module B failed (not pulled) faultline test.
+2021-09-28 22:33:47 [I|BMZ] Module #C module order change:  [No order set]
+2021-09-28 22:33:49 [I|BMZ] Module #B module order change:  [ALARM: Faultline test must be executed soon.]
+2021-09-28 22:33:50 [I|BMZ] Module #C module order change:  [ALARM: Faultline test must be executed soon.]
+2021-09-28 22:33:57 [I|BMZ] Module #B faultline state change:  [Faultline pulled]
+2021-09-28 22:33:57 [I|BMZ] Module #B faultline state change:  inactive
+2021-09-28 22:33:58 [I|BMZ] Module #B module order change:  [OK: Last faultline test less than 12h ago]
+2021-09-28 22:34:27 [W|BMZ] Module C failed faultline test.
+2021-09-28 22:34:37 [I|BMZ] Module #C faultline state change:  [Faultline pulled]
+2021-09-28 22:34:37 [I|BMZ] Module #C module order change:  [OK: Last faultline test less than 12h ago]
+2021-09-28 22:34:38 [I|BMZ] Module #C faultline state change:  inactive
+2021-09-28 22:34:39 [I|BMZ] Module #D faultline state change:  [Faultline pulled]
+2021-09-28 22:34:39 [I|BMZ] Module #D faultline state change:  inactive
+2021-09-28 22:34:40 [I|BMZ] Module #D module order change:  [OK: Last faultline test less than 12h ago]
+2021-09-28 22:34:40 [I|BMZ] Faultline test passed by all modules.
+2021-09-28 22:41:30 [I|BAT Interface] Battery temp: 30.00 to 34.00 °C, case temp: 34.79 °C
+2021-09-28 22:41:30 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 23:11:30 [I|BAT Interface] Battery temp: 30.00 to 33.00 °C, case temp: 36.88 °C
+2021-09-28 23:11:30 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 23:35:49 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3715] [ ][3716] [ ][3715] [ ][3713] [ ][3716] [ ][3716] [ ][3716] [ ][3715] [ ][3717] [ ][3717] [ ][3717] [ ][3718] [ ][3717] [ ][3718] SoC: 59% Current: -1.27A Limit: 12.00A/-24.00A Temp: 32-33C Voltage: 52.026V 
+2021-09-28 23:35:49 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3717] [ ][3717] [ ][3716] [ ][3716] [ ][3716] [ ][3717] [ ][3717] [ ][3716] [ ][3716] [ ][3717] [ ][3717] [ ][3717] [ ][3717] [ ][3717] SoC: 59% Current: -1.29A Limit: 12.00A/-24.00A Temp: 31-32C Voltage: 52.033V 
+2021-09-28 23:35:49 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3719] [ ][3716] [ ][3718] [ ][3716] [ ][3718] [ ][3716] [ ][3718] [ ][3713] [ ][3715] [ ][3715] [ ][3715] [ ][3716] [ ][3715] [ ][3715] SoC: 59% Current: -1.21A Limit: 12.00A/-24.00A Temp: 29-31C Voltage: 52.025V 
+2021-09-28 23:35:49 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3716] [ ][3716] [ ][3717] [ ][3718] [ ][3718] [ ][3718] [ ][3718] [ ][3715] [ ][3716] [ ][3717] [ ][3718] [ ][3715] [ ][3716] [ ][3716] SoC: 60% Current: -1.20A Limit: 12.00A/-24.00A Temp: 30-31C Voltage: 52.034V 
+2021-09-28 23:41:30 [I|BAT Interface] Battery temp: 29.00 to 33.00 °C, case temp: 36.32 °C
+2021-09-28 23:41:30 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2021-09-28 23:50:53 [I|PV Interface] Inverter INV_LV, Input 0: PV Voltage = 126.76 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 23:50:53 [I|PV Interface] Inverter INV_LV, Input 1: PV Voltage = 233.00 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 23:50:53 [I|PV Interface] Inverter INV_LV: AC Voltage = 232.26 V, AC Current = 0.81 A, AC Power = 180.56 W, AC Apparent Power = 184.96 VA, AC Reactive Power = 40.12 var
+2021-09-28 23:50:53 [I|PV Interface] Inverter INV_HV, Input 0: PV Voltage = 3.34 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 23:50:53 [I|PV Interface] Inverter INV_HV, Input 1: PV Voltage = 2.75 V, PV Current = 0.00 A, PV Power = 0.00 W
+2021-09-28 23:50:53 [I|PV Interface] Inverter INV_HV: AC Voltage = 232.82 V, AC Current = 0.00 A, AC Power = 0.00 W, AC Apparent Power = 0.00 VA, AC Reactive Power = 0.00 var
+2021-09-28 23:51:54 [I|BAT Interface] Inverter INV_LV: Battery Voltage = 51.87 V, Battery Current = -3.88 A, Battery Power = -201.56 W
