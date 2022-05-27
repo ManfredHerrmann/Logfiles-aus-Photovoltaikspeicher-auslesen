@@ -1,11 +1,13 @@
 # Logfile Download aus Photovoltaikspeicher auslesen
 Dieses Python Skripte lesen die Logfiles aus einem Pythovoltaik Speicher eines Herstellers aus Leipzig aus.
 
-### LogfileDownload_all.py
+#### LogfileDownload_all.py
 
-Dieses Skript liest alle Logfiles aus dem Speicher aus. Dieses Skript ist entwickelt worden, um erstmalig alle Logfiles aus dem Speicher zu lesen, um hier ebenfalls eine Historie zu besitzen. Man kann das Skript auch mehrfach benutzen und vorhandene Logfiles werden dann einfach überschrieben. 
+Dieses Skript liest alle Logfiles aus dem Speicher aus. Es ist entwickelt worden, um erstmalig alle Logfiles aus dem Speicher zu lesen, damit legt man sich eine Historie an. Das Skript kann natülich auch mehrfach gestartet werden. Es wird wieder bei dem Startdatum begonnen welches in der **config.ini** hinterlegt ist und läuft bis zum aktuelle Datum durch. Sind für einen Zeitraum schon Logfiles vorhanden werden sie nicht wieder neu geschrieben (warum ich diese nicht einfach überschreibe soll sich jeder selber denken). Nach dem ersten erfolgreichen Durchlaf kann das Startdatum in der **config.ini** auch näher an das aktuelle Datum herranrücken. Wir haben die vergangenen Logfiles ja schon.
 
-Das Skript wird mittels Konfigurationsfile gesteuert. In der der Datei **config.ini** können verschiedenste Parameter eingestellt werden. 
+Ich habe schon die **config.ini** im vorherigen Abschnitt erwähnt. Aber was macht diese Datei eigentlich? Die **config.ini** ist eine einfache Art und weise Skripte anzupassen ohne den eigentlichen Quellcode anzupassen.
+
+Der Aufbau der Datei sieht dann so aus:
 
 ```
 [conf]
@@ -17,7 +19,7 @@ pfad = log/
 fortschreiben = False
 ```
 
-#### Parameter config.ini
+Im folgenden Abschnitt erkläre ich kurz was die einzelnen Parameter bedeuten und welche Auswirkungen sie auf unser Skript haben.
 
 **ipSpeicher** ist die IP Adresse des Stromspeichers
 

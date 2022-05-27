@@ -54,17 +54,19 @@ def logread(config):
                 try:
                     html = ""
                     html = urlopen(LogAddress).read().decode("utf-8")
-                    print(str(tag).zfill(2) + "." + str(monat).zfill(2) + "." + str(jahr) + " Logfile geschrieben")
-
                     if str(config["conf"]["fortschreiben"]) == "True":
                         datei = open(config["conf"]["pfad"] + "logfile.txt", "a")
                     else:
                         dateiname = (
                             config["conf"]["pfad"] + str(jahr) + "-" + str(monat).zfill(2) + "-" + str(tag).zfill(2) + ".txt"
                         )
-                        datei = open(dateiname, "w")
+                        try:
+                            datei = open(dateiname, "x")
+                            datei.write(html)
+                            print(str(tag).zfill(2) + "." + str(monat).zfill(2) + "." + str(jahr) + " Logfile geschrieben")
+                        except:
+                            print(str(tag).zfill(2) + "." + str(monat).zfill(2) + "." + str(jahr) + " Lofgile schon vorhanden")
 
-                    datei.write(html)
                 except:
                     if html != "":
                         print(
