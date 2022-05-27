@@ -13,6 +13,7 @@ Erstmalige Veröffentlichung. Bitte die README.md beachten.
 * Skript ist per Configfile konfigurierbar.
 * Es kann ein genauer Startzeitpunkt eingestellt werden.
 * Das Skript beendet sich nach dem Lese des Tagesaktuellen Logfiles
+* Download beschränken auf aktuellen Tag, Monat, Jahr
 
 **Anpassungen: LogfileDownload_cronjob.py**
 
