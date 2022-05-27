@@ -816,4 +816,8 @@
 2022-05-27 23:03:58 [I|BMZ] Module #D faultline state change:  inactive
 2022-05-27 23:03:58 [I|BMZ] Module #D module order change:  [OK: Last faultline test less than 12h ago]
 2022-05-27 23:03:58 [I|BMZ] Faultline test passed by all modules.
-2022-05-27 23:05:24 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0234/0.1882, mean(2min)/max(2min): 0.0563/0.1090, mean(5min)/max(5min): 0.0532/0.0656
+2022-05-27 23:05:24 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0234/0.1882, mean(2min)/max(2min): 0.0563/0.1090, mean(5min)/max(5min): 0.0532/0.0656
+2022-05-27 23:25:24 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0001/0.1677, mean(2min)/max(2min): 0.0389/0.0703, mean(5min)/max(5min): 0.0332/0.0569
+2022-05-27 23:25:45 [I|BAT Interface] Battery temp: 28.00 to 32.00 °C, case temp: 35.39 °C
+2022-05-27 23:25:45 [I|PV Interface] Protocol: 0xa0, No external inverter.  INV_LV:[0.0W] INV_HV:[0.0W] Total production:  -0.0W current feed-in limit: 100.00 %
+2022-05-27 23:45:32 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0382/0.2084, mean(2min)/max(2min): 0.0632/0.0761, mean(5min)/max(5min): 0.0528/0.0539

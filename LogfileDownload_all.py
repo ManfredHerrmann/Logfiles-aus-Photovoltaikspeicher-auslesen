@@ -21,6 +21,18 @@ def logread(config):
     bisMonat = int(time.strftime("%m"))
     bisTag = int(time.strftime("%d"))
 
+    if vonJahr == 0:
+        vonJahr = bisJahr
+        config["conf"]["fortschreiben"] = "False"
+
+    if vonMonat == 0:
+        vonMonat = bisMonat
+        config["conf"]["fortschreiben"] = "False"
+
+    if vonTag == 0:
+        vonTag = bisTag
+        config["conf"]["fortschreiben"] = "False"
+
     bisDatum = date(bisJahr, bisMonat, bisTag)
 
     global fehler
