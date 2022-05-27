@@ -37,7 +37,7 @@ def main():
     if args.ip == None:
         print("ACHTUNG!!!")
         print("Keine IP Adresse angegeben")
-        print("Bitte den Parameter --ip mit der IP Adresse des Speichers angeben. Beispiel --ip 192.168.178.23")
+        print("Bitte den Parameter -ip mit der IP Adresse des Speichers angeben. Beispiel -ip 192.168.178.23")
         exit()
     if args.pfad == None:
         args.pfad = ""
