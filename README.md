@@ -1,7 +1,7 @@
 # Logfile Download aus Photovoltaikspeicher auslesen
 Dieses Python Skripte lesen die Logfiles aus einem Pythovoltaik Speicher eines Herstellers aus Leipzig aus.
 
-###LogfileDownload_all.py
+### LogfileDownload_all.py
 
 Dieses Skript liest alle Logfiles aus dem Speicher aus. Dieses Skript ist entwickelt worden, um erstmalig alle Logfiles aus dem Speicher zu lesen, um hier ebenfalls eine Historie zu besitzen. Man kann das Skript auch mehrfach benutzen und vorhandene Logfiles werden dann einfach überschrieben. 
 
@@ -20,7 +20,7 @@ Das Skript liest immer ein komplettes Jahr. Also geben wir z.B. dem Parameter **
 beim 01.01.2021 beginnen zu lesen. Sollte es an diesem Tag noch kein Logfile geben, weil der Speicher erst am 06.07.2021 das erstem in Betrieb gegangen ist so bekommt man die Rückmeldung das kein Logfile geschrieben wurde. Das passiert so lange bis der 31.12. des aktuellen Jahres erreicht worden ist.
 
 
-###LogfileDownload_cronjob.py
+### LogfileDownload_cronjob.py
 
 Dieses Skript ist für die Zeitgesteuerte Ausführung entwickelt worden. Hier wird immer nur das vom aktuellen Tag gültige Logfile aus dem Speicher gelesen und gespeichert. Die Systemzeit ist hierfür maßgeblich.
 Da ich noch viel mehr Parameter aus dem Speicher auslese und in eine SQL Datenbank schreibe habe ich mir einen kleinen Raspberry PI in mein heimisches Netzwerk gehängt der 24/7 mitläuft. Die Zeitsteuerung habe ich mittels Cronjob auf dem Raspberry umgesetzt. Dazu müssen folgende Parameter in der **crontab** gesetzt werden.
