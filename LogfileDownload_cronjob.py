@@ -17,14 +17,8 @@ jahr = int(time.strftime("%Y"))
 monat = int(time.strftime("%m"))
 tag = int(time.strftime("%d"))
 
-#IP Adresse des Speichers
 ipAddress = "192.168.178.101"
-
-# Pfad in dem die Logs gespeichert werden sollen. Ausgehend vom aktuellen Verzeichnis.
-# Wichtig ist das am Ende ein / eingefügt wird.
-# Trägt man gar nichts ein werden die Logfiles im aktuellen verzeichnis gespeichert.
 # pfad = "/home/xxxx/PVAnlage/Logfiles/Logfiles/"
-
 pfad = ""  # Speichert die Logfiles im aktuellen Verzeichnis.
 
 LogAddress = "http://" + ipAddress + "/log/" + str(jahr) + "/" + str(monat).zfill(2) + "/" + str(tag).zfill(2) + ".log"

@@ -3,6 +3,8 @@
 Zur Verwendung der Python Scripte ist es notwendig eine funktionierende Python3 umgebung installiert zu haben.
 Diese kann man sich auf der Seite https://www.python.org/ herunterladen.
 
+**Alles hier beschriebene ist ohne Gewähr und Rechtspflicht und jeder handelt auf eigene Gefahr. Ich hafte nicht für schäden aller Art. Wer nicht weiß was er tut sollte es besser lassen.**
+
 ### Python umgebung installieren
 
 #### Windows
