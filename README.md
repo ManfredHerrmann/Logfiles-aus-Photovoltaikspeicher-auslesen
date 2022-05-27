@@ -5,29 +5,30 @@ Dieses Python Skripte lesen die Logfiles aus einem Pythovoltaik Speicher eines H
 
 Dieses Skript liest alle Logfiles aus dem Speicher aus. Dieses Skript ist entwickelt worden, um erstmalig alle Logfiles aus dem Speicher zu lesen, um hier ebenfalls eine Historie zu besitzen. Man kann das Skript auch mehrfach benutzen und vorhandene Logfiles werden dann einfach überschrieben. 
 
-Es wird per Kommandozeilenparameter gesteuert. Die ich hier kurz erkläre.
+Das Skript wird mittels Konfigurationsfile gesteuert. In der der Datei **config.ini** können verschiedenste Parameter eingestellt werden. 
 
-**-jahr**
-    definiert das Jahr in dem der Speicher in Betrieb genommen worden ist.
+```
+[conf]
+ipSpeicher = 192.168.178.10
+tag = 3
+monat = 9
+jahr = 2021
+pfad = log/
+fortschreiben = False
+```
 
-**-ip** 
-    Gibt die IP-Adresse des Speichers an. Diese kann im Display direkt am Speicher abgelesen werden.
+#### Parameter config.ini
 
-**-pfad**
-    hier gibt man den Speicherpfad der runtergeladenen Logfiles an.
-    
-Das Skript liest immer ein komplettes Jahr. Also geben wir z.B. dem Parameter **jahr** 2021 mit dann wird das Skript
-beim 01.01.2021 beginnen zu lesen. Sollte es an diesem Tag noch kein Logfile geben, weil der Speicher erst am 06.07.2021 das erstem in Betrieb gegangen ist so bekommt man die Rückmeldung das kein Logfile geschrieben wurde. Das passiert so lange bis der 31.12. des aktuellen Jahres erreicht worden ist.
+**ipSpeicher** ist die IP Adresse des Stromspeichers
 
-### Beispiel:
+**tag**, **monat** und **jahr** beschreiben ab welchem Datum die Logs gelesen werden sollen. Idealerweise sollte das der Tag der in Betriebnahme sein. Es ist aber auch Möglich für tag, Monat eine *1* einzusetzen. Dann wird am 01.01.jahr angefangen die Logs zu lesen. Sollte es kein Logfile geben bekommt man die Meldung kein Eintrag im Lofgile oder Logfile nicht vorhanden
 
-**python LogfileDownload_all.py -jahr 2021 -ip 192.168.178.22 -pfad logfiles/**
+**pfad** Hier kann man festlegen wohin die Logfiles geschrieben werden. Es ist darauf zu achten das am Ende immer ein    \ (Backslash) angefügt wird. Möchte man das alle Logfiles unterhalb des aktullen Ordners abgelgt werden braucht man nur logfiles\ schreiben. Aber am besten man gibt einen absoluten Pfad ein wie z.B. e:\dokumente\stromspeicher\logfiles\ dann ist es egal aus welchen Ordner man das Skript startet. Wird hingegen kein Pfad angegeben als pfad = dann werden alle Logfiles im aktuellen Ordner angezeigt.
 
-Mit diesem Aufruf werden die Logfiles in einem Ordner (logfiles) unterhalb des Ordners mit dem Skript geschrieben. Besser ist es man gibt den absouluten Pfad an. Also z.B. **d:\meinedaten\logfiles** dann ist es völlig egal von wo aus man das Skript startet. Die Logfiles werden immer in den Ordner geschrieben.
+**fortschreiben** kennt zwei Zustände True und False (unbeding auf Groß und Kleinschreibung achten)
+Ist der Schalter im Zustand True werden alle Logfiles in eine Datei geschrieben. Ist der Schalter dagegen im Zustand False wird für jeden Tag eine neue Datei angelegt.
 
-
-
-### LogfileDownload_cronjob.py
+#### LogfileDownload_cronjob.py
 
 Dieses Skript ist für die Zeitgesteuerte Ausführung entwickelt worden. Hier wird immer nur das vom aktuellen Tag gültige Logfile aus dem Speicher gelesen und gespeichert. Die Systemzeit ist hierfür maßgeblich. 
 Da ich noch viel mehr Parameter aus dem Speicher auslese und in eine SQL Datenbank schreibe habe ich mir einen kleinen Raspberry PI in mein heimisches Netzwerk gehängt der 24/7 mitläuft. Die Zeitsteuerung habe ich mittels Cronjob auf dem Raspberry umgesetzt. Dazu müssen folgende Parameter in der **crontab** gesetzt werden.
@@ -36,8 +37,7 @@ Das Skript kann selbstverständlich auch auf einem Windows System gestartet werd
 
 #### Zeitsteuerung unter Linux
 
-Wie schon erwähnt benutze ich unter Linux einen Cronjob um die Zeitsteuerung zu verwirklichen. Dazu muss man nur in die 
-**crontab** mittels 
+Wie schon erwähnt benutze ich unter Linux einen Cronjob um die Zeitsteuerung zu verwirklichen. Dazu muss man nur in die **crontab** mittels 
 
 ```
 crontab -e

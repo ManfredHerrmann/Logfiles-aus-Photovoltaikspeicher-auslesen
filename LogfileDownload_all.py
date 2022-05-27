@@ -72,7 +72,14 @@ def logread(config):
                         )
                         fehler += 1
                     else:
-                        print(str(tag).zfill(2) + "." + str(monat).zfill(2) + "." + str(jahr) + " Noch kein Eintrag im Lofgile")
+                        print(
+                            str(tag).zfill(2)
+                            + "."
+                            + str(monat).zfill(2)
+                            + "."
+                            + str(jahr)
+                            + " kein Eintrag im Lofgile oder Logfile nicht vorhanden"
+                        )
                     continue
             vonTag = 1
         vonMonat = 1
