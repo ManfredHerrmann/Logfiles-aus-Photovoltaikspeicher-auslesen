@@ -1,48 +1,91 @@
-from ast import arg
-from re import T
 from urllib.request import urlopen
-import calendar
+from datetime import date
 import time
+import calendar
+import configparser
+import os
 
-import argparse
+
+def readConfig():
+    config = configparser.ConfigParser()
+    config.read("config.ini")
+    return config
 
 
-def logread(args):
-    for jahr in range(int(args.jahr), int(time.strftime("%Y")) + 1):
-        for monat in range(1, 12 + 1):
-            for tag in range(1, calendar.monthrange(jahr, monat)[1] + 1):
+def logread(config):
+    vonJahr = int(config["conf"]["jahr"])
+    vonMonat = int(config["conf"]["monat"])
+    vonTag = int(config["conf"]["tag"])
+
+    bisJahr = int(time.strftime("%Y"))
+    bisMonat = int(time.strftime("%m"))
+    bisTag = int(time.strftime("%d"))
+
+    bisDatum = date(bisJahr, bisMonat, bisTag)
+
+    global fehler
+    fehler = 0
+
+    try:
+        if str(config["conf"]["fortschreiben"]) == "True":
+            os.remove(config["conf"]["pfad"] + "logfile.txt")
+    except:
+        pass
+
+    for jahr in range(vonJahr, bisJahr + 1):
+        for monat in range(vonMonat, 12 + 1):
+            for tag in range(vonTag, calendar.monthrange(jahr, monat)[1] + 1):
+                nowDatum = date(jahr, monat, tag)
+                if nowDatum > bisDatum:
+                    return
+
                 LogAddress = (
-                    "http://" + args.ip + "/log/" + str(jahr) + "/" + str(monat).zfill(2) + "/" + str(tag).zfill(2) + ".log"
+                    "http://"
+                    + str(config["conf"]["ipSpeicher"])
+                    + "/log/"
+                    + str(jahr)
+                    + "/"
+                    + str(monat).zfill(2)
+                    + "/"
+                    + str(tag).zfill(2)
+                    + ".log"
                 )
-                dateiname = args.pfad + str(jahr) + "-" + str(monat).zfill(2) + "-" + str(tag).zfill(2) + ".txt"
+
                 try:
+                    html = ""
                     html = urlopen(LogAddress).read().decode("utf-8")
-                    print(str(jahr) + "." + str(monat).zfill(2) + "." + str(tag).zfill(2) + " Logfile geschrieben")
-                    datei = open(dateiname, "w")
-                    # datei = open("logfile.txt", "a")
+                    print(str(tag).zfill(2) + "." + str(monat).zfill(2) + "." + str(jahr) + " Logfile geschrieben")
+
+                    if str(config["conf"]["fortschreiben"]) == "True":
+                        datei = open(config["conf"]["pfad"] + "logfile.txt", "a")
+                    else:
+                        dateiname = (
+                            config["conf"]["pfad"] + str(jahr) + "-" + str(monat).zfill(2) + "-" + str(tag).zfill(2) + ".txt"
+                        )
+                        datei = open(dateiname, "w")
+
                     datei.write(html)
                 except:
-                    print(str(jahr) + "." + str(monat).zfill(2) + "." + str(tag).zfill(2) + " Kein Logfile geschrieben")
+                    if html != "":
+                        print(
+                            str(tag).zfill(2) + "." + str(monat).zfill(2) + "." + str(jahr) + " Fehler kein Lofgile geschrieben"
+                        )
+                        fehler += 1
+                    else:
+                        print(str(tag).zfill(2) + "." + str(monat).zfill(2) + "." + str(jahr) + " Noch kein Eintrag im Lofgile")
                     continue
+            vonTag = 1
+        vonMonat = 1
 
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-jahr")
-    parser.add_argument("-ip")
-    parser.add_argument("-pfad")
-    args = parser.parse_args()
-    if args.jahr == None:
-        args.jahr = time.strftime("%Y")
-    if args.ip == None:
-        print("ACHTUNG!!!")
-        print("Keine IP Adresse angegeben")
-        print("Bitte den Parameter -ip mit der IP Adresse des Speichers angeben. Beispiel -ip 192.168.178.23")
-        exit()
-    if args.pfad == None:
-        args.pfad = ""
-
-    logread(args)
+    logread(config=readConfig())
+    print()
+    if fehler == 0:
+        print("Skript wurde ohne Fehler beendet")
+    else:
+        print("Es konnten {0} Logfiles nicht gelesen bzw. geschrieben werden".format(fehler))
+    print()
 
 
 if __name__ == "__main__":
