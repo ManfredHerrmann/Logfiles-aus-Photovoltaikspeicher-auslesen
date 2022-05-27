@@ -19,11 +19,11 @@ Es wird per Kommandozeilenparameter gesteuert. Die ich hier kurz erkläre.
 Das Skript liest immer ein komplettes Jahr. Also geben wir z.B. dem Parameter **jahr** 2021 mit dann wird das Skript
 beim 01.01.2021 beginnen zu lesen. Sollte es an diesem Tag noch kein Logfile geben, weil der Speicher erst am 06.07.2021 das erstem in Betrieb gegangen ist so bekommt man die Rückmeldung das kein Logfile geschrieben wurde. Das passiert so lange bis der 31.12. des aktuellen Jahres erreicht worden ist.
 
-#### Beispiel:
+### Beispiel:
 
-**python LogfileDownload_all.py -jahr 2021 -ip 192.168.178.22 -pfad log/**
+**python LogfileDownload_all.py -jahr 2021 -ip 192.168.178.22 -pfad logfiles/**
 
-Mit diesem Aufruf werden die Logfiles in einem Ordner unterhalb des Ordners mit dem Skript geschrieben wenn dieses aus dem Ordner heraus gestartet wird. Besser ist es man gibt den absouluten Ordner an. Also z.B. **d:\meinedaten\logfiles** dann ist es völlig egal von wo aus man das Skript startet.
+Mit diesem Aufruf werden die Logfiles in einem Ordner (logfiles) unterhalb des Ordners mit dem Skript geschrieben. Besser ist es man gibt den absouluten Pfad an. Also z.B. **d:\meinedaten\logfiles** dann ist es völlig egal von wo aus man das Skript startet. Die Logfiles werden immer in den Ordner geschrieben.
 
 
 
