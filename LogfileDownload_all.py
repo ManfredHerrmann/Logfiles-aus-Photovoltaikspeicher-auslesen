@@ -73,7 +73,11 @@ def logread(config):
                             config["conf"]["pfad"] + str(jahr) + "-" + str(monat).zfill(2) + "-" + str(tag).zfill(2) + ".txt"
                         )
                         try:
-                            datei = open(dateiname, "x")
+                            if nowDatum != bisDatum:
+                                writeOption = "x"
+                            else:
+                                writeOption = "w"
+                            datei = open(dateiname, writeOption)
                             datei.write(html)
                             print(str(tag).zfill(2) + "." + str(monat).zfill(2) + "." + str(jahr) + " Logfile geschrieben")
                         except:
