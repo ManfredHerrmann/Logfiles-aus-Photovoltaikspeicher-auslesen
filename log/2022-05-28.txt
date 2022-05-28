@@ -1,0 +1,14 @@
+2022-05-28 00:00:00 [I|SYS] Serial: S39977261194348553540356920 MCU firmware version: 1993, GUI version 0960
+2022-05-28 00:00:00 [I|SYS] Factory Settings: System type: Home V3 hybrid duo, battery type: Lithium-ion (BMZ) parallel, country: Germany | Settings: battery inverter: SENEC.Inverter V3 LV, power meter: ABB B2x
+2022-05-28 00:00:00 [I|SYS] Inverter Firmware Info: HMI: 3.16.20 PU: 4.3.10 BDC: 5.4.6
+2022-05-28 00:00:00 [I|SYS] BMS Firmware Info: [Module 0] 30134 [Module 1] 30134 [Module 2] 30134 [Module 3] 30134
+2022-05-28 00:00:00 [I|Statistics] Created statistics file 2022-05-28
+2022-05-28 00:05:32 [I|BAT Interface] ID 0x00AB power loss mean(5s)/max(5s) :0.0779/0.1980, mean(2min)/max(2min): 0.0420/0.0914, mean(5min)/max(5min): 0.0423/0.0867
+2022-05-28 00:09:54 [I|BMZ] Module #A [Balancing][Cellvoltage]: [ ][3803] [ ][3802] [ ][3802] [ ][3800] [ ][3803] [ ][3803] [ ][3803] [ ][3800] [ ][3804] [ ][3804] [ ][3804] [ ][3805] [ ][3804] [ ][3805] SoC: 67% Current: -2.11A Limit: 6.00A/-24.00A Temp: 31-32C Voltage: 53.242V 
+2022-05-28 00:09:54 [I|BMZ] Module #B [Balancing][Cellvoltage]: [ ][3804] [ ][3804] [ ][3802] [ ][3801] [ ][3803] [ ][3804] [ ][3803] [ ][3799] [ ][3803] [ ][3803] [ ][3804] [ ][3804] [ ][3803] [ ][3803] SoC: 67% Current: -2.12A Limit: 6.00A/-24.00A Temp: 30-31C Voltage: 53.240V 
+2022-05-28 00:09:54 [I|BMZ] Module #C [Balancing][Cellvoltage]: [ ][3805] [ ][3803] [ ][3805] [ ][3804] [ ][3805] [ ][3803] [ ][3805] [ ][3797] [ ][3803] [ ][3803] [ ][3803] [ ][3804] [ ][3803] [ ][3803] SoC: 67% Current: -2.18A Limit: 6.00A/-24.00A Temp: 28-30C Voltage: 53.246V 
+2022-05-28 00:09:54 [I|BMZ] Module #D [Balancing][Cellvoltage]: [ ][3803] [ ][3803] [ ][3804] [ ][3805] [ ][3804] [ ][3804] [ ][3805] [ ][3799] [ ][3804] [ ][3805] [ ][3805] [ ][3803] [ ][3804] [ ][3804] SoC: 67% Current: -2.20A Limit: 6.00A/-24.00A Temp: 29-30C Voltage: 53.252V 
+2022-05-28 00:09:54 [I|BMZ] Module #A [Temp]: [31][31][32][31][32][31]
+2022-05-28 00:09:54 [I|BMZ] Module #B [Temp]: [30][30][31][30][31][30]
+2022-05-28 00:09:54 [I|BMZ] Module #C [Temp]: [28][29][29][29][30][29]
+2022-05-28 00:09:54 [I|BMZ] Module #D [Temp]: [29][29][30][30][30][30]
