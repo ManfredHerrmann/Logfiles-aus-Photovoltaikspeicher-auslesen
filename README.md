@@ -1,8 +1,7 @@
 # Logfile Download aus Photovoltaikspeicher auslesen
 Dieses Python Skripte lesen die Logfiles aus einem Pythovoltaik Speicher eines Herstellers aus Leipzig aus.
 
-#### LogfileDownload_all.py
-Dieses Skript liest alle Logfiles aus dem Speicher aus. Es ist entwickelt worden, um erstmalig alle Logfiles aus dem Speicher zu lesen, damit legt man sich eine Historie an. Das Skript kann auch mehrfach gestartet werden. Es wird wieder bei dem Startdatum begonnen welches in der **config.ini** hinterlegt ist und läuft bis zum aktuellen Datum durch. Sind für einen Zeitraum schon Logfiles vorhanden werden sie nicht wieder neu geschrieben (warum ich diese nicht einfach überschreibe, soll sich jeder selbst denken). Nach dem ersten erfolgreichen Durchlauf kann das Startdatum in der **config.ini** auch näher an das aktuelle Datum heranrücken. Wir haben die vergangenen Logfiles schon.
+Es ist entwickelt worden, um erstmalig alle Logfiles aus dem Speicher zu lesen, damit legt man sich eine Historie an. Das Skript kann auch mehrfach gestartet werden. Es wird wieder bei dem Startdatum begonnen welches in der **config.ini** hinterlegt ist und läuft bis zum aktuellen Datum durch. Sind für einen Zeitraum schon Logfiles vorhanden werden sie nicht wieder neu geschrieben (warum ich diese nicht einfach überschreibe, soll sich jeder selbst denken). Nach dem ersten erfolgreichen Durchlauf kann das Startdatum in der **config.ini** auch näher an das aktuelle Datum heranrücken. Wir haben die vergangenen Logfiles schon.
 
 Ich habe schon die **config.ini** im vorherigen Abschnitt erwähnt. Aber was macht diese Datei eigentlich? Die **config.ini** ist eine einfache Art und Weise Skripte anzupassen, ohne den eigentlichen Quellcode anzupassen.
 
@@ -43,13 +42,6 @@ Ist der Schalter im Zustand True werden alle Logfiles in eine Datei geschrieben.
 **output** Dieser Schalter kann die Textausgabe des Skripts ein bzw. ausschalten. Dabei gilt *True* aktiv und *False* deaktiviert.
 
 
-#### LogfileDownload_cronjob.py
-
-Dieses Skript ist für die Zeitgesteuerte Ausführung entwickelt worden. Hier wird immer nur das vom aktuellen Tag gültige Logfile aus dem Speicher gelesen und gespeichert. Die Systemzeit ist hierfür maßgeblich. 
-Da ich noch viel mehr Parameter aus dem Speicher auslese und in eine SQL-Datenbank schreibe habe ich mir einen kleinen Raspberry PI in mein heimisches Netzwerk gehängt der 24/7 mitläuft. Die Zeitsteuerung habe ich mittels Cronjob auf dem Raspberry umgesetzt. Dazu müssen folgende Parameter in der **crontab** gesetzt werden.
-
-Das Skript kann selbstverständlich auch auf einem Windows System gestartet werden. Es wird auch hier nur das Tagesaktuelle Skript herunterladen.
-
 #### Zeitsteuerung unter Linux
 
 Wie schon erwähnt benutze ich unter Linux einen Cronjob um die Zeitsteuerung zu verwirklichen. Dazu muss man nur in die **crontab** mittels 
@@ -70,10 +62,10 @@ Bei mir ist es z.B.
 
 ```
 # Schreibt um 23:59 Uhr das Logfile auf die Speicherkarte
-59 23 * * * /usr/bin/python3 XXXX/LogfileDownload_cronjob.py
+59 23 * * * /usr/bin/python3 XXXX/LogfileDownload.py
 
 # Schreibt zu jedem vollen Stunden das Logfile auf die Speicherkarte
-0 * * * * /usr/bin/python3 XXXX/LogfileDownload_cronjob.py
+0 * * * * /usr/bin/python3 XXXX/LogfileDownload.py
 ```
 
 
