@@ -6,7 +6,13 @@ import configparser
 import os
 
 
+def outPut(tag, monat, jahr, meldung):
+    if config["conf"]["output"] == "True":
+        print(str(tag).zfill(2) + "." + str(monat).zfill(2) + "." + str(jahr) + " " + meldung)
+
+
 def readConfig():
+    global config
     config = configparser.ConfigParser()
     config.read("config.ini")
     return config
@@ -68,7 +74,7 @@ def logread(config):
                     html = urlopen(LogAddress).read().decode("utf-8")
                     if str(config["conf"]["fortschreiben"]) == "True":
                         datei = open(config["conf"]["pfad"] + "logfile.txt", "a")
-                        print(str(tag).zfill(2) + "." + str(monat).zfill(2) + "." + str(jahr) + " Logfile geschrieben")
+                        outPut(tag, monat, jahr, "Logfile geschrieben")
                     else:
                         dateiname = (
                             config["conf"]["pfad"] + str(jahr) + "-" + str(monat).zfill(2) + "-" + str(tag).zfill(2) + ".txt"
@@ -78,26 +84,17 @@ def logread(config):
                                 writeOption = "x"
                             else:
                                 writeOption = "w"
-                            datei = open(dateiname, writeOption)                            
-                            print(str(tag).zfill(2) + "." + str(monat).zfill(2) + "." + str(jahr) + " Logfile geschrieben")
+                            datei = open(dateiname, writeOption)
+                            outPut(tag, monat, jahr, "Logfile geschrieben")
                         except:
-                            print(str(tag).zfill(2) + "." + str(monat).zfill(2) + "." + str(jahr) + " Lofgile schon vorhanden")
+                            outPut(tag, monat, jahr, "Logfile schon vorhanden")
                     datei.write(html)
                 except:
                     if html != "":
-                        print(
-                            str(tag).zfill(2) + "." + str(monat).zfill(2) + "." + str(jahr) + " Fehler kein Lofgile geschrieben"
-                        )
+                        outPut(tag, monat, jahr, "Fehler kein Logfile geschrieben")
                         fehler += 1
                     else:
-                        print(
-                            str(tag).zfill(2)
-                            + "."
-                            + str(monat).zfill(2)
-                            + "."
-                            + str(jahr)
-                            + " kein Eintrag im Lofgile oder Logfile nicht vorhanden"
-                        )
+                        outPut(tag, monat, jahr, "kein Eintrag im Lofgile oder Logfile nicht vorhanden")
                     continue
             vonTag = 1
         vonMonat = 1
@@ -105,12 +102,13 @@ def logread(config):
 
 def main():
     logread(config=readConfig())
-    print()
-    if fehler == 0:
-        print("Skript wurde ohne Fehler beendet")
-    else:
-        print("Es konnten {0} Logfiles nicht gelesen bzw. geschrieben werden".format(fehler))
-    print()
+    if config["conf"]["output"] == "True":
+        print()
+        if fehler == 0:
+            print("Skript wurde ohne Fehler beendet")
+        else:
+            print("Es konnten {0} Logfiles nicht gelesen bzw. geschrieben werden".format(fehler))
+            print()
 
 
 if __name__ == "__main__":

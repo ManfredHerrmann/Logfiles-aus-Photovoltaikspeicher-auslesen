@@ -3,7 +3,10 @@ Dieses Python Skripte lesen die Logfiles aus einem Pythovoltaik Speicher eines H
 
 #### LogfileDownload_all.py
 Dieses Skript liest alle Logfiles aus dem Speicher aus. Es ist entwickelt worden, um erstmalig alle Logfiles aus dem Speicher zu lesen, damit legt man sich eine Historie an. Das Skript kann auch mehrfach gestartet werden. Es wird wieder bei dem Startdatum begonnen welches in der **config.ini** hinterlegt ist und läuft bis zum aktuellen Datum durch. Sind für einen Zeitraum schon Logfiles vorhanden werden sie nicht wieder neu geschrieben (warum ich diese nicht einfach überschreibe, soll sich jeder selbst denken). Nach dem ersten erfolgreichen Durchlauf kann das Startdatum in der **config.ini** auch näher an das aktuelle Datum heranrücken. Wir haben die vergangenen Logfiles schon.
+
 Ich habe schon die **config.ini** im vorherigen Abschnitt erwähnt. Aber was macht diese Datei eigentlich? Die **config.ini** ist eine einfache Art und Weise Skripte anzupassen, ohne den eigentlichen Quellcode anzupassen.
+
+Wichtig ist nur das man für jede neue Version auch das dazugehörige **config.ini** verwendet.
 
 Der Aufbau der Datei sieht dann so aus:
 
@@ -15,6 +18,7 @@ monat = 9
 jahr = 2021
 pfad = log/
 fortschreiben = False
+output = True
 ```
 
 Im folgenden Abschnitt erkläre ich kurz was die einzelnen Parameter bedeuten und welche Auswirkungen sie auf unser Skript haben.
@@ -31,14 +35,12 @@ Ist *tag* oder *monat* auf *0* gesetzt können nur noch einzelne Dateien pro Tag
 
 Es werden keine vorhandenen Logfiles überschrieben (warum ich das so gemacht habe, darüber kann jeder für sich selber nachdenken) mit Ausnahme des aktuellen Datums. Dieses Logfile wird überschrieben. Da man sonst keinen neuen Tagesstand herunterladen könnte.
 
-
-
-
-
 **pfad** hier kann man festlegen, wohin die Logfiles geschrieben werden. Es ist darauf zu achten das am Ende immer ein    \ (Backslash) angefügt wird. Möchte man das alle Logfiles unterhalb des aktuellen Ordners abgelegt werden braucht man nur Logsfiles\ schreiben. Aber am besten man gibt einen absoluten Pfad ein wie z.B. e:\dokumente\stromspeicher\logfiles\ dann ist es egal aus welchem Ordner man das Skript startet. Wird hingegen kein Pfad angegeben als pfad = dann werden alle Logfiles im aktuellen Ordner angezeigt.
 
 **fortschreiben** kennt zwei Zustände True und False (unbedingt auf Groß und Kleinschreibung achten)
 Ist der Schalter im Zustand True werden alle Logfiles in eine Datei geschrieben. Ist der Schalter dagegen im Zustand False wird für jeden Tag eine neue Datei angelegt.
+
+**output** Dieser Schalter kann die Textausgabe des Skripts ein bzw. ausschalten. Dabei gilt *True* aktiv und *False* deaktiviert.
 
 
 #### LogfileDownload_cronjob.py
