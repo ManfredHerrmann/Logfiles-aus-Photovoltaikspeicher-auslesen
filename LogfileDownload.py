@@ -88,6 +88,7 @@ def logread(config):
                             outPut(tag, monat, jahr, "Logfile geschrieben")
                         except:
                             outPut(tag, monat, jahr, "Logfile schon vorhanden")
+                            continue
                     datei.write(html)
                 except:
                     if html != "":

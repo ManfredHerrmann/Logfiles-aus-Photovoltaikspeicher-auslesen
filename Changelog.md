@@ -36,4 +36,12 @@ Hier wurden noch keine weiteren Anpassungen vorgenommen.
 * Dateiname LogfileDownload_all.py auf LogfileDownload.py geändert.
 * README angepasst.
 
+### Version 1.4
+##### 2022-05-28 
+
+**LogfileDownload_all.py**
+
+* Fehlerbehebung
+
+
 
