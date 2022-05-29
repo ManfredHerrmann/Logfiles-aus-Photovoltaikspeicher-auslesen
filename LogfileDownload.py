@@ -6,52 +6,78 @@ import configparser
 import os
 
 
-def outPut(tag, monat, jahr, meldung):
-    if config["conf"]["output"] == "True":
-        print(str(tag).zfill(2) + "." + str(monat).zfill(2) + "." + str(jahr) + " " + meldung)
-
-
+# Lesen der Konfiguration
 def readConfig():
     global config
     config = configparser.ConfigParser()
-    config.read(os.path.dirname(__file__) + "\config.ini")
+    config.read(os.path.dirname(__file__) + "/config.ini")
     return config
 
 
-def logread(config):
+def logfileSpeicher(LogAddress):
+    html = ""
+    html = urlopen(LogAddress).read().decode("utf-8")
+    return html
+
+
+# Verzeichnis für die Logfiles anlegen falls es nicht schon vorhanden ist.
+def verzeichnisCreate(config):
+    global pfad
+    pfad = os.path.dirname(__file__) + "/" + config["conf"]["pfad"] + "/"
+    if not os.path.isdir(pfad):
+        os.makedirs(pfad)
+        print("Verzeichnis: " + pfad + " wurde angelegt")
+
+
+def writeAppend(dateiname):
+    datei = open(pfad + "/" + dateiname, "w+")
+    return datei
+
+
+def writeSingle(dateiname):
+    datei = open(pfad + "/" + dateiname, "x")
+    return datei
+
+
+# Hier werden die Logfiles aus dem Speicher gelesen
+def logfilesLesen(config):
+    # Setzen des Zeitraums in dem die Logfiles gelesen werden
     vonJahr = int(config["conf"]["jahr"])
     vonMonat = int(config["conf"]["monat"])
     vonTag = int(config["conf"]["tag"])
 
-    bisJahr = int(time.strftime("%Y"))
-    bisMonat = int(time.strftime("%m"))
-    bisTag = int(time.strftime("%d"))
+    nowJahr = int(time.strftime("%Y"))
+    nowMonat = int(time.strftime("%m"))
+    nowTag = int(time.strftime("%d"))
 
+    # Von / Bis Zeitruam gleich setzten damit kann man tägliche Logfiles
+    # Schreiben und ist geeignet für die Automatische verarbeitung z.B.
+    # in einem CronJob
     if vonJahr == 0:
-        vonJahr = bisJahr
-        config["conf"]["fortschreiben"] = "False"
+        vonJahr = nowJahr
+        config["conf"]["append"] != "yes"
 
     if vonMonat == 0:
-        vonMonat = bisMonat
-        config["conf"]["fortschreiben"] = "False"
+        vonMonat = nowMonat
+        config["conf"]["append"] != "yes"
 
     if vonTag == 0:
-        vonTag = bisTag
-        config["conf"]["fortschreiben"] = "False"
+        vonTag = nowTag
+        config["conf"]["append"] != "yes"
 
-    bisDatum = date(bisJahr, bisMonat, bisTag)
+    # Heutiges Datum in ein Datumsformat bringen
+    bisDatum = date(nowJahr, nowMonat, nowTag)
 
-    global fehler
-    fehler = 0
-    dateiNotOpen = True
+    if config["conf"]["append"] == "yes":
+        datei = writeAppend("logfile.txt")
 
-    for jahr in range(vonJahr, bisJahr + 1):
+    for jahr in range(vonJahr, nowJahr + 1):
         for monat in range(vonMonat, 12 + 1):
             for tag in range(vonTag, calendar.monthrange(jahr, monat)[1] + 1):
                 nowDatum = date(jahr, monat, tag)
                 if nowDatum > bisDatum:
                     return
-
+                # URL zum Auslesen des Speichers generieren
                 LogAddress = (
                     "http://"
                     + str(config["conf"]["ipSpeicher"])
@@ -64,61 +90,25 @@ def logread(config):
                     + ".log"
                 )
 
-                try:
-                    html = ""
-                    html = urlopen(LogAddress).read().decode("utf-8")
-                    if str(config["conf"]["fortschreiben"]) == "True":
-                        if dateiNotOpen:
-                            if not os.path.isdir(os.path.dirname(__file__) + "/" + config["conf"]["pfad"]):
-                                os.makedirs(os.path.dirname(__file__) + "/" + config["conf"]["pfad"])
-                            datei = open(os.path.dirname(__file__) + "/" + config["conf"]["pfad"] + "logfile.txt", "w+")
-                            dateiNotOpen = False
-                        outPut(tag, monat, jahr, "Logfile geschrieben")
-                    else:
-                        dateiname = (
-                            os.path.dirname(__file__)
-                            + "/"
-                            + config["conf"]["pfad"]
-                            + str(jahr)
-                            + "-"
-                            + str(monat).zfill(2)
-                            + "-"
-                            + str(tag).zfill(2)
-                            + ".txt"
-                        )
-                        try:
-                            if nowDatum != bisDatum:
-                                writeOption = "x"
-                            else:
-                                writeOption = "w"
-                            if not os.path.isdir(os.path.dirname(__file__) + "/" + config["conf"]["pfad"]):
-                                os.makedirs(os.path.dirname(__file__) + "/" + config["conf"]["pfad"])
-                            datei = open(dateiname, writeOption)
-                            outPut(tag, monat, jahr, "Logfile geschrieben")
-                        except:
-                            outPut(tag, monat, jahr, "Logfile schon vorhanden")
-                            continue
-                    datei.write(html)
-                except:
-                    if html != "":
-                        outPut(tag, monat, jahr, "Fehler kein Logfile geschrieben")
-                        fehler += 1
-                    else:
-                        outPut(tag, monat, jahr, "kein Eintrag im Lofgile oder Logfile nicht vorhanden")
-                    continue
+                # Das eigentliche Logfile aus dem Speicher lesen
+                html = logfileSpeicher(LogAddress)
+                # Logfile schreiben (Single)
+                if not config["conf"]["append"] == "yes":
+                    try:
+                        datei = writeSingle(str(date(jahr, monat, tag)) + ".txt")
+                    except:
+                        print(date(jahr, monat, tag).strftime("%d.%m.%Y") + " Logfile ist bereits vorhanden")
+                        continue
+                datei.write(html)
+                print(date(jahr, monat, tag).strftime("%d.%m.%Y") + " Logfile wurde geschrieben")
             vonTag = 1
         vonMonat = 1
 
 
 def main():
-    logread(config=readConfig())
-    if config["conf"]["output"] == "True":
-        print()
-        if fehler == 0:
-            print("Skript wurde ohne Fehler beendet")
-        else:
-            print("Es konnten {0} Logfiles nicht gelesen bzw. geschrieben werden".format(fehler))
-            print()
+    config = readConfig()
+    verzeichnisCreate(config)
+    logfilesLesen(config)
 
 
 if __name__ == "__main__":
