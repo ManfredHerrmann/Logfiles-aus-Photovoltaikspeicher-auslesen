@@ -14,7 +14,7 @@ def outPut(tag, monat, jahr, meldung):
 def readConfig():
     global config
     config = configparser.ConfigParser()
-    config.read("config.ini")
+    config.read(os.path.dirname(__file__) + "\config.ini")
     return config
 
 
@@ -43,12 +43,7 @@ def logread(config):
 
     global fehler
     fehler = 0
-
-    try:
-        if str(config["conf"]["fortschreiben"]) == "True":
-            os.remove(config["conf"]["pfad"] + "logfile.txt")
-    except:
-        pass
+    dateiNotOpen = True
 
     for jahr in range(vonJahr, bisJahr + 1):
         for monat in range(vonMonat, 12 + 1):
@@ -73,17 +68,31 @@ def logread(config):
                     html = ""
                     html = urlopen(LogAddress).read().decode("utf-8")
                     if str(config["conf"]["fortschreiben"]) == "True":
-                        datei = open(config["conf"]["pfad"] + "logfile.txt", "a")
+                        if dateiNotOpen:
+                            if not os.path.isdir(os.path.dirname(__file__) + "/" + config["conf"]["pfad"]):
+                                os.makedirs(os.path.dirname(__file__) + "/" + config["conf"]["pfad"])
+                            datei = open(os.path.dirname(__file__) + "/" + config["conf"]["pfad"] + "logfile.txt", "w+")
+                            dateiNotOpen = False
                         outPut(tag, monat, jahr, "Logfile geschrieben")
                     else:
                         dateiname = (
-                            config["conf"]["pfad"] + str(jahr) + "-" + str(monat).zfill(2) + "-" + str(tag).zfill(2) + ".txt"
+                            os.path.dirname(__file__)
+                            + "/"
+                            + config["conf"]["pfad"]
+                            + str(jahr)
+                            + "-"
+                            + str(monat).zfill(2)
+                            + "-"
+                            + str(tag).zfill(2)
+                            + ".txt"
                         )
                         try:
                             if nowDatum != bisDatum:
                                 writeOption = "x"
                             else:
                                 writeOption = "w"
+                            if not os.path.isdir(os.path.dirname(__file__) + "/" + config["conf"]["pfad"]):
+                                os.makedirs(os.path.dirname(__file__) + "/" + config["conf"]["pfad"])
                             datei = open(dateiname, writeOption)
                             outPut(tag, monat, jahr, "Logfile geschrieben")
                         except:
