@@ -55,19 +55,20 @@ def logfilesLesen(config):
     # in einem CronJob
     if vonJahr == 0:
         vonJahr = nowJahr
-        config["conf"]["append"] != "yes"
+        config["conf"]["append"] = "no"
 
     if vonMonat == 0:
         vonMonat = nowMonat
-        config["conf"]["append"] != "yes"
+        config["conf"]["append"] = "no"
 
     if vonTag == 0:
         vonTag = nowTag
-        config["conf"]["append"] != "yes"
+        config["conf"]["append"] = "no"
 
     # Heutiges Datum in ein Datumsformat bringen
     bisDatum = date(nowJahr, nowMonat, nowTag)
 
+    # Datei öffnen für Fortschreiben (Append)
     if config["conf"]["append"] == "yes":
         datei = writeAppend("logfile.txt")
 
@@ -91,7 +92,11 @@ def logfilesLesen(config):
                 )
 
                 # Das eigentliche Logfile aus dem Speicher lesen
-                html = logfileSpeicher(LogAddress)
+                try:
+                    html = logfileSpeicher(LogAddress)
+                except:
+                    print(date(jahr, monat, tag).strftime("%d.%m.%Y") + " kein Logfile im Speicher")
+                    continue
                 # Logfile schreiben (Single)
                 if not config["conf"]["append"] == "yes":
                     try:
@@ -101,8 +106,8 @@ def logfilesLesen(config):
                         continue
                 datei.write(html)
                 print(date(jahr, monat, tag).strftime("%d.%m.%Y") + " Logfile wurde geschrieben")
-            vonTag = 1
-        vonMonat = 1
+            vonTag = 1  # muss auf 1 gesetzt werden sonst begint der neue Tag des Monats ebenfalls bei z.B. 3
+        vonMonat = 1  # muss auf 1 gesetzt werden sonst begint der neue Monate des Jahres ebenfalls bei z.B. 3
 
 
 def main():
