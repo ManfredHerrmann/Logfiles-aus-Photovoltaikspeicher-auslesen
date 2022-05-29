@@ -34,8 +34,8 @@ def writeAppend(dateiname):
     return datei
 
 
-def writeSingle(dateiname):
-    datei = open(pfad + "/" + dateiname, "x")
+def writeSingle(dateiname, writeMode):
+    datei = open(pfad + "/" + dateiname, writeMode)
     return datei
 
 
@@ -100,7 +100,14 @@ def logfilesLesen(config):
                 # Logfile schreiben (Single)
                 if not config["conf"]["append"] == "yes":
                     try:
-                        datei = writeSingle(str(date(jahr, monat, tag)) + ".txt")
+                        # Sicherstellen das der aktuelle Tag auch überschrieben werden kann
+                        # Bei einer Automatisiereung die mehrfach am Tag das aktuelle Logfile
+                        # lesen würde hatte man nur den Stand der ersten lesenen bzw. schreibens
+                        if nowDatum == bisDatum:
+                            writeMode = "w"
+                        else:
+                            writeMode = "x"
+                        datei = writeSingle(str(date(jahr, monat, tag)) + ".txt", writeMode)
                     except:
                         print(date(jahr, monat, tag).strftime("%d.%m.%Y") + " Logfile ist bereits vorhanden")
                         continue

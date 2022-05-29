@@ -43,5 +43,14 @@ Hier wurden noch keine weiteren Anpassungen vorgenommen.
 
 * Fehlerbehebung
 
+### Version 2.0
+##### 2022-05-29 
 
+**LogfileDownload_all.py**
 
+* Verzeichnis für die Logfiles wird automatisch angelegt dabei
+  ist es egal von wo an das Skript aufruft. Das Verzeichnis wird immer
+  unterhalb des Verzeichnisses angelegt in dem das eigentliche Skript liegt.
+
+* Ablaufverbesserungen
+* Leichte Geschwindigkeitsverbesserung

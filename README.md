@@ -28,18 +28,16 @@ Im folgenden Abschnitt erkläre ich kurz was die einzelnen Parameter bedeuten un
 
 Es ist aber auch möglich für *tag, monat* eine *1* einzusetzen. Dann wird am 01.01.jahr angefangen die Logsfiles aus dem Speicher zu lesen. Beendet wird das Skript immer mit Erreichen des aktuellen Datums. 
 
-Eine *0* als Parameter bewirkt das hierfür beim Programmablauf der aktuelle Tag, Monat oder Jahr eingesetzt wird. Der Durchlauf endet auch hier mit Erreichen des aktuellen Datums. Setzt man alle drei Parameter auf *0* könnte man das Skript automatisiert um 23:59 Uhr ausführen, um für diesen Tag das aktuelle Logfile zu bekommen. So hat man stets die Aktuellen Logfiles gespeichert. 
+Eine *0* als Parameter bewirkt das hierfür beim Programmablauf der aktuelle Tag, Monat oder Jahr eingesetzt wird. Der Durchlauf endet auch hier mit Erreichen des aktuellen Datums. Setzt man alle drei Parameter auf *0* könnte man das Skript automatisiert um 23:59 Uhr ausführen, um für diesen Tag das aktuelle Logfile zu bekommen. 
 
-Ist *tag* oder *monat* auf *0* gesetzt können nur noch einzelne Dateien pro Tag geschrieben werden. Da man sonst bei einem Mehrfach Aufruf des Skripts ein und das selbe Logfile hintereinander hätte. 
+Ist *tag* oder *monat* auf *0* gesetzt können nur noch einzelne Dateien pro Tag geschrieben werden. Da man sonst bei einem mehrfach Aufruf des Skripts ein und das selbe Logfile hintereinander hätte. 
 
-Es werden keine vorhandenen Logfiles überschrieben (warum ich das so gemacht habe, darüber kann jeder für sich selber nachdenken) mit Ausnahme des aktuellen Datums. Dieses Logfile wird überschrieben. Da man sonst keinen neuen Tagesstand herunterladen könnte.
+Es werden keine vorhandenen Logfiles überschrieben (da kann jeder seine eigene Theorie entwickeln - meine Theorie basiert auf fehlendes Vertrauen) mit Ausnahme des aktuellen Datums. Dieses Logfile wird überschrieben. Da man sonst keinen neuen Tagesstand herunterladen könnte.
 
-**pfad** hier kann man festlegen, wohin die Logfiles geschrieben werden. Es ist darauf zu achten das am Ende immer ein    \ (Backslash) angefügt wird. Möchte man das alle Logfiles unterhalb des aktuellen Ordners abgelegt werden braucht man nur Logsfiles\ schreiben. Aber am besten man gibt einen absoluten Pfad ein wie z.B. e:\dokumente\stromspeicher\logfiles\ dann ist es egal aus welchem Ordner man das Skript startet. Wird hingegen kein Pfad angegeben als pfad = dann werden alle Logfiles im aktuellen Ordner angezeigt.
+**pfad** dieser Parameter darf nicht verändert werden. Es wird automatisch ein Verzeichnis *logfiles* unterhalb des Verzeichnisse angelegt aus dem das Skript aufgerufen wird. So ist es möglich das Skript von überall aus aufzurufen. Sollte das Logfile Verzeichnis nicht existieren wird es automatisch angelegt.
 
-**fortschreiben** kennt zwei Zustände True und False (unbedingt auf Groß und Kleinschreibung achten)
-Ist der Schalter im Zustand True werden alle Logfiles in eine Datei geschrieben. Ist der Schalter dagegen im Zustand False wird für jeden Tag eine neue Datei angelegt.
+**append** Oder auch anhängen. Ist dieser Parameter auf *yes* werden alle Logfiles hintereinander in eine Datei geschrieben. Bei einem *no* werden einzelne Dateien pro Tag geschrieben.
 
-**output** Dieser Schalter kann die Textausgabe des Skripts ein bzw. ausschalten. Dabei gilt *True* aktiv und *False* deaktiviert.
 
 
 #### Zeitsteuerung unter Linux
