@@ -11,13 +11,12 @@ Der Aufbau der Datei sieht dann so aus:
 
 ```
 [conf]
-ipSpeicher = 192.168.178.10
-tag = 3
-monat = 9
-jahr = 2021
-pfad = log/
-fortschreiben = False
-output = True
+ipSpeicher = 192.168.178.27
+tag = 0
+monat = 0
+jahr = 0
+pfad = logfiles
+append = no
 ```
 
 Im folgenden Abschnitt erkläre ich kurz was die einzelnen Parameter bedeuten und welche Auswirkungen sie auf unser Skript haben.
