@@ -34,6 +34,9 @@ Mit diesem Parameter kann eingestellt werden ob für jeden Tag eine eigene Datei
 
 Mögliche einstellungen sind *yes* und *no*
 
+Nachdem das geschehen ist kann man bei installiertem Python drei mit der rechten Maustaste auf auf die Datei *LogfileDownload.py* klicken und anschließend auf *Öffnen mit* > *Python* anklicken. Ein das Terminal Fenster öffnet sich und das Skript sollte alle benötigten nach vorgabe aus der *config.ini* herunterladen und in das Verzeichnis *logfiles* schreiben.
+
+Man kann auch auf mit der rechten Maustast auf das Verzeichnis klicken und *In Terminal öffnen* auswählen. Auch hier öffnet sich das schwarze Terminal Fenster. In diesem kann man jetzt mit dem Befehl: **python3 LogfileDownload.py** ebenfals das Skript starten. Sollte es eine Fehlermeldung geben das Pythen nicht funktioniert habt ihr was bei der Installation falsch gemacht.
 
 #### Zeitsteuerung unter Linux
 
