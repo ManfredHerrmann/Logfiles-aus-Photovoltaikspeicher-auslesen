@@ -81,7 +81,7 @@ def logfilesLesen(config):
                 # URL zum Auslesen des Speichers generieren
                 LogAddress = (
                     "http://"
-                    + str(config["conf"]["ipSpeicher"])
+                    + str(config["conf"]["ipAddress"])
                     + "/log/"
                     + str(jahr)
                     + "/"

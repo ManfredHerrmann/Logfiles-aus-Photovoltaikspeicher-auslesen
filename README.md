@@ -1,42 +1,38 @@
 # Logfile Download aus Photovoltaikspeicher auslesen
-Dieses Python Skripte lesen die Logfiles aus einem Pythovoltaik Speicher eines Herstellers aus Leipzig aus.
+Dieses Python Skript liest die Logfiles aus einem Pythovoltaik Speicher eines Herstellers aus Leipzig aus. Falls auf euerem Rechner noch kein Python3 installiert, ist bitte erst die *README_Python_install.md* lesen.
 
-Es ist entwickelt worden, um erstmalig alle Logfiles aus dem Speicher zu lesen, damit legt man sich eine Historie an. Das Skript kann auch mehrfach gestartet werden. Es wird wieder bei dem Startdatum begonnen welches in der **config.ini** hinterlegt ist und läuft bis zum aktuellen Datum durch. Sind für einen Zeitraum schon Logfiles vorhanden werden sie nicht wieder neu geschrieben (warum ich diese nicht einfach überschreibe, soll sich jeder selbst denken). Nach dem ersten erfolgreichen Durchlauf kann das Startdatum in der **config.ini** auch näher an das aktuelle Datum heranrücken. Wir haben die vergangenen Logfiles schon.
+Bei GitHub seid ihr schon gelandet und habt die README Datei gefunden. Jetzt müsst ihr nur noch das ganze auf euren Computer herunterladen. 
+Dazu einfach oben rechts auf den grünen Butten der mit *Code* beschriftet ist anklicken. Es öffnet sich ein kleines Fenster und dort klickt ihr auf Download ZIP. Nach dem Download einfach in euer Download Verzeichnis schauen und die ZIP Entpacken.
 
-Ich habe schon die **config.ini** im vorherigen Abschnitt erwähnt. Aber was macht diese Datei eigentlich? Die **config.ini** ist eine einfache Art und Weise Skripte anzupassen, ohne den eigentlichen Quellcode anzupassen.
+Bei mir sieht das dann so aus. 
+*C:\Users\galli\Downloads\Logfiles-aus-Photovoltaikspeicher-auslesen-main\Logfiles-aus-Photovoltaikspeicher-auslesen-main*
+Jetzt könnt ihr das Verzeichnis *Logfiles-aus-Photovoltaikspeicher-auslesen-main* in dem die ganzen Dateien enthalten sind irgendwohin schieben, wo ihr es haben möchtet. 
 
-Wichtig ist nur das man für jede neue Version auch das dazugehörige **config.ini** verwendet.
+Dort bearbeitet ihr erst einmal die **config.ini** deren Aufbau ich hier erkläre.
 
 Der Aufbau der Datei sieht dann so aus:
-
 ```
 [conf]
-ipSpeicher = 192.168.178.27
+ipAddress = 192.168.178.27
 tag = 0
 monat = 0
 jahr = 0
 pfad = logfiles
 append = no
 ```
+**ipSpeicher:**
+Ist die IP-Adresse des Stromspeichers. Diese kann auf dem Display des Speichers abgelesen werden. Das funktioniert auch in der Fernabschaltung.
 
-Im folgenden Abschnitt erkläre ich kurz was die einzelnen Parameter bedeuten und welche Auswirkungen sie auf unser Skript haben.
+**tag, monat und jahr:**
+Hier wird angegeben ab welchen Datum die Logfiles aus dem Speicher gelesen werden sollen. Am idealsten ist natürlich das Inbetriebnahmedatum des Speichers.
 
-**ipSpeicher** ist die IP-Adresse des Stromspeichers
+**pfad:**
+Hier am besten alles so lassen wir es voreingestellt ist. Die Logfeils werden dann beim Ausführen des Skripts automatisch in einen Ordner namens logfiles geschrieben. Ist dieser noch nicht vorhanden wird er automascht erstellt.
 
-**tag**, **monat** und **jahr** beschreiben ab welchem Datum die Logs gelesen werden sollen. Idealerweise sollte das der Tag der Inbetriebnahme sein. 
+**append:** 
+Mit diesem Parameter kann eingestellt werden ob für jeden Tag eine eigene Datei erstellt wird oder ob alles in eine Datei geschrieben wird. Ist in den Parametern *tag, monat oder jahr* eine 0 eingetragen ist diese funktion gesperrt und es werden immer alle Logfiles in einzelne Dateien geschrieben. Da beim aktiven weiterschreiben (eine Datei) wird die Datei erst geleert und dann neu gefüllt.
 
-Es ist aber auch möglich für *tag, monat* eine *1* einzusetzen. Dann wird am 01.01.jahr angefangen die Logsfiles aus dem Speicher zu lesen. Beendet wird das Skript immer mit Erreichen des aktuellen Datums. 
-
-Eine *0* als Parameter bewirkt das hierfür beim Programmablauf der aktuelle Tag, Monat oder Jahr eingesetzt wird. Der Durchlauf endet auch hier mit Erreichen des aktuellen Datums. Setzt man alle drei Parameter auf *0* könnte man das Skript automatisiert um 23:59 Uhr ausführen, um für diesen Tag das aktuelle Logfile zu bekommen. 
-
-Ist *tag* oder *monat* auf *0* gesetzt können nur noch einzelne Dateien pro Tag geschrieben werden. Da man sonst bei einem mehrfach Aufruf des Skripts ein und das selbe Logfile hintereinander hätte. 
-
-Es werden keine vorhandenen Logfiles überschrieben (da kann jeder seine eigene Theorie entwickeln - meine Theorie basiert auf fehlendes Vertrauen) mit Ausnahme des aktuellen Datums. Dieses Logfile wird überschrieben. Da man sonst keinen neuen Tagesstand herunterladen könnte.
-
-**pfad** dieser Parameter darf nicht verändert werden. Es wird automatisch ein Verzeichnis *logfiles* unterhalb des Verzeichnisse angelegt aus dem das Skript aufgerufen wird. So ist es möglich das Skript von überall aus aufzurufen. Sollte das Logfile Verzeichnis nicht existieren wird es automatisch angelegt.
-
-**append** Oder auch anhängen. Ist dieser Parameter auf *yes* werden alle Logfiles hintereinander in eine Datei geschrieben. Bei einem *no* werden einzelne Dateien pro Tag geschrieben.
-
+Mögliche einstellungen sind *yes* und *no*
 
 
 #### Zeitsteuerung unter Linux
@@ -64,5 +60,6 @@ Bei mir ist es z.B.
 # Schreibt zu jedem vollen Stunden das Logfile auf die Speicherkarte
 0 * * * * /usr/bin/python3 XXXX/LogfileDownload.py
 ```
+
 
 
